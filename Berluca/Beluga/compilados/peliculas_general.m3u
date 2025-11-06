@@ -126,3 +126,108 @@ https://amg00353-lionsgatestudio-moviespheremexico-runtimelatam-n6pue.amagi.tv/p
 #EXTINF:0,Plugeed (USA) (🇺🇸)
 https://cdnvod.panda-os.com/livehls/5f94a9b96986fb2fd93c2d72/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL ★",Assemblée Nationale (1080p) [Not 24/7]
+http://anorigin.vodalys.com/live/live36/index36_12856975.m3u8?DVR=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",MovieSphere (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",MovieSphere Canada (1080p)
+https://livetv-fa.tubi.video/moviesphere-canada2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Movies!
+https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-movies!/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Classic Movies (288p)
+https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Nostalgia Movies (480p)
+https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Western Movie (270p)
+https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Toonami Aftermath Movies (540p)
+http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Top Movies Polska
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",WBTV At the Movies [Geo-blocked]
+https://livetv-fa.tubi.video/wbd-at-the-movies/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",MGR TV (1080p) [Not 24/7]
+https://vod.streams.ovh:3876/stream/play.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Messatida TV (450p) [Not 24/7]
+https://vod.streams.ovh:3037/stream/play.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",MovieSphere (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",MovieSphere Canada (1080p)
+https://livetv-fa.tubi.video/moviesphere-canada2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Movies!
+https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-movies!/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Classic Movies (288p)
+https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Nostalgia Movies (480p)
+https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Western Movie (270p)
+https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Toonami Aftermath Movies (540p)
+http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Top Movies Polska
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",WBTV At the Movies [Geo-blocked]
+https://livetv-fa.tubi.video/wbd-at-the-movies/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",MGR TV (1080p) [Not 24/7]
+https://vod.streams.ovh:3876/stream/play.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Messatida TV (450p) [Not 24/7]
+https://vod.streams.ovh:3037/stream/play.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL ★",Assemblée Nationale (1080p) [Not 24/7]
+http://anorigin.vodalys.com/live/live36/index36_12856975.m3u8?DVR=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",MovieSphere (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",MovieSphere Canada (1080p)
+https://livetv-fa.tubi.video/moviesphere-canada2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Movies!
+https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-movies!/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Classic Movies (288p)
+https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Nostalgia Movies (480p)
+https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TVS Western Movie (270p)
+https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Toonami Aftermath Movies (540p)
+http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Top Movies Polska
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",WBTV At the Movies [Geo-blocked]
+https://livetv-fa.tubi.video/wbd-at-the-movies/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",MGR TV (1080p) [Not 24/7]
+https://vod.streams.ovh:3876/stream/play.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Messatida TV (450p) [Not 24/7]
+https://vod.streams.ovh:3037/stream/play.m3u8
+

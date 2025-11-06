@@ -10,7 +10,7 @@ from config import (
 )
 
 # =========================================================================================
-# 📦 FUNCIONES DE PARSEO M3U (Implementación para hacerlo ejecutable)
+# 📦 FUNCIONES DE PARSEO M3U 
 # =========================================================================================
 
 def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
@@ -24,14 +24,13 @@ def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
             continue
         if linea.startswith("#EXTINF"):
             if buffer and len(buffer) == 1:
-                # Si el buffer tiene solo #EXTINF y no URL, lo descartamos antes de reiniciar
                 pass
             buffer = [linea]
-        elif buffer and linea.startswith("http"): # Una URL sigue a EXTINF
+        elif buffer and linea.startswith("http"): 
             buffer.append(linea)
             bloques.append(buffer)
             buffer = []
-        elif buffer: # Si es otra línea que no es #EXTINF ni URL, la ignoramos si estamos en medio de un bloque
+        elif buffer: 
             pass
 
     return bloques
@@ -64,12 +63,10 @@ def guardar_en_categoria(categoria: str, bloque: List[str]):
     os.makedirs(CARPETA_ORIGEN, exist_ok=True)
     ruta = os.path.join(CARPETA_ORIGEN, f"{categoria}.m3u")
 
-    # Asegura que el archivo tenga #EXTM3U en la primera línea si es nuevo
     if not os.path.exists(ruta) or os.path.getsize(ruta) == 0:
         with open(ruta, "w", encoding="utf-8", errors="ignore") as f:
             f.write("#EXTM3U\n\n")
 
-    # Añade el bloque
     with open(ruta, "a", encoding="utf-8", errors="ignore") as f:
         f.write("\n".join(bloque) + "\n\n")
 
@@ -78,14 +75,11 @@ def guardar_en_categoria(categoria: str, bloque: List[str]):
 # ⚙️ LÓGICA DE CLASIFICACIÓN
 # =========================================================================================
 
-# --- Función Stub: Asegura que el código sea ejecutable si falta clasificador_experiencia ---
 def clasificar_por_experiencia(bloque: List[str], nombre: str) -> Optional[str]:
-    # Por ahora, solo simula la experiencia. Si tienes este archivo, puedes comentarlo.
+    # Función de stub, si tienes la lógica real úsala aquí.
     if "premium" in nombre.lower() and "deportes" in nombre.lower():
         return "deportes_premium"
     return None 
-# --- Fin de función Stub ---
-
 
 def clasificar_por_nombre(nombre: str) -> Optional[str]:
     """Clasifica basándose en el nombre del canal usando CLAVES_CATEGORIA."""
@@ -164,14 +158,15 @@ def clasificar_bloque_por_contenido(bloque: List[str]) -> str:
 
 
 # =========================================================================================
-# 🧠 FUNCIÓN DE BUCLE PRINCIPAL (SOLUCIÓN para generar categorías temáticas)
+# 🧠 FUNCIÓN DE BUCLE PRINCIPAL (CORRECCIÓN DE RUTA DE LECTURA)
 # =========================================================================================
 
 def clasificar_enlaces():
     """
-    Lee el archivo temporal, clasifica cada bloque y lo guarda en su categoría
-    en la carpeta 'compilados' (CARPETA_ORIGEN).
+    Lee el archivo temporal desde CARPETA_SALIDA, clasifica cada bloque 
+    y lo guarda en su categoría en la carpeta 'compilados' (CARPETA_ORIGEN).
     """
+    # 🛑 CORRECCIÓN CLAVE: Usa CARPETA_SALIDA para el archivo temporal
     ruta_temp = os.path.join(CARPETA_SALIDA, "TEMP_MATERIAL.m3u")
     
     if not os.path.exists(ruta_temp):
