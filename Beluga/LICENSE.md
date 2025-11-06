@@ -1,0 +1,1 @@
+Licencia CC BY-NC 4.0 — Uso educativo, no comercial. Proyecto Beluga. No se aloja ni distribuye contenido audiovisual.

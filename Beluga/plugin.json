@@ -1,0 +1,10 @@
+{
+  "id": "beluga.plugin",
+  "type": "video",
+  "title": "Beluga — Infraestructura de Emisión Autónoma",
+  "icon": "plugin.png",
+  "author": "Proyecto Beluga",
+  "version": "1.0",
+  "description": "Plugin educativo que organiza fuentes audiovisuales públicas en español. Este proyecto no aloja ni distribuye contenido, y se ofrece con fines exclusivamente educativos y experimentales.",
+  "homepage": ""
+}
