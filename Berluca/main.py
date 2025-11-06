@@ -1,51 +1,33 @@
-# main.py (ACTUALIZADO)
+# main.py
 
-import os
-# Importaciones de la nueva arquitectura
 from extractor import recolectar_enlaces
-from generador import clasificar_y_segmentar_archivos, generar_listas_finales 
+from clasificador import clasificar_enlaces
+# from verificador import verificar_enlaces # Se mantiene comentado
+from generador import generar_listas_finales # Ya no se intenta importar la función 'clasificar_y_segmentar_archivos'
 from git_sync import sincronizar_con_git
-# Deberías tener una función en utils o config para crear carpetas
-from config import crear_carpetas_iniciales, ARCHIVO_SALIDA 
+import sys
 
-def ejecutar_proceso_completo(url_lista: str):
-    """
-    Ejecuta el flujo completo de Berluca: descarga, clasifica, compila y sincroniza.
-    """
-    # 1. Asegurar la estructura de carpetas
-    crear_carpetas_iniciales()
+def ejecutar_proceso_completo(url_lista):
+    print("--- 🚀 Iniciando Flujo de Beluga ---")
+    recolectar_enlaces(url_lista)
     
-    # 2. Descargar y guardar en TEMP_MATERIAL.m3u
-    ruta_temp = recolectar_enlaces(url_lista)
-    
-    if not ruta_temp:
-        print("🛑 El proceso se detuvo porque no se pudo descargar o procesar la lista.")
-        return
+    # Detener si el archivo temporal no se creó (recolectar_enlaces debería manejar esto)
+    #if not os.path.exists("Beluga/TEMP_MATERIAL.m3u"):
+    #    print("Flujo detenido: No se pudo descargar el material.")
+    #    return
 
-    # 3. Clasificar los bloques del archivo temporal y obtener categorías segmentadas
-    # Este paso ahora incluye reclasificación y preparación para segmentación
-    categorias_segmentadas = clasificar_y_segmentar_archivos(ruta_temp)
-    
-    # 4. Compilar la lista final, verificar enlaces y limpiar temporales
-    # Se pasa la información de segmentación para saber qué carpetas compilar
-    generar_listas_finales(categorias_segmentadas)
-    
-    # 5. Sincronizar con Git
-    sincronizar_con_git()
-    
-    print(f"\n✨ PROCESO BERLUCA FINALIZADO. Archivo: {ARCHIVO_SALIDA}")
-
+    clasificar_enlaces()
+    # verificar_enlaces() # Descomentar si está implementado y quieres usarlo
+    generar_listas_finales()
+    sincronizar_con_git()  # ✅ Se ejecuta solo como parte del flujo completo
+    print("--- ✅ Proceso Completo Finalizado ---")
 
 if __name__ == "__main__":
-    # 0. Limpiar el nombre del proyecto en consola
-    print("=========================================")
-    print("        🚀 INICIANDO PROYECTO BERLUCA")
-    print("=========================================")
-    
-    # Pedir la URL
+    # Asegurarse de que Python y los módulos están en el path si se usa un entorno virtual específico
+    # print(f"Usando Python en: {sys.executable}") 
+
     url = input("🔗 Ingresa la URL de la lista .m3u: ").strip()
-    
     if url:
         ejecutar_proceso_completo(url)
     else:
-        print("🛑 URL no proporcionada. Saliendo.")
+        print("❌ URL no proporcionada. Saliendo.")

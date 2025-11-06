@@ -1,149 +1,118 @@
-# generador.py (ACTUALIZADO CON TODOS LOS MÓDULOS AVANZADOS)
-
 import os
+import glob 
 from collections import Counter
-import glob
-from typing import Dict, List, Set
+from typing import List
 
-# Importaciones de módulos centrales
+# Importaciones de constantes y funciones necesarias
+# Debemos importar ARCHIVO_SALIDA y las rutas correctas desde el config del usuario
 from config import (
-    CARPETA_SEGMENTADOS, CARPETA_ORIGEN, ARCHIVO_SALIDA, 
-    TITULOS_VISUALES, LOGOS_CATEGORIA, LOGO_DEFAULT, LIMITE_BLOQUES
+    CARPETA_ORIGEN, ARCHIVO_SALIDA, LOGO_DEFAULT, LOGOS_CATEGORIA, 
+    TITULOS_VISUALES, MINIMO_BLOQUES_VALIDOS
 )
-from m3u_core import extraer_bloques_m3u, extraer_nombre_canal, extraer_url, sanear_bloque_m3u, hash_bloque
-from file_manager import limpiar_carpeta, verificar_archivos_movian, leer_archivo_m3u
-from clasificador import clasificar_bloque_por_contenido 
 
-# Importaciones de nuevos módulos avanzados
-from segmentador import segmentar_todas_las_categorias # Segmentación
-from reclasificador import reclasificar_todos_los_restantes # Reclasificación
-from verificador import verificar_enlaces_en_archivos # Verificación de enlaces
-from depurador_selectivo import eliminar_bloques_rotos, depurar_lista_de_bloques # Depuración
-from auditor_visual import auditar_bloque_visual # Auditoría de metadatos
-from verificar_compatibilidad_movian import adaptar_para_movian # Adaptación
+# NOTA: Estas funciones deben existir o importarse. Las añado como stubs si no están en m3u_core.
+def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
+    """Función stub para extraer bloques (asumimos que existe en clasificador/m3u_core)"""
+    # Implementación básica para que funcione si se copia aquí
+    bloques = []
+    buffer = []
+    for linea in lineas:
+        linea = linea.strip()
+        if linea.startswith("#EXTINF"):
+            if buffer:
+                bloques.append(buffer)
+            buffer = [linea]
+        elif buffer and linea.startswith("http"):
+            buffer.append(linea)
+    if len(buffer) == 2:
+        bloques.append(buffer)
+    return bloques
+
+def extraer_nombre_canal(bloque: List[str]) -> str:
+    """Función stub para extraer nombre (asumimos que existe en clasificador/m3u_core)"""
+    if bloque and bloque[0].startswith("#EXTINF"):
+        partes = bloque[0].split(",", 1)
+        return partes[1].strip() if len(partes) > 1 else "Sin nombre"
+    return "Sin nombre"
+
+def extraer_url(bloque: List[str]) -> str:
+    """Función stub para extraer URL (asumimos que existe en clasificador/m3u_core)"""
+    return bloque[-1] if bloque and bloque[-1].startswith("http") else ""
+
 
 # =========================================================================================
-# 🎯 PROCESO DE CLASIFICACIÓN Y GENERACIÓN FINAL
+# 📦 FUNCIÓN PRINCIPAL DE CONSOLIDACIÓN
 # =========================================================================================
 
-def clasificar_y_segmentar_archivos(archivo_temporal: str):
+def generar_listas_finales():
     """
-    Lee la lista temporal, clasifica sus bloques y los escribe en CARPETA_ORIGEN.
+    Consolida todos los archivos clasificados en CARPETA_ORIGEN 
+    en el archivo final RP_S2048.m3u.
     """
-    print("\n🧠 Iniciando clasificación, saneamiento y depuración inicial...")
     
-    lineas = leer_archivo_m3u(archivo_temporal)
-    bloques_crudos = extraer_bloques_m3u(lineas)
-    
-    contador_clasificados = 0
-    
-    # 🛑 Usar depurador_selectivo.depurar_lista_de_bloques para el saneamiento inicial
-    bloques_saneados, excluidos = depurar_lista_de_bloques(bloques_crudos)
-    print(f"✅ Depuración inicial: {len(bloques_saneados)} bloques listos | {excluidos} excluidos.")
+    print("\n📦 Iniciando consolidación de listas finales...")
 
-    # 💾 Clasificación y Escritura
-    from file_manager import guardar_en_categoria # Importamos aquí para evitar importación circular
+    # 🛑 CORRECCIÓN CLAVE: Buscar archivos en CARPETA_ORIGEN (compilados) 
+    # donde clasificador.py los dejó.
+    patron_busqueda = os.path.join(CARPETA_ORIGEN, "*.m3u")
+    listas_finales = glob.glob(patron_busqueda)
     
-    for bloque_saneado in bloques_saneados:
-        categoria = clasificar_bloque_por_contenido(bloque_saneado)
-        guardar_en_categoria(categoria, bloque_saneado)
-        contador_clasificados += 1
+    # Excluir el archivo temporal y asegurar que existan bloques
+    listas_finales = [
+        ruta for ruta in listas_finales 
+        if "TEMP_MATERIAL" not in os.path.basename(ruta)
+    ]
+    
+    # Ordenar las listas por nombre
+    listas_finales.sort(key=lambda x: os.path.basename(x))
+    
+    totales_por_categoria = Counter()
+    total_consolidado = 0
 
-    print(f"✅ Clasificación inicial finalizada. {contador_clasificados} bloques procesados.")
-    print(f"📁 Archivos clasificados por categoría en: {CARPETA_ORIGEN}/")
-    
-    # 1. RECLASIFICACIÓN (Mover 'sin_clasificar' a sus categorías reales si es posible)
-    reclasificar_todos_los_restantes()
-    
-    # 2. SEGMENTACIÓN (Dividir las categorías grandes si superan el límite)
-    categorias_segmentadas = segmentar_todas_las_categorias()
-    
-    return categorias_segmentadas
+    # 5. Escribir el archivo de salida
+    with open(ARCHIVO_SALIDA, "w", encoding="utf-8", errors="ignore") as salida:
+        # Escribir cabecera
+        salida.write("#EXTM3U\n\n")
 
-
-def generar_listas_finales(categorias_segmentadas: List[str]):
-    """
-    Compila todas las listas (segmentadas o clasificadas) en un único archivo final.
-    """
-    print("\n📦 Compilando lista final con auditoría y verificación...")
-    
-    # Directorios a escanear: Segmentados si se usaron, sino Origen.
-    # Si la lista fue segmentada, solo usamos la carpeta segmentada.
-    if categorias_segmentadas:
-        print("💡 Usando archivos de CARPETA_SEGMENTADOS para la compilación.")
-        carpetas_a_escanear = [CARPETA_SEGMENTADOS]
-    else:
-        carpetas_a_escanear = [CARPETA_ORIGEN]
-        
-    # --- PROCESO DE VERIFICACIÓN ---
-    # 1. Definir los archivos a verificar (todos los clasificados/segmentados)
-    archivos_a_verificar = []
-    for carpeta in carpetas_a_escanear:
-        archivos_a_verificar.extend(glob.glob(os.path.join(carpeta, "*.m3u")))
-        
-    # 2. Obtener los hashes de los bloques rotos (muestras)
-    hashes_rotos = verificar_enlaces_en_archivos(archivos_a_verificar)
-    
-    # --- COMPILACIÓN FINAL ---
-    hashes_globales: Set[str] = set()
-    totales_por_categoria: Counter[str] = Counter()
-
-    with open(ARCHIVO_SALIDA, "w", encoding="utf-8") as salida:
-        salida.write("#EXTM3U\n")
-        salida.write(f"# Generado por Berluca - {os.path.basename(ARCHIVO_SALIDA)}\n\n")
-
-        for ruta in archivos_a_verificar:
-            archivo = os.path.basename(ruta)
+        for ruta in listas_finales:
+            archivo_base = os.path.basename(ruta)
+            nombre_categoria = archivo_base.replace(".m3u", "").replace("_", " ")
             
-            # Determinar la categoría base (para metadatos visuales)
-            base = archivo.split("_")[0].lower().replace(".m3u", "")
-            titulo = TITULOS_VISUALES.get(base, f"★ {base.replace('_', ' ').upper()} ★")
-            logo = LOGOS_CATEGORIA.get(base, LOGO_DEFAULT)
+            # Obtener el título visual (e.g., "★ ANIME ★")
+            titulo_visual = TITULOS_VISUALES.get(
+                nombre_categoria.replace(" ", "_"),
+                f"★ {nombre_categoria.upper()} ★"
+            )
             
-            salida.write(f"\n# =================================================================")
-            salida.write(f"\n# {titulo}")
-            salida.write(f"\n# =================================================================\n\n")
+            # Obtener el logo por defecto o específico
+            logo = LOGOS_CATEGORIA.get(nombre_categoria.replace(" ", "_"), LOGO_DEFAULT)
             
-            lineas_archivo = leer_archivo_m3u(ruta)
-            bloques = extraer_bloques_m3u(lineas_archivo)
+            # 5.1. Escribir el título de grupo
+            salida.write(f"\n# ====== {titulo_visual} (Cat: {nombre_categoria.upper()}) ======\n\n")
+
+            # 5.2. Abrir el archivo de categoría (e.g., anime.m3u)
+            with open(ruta, "r", encoding="utf-8", errors="ignore") as f:
+                bloques = extraer_bloques_m3u(f.readlines())
             
+            # 5.3. Escribir los bloques
             for bloque in bloques:
-                bloque_saneado = sanear_bloque_m3u(bloque)
-                if not bloque_saneado:
-                    continue
+                nombre = extraer_nombre_canal(bloque)
+                url = extraer_url(bloque)
                 
-                h = hash_bloque(bloque_saneado)
-                
-                # 3. Deduplicación Global
-                if h in hashes_globales:
-                    continue
-                
-                # 4. Eliminación de Bloques Rotos (Filtrado por Hash)
-                if h in hashes_rotos:
-                    continue
-                
-                hashes_globales.add(h)
-                
-                # 5. Auditoría Visual (Asegurar logo y group-title)
-                bloque_final = auditar_bloque_visual(bloque_saneado, base)
-                
-                # Escribir el bloque
-                salida.write("\n".join(bloque_final).strip() + "\n\n")
-                
-                totales_por_categoria[base] += 1
+                # Re-formatear la línea EXTINF para el archivo final
+                if url:
+                    salida.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{titulo_visual}",{nombre}\n')
+                    salida.write(f"{url}\n\n")
+                    total_consolidado += 1
+            
+            totales_por_categoria[nombre_categoria] = len(bloques)
 
-    # 6. Adaptación final (ej: Movian)
-    adaptar_para_movian(ARCHIVO_SALIDA)
-
-    # 7. Limpieza y Diagnóstico final
-    verificar_archivos_movian() # Limpia archivos temporales de Movian
-    limpiar_carpeta(CARPETA_ORIGEN) # Limpiar archivos de categorías después de compilar
-    limpiar_carpeta(CARPETA_SEGMENTADOS) # Limpiar archivos segmentados
-    
-    print(f"\n✅ Lista final generada con {len(hashes_globales)} canales únicos y verificados.")
+    # 6. Diagnóstico final y Reporte
+    print(f"\n✅ RP_S2048.m3u generado con éxito.")
     print(f"📁 Ubicación: {ARCHIVO_SALIDA}")
-    
+    print(f"📊 Total de enlaces consolidados: {total_consolidado}")
     print("\n📊 Totales por categoría:")
     for cat, count in totales_por_categoria.most_common():
-        if count > 0:
-            print(f"  - {cat.replace('_', ' ').capitalize()}: {count} canales")
+        print(f"   -> {cat.capitalize()}: {count} enlaces")
+
+# La función generadora de listas finales debería ser llamada por main.py

@@ -18,8 +18,7 @@ def crear_carpetas_iniciales():
 # Llamar a la función al inicio del script para asegurar la estructura
 crear_carpetas_iniciales() 
 
-# 🧹 Palabras clave para excluir contenido no deseado (SOLUCIÓN AL ERROR DE IMPORTACIÓN)
-# Renombrado de 'exclusiones' a 'EXCLUSIONES'
+# 🧹 Palabras clave para excluir contenido no deseado (CORRECCIÓN: Renombrado a EXCLUSIONES)
 EXCLUSIONES = [
     "religion", "evangelio", "cristo", "biblia", "jesus", "adoracion", "misa", "rosario"
 ]
