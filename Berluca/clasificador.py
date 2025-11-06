@@ -1,15 +1,15 @@
 import re
 from typing import List, Optional
 
-# Importaciones del nuevo módulo de experiencia (debe existir el archivo clasificador_experiencia.py)
+# Importaciones del nuevo módulo de experiencia
 from clasificador_experiencia import clasificar_por_experiencia 
 
-# Importaciones de módulos centrales
-from config import CLAVES_CATEGORIA # Asumo que esta constante está en config
+# Importaciones de constantes
+from config import CLAVES_CATEGORIA 
 from m3u_core import (
     extraer_nombre_canal, 
     extraer_url, 
-    extraer_linea_extinf # Asumo que esta función existe en m3u_core
+    extraer_linea_extinf # Asumo que m3u_core existe y tiene estas funciones
 )
 
 # =========================================================================================
@@ -18,29 +18,13 @@ from m3u_core import (
 
 def clasificar_por_nombre(nombre: str) -> Optional[str]:
     """
-    Clasifica un bloque M3U basándose únicamente en el nombre del canal.
-    
-    NOTA: Utiliza la constante CLAVES_CATEGORIA importada desde config.py.
+    Clasifica un bloque M3U basándose únicamente en el nombre del canal,
+    usando las claves definidas en config.py.
     """
     nombre_lower = nombre.lower().replace("ñ", "n").replace(".", "")
     
-    # Ejemplo de estructura de clasificación si CLAVES_CATEGORIA no existe o está vacío
-    # En un proyecto real, se usaría la importada.
-    CLAVES_CATEGORIA_LOCAL = {
-        "peliculas": ["pelicula", "cine", "film"],
-        "series": ["serie", "season", "capitulo"],
-        "deportes": ["futbol", "deporte", "sport", "nba", "boxeo", "tenis"],
-        "infantil_educativo": ["infantil", "kids", "dibujos", "cartoon", "educativo"],
-        "documental": ["documental", "cultura", "historia", "naturaleza"],
-        "anime": ["anime", "manga", "otaku"],
-        "estrenos": ["estreno", "premium"],
-        "noticias": ["noticia", "news", "informe"],
-    }
-    
-    # Usar las claves importadas, si no, usar el ejemplo local
-    claves_a_usar = CLAVES_CATEGORIA if 'CLAVES_CATEGORIA' in globals() and CLAVES_CATEGORIA else CLAVES_CATEGORIA_LOCAL
-
-    for categoria, claves in claves_a_usar.items():
+    # Usar las claves importadas desde config.py
+    for categoria, claves in CLAVES_CATEGORIA.items():
         if any(clave in nombre_lower for clave in claves):
             return categoria
     return None
@@ -109,10 +93,9 @@ def clasificacion_doble(bloque: List[str]) -> str:
     url = extraer_url(bloque)
 
     # 1. Clasificación por experiencia (MÁXIMA PRIORIDAD)
-    # Usa las reglas específicas del nuevo módulo
     experiencia = clasificar_por_experiencia(bloque, nombre) 
     if experiencia:
-        return experiencia # Si la regla de experiencia aplica, se usa inmediatamente.
+        return experiencia
     
     # 2. Clasificación temática (Nombre y Metadato)
     tema = clasificar_por_nombre(nombre) or clasificar_por_metadato(bloque)
@@ -120,20 +103,19 @@ def clasificacion_doble(bloque: List[str]) -> str:
     # 3. Clasificación contextual (URL)
     contexto = clasificar_por_url(url)
 
-    # 🚫 Detección de colisiones y resolución (Lógica para elegir entre tema y URL)
+    # 🚫 Detección de colisiones y resolución
     if tema and contexto:
-        # Priorizar la clasificación de la URL si es VOD/geográfica
+        # Priorizar clasificación de URL si es VOD/geográfica general
         if tema in ["peliculas", "series", "sagas", "documental_cultural"] and contexto.endswith("_general"):
              return contexto
         # Priorizar el tema si es muy específico
         elif tema in ["cine_terror", "anime"]:
             return tema
 
-    # Si hay una clasificación temática clara, úsala
+    # Usar el resultado de mayor prioridad restante
     if tema:
         return tema
     
-    # Si hay una clasificación contextual clara, úsala
     if contexto:
         return contexto
 
@@ -144,11 +126,10 @@ def clasificar_bloque_por_contenido(bloque: List[str]) -> str:
     """
     Función de clasificación final.
     """
-    # Usar la estrategia de clasificación doble
     categoria = clasificacion_doble(bloque) 
 
     # Limpieza final de la categoría para nombres de archivo válidos
     return categoria.lower().replace(" ", "_").replace("/", "_").replace("-", "_").replace(".", "_")
 
-# NOTA: En la arquitectura final de Berluca, las funciones de I/O (como guardar_en_categoria)
-# se movieron a file_manager.py, por lo que este archivo queda como pura lógica.
+# NOTA: La función 'clasificar_enlaces' que se usaba en 'main.py' ha sido reemplazada por
+# 'clasificar_y_segmentar_archivos' en el módulo 'generador.py' en la nueva arquitectura.
