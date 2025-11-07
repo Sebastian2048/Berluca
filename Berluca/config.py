@@ -10,11 +10,11 @@ CARPETA_LOGS = os.path.join(CARPETA_SALIDA, "logs")
 for carpeta in [CARPETA_SALIDA, CARPETA_ORIGEN, CARPETA_SEGMENTADOS, CARPETA_LOGS]:
     os.makedirs(carpeta, exist_ok=True)
 
-# 🧹 Palabras clave para excluir contenido no deseado (AÑADIDO: 24/7, Loop, Adulto, Test)
+# 🧹 Palabras clave para excluir contenido no deseado
 exclusiones = [
-    "religion", "evangelio", "cristo", "biblia", "jesus", "adoracion", "misa", "rosario", # Religioso
-    "24h", "24/7", "perpetuo", "perpetua", "siempre", "loop", "maraton", "test", "demo", "vacio", # 24/7 y prueba
-    "xxx", "adult", "porno", "erotic", "hot", "hentai", "contenido_adulto", "contenido_sensible" # Contenido Adulto y sensible
+    "religion", "evangelio", "cristo", "biblia", "jesus", "adoracion", "misa", "rosario",
+    "24h", "24/7", "perpetuo", "perpetua", "siempre", "loop", "maraton", "test", "demo", "vacio",
+    "xxx", "adult", "porno", "erotic", "hot", "hentai", "contenido_adulto", "contenido_sensible"
 ]
 
 # 🔢 Parámetros de control
@@ -22,44 +22,53 @@ MINIMO_BLOQUES_VALIDOS = 0
 LIMITE_BLOQUES = 100 # <--- ¡LÍMITE ESTRICTO DE 100 ENLACES POR CATEGORÍA!
 UMBRAL_EXCLUSION_ARCHIVO = 0.999999 
 
-# 🗂️ Clasificación semántica extendida por nombre de canal
+# 🗂️ Clasificación Estricta y Amplia (Simulando IPTV Profesional)
 CLAVES_CATEGORIA = {
-    "peliculas_accion": ["space", "tnt", "cinecanal", "hbo", "amc", "sony movies", "peliculas"],
-    "peliculas_drama": ["cinemax", "studio universal", "film&arts", "paramount", "drama"],
-    "peliculas_terror": ["space", "syfy", "dark tv", "horror channel", "terror"],
-    "series_comedia": ["warner", "comedy central", "fx", "star channel", "sony channel", "series", "comedia"],
-    "series_drama": ["universal tv", "axn", "paramount", "hbo series", "drama"],
-    "anime_adultos": ["crunchyroll", "adult swim", "bitme", "senpai tv", "anime onegai", "anime", "otaku"],
-    "anime_infantil": ["paka paka", "discovery kids", "babytv", "boomerang", "infantil"],
-    "infantil_educativo": ["encuentro", "canal rural", "discovery kids", "natgeo kids", "educativo"],
-    "documentales_ciencia": ["discovery science", "history", "natgeo", "animal planet", "documental", "ciencia"],
-    "documentales_cultura": ["encuentro", "canal rural", "film&arts", "arte tv", "cultura"],
+    # 🇦🇷 Canales Locales
+    "tv_argentina": ["telefe", "el trece", "canal 13", "canal 9", "america tv", "net tv", "elnueve"],
+    
+    # 🎬 Cine y Series
+    "peliculas_principal": ["hbo", "cinecanal", "tnt", "amc", "paramount", "cinemax", "sony movies", "peliculas", "cine"],
+    "series_principal": ["warner", "comedy central", "fx", "star channel", "sony channel", "universal tv", "axn", "series"],
+    "cine_terror": ["syfy", "dark tv", "horror channel", "terror", "miedo"],
+    
+    # ⚽ Deportes
     "deportes_en_vivo": ["espn", "fox sports", "tyc", "tnt sports", "nba", "fútbol", "deportes", "sports"],
-    "deportes_extremos": ["eurosport", "red bull tv", "xtreme sports"],
-    "noticias_internacionales": ["cnn", "bbc", "al jazeera", "euronews", "noticias"],
-    "noticias_latinoamerica": ["tn", "c5n", "a24", "cronica", "todo noticias"],
-    "abiertos_arg_general": ["telefe", "el trece", "canal 13", "canal 9", "america tv", "net tv", "elnueve"],
-    "musica_latina": ["qube music", "mtv latino", "concert channel", "telehit", "musica"],
+    
+    # 👶 Infancia y Animación
+    "infantil_kids": ["discovery kids", "cartoon network", "disney", "nickelodeon", "paka paka", "babytv", "infantil"],
+    "anime_general": ["crunchyroll", "adult swim", "bitme", "senpai tv", "anime", "manga"],
+    
+    # 🌍 Documentales y Noticias
+    "documentales_ciencia": ["discovery science", "history", "natgeo", "animal planet", "documental"],
+    "noticias_global": ["cnn", "bbc", "al jazeera", "euronews", "tn", "c5n", "a24", "cronica", "noticias"],
+    
+    # 🎵 Música
+    "musica_general": ["mtv", "telehit", "qube music", "musica", "concert"],
+    
+    # 🗑️ Desbordamiento (Usado en el clasificador)
+    "peliculas_extras": ["película", "movie", "film"]
 }
 
-# 🌐 URL base para acceder a listas segmentadas desde GitHub (No se usa aquí, pero se mantiene)
+# 🌐 URL base para acceder a listas segmentadas desde GitHub (Se mantiene)
 URL_BASE_SEGMENTADOS = "https://raw.githubusercontent.com/Sebastian2048/Beluga/main/segmentados"
 
 # 🐳 Imagen por defecto
 LOGO_DEFAULT = "https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png"
 
-# 🖼️ Logos específicos por categoría (Se mantienen para compatibilidad)
+# 🖼️ Logos específicos por categoría
 LOGOS_CATEGORIA = {
-    "infantil_educativo": LOGO_DEFAULT, "musica_latina": LOGO_DEFAULT,
-    "documental_cultural": LOGO_DEFAULT, "deportes": LOGO_DEFAULT,
-    "cine_terror": LOGO_DEFAULT
+    "tv_argentina": LOGO_DEFAULT, "peliculas_principal": LOGO_DEFAULT,
+    "series_principal": LOGO_DEFAULT, "deportes_en_vivo": LOGO_DEFAULT
 }
 
-# ✨ Títulos visuales por categoría (Se mantienen para compatibilidad)
+# ✨ Títulos visuales por categoría
 TITULOS_VISUALES = {
-    "series": "★ SERIES ★", "peliculas": "★ PELICULAS ★",
-    "iptv": "★ TELEVISION ★", "deportes": "★ DEPORTES ★",
-    "documental_cultural": "★ DOCUMENTALES ★", "cine_terror": "★ TERROR ★"
+    "tv_argentina": "★ TV ARGENTINA ★",
+    "peliculas_principal": "★ CINE Y PELÍCULAS ★",
+    "series_principal": "★ SERIES DE TV ★",
+    "deportes_en_vivo": "★ DEPORTES EN VIVO ★",
+    "peliculas_extras": "★ CINE EXTRA (Overflow) ★", # Nuevo título de desbordamiento
 }
 
 # 🔍 Función para detectar exclusiones

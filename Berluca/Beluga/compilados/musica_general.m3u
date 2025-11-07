@@ -1,0 +1,50 @@
+#EXTM3U
+
+#EXTINF:-1,Concert Channel ✅
+http://179.51.136.19:8000/play/a18q/index.m3u8
+
+#EXTINF:-1,Concert Channel - Opción 2 ✅
+http://179.51.136.19:8000/play/a18q/index.m3u8
+
+#EXTINF:-1,MTV HD ✅
+http://45.176.71.20:1689/play/a0nn
+
+#EXTINF:-1,MTV - Opción 2 ✅
+http://179.51.136.19:8000/play/a18p/index.m3u8
+
+#EXTINF:-1,MTV 00s ✅
+http://179.51.136.19:8000/play/a14k/index.m3u8
+
+#EXTINF:-1,MTV 00s - Opción 2 ✅
+http://179.51.136.19:8000/play/a14k/index.m3u8
+
+#EXTINF:-1,MTV 80s ✅
+http://179.51.136.19:8000/play/a0un/index.m3u8
+
+#EXTINF:-1,MTV 80s - Opción 2 ✅
+http://179.51.136.19:8000/play/a0un/index.m3u8
+
+#EXTINF:-1,MTV LIVE HD ✅
+http://45.176.71.20:1689/play/a0ii
+
+#EXTINF:-1,MTV LIVE HD - Opción 2 ✅
+http://45.176.71.20:1689/play/a0ii
+
+#EXTINF:-1,Stingray Concerts HD ✅
+http://181.78.201.70:8000/play/a0rf/index.m3u8
+
+#EXTINF:-1,Telehit ✅
+http://tv.teleclub.xyz/stream/server_1/musica/telehit/master.m3u8
+
+#EXTINF:-1,Telehit Urbano ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278613/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,Telehitlus ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278612/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,Telehitlus - Opción 2 ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278614/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,UMTV ✅
+https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL
+

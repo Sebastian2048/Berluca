@@ -1,5 +1,4 @@
 import os
-import re
 from collections import Counter
 from typing import List, Optional
 
@@ -10,12 +9,11 @@ from config import (
 )
 
 # =========================================================================================
-# 📦 FUNCIONES DE PARSEO (Se mantienen las funciones de extracción para la lógica)
+# 📦 FUNCIONES DE PARSEO (Se mantienen)
 # =========================================================================================
 
 def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
-    """Extrae bloques M3U completos (EXTINF + URL) como listas de líneas."""
-    # ... (Implementación idéntica a la respuesta anterior para extraer bloques)
+    # ... (código para extraer bloques)
     bloques = []
     buffer = []
     for linea in lineas:
@@ -34,7 +32,7 @@ def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
     return [b for b in bloques if any(l.startswith("#EXTINF") for l in b) and any(l.startswith("http") for l in b)]
 
 def extraer_nombre_canal(bloque: List[str]) -> str:
-    """Extrae el nombre del canal desde EXTINF."""
+    # ... (código para extraer nombre)
     for linea in bloque:
         if linea.startswith("#EXTINF"):
             partes = linea.split(",", 1)
@@ -43,14 +41,14 @@ def extraer_nombre_canal(bloque: List[str]) -> str:
     return "Sin nombre"
 
 def extraer_url(bloque: List[str]) -> str:
-    """Extrae la URL del canal (la primera línea que comienza con http)."""
+    # ... (código para extraer URL)
     for linea in bloque:
         if linea.startswith("http"):
             return linea.strip()
     return ""
 
 # =========================================================================================
-# 💾 GUARDADO Y CLASIFICACIÓN (Se mantiene la lógica central)
+# 💾 GUARDADO Y CLASIFICACIÓN
 # =========================================================================================
 
 def guardar_en_categoria(categoria: str, bloque: List[str]):
@@ -76,6 +74,9 @@ def clasificacion_doble(bloque: List[str]) -> str:
     nombre_lower = nombre.lower().replace("ñ", "n").replace(".", "")
     
     for categoria, claves in CLAVES_CATEGORIA.items():
+        # Excluimos la categoría de desbordamiento en esta etapa
+        if categoria == "peliculas_extras": continue 
+        
         if any(clave in nombre_lower for clave in claves):
             return categoria
         
@@ -83,13 +84,13 @@ def clasificacion_doble(bloque: List[str]) -> str:
 
 
 # =========================================================================================
-# 🧠 BUCLE PRINCIPAL DE CLASIFICACIÓN (CORREGIDO)
+# 🧠 BUCLE PRINCIPAL DE CLASIFICACIÓN (CORREGIDO CON LÓGICA DE OVERFLOW)
 # =========================================================================================
 
 def clasificar_enlaces():
     """
-    Clasifica bloques, descarta 'sin_clasificar' y aplica LIMITE_BLOQUES
-    ANTES de guardar.
+    Clasifica bloques, descartando 'sin_clasificar' y aplicando LIMITE_BLOQUES,
+    con lógica de desbordamiento para películas.
     """
     
     # 🛑 CORRECCIÓN DE RUTA: Usa la ruta completa para encontrar el archivo descargado.
@@ -120,17 +121,32 @@ def clasificar_enlaces():
 
         categoria = clasificacion_doble(bloque)
         
-        # 🛑 REGLA 1: Descartar la categoría sin_clasificar
+        # 🛑 REGLA 1: Descartar sin_clasificar
         if "sin_clasificar" in categoria:
             totales_por_categoria[categoria] += 1
             continue 
             
-        # 🛑 REGLA 2: Aplicar límite de bloques por categoría (Máximo 100)
+        # 🛑 REGLA 2: Aplicar límite de bloques (Máximo 100)
         if totales_por_categoria[categoria] >= LIMITE_BLOQUES:
-             descartados_por_limite += 1
-             continue 
+            
+            # 🛑 IMPLEMENTACIÓN DE SUBCATEGORÍA DE DESBORDAMIENTO (OVERFLOW)
+            if categoria == "peliculas_principal":
+                categoria_final = "peliculas_extras"
+                # Solo contamos como descarte si el overflow también se llena
+                if totales_por_categoria[categoria_final] >= LIMITE_BLOQUES:
+                    descartados_por_limite += 1
+                    continue
+                
+                # Si el overflow no está lleno, lo usamos
+                guardar_en_categoria(categoria_final, bloque)
+                totales_por_categoria[categoria_final] += 1
+                continue
+            
+            # Si no es Películas, descartamos
+            descartados_por_limite += 1
+            continue 
 
-        # 3. Guardado en CARPETA_ORIGEN
+        # 3. Guardado en CARPETA_ORIGEN (Si pasa todos los filtros y límites)
         guardar_en_categoria(categoria, bloque)
         totales_por_categoria[categoria] += 1
 

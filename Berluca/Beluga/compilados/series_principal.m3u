@@ -1,0 +1,98 @@
+#EXTM3U
+
+#EXTINF:-1,03.7FX ✅
+http://200.60.124.19:29000/play/a029/index.m3u8
+
+#EXTINF:-1,07.1Warner ✅
+http://200.60.124.19:29000/play/a013/index.m3u8
+
+#EXTINF:-1,07.1Warner - Opción 2 ✅
+http://200.60.124.19:29000/play/a013
+
+#EXTINF:-1,07.3STAR CHANNEL SD ✅
+http://200.60.124.19:29000/play/a01r/index.m3u8
+
+#EXTINF:-1,07.3STAR CHANNEL - Opción 2 ✅
+http://200.60.124.19:29000/play/a01r
+
+#EXTINF:-1,07.8AXN ✅
+http://200.60.124.19:29000/play/a027/index.m3u8
+
+#EXTINF:-1,07.8AXN - Opción 2 ✅
+http://200.60.124.19:29000/play/a027
+
+#EXTINF:-1,122_AXN ✅
+http://87.120.179.187:8000/play/a00o
+
+#EXTINF:-1,123_Star Channel ✅
+http://87.120.179.187:8000/play/a013
+
+#EXTINF:-1,A3SERIES ✅
+http://181.119.85.222:8000/play/a02g/index.m3u8
+
+#EXTINF:-1,A3SERIES - Opción 2 ✅
+http://181.119.85.222:8000/play/a02g/index.m3u8
+
+#EXTINF:-1,ATRES SERIES ✅
+http://179.51.136.19:8000/play/a1bw/index.m3u8
+
+#EXTINF:-1,ATRES SERIES - Opción 2 ✅
+http://179.51.136.19:8000/play/a1bw/index.m3u8
+
+#EXTINF:-1,AXN ✅
+http://181.119.86.68:8000/play/c016/index.m3u8
+
+#EXTINF:-1,AXN - Opción 2 ✅
+http://181.119.86.68:8000/play/c016/index.m3u8
+
+#EXTINF:-1,Comedy Central ✅
+http://179.51.136.19:8000/play/a1bt/index.m3u8
+
+#EXTINF:-1,Comedy Central - Opción 2 ✅
+http://179.51.136.19:8000/play/a1bt/index.m3u8
+
+#EXTINF:-1,FX ✅
+http://181.78.23.26:45000/play/a032
+
+#EXTINF:-1,FX - Opción 2 ✅
+http://181.119.85.222:8000/play/a00s/index.m3u8
+
+#EXTINF:-1,Star Channel ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278438/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,STAR CHANNEL - Opción 2 ✅
+http://181.78.23.26:45000/play/a008
+
+#EXTINF:-1,Tejano 107.3 Maz FX live ✅
+http://fortv.cc:8080/90820916/64752029/124299
+
+#EXTINF:-1,Universal TV ✅
+http://tv.teleclub.xyz/stream/server_3/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1,Universal TV - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_1/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1,USA SERIES ✅
+http://181.119.86.68:8000/play/b041/index.m3u8
+
+#EXTINF:-1,USA SERIES - Opción 2 ✅
+http://181.119.86.68:8000/play/b041/index.m3u8
+
+#EXTINF:-1,Warner ✅
+http://181.78.23.26:45000/play/a01e
+
+#EXTINF:-1,Warner - Opción 2 ✅
+http://181.78.106.127:9000/play/ca071/index.m3u8
+
+#EXTINF:-1,Warner Channel HD ✅
+http://179.51.136.19:8000/play/a0pu/index.m3u8
+
+#EXTINF:-1,Warner Channel HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a17z/index.m3u8
+
+#EXTINF:-1,Warner Tv ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/165455/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,WFXX ThFox 107.7 live ✅
+http://fortv.cc:8080/90820916/64752029/125200
+

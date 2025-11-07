@@ -1,0 +1,56 @@
+#EXTM3U
+
+#EXTINF:-1,03.4Animal Planet ✅
+http://200.60.124.19:29000/play/a012/index.m3u8
+
+#EXTINF:-1,ANIMAL PLANET ✅
+http://181.119.85.222:8000/play/a01e/index.m3u8
+
+#EXTINF:-1,Animal Planet - Opción 2 ✅
+http://181.78.23.26:45000/play/a01d
+
+#EXTINF:-1,DISCOVERY SCIENCE ✅
+http://181.119.85.222:8000/play/a01c/index.m3u8
+
+#EXTINF:-1,DISCOVERY SCIENCE - Opción 2 ✅
+http://181.119.86.68:8000/play/b049/index.m3u8
+
+#EXTINF:-1,HISTORY ✅
+http://181.119.86.68:8000/play/c020/index.m3u8
+
+#EXTINF:-1,HISTORY - Opción 2 ✅
+http://181.119.85.222:8000/play/a01z/index.m3u8
+
+#EXTINF:-1,History 2 ✅
+http://45.176.71.20:1689/play/a0l4
+
+#EXTINF:-1,HISTORY 2 - Opción 2 ✅
+http://181.119.85.222:8000/play/a022/index.m3u8
+
+#EXTINF:-1,History Channel ✅
+http://181.78.23.26:45000/play/a005
+
+#EXTINF:-1,History Channel - Opción 2 ✅
+http://179.51.136.19:8000/play/a1be/index.m3u8
+
+#EXTINF:-1,History Hunters ✅
+https://amg00841-amg00841c7-rakuten-uk-2820.playouts.now.amagi.tv/playlist/amg00841-aeemeafast-historyhuntersrakuten-rakutenuk/playlist.m3u8
+
+#EXTINF:-1,HISTORY2 ✅
+http://181.119.86.68:8000/play/c019/index.m3u8
+
+#EXTINF:-1,HISTORY2 - Opción 2 ✅
+http://181.119.86.68:8000/play/c019/index.m3u8
+
+#EXTINF:-1,NATGEO ✅
+http://181.119.86.68:8000/play/b004/index.m3u8
+
+#EXTINF:-1,NATGEO - Opción 2 ✅
+http://181.119.86.68:8000/play/b004/index.m3u8
+
+#EXTINF:-1,NatGeo Mundo ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158865/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,NatGeo Mundo - Opción 2 ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/161262/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+

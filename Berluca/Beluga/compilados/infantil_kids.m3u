@@ -1,0 +1,71 @@
+#EXTM3U
+
+#EXTINF:-1,04.5Disney Channel ✅
+http://200.60.124.19:29000/play/a010/index.m3u8
+
+#EXTINF:-1,04.7Nickelodeon ✅
+http://200.60.124.19:29000/play/a01i/index.m3u8
+
+#EXTINF:-1,161_Nickelodeon ✅
+http://87.120.179.187:8000/play/a00x
+
+#EXTINF:-1,163_Disney Channel ✅
+http://87.120.179.187:8000/play/a010
+
+#EXTINF:-1,164_Cartoon Network ✅
+http://87.120.179.187:8000/play/a011
+
+#EXTINF:-1,BabyTv ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158661/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,CARTOON NETWORK ✅
+http://181.119.85.222:8000/play/a006/index.m3u8
+
+#EXTINF:-1,Cartoon Network - Opción 2 ✅
+http://179.51.136.19:8000/play/a1fg/index.m3u8
+
+#EXTINF:-1,DISCOVERY KIDS ✅
+http://181.119.86.68:8000/play/b020/index.m3u8
+
+#EXTINF:-1,Discovery Kids - Opción 2 ✅
+http://181.78.23.26:45000/play/a00h
+
+#EXTINF:-1,DISNEY HD ✅
+http://138.0.228.250:44380/play/a00b/index.m3u8
+
+#EXTINF:-1,Disney - Opción 2 ✅
+http://179.51.136.19:8000/play/a18h/index.m3u8
+
+#EXTINF:-1,DISNEY CHANEL ✅
+http://181.119.86.68:8000/play/c003/index.m3u8
+
+#EXTINF:-1,DISNEY CHANEL - Opción 2 ✅
+http://181.119.86.68:8000/play/c003/index.m3u8
+
+#EXTINF:-1,Disney Channel ✅
+http://181.78.23.26:45000/play/a01b
+
+#EXTINF:-1,DISNEY CHANNEL - Opción 2 ✅
+http://181.119.85.222:8000/play/a00b/index.m3u8
+
+#EXTINF:-1,Disney Jr ✅
+http://181.78.23.26:45000/play/a00k
+
+#EXTINF:-1,DISNEY JR - Opción 2 ✅
+http://181.119.86.68:8000/play/b021/index.m3u8
+
+#EXTINF:-1,Disney Junior ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278543/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1,DISNEY JUNIOR - Opción 2 ✅
+http://181.119.85.222:8000/play/a00a/index.m3u8
+
+#EXTINF:-1,IPTV|CININFANTIL ✅
+http://181.78.23.26:45000/play/a03w
+
+#EXTINF:-1,Nickelodeon ✅
+http://179.51.136.19:8000/play/a0xd/index.m3u8
+
+#EXTINF:-1,Nickelodeon - Opción 2 ✅
+http://179.51.136.19:8000/play/a0xd/index.m3u8
+

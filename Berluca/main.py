@@ -2,7 +2,7 @@
 
 from extractor import recolectar_enlaces
 from clasificador import clasificar_enlaces
-from generador import generar_listas_finales
+from generador import generar_listas_finales, limpiar_carpeta_compilados # <-- 🛑 Importación de la función de limpieza
 import sys 
 
 def ejecutar_proceso_completo(url_lista):
@@ -10,12 +10,13 @@ def ejecutar_proceso_completo(url_lista):
     
     recolectar_enlaces(url_lista)
     
-    # El flujo principal de procesamiento
-    clasificar_enlaces()
-    # verificar_enlaces() # Desactivado
-    generar_listas_finales()
+    # 🛑 PASO CLAVE: Limpiar la carpeta antes de clasificar
+    print("\n🧹 Eliminando archivos clasificados obsoletos de Beluga/compilados...")
+    limpiar_carpeta_compilados() # <-- 🛑 Llamada a la función de limpieza
     
-    # sincronizar_con_git()  # Desactivado
+    # El flujo principal de procesamiento
+    clasificar_enlaces() # <-- Ahora esta función añade archivos a una carpeta VACÍA
+    generar_listas_finales() # <-- Ahora esta función solo lee los archivos nuevos y limitados
     
     print("--- ✅ Proceso Completo Finalizado ---")
 

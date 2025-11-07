@@ -1,0 +1,278 @@
+#EXTM3U
+
+#EXTINF:-1,09.1ESPN 1 ✅
+http://200.60.124.19:29000/play/a016/index.m3u8
+
+#EXTINF:-1,11.1ESPN 2 Latin ✅
+http://200.60.124.19:29000/play/a015/index.m3u8
+
+#EXTINF:-1,11.2ESPN 3 ✅
+http://200.60.124.19:29000/play/a02e/index.m3u8
+
+#EXTINF:-1,11.3ESPN 4 ✅
+http://200.60.124.19:29000/play/a04y/index.m3u8
+
+#EXTINF:-1,15.1 ESPN 7 ✅
+http://200.60.124.19:29000/play/a01e/index.m3u8
+
+#EXTINF:-1,15.2ESPN 6 ✅
+http://200.60.124.19:29000/play/a01f/index.m3u8
+
+#EXTINF:-1,Abu Dhabi Sports 1 (1080p) ✅
+https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+
+#EXTINF:-1,Bein Sports Extra Ñ ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/beinsportsextran/master.m3u8
+
+#EXTINF:-1,Canela ITV Deportes ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3010
+
+#EXTINF:-1,Claro Sports 1 SD ✅
+http://179.51.136.19:8000/play/a18m/index.m3u8
+
+#EXTINF:-1,Claro Sports 1 SD - Opción 2 ✅
+http://179.51.136.19:8000/play/a18m/index.m3u8
+
+#EXTINF:-1,Claro Sports 2 SD ✅
+http://179.51.136.19:8000/play/a16q/index.m3u8
+
+#EXTINF:-1,Claro Sports 2 SD - Opción 2 ✅
+http://179.51.136.19:8000/play/a16q/index.m3u8
+
+#EXTINF:-1,CO: ESPN COLOMBIA ✅
+http://fortv.cc:8080/90820916/64752029/86765
+
+#EXTINF:-1,Directv Sports ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/directvsports/master.m3u8
+
+#EXTINF:-1,Directv Sports + - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/directvsportsplus/master.m3u8
+
+#EXTINF:-1,Directv Sports 2 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/directvsports2/master.m3u8
+
+#EXTINF:-1,DSPORTS ✅
+http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+
+#EXTINF:-1,DSPORTS - Opción 2 ✅
+http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+
+#EXTINF:-1,DSPORTS 2 ✅
+http://179.51.136.19:8000/play/a112/index.m3u8
+
+#EXTINF:-1,DSPORTS 2 - Opción 2 ✅
+http://179.51.136.19:8000/play/a112/index.m3u8
+
+#EXTINF:-1,Dubai Sports 2 FHD ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1,Dubai Sports 2 FHD - Opción 2 ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1,Dubai Sports 3 FHD ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1,Dubai Sports 3 FHD - Opción 2 ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1,ES: MAVTV Motorsports Network DASH ✅
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
+
+#EXTINF:-1,ESPN HD ✅
+http://181.119.85.222:8000/play/a01q/index.m3u8
+
+#EXTINF:-1,ESPN - Opción 2 ✅
+http://181.119.86.68:8000/play/b031/index.m3u8
+
+#EXTINF:-1,ESPN 1 ✅
+http://181.205.130.194:4000/play/a07j
+
+#EXTINF:-1,ESPN 1 - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/espn1/master.m3u8
+
+#EXTINF:-1,ESPN 2 ✅
+http://181.78.23.26:45000/play/a00m
+
+#EXTINF:-1,ESPN 2 HD - Opción 2 ✅
+http://45.176.71.20:1689/play/a0cx
+
+#EXTINF:-1,ESPN 2 Latin ✅
+http://181.78.23.26:45000/play/a01h
+
+#EXTINF:-1,ESPN 3 HD ✅
+http://138.0.228.250:44380/play/a00q/index.m3u8
+
+#EXTINF:-1,ESPN 3 - Opción 2 ✅
+http://181.119.86.68:8000/play/b033/index.m3u8
+
+#EXTINF:-1,ESPN 4 ✅
+http://181.78.106.127:9000/play/ca036/index.m3u8 HD
+
+#EXTINF:-1,ESPN 4 - Opción 2 ✅
+http://181.119.85.222:8000/play/a00j/index.m3u8
+
+#EXTINF:-1,ESPN 4HD ✅
+http://45.176.71.20:1689/play/a0hm
+
+#EXTINF:-1,ESPN 4HD - Opción 2 ✅
+http://45.176.71.20:1689/play/a0hm
+
+#EXTINF:-1,ESPN 5 HD ✅
+http://181.119.85.222:8000/play/a02a/index.m3u8
+
+#EXTINF:-1,ESPN 5 HD - Opción 2 ✅
+http://181.119.85.222:8000/play/a02a/index.m3u8
+
+#EXTINF:-1,ESPN 5HD ✅
+http://179.51.136.19:8000/play/a1a6/index.m3u8
+
+#EXTINF:-1,ESPN 5HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1a6/index.m3u8
+
+#EXTINF:-1,ESPN 6 ✅
+http://181.119.86.68:8000/play/b030/index.m3u8
+
+#EXTINF:-1,ESPN 6 - Opción 2 ✅
+http://181.205.130.194:4000/play/a07t
+
+#EXTINF:-1,ESPN 6 mx ✅
+http://190.60.32.178:8178/play/a0aa/index.m3u8
+
+#EXTINF:-1,ESPN 6 MX - Opción 2 ✅
+http://200.60.124.19:29000/play/a01f
+
+#EXTINF:-1,ESPN 6HD ✅
+http://45.176.71.20:1689/play/a0ho
+
+#EXTINF:-1,ESPN 6HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1ai/index.m3u8
+
+#EXTINF:-1,ESPN 7 ✅
+http://181.119.86.68:8000/play/b029/index.m3u8
+
+#EXTINF:-1,ESPN 7 - Opción 2 ✅
+http://181.119.85.222:8000/play/a00k/index.m3u8
+
+#EXTINF:-1,ESPN 7 mx ✅
+http://181.205.130.194:4000/play/a07s
+
+#EXTINF:-1,ESPN 7HD ✅
+http://45.176.71.20:1689/play/a0oo
+
+#EXTINF:-1,ESPN 7HD - Opción 2 ✅
+http://45.176.71.20:1689/play/a0oo
+
+#EXTINF:-1,ESPN CO ✅
+http://181.78.23.26:45000/play/a02p
+
+#EXTINF:-1,ESPN Premium ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/espnpremium/master.m3u8
+
+#EXTINF:-1,ESPN Premium HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1ar/index.m3u8
+
+#EXTINF:-1,ESPN2 ✅
+http://181.78.106.127:9000/play/ca034/index.m3u8
+
+#EXTINF:-1,ESPN3 ✅
+http://181.78.106.127:9000/play/ca035/index.m3u8
+
+#EXTINF:-1,ESPN4 ✅
+http://181.119.86.68:8000/play/b005/index.m3u8
+
+#EXTINF:-1,ESPN4 - Opción 2 ✅
+http://181.119.86.68:8000/play/b005/index.m3u8
+
+#EXTINF:-1,ESPN5 ✅
+http://200.60.124.19:29000/play/a04y
+
+#EXTINF:-1,ESPN6 ✅
+http://200.125.170.123:8000/play/a05y
+
+#EXTINF:-1,Fox Sports ✅
+http://181.78.106.127:9000/play/ca031/index.m3u8
+
+#EXTINF:-1,Fox Sports 1 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1/master.m3u8
+
+#EXTINF:-1,Fox Sports 1 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1mx/master.m3u8
+
+#EXTINF:-1,Fox Sports 2 ✅
+http://181.78.106.127:9000/play/ca032/index.m3u8
+
+#EXTINF:-1,Fox Sports 2 - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2/master.m3u8
+
+#EXTINF:-1,Fox Sports 2 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1,Fox Sports 2 MX - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_3/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1,Fox Sports 3 HD ✅
+http://45.176.71.20:1689/play/a0cw
+
+#EXTINF:-1,Fox Sports 3 HD - Opción 2 ✅
+http://45.176.71.20:1689/play/a0cw
+
+#EXTINF:-1,Fox Sports 3 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports3mx/master.m3u8
+
+#EXTINF:-1,Fox Sports Premium MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsportspremiummx/master.m3u8
+
+#EXTINF:-1,[HD]band sports ✅
+https://stream1.freetv.fun/f55a849b8592c617e547012d8c1c9a611456461447e45fb8584ba1c2da4589a0.m3u8
+
+#EXTINF:-1,MAVTV Motorsports Network ✅
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8?ads_amagi_channel=872&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=7&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=5458&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=c99552df-081b-4a61-8ccd-d7b86fb60c2a&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
+
+#EXTINF:-1,Movistar Deportes ✅
+http://179.51.136.19:8000/play/a0zj/index.m3u8
+
+#EXTINF:-1,Movistar Deportes - Opción 2 ✅
+http://179.51.136.19:8000/play/a0zj/index.m3u8
+
+#EXTINF:-1,MX | SPORTSGRID ✅
+https://sportsgrid-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-sportsgrid-plex/CDN/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=SYmqRsd_3zFsz7JJX_qb&channelId=5ef11485d33ab9004048a1ca
+
+#EXTINF:-1,Tigo sports ✅
+http://181.78.106.127:9000/play/ca038/index.m3u8
+
+#EXTINF:-1,tyc ✅
+http://181.78.23.26:45000/play/a04m
+
+#EXTINF:-1,TyC Sports ✅
+http://179.51.136.19:8000/play/a1h0/index.m3u8
+
+#EXTINF:-1,TyC Sports - Opción 2 ✅
+http://179.51.136.19:8000/play/a1h0/index.m3u8
+
+#EXTINF:-1,Universo Sports ✅
+http://181.78.106.127:9000/play/ca088/index.m3u8
+
+#EXTINF:-1,Via X Esports ✅
+http://179.51.136.19:8000/play/a1h1/index.m3u8
+
+#EXTINF:-1,Via X Esports - Opción 2 ✅
+http://181.78.201.70:8000/play/a0ig/index.m3u8
+
+#EXTINF:-1,WEBY ESPN Pensacola live ✅
+http://fortv.cc:8080/90820916/64752029/138677
+
+#EXTINF:-1,Win Sports+ ✅
+http://179.51.136.19:8000/play/a1it/index.m3u8
+
+#EXTINF:-1,Win Sports+ - Opción 2 ✅
+http://179.51.136.19:8000/play/a1bp/index.m3u8
+
+#EXTINF:-1,Win Sports Plus ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/winsportsplus/master.m3u8
+
+#EXTINF:-1,WMTD ESPN 102.3 ThTicket live ✅
+http://fortv.cc:8080/90820916/64752029/138317
+
+#EXTINF:-1,World of Freesports ✅
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+

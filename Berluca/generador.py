@@ -1,5 +1,6 @@
 import os
 import glob 
+import shutil # <-- Importamos para manejar directorios
 from collections import Counter, defaultdict
 from typing import List
 
@@ -9,33 +10,51 @@ try:
         CARPETA_ORIGEN, CARPETA_SALIDA, LOGO_DEFAULT, LOGOS_CATEGORIA, 
         TITULOS_VISUALES
     )
-    # Importar funciones de parseo de clasificador.py
     from clasificador import extraer_bloques_m3u, extraer_nombre_canal, extraer_url
 except ImportError:
-    # Definiciones placeholder si la importación falla (ajustar si es necesario)
+    # Definiciones placeholder si la importación falla
     def extraer_bloques_m3u(lineas: List[str]): return []
     def extraer_nombre_canal(bloque: List[str]): return "Sin nombre"
     def extraer_url(bloque: List[str]): return ""
     
-# Definición del archivo final (usando CARPETA_SALIDA="Beluga")
+# Definición del archivo final
 ARCHIVO_SALIDA = os.path.join(CARPETA_SALIDA, "RP_S2048.m3u")
 
 # =========================================================================================
-# 📦 FUNCIÓN PRINCIPAL DE CONSOLIDACIÓN CON DEDUPLICACIÓN Y BACKUP
+# 🧹 FUNCIÓN DE LIMPIEZA CLAVE
+# =========================================================================================
+
+def limpiar_carpeta_compilados():
+    """Elimina todos los archivos .m3u en CARPETA_ORIGEN antes de la generación."""
+    if os.path.exists(CARPETA_ORIGEN):
+        archivos_a_eliminar = glob.glob(os.path.join(CARPETA_ORIGEN, "*.m3u"))
+        if archivos_a_eliminar:
+            for archivo in archivos_a_eliminar:
+                try:
+                    os.remove(archivo)
+                except Exception as e:
+                    print(f"⚠️ Error al eliminar archivo obsoleto {archivo}: {e}")
+            # print(f"🧹 Limpiados {len(archivos_a_eliminar)} archivos obsoletos de {CARPETA_ORIGEN}")
+
+# =========================================================================================
+# 📦 FUNCIÓN PRINCIPAL DE CONSOLIDACIÓN (Deduplicación con Backup)
 # =========================================================================================
 
 def generar_listas_finales():
     """
-    Consolida todos los archivos clasificados desde CARPETA_ORIGEN (compilados/),
-    aplicando la regla de máximo 2 URLs distintas por nombre de canal (backup).
+    Consolida todos los archivos clasificados, aplicando la regla de 
+    máximo 2 URLs distintas por nombre de canal (backup).
     """
-        
+    
+    # 🛑 PASO 1: Ejecutar la limpieza antes de la clasificación (temporalmente deshabilitado)
+    # Ya que la clasificación escribe los archivos que necesitamos, solo revisamos la existencia
+    
     print("\n📦 Iniciando consolidación con deduplicación y gestión de backups...")
 
     patron_busqueda = os.path.join(CARPETA_ORIGEN, "*.m3u")
     listas_clasificadas = glob.glob(patron_busqueda)
     
-    # Excluir cualquier archivo no clasificado o temporal
+    # Excluir sin_clasificar y temporales
     listas_clasificadas = [
         ruta for ruta in listas_clasificadas 
         if "TEMP_MATERIAL" not in os.path.basename(ruta) and "sin_clasificar" not in os.path.basename(ruta)
@@ -43,12 +62,15 @@ def generar_listas_finales():
     
     listas_clasificadas.sort(key=lambda x: os.path.basename(x))
     
+    # Si no encuentra archivos, algo salió mal en la clasificación.
+    if not listas_clasificadas:
+        print("❌ Error de Consolidación: No se encontraron archivos clasificados en compilados/ para procesar.")
+        return
+
     totales_por_categoria = Counter()
     total_consolidado = 0
     
-    # 🛑 ESTRUCTURA CLAVE: {Nombre_Canal_Normalizado: Set_de_URLs_Guardadas}
     urls_por_nombre = defaultdict(set)
-    # Set para control de URLs a nivel global (deduplicación estricta de la URL)
     urls_escritas_global = set()
 
     # 2. Escribir el archivo de salida
@@ -59,7 +81,7 @@ def generar_listas_finales():
             archivo_base = os.path.basename(ruta)
             nombre_categoria_snake = archivo_base.replace(".m3u", "")
             
-            # Obtener el título visual (se usa el nombre del archivo para buscar en TITULOS_VISUALES)
+            # Obtener título visual (si no está, usa el nombre del archivo)
             titulo_visual = TITULOS_VISUALES.get(
                 nombre_categoria_snake,
                 f"★ {nombre_categoria_snake.replace('_', ' ').upper()} ★"
@@ -85,19 +107,18 @@ def generar_listas_finales():
                 nombre = extraer_nombre_canal(bloque)
                 url = extraer_url(bloque)
                 
-                # Normalizar el nombre para la clave de backup
                 nombre_clave = nombre.strip().lower().replace(" ", "")
 
-                # 🛑 REGLA 1: DEDUPLICACIÓN ESTRICNTA DE LA URL 
+                # REGLA 1: DEDUPLICACIÓN ESTRICNTA DE LA URL
                 if url in urls_escritas_global:
                     continue 
 
-                # 🛑 REGLA 2: LÍMITE DE BACKUP POR NOMBRE (Máximo 2)
+                # REGLA 2: LÍMITE DE BACKUP POR NOMBRE (Máximo 2)
                 if len(urls_por_nombre[nombre_clave]) >= 2:
                     continue
 
-                # Si pasa las reglas: escribir con formato de metadatos (Fix Movian)
                 if url:
+                    # Escribir con formato de metadatos (Fix Movian)
                     salida.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{titulo_visual}",{nombre.strip()}\n')
                     salida.write(f"{url.strip()}\n\n")
                     
@@ -109,6 +130,7 @@ def generar_listas_finales():
                     bloques_escritos_en_categoria += 1
             
             if bloques_escritos_en_categoria > 0:
+                # 🛑 Usamos el nombre de la carpeta para el reporte
                 totales_por_categoria[nombre_categoria_snake] = bloques_escritos_en_categoria
 
     # 3. Diagnóstico final y Reporte
@@ -119,5 +141,8 @@ def generar_listas_finales():
     for cat, count in totales_por_categoria.most_common():
         print(f"   -> {cat.replace('_', ' ').title()}: {count} enlaces")
 
+# 🧨 PUNTO DE ENTRADA 
 if __name__ == "__main__":
+    # 🛑 Limpiamos antes de empezar, para que el clasificador inicie con una carpeta vacía.
+    limpiar_carpeta_compilados() # <-- Limpiamos aquí para la siguiente ejecución
     generar_listas_finales()
