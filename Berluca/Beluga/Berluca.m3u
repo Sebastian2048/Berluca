@@ -1,60 +1,45 @@
 #EXTM3U
 
-# Este tag establece el nombre de la lista principal en algunos reproductores.
-#EXTALB:★ BERLUCA ★
+# ====== ★ BERLUCA ★ ======
 
-# ====== ★ CATEGORÍAS ★ ======
+# Las entradas usan duración :0 para forzar la interpretación de la URL como un archivo/lista
+# El nombre del canal (después de la última coma) es el texto que debería mostrar Movian.
 
-# Las etiquetas EXTINF son reemplazadas por EXTALB para indicar que el enlace es otra lista/carpeta.
-
-# --- ARGENTINA ---
-#EXTALB:★ ARGENTINA ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ARGENTINA ★", ★ ARGENTINA ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2048.m3u
 
-# --- INTERNACIONAL 1 ---
-#EXTALB:★ INTERNACIONAL 1 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL ★", ★ INTER 1 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2049.m3u
 
-# --- INTERNACIONAL 2 ---
-#EXTALB:★ INTERNACIONAL 2 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 2 ★", ★ INTER 2 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2050.m3u
 
-# --- INTERNACIONAL 3 ---
-#EXTALB:★ INTER 3 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 3 ★", ★ INTER 3 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2051.m3u
 
-# --- INTERNACIONAL 4 ---
-#EXTALB:★ INTER 4 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 4 ★", ★ INTER 4 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2052.m3u
 
-# --- INTERNACIONAL 5 ---
-#EXTALB:★ INTER 5 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 5 ★", ★ INTER 5 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2053.m3u
 
-# --- INTERNACIONAL 6 ---
-#EXTALB:★ INTER 6 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 6 ★", ★ INTER 6 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2054.m3u
 
-# --- INTERNACIONAL 7 ---
-#EXTALB:★ INTER 7 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 7 ★", ★ INTER 7 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2055.m3u
 
-# --- INTERNACIONAL 8 ---
-#EXTALB:★ INTER 8 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 8 ★", ★ INTER 8 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2056.m3u
 
-# --- INTERNACIONAL 9 ---
-#EXTALB:★ INTER 9 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 9 ★", ★ INTER 9 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2057.m3u
 
-# --- INTERNACIONAL 10 ---
-#EXTALB:★ INTER 10 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 10 ★", ★ INTER 10 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2058.m3u
 
-# --- INTERNACIONAL 11 ---
-#EXTALB:★ INTER 11 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 11 ★", ★ INTER 11 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2059.m3u
 
-# --- INTERNACIONAL 12 ---
-#EXTALB:★ INTER 12 ★
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTERNACIONAL 12 ★", ★ INTER 12 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2060.m3u
