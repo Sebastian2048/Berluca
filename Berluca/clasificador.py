@@ -1,17 +1,36 @@
 # clasificador.py
 import os
-import datetime
+import datetime 
 from collections import Counter
 from typing import List, Optional, Tuple, Set
+import re 
+import logging
+
+# Configuración básica de logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # 📦 Importaciones de configuración
-from config import (
-    CARPETA_ORIGEN, CARPETA_SALIDA, CLAVES_CATEGORIA, 
-    contiene_exclusion, LIMITE_BLOQUES, OVERFLOW_MAP
-)
+try:
+    from config import (
+        CARPETA_ORIGEN, CARPETA_SALIDA, CLAVES_CATEGORIA, 
+        contiene_exclusion, LIMITE_BLOQUES, OVERFLOW_MAP,
+        CLAVES_ESPANOL, CLAVES_NO_ESPANOL
+    )
+except ImportError as e:
+    logging.error(f"Error al importar configuración: {e}")
+    # Definiciones de fallback para evitar errores críticos si config.py falla
+    CARPETA_ORIGEN = "Beluga/compilados"
+    CARPETA_SALIDA = "Beluga"
+    CLAVES_CATEGORIA = {}
+    LIMITE_BLOQUES = 100
+    OVERFLOW_MAP = {}
+    CLAVES_ESPANOL = []
+    CLAVES_NO_ESPANOL = []
+    def contiene_exclusion(texto): return False
+
 
 # =========================================================================================
-# 📦 FUNCIONES DE PARSEO (Sin cambios, incluidas por completitud)
+# 📦 FUNCIONES DE PARSEO
 # =========================================================================================
 
 def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
@@ -50,7 +69,7 @@ def extraer_url(bloque: List[str]) -> str:
     return ""
 
 # =========================================================================================
-# 💾 FUSIÓN Y GUARDADO CLAVE (MODIFICADO CON FECHA)
+# 💾 FUSIÓN Y GUARDADO CLAVE
 # =========================================================================================
 
 def obtener_urls_existentes(categoria: str) -> Tuple[Set[str], int]:
@@ -70,15 +89,12 @@ def obtener_urls_existentes(categoria: str) -> Tuple[Set[str], int]:
                     urls_existentes.add(url)
                     conteo_bloques += 1
         except Exception as e:
-            print(f"⚠️ Error al leer el archivo existente {ruta}: {e}")
+            logging.warning(f"Error al leer el archivo existente {ruta}: {e}")
             
     return urls_existentes, conteo_bloques
 
 def guardar_en_categoria(categoria: str, bloque: List[str]):
-    """
-    Añade un bloque al archivo de categoría existente. 
-    Añade la marca de tiempo si es 'miscelaneo_otros'.
-    """
+    """Añade un bloque al archivo de categoría existente (sin lógica de fecha)."""
     os.makedirs(CARPETA_ORIGEN, exist_ok=True)
     ruta = os.path.join(CARPETA_ORIGEN, f"{categoria}.m3u")
 
@@ -90,11 +106,8 @@ def guardar_en_categoria(categoria: str, bloque: List[str]):
     url = extraer_url(bloque)
     
     if extinf and url:
-        # Si es misceláneo, añadimos la fecha actual como un metadato invisible
-        if categoria == "miscelaneo_otros":
-            hoy = datetime.date.today().isoformat()
-            # Añadimos un metadato M3U personalizado para la expiración
-            extinf = f'{extinf} exp-date="{hoy}"'
+        # Limpiamos cualquier metadato de fecha antigua
+        extinf = re.sub(r' exp-date="[^"]*"', '', extinf).strip()
         
         with open(ruta, modo_apertura, encoding="utf-8", errors="ignore") as f:
             if modo_apertura == "w":
@@ -110,8 +123,8 @@ def clasificacion_multiple(bloque: List[str]) -> List[str]:
     categorias_encontradas = []
     
     for categoria, claves in CLAVES_CATEGORIA.items():
-        # Excluimos las categorías de desbordamiento directo/fallback y misceláneo en la primera pasada
-        if categoria in OVERFLOW_MAP.values() or categoria == "miscelaneo_otros": 
+        # Excluimos las categorías de desbordamiento y roll_over_general en la primera pasada
+        if categoria in OVERFLOW_MAP.values() or categoria == "roll_over_general": 
             continue 
         
         if any(clave in nombre_lower for clave in claves):
@@ -120,24 +133,20 @@ def clasificacion_multiple(bloque: List[str]) -> List[str]:
     return categorias_encontradas if categorias_encontradas else ["sin_clasificar"]
 
 
-# clasificador.py (Función clasificar_enlaces corregida)
-
-# ... (Todo el código previo: importaciones, funciones auxiliares, etc.)
-
 # =========================================================================================
-# 🧠 BUCLE PRINCIPAL DE CLASIFICACIÓN (Multi-Nivel Fallback)
+# 🧠 BUCLE PRINCIPAL DE CLASIFICACIÓN (Multi-Nivel Fallback con Idioma)
 # =========================================================================================
 
 def clasificar_enlaces():
     """
     Lee la lista TEMP_MATERIAL.m3u y FUSIONA los nuevos canales con los archivos 
-    existentes en compilados/, aplicando el fallback de Principal -> Extra -> Misceláneo.
+    existentes en compilados/, aplicando la lógica de Idioma y Fallback.
     """
     
     ruta_temp = os.path.join(CARPETA_SALIDA, "TEMP_MATERIAL.m3u")
     
     if not os.path.exists(ruta_temp):
-        print(f"❌ Error: No se encontró el archivo TEMP_MATERIAL.m3u en {ruta_temp}.")
+        logging.error(f"Error: No se encontró el archivo TEMP_MATERIAL.m3u en {ruta_temp}.")
         return
 
     print("🧠 Iniciando clasificación y FUSIÓN de bloques...")
@@ -151,7 +160,7 @@ def clasificar_enlaces():
     urls_en_categoria = {}
     conteo_inicial_por_categoria = {}
 
-    # Inicializamos solo las claves que existen en config.py para evitar el KeyError
+    # Inicializamos solo las categorías que existen en config.py
     for categoria in CLAVES_CATEGORIA.keys():
         urls_en_categoria[categoria], conteo = obtener_urls_existentes(categoria)
         conteo_inicial_por_categoria[categoria] = conteo 
@@ -165,6 +174,7 @@ def clasificar_enlaces():
     for bloque in bloques_nuevos:
         nombre = extraer_nombre_canal(bloque)
         url = extraer_url(bloque)
+        nombre_lower = nombre.lower().replace("ñ", "n")
         
         if contiene_exclusion(nombre):
             excluidos_por_contenido += 1
@@ -172,15 +182,30 @@ def clasificar_enlaces():
 
         categorias_candidatas = clasificacion_multiple(bloque)
         guardado_exitoso = False
-        
         categoria_principal = None
         
-        # 1. Manejo inmediato de canales no clasificados
-        if 'sin_clasificar' in categorias_candidatas:
-            # Si no hay clasificación, saltamos directamente al paso 3 (Misceláneo)
-            pass
-        else:
-            # 2. Bucle de Candidatos (Intenta la Principal y Fallback en el mismo nivel)
+        # --- LÓGICA DE IDIOMA (Prioridad Máxima para exclusión del RP_S2048) ---
+        # Si detectamos NO ESPAÑOL y no ESPAÑOL (para evitar falsos positivos como 'HD-USA-ES')
+        is_not_spanish = any(clave in nombre_lower for clave in CLAVES_NO_ESPANOL) and not any(clave in nombre_lower for clave in CLAVES_ESPANOL)
+        
+        if is_not_spanish:
+            
+            categoria_destino = "roll_over_general" # Va directamente al archivo correlativo
+            
+            if url not in urls_en_categoria.get(categoria_destino, set()):
+                guardar_en_categoria(categoria_destino, bloque)
+                urls_en_categoria[categoria_destino].add(url)
+                totales_por_categoria[categoria_destino] += 1
+                bloques_agregados_a_disco += 1
+                guardado_exitoso = True
+            
+            # Si el idioma no es español, no intentamos las categorías principales, vamos al siguiente bloque.
+            if guardado_exitoso or url in urls_en_categoria.get(categoria_destino, set()):
+                 continue
+            
+        # 1. Bucle de Candidatos (Intenta la Principal y Fallback en el mismo nivel)
+        if 'sin_clasificar' not in categorias_candidatas:
+            
             for i, categoria in enumerate(categorias_candidatas):
                 if i == 0:
                     categoria_principal = categoria 
@@ -202,12 +227,12 @@ def clasificar_enlaces():
                 guardado_exitoso = True
                 break
                 
-            # 3. Lógica de Desbordamiento Específico (Overflow - Nivel Extra)
+            # 2. Lógica de Desbordamiento Específico (Overflow - Nivel Extra)
             if not guardado_exitoso and categoria_principal and categoria_principal in OVERFLOW_MAP:
                 
                 categoria_extra = OVERFLOW_MAP[categoria_principal]
                 
-                # Intentar guardar en la categoría EXTRA (si no es duplicado y tiene espacio)
+                # Intentar guardar en la categoría EXTRA
                 if url not in urls_en_categoria.get(categoria_extra, set()) and totales_por_categoria.get(categoria_extra, 0) < LIMITE_BLOQUES:
                     
                     guardar_en_categoria(categoria_extra, bloque)
@@ -216,11 +241,12 @@ def clasificar_enlaces():
                     bloques_agregados_a_disco += 1
                     guardado_exitoso = True
 
-        # 4. Último Recurso: Misceláneo (Nivel Temporal/Otros, o si era 'sin_clasificar')
+        # 3. Último Recurso: Roll-Over General (Si falló la clasificación o es sin_clasificar)
+        # Esto captura: a) Los sin_clasificar. b) Los clasificados que llenaron todos sus límites.
         if not guardado_exitoso:
-            categoria_final = "miscelaneo_otros"
+            categoria_final = "roll_over_general"
             
-            # Misceláneo no tiene límite de 100, solo se verifica duplicidad de URL
+            # Roll-Over no tiene límite de 100, solo se verifica duplicidad de URL
             if url not in urls_en_categoria.get(categoria_final, set()):
                 guardar_en_categoria(categoria_final, bloque) 
                 urls_en_categoria[categoria_final].add(url)
@@ -228,7 +254,7 @@ def clasificar_enlaces():
                 bloques_agregados_a_disco += 1
                 guardado_exitoso = True
             
-        # 5. Descarte definitivo 
+        # 4. Descarte definitivo (Solo si es duplicado o si ya llenó el roll_over_general [aunque no tiene límite explícito])
         if not guardado_exitoso:
             descartados_por_limite += 1
             continue

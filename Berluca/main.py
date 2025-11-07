@@ -2,8 +2,8 @@
 
 from extractor import recolectar_enlaces
 from clasificador import clasificar_enlaces
-from generador import generar_listas_finales, limpiar_miscelaneo_caducado # <-- ¡Importada la función de limpieza!
-# from verificador import verificar_enlaces # Mantenemos comentada hasta resolver el problema de bloqueo
+from generador import generar_listas_finales # ¡Importamos solo generar_listas_finales!
+# from verificador import verificar_enlaces 
 import sys 
 
 def ejecutar_proceso_completo(url_lista):
@@ -11,16 +11,16 @@ def ejecutar_proceso_completo(url_lista):
     
     recolectar_enlaces(url_lista)
     
-    # 0. Limpieza: Elimina enlaces viejos de misceláneo (más de 7 días)
-    limpiar_miscelaneo_caducado() 
+    # 0. Limpieza de caducidad eliminada
     
-    # 1. Clasificación/Fusión: Aplica la lógica de Fallback: Principal -> Extra -> Misceláneo.
+    # 1. Clasificación/Fusión: Aplica la lógica de Idioma y Fallback a roll_over_general.
     clasificar_enlaces()
     
     # 2. Verificación (Filtra 404): Comentada para evitar el bloqueo del servidor.
     # verificar_enlaces() 
     
-    # 3. Generación Final: Consolida todos los archivos de compilados/
+    # 3. Generación Final: Consolida los archivos principales en RP_S2048.m3u 
+    # y el contenido de roll_over_general en RP_Sxxxx.m3u.
     generar_listas_finales()
     
     print("--- ✅ Proceso Completo Finalizado ---")

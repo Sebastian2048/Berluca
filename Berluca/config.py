@@ -15,7 +15,7 @@ for carpeta in [CARPETA_SALIDA, CARPETA_ORIGEN, CARPETA_SEGMENTADOS, CARPETA_LOG
 exclusiones = [
     "religion", "evangelio", "cristo", "biblia", "jesus", "adoracion", "misa", "rosario", # Religioso
     "24h", "24/7", "perpetuo", "perpetua", "siempre", "loop", "maraton", "test", "demo", "vacio", # 24/7 y prueba
-    "xxx", "porno", "erotic", "hot", "contenido_sensible" # Se mantiene 'adult' en la categoría de Anime para clasificación
+    "xxx", "porno", "erotic", "hot", "contenido_sensible"
 ]
 
 # 🔢 Parámetros de control
@@ -23,18 +23,25 @@ MINIMO_BLOQUES_VALIDOS = 0
 LIMITE_BLOQUES = 100 
 UMBRAL_EXCLUSION_ARCHIVO = 0.999999 
 
-# ⏳ Configuración de Caducidad (Solo aplica a miscelaneo_otros)
-DIAS_EXPIRACION_MISCELANEO = 7 
+# ⏳ Configuración de Caducidad (ELIMINADA)
+# DIAS_EXPIRACION_MISCELANEO = 7 
 
 # 🚦 Desbordamiento Específico (Overflow)
-# Define qué categoría principal debe intentar mover su excedente a una categoría_extra.
 OVERFLOW_MAP = {
     "peliculas_principal": "peliculas_extras",
     "series_principal": "series_extras", 
     "deportes_en_vivo": "deportes_extras", 
 }
 
-# 🗂️ Clasificación Estricta y Amplia (INCLUYE LAS CATEGORÍAS EXTRA)
+# 🌐 Definición de Idiomas (NUEVO)
+# Palabras clave para identificar canales en ESPAÑOL (Castellano/Habla Hispana)
+CLAVES_ESPANOL = ["es", "castellano", "español", "latino", "arg", "mex", "col", "chile", "peru", "ven", "hd", "sd"] 
+
+# Palabras clave para detectar otros idiomas y forzar la exclusión del 2048
+CLAVES_NO_ESPANOL = ["eng", "usa", "uk", "portugues", "br", "fr", "deu", "ger", "ru", "arabic", "turkish", "sub", "dub", "viet"]
+
+
+# 🗂️ CLAVES_CATEGORIA (Eliminamos miscelaneo_otros)
 CLAVES_CATEGORIA = {
     "tv_argentina": ["telefe", "el trece", "canal 13", "canal 9", "america tv", "net tv", "elnueve"],
     
@@ -59,8 +66,18 @@ CLAVES_CATEGORIA = {
     
     "musica_general": ["mtv", "telehit", "qube music", "musica", "concert"],
     
-    "miscelaneo_otros": ["tv", "canal", "online", "hd"] # Último recurso
+    # 🌍 Categoría de Roll-Over (Todo lo que no es Español o no clasifica)
+    "roll_over_general": ["tv", "canal", "online", "hd"] 
 }
+
+# 🏷️ Categorías que SOLO deben ir en RP_S2048.m3u (Habla Hispana)
+# Son todas las categorías principales y extras, EXCEPTO roll_over_general.
+CATEGORIAS_PRINCIPALES_ESPANOL = [
+    "tv_argentina", "peliculas_principal", "peliculas_extras", "series_principal", 
+    "series_extras", "cine_terror", "deportes_en_vivo", "deportes_extras",
+    "infantil_kids", "anime_general", "anime_adulto", "documentales_ciencia", 
+    "noticias_global", "musica_general"
+]
 
 # 🌐 URL base para acceder a listas segmentadas desde GitHub (Se mantiene)
 URL_BASE_SEGMENTADOS = "https://raw.githubusercontent.com/Sebastian2048/Beluga/main/segmentados"
@@ -74,7 +91,7 @@ LOGOS_CATEGORIA = {
     "series_principal": LOGO_DEFAULT, "deportes_en_vivo": LOGO_DEFAULT
 }
 
-# ✨ Títulos visuales por categoría (AÑADIDOS LOS EXTRAS)
+# ✨ Títulos visuales por categoría (Ajustamos el título de roll_over)
 TITULOS_VISUALES = {
     "tv_argentina": "★ TV ARGENTINA ★",
     "peliculas_principal": "★ CINE Y PELÍCULAS ★",
@@ -89,7 +106,7 @@ TITULOS_VISUALES = {
     "musica_general": "★ MÚSICA GENERAL ★",
     "infantil_kids": "★ INFANTILES KIDS ★",
     "cine_terror": "★ CINE TERROR ★",
-    "miscelaneo_otros": "★ OTROS CANALES (Misceláneo/Temporal) ★",
+    "roll_over_general": "★ CANALES ROLL-OVER/OTROS (Respaldo) ★",
 }
 
 # 🔍 Función para detectar exclusiones
