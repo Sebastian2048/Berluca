@@ -902,8 +902,6 @@ http://138.0.228.250:44380/play/ZYfj23fPhTjFbjAf/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",14.3Telemundo ✅
 http://200.60.124.19:29000/play/a01g/index.m3u8
-
-
 # ====== ★ CANALES ROLL-OVER/OTROS ★ ======
 
 #EXTINF:-1 tvg-id="" tvg-name="Mr. Robot S01E08" tvg-logo="https://www.what-song.com/images/showposters/39.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Mr. Robot S01E08
@@ -1085,4 +1083,187 @@ http://painel.iptvmove.com:25461/movie/danga07/1963/2914.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="T02E11 - Ela nos Odeia" tvg-logo="https://goo.gl/upCSGW" group-title="★ CANALES ROLL-OVER/OTROS ★",T02E11 - Ela nos Odeia
 http://painel.iptvmove.com:25461/movie/danga07/1963/2912.mp4
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Polsat_Café_-_Logo.svg/2000px-Polsat_Café_-_Logo.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Polsat Cafe
+http://hls.redefine.pl/97100F84/1577/0/hls576/576p/list.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://i.wp.pl/a/f/png/32041/stars-tv-logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Stars TV
+http://starstv.live.e55-po.insyscd.net/starstvhd.smil/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTP 1
+http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtp1_5ch5h264.stream/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTP 2
+http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpn_5ch64h264.stream/.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTP Africa
+http://rtp-pull-live-h1bnxvdk20183-proprtp-app-wrtp.hls.adaptive.level3.net/liverepeater/rtpafrica_5ch27h264.stream/.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Sobrenatural TV
+http://livestreamcdn.net:1935/SobrenaturalTV/SobrenaturalTV/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Mozambique
+http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Mozambique Internacional
+http://196.28.226.121:1935/live/smil:Channel2.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TVGE Guinea Ecuatorial
+http://rtmp.ott.mx1.com/tvge1/tvge1multi.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Das Erste
+https://daserstehdint-lh.akamaihd.net/i/daserstehd_int@629195/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",BR 1
+http://livestreams.br.de/i/bfssued_germany@119890/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",BR Nord
+http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",WDR Fernsehen
+http://wdr_fs-lh.akamaihd.net/i/wdrfs_weltweit@112033/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",HR Fernsehen
+http://livestream-1.hr.de:80/i/hr_fernsehen@75910/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",tagesschau 24
+http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ARD alpha
+http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Allgau TV
+http://tvallgaeu.iptv-playoutcenter.de:1935/tvallgaeu/tvallgaeu.stream_2/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Baden TV
+http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Elbekanal TV
+http://62.113.210.250/medienasa-live/_definst_/mp4:elbe_high/chunklist_w1146564478.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Franken Fernsehen
+http://frankentv.iptv-playoutcenter.de:1935/frankentv/frankentv.stream_1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Munchen TV
+http://muenchentv.iptv-playoutcenter.de:1935/muenchentv/muenchentv.stream_2/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Berlin
+https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:7649-sbr/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Hamburg 1
+https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:7651-sbr/playlist.m3u
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Noa 4 Norderstedt
+http://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Noa 4 Hamburg
+http://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RFO
+http://rfo.iptv-playoutcenter.de:1935/rfo/rfo.stream_2/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TRP 1
+http://teleregionalpassau1.iptv-playoutcenter.de:1935/teleregionalpassau1/teleregionalpassau1.stream_1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TVA Ostbayern
+http://tvaktuellr.iptv-playoutcenter.de:1935/tvaktuellr/tvaktuellr.stream_1/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TVO
+http://tvoberfranken.iptv-playoutcenter.de:1935/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Touring Schweinfurt
+http://tvtourings.iptv-playoutcenter.de:1935/tvtourings/tvtourings.stream_1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Touring Wurzburg
+http://tvtouringw.iptv-playoutcenter.de:1935/tvtouringw/tvtouringw.stream_1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Family TV
+http://familytvblizz-lh.akamaihd.net/i/blizzlive_1@36699/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Rheinmain TV
+http://62.67.13.54:1935/rmtv/rmtv_livestream/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tide TV
+http://62.113.210.8/tide-rtplive/mp4:liveplayout.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ORF 1
+http://sdn-global-live-http-cache.3qsdn.com/live/5713-mbr.smil/.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",FS1 Salzburg
+http://stream.fs1.tv:8080/hls/webstream.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Oe24
+http://apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Okto TV
+http://d2jk87psbjrjdz.cloudfront.net/livehttporigin/okto/playlist.m3u8
+
+#EXTINF:-1,1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tele Barn
+http://klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_0mc3z57p/t/gaudIWTPWrpJe6yJmHI9vA/index-s32.m3u8
+
+#EXTINF:-1,1 group-title="★ CANALES ROLL-OVER/OTROS ★",Telebasel
+http://xapp510394368c1000199.f.l.z.lb.core-cdn.net/10096xtelebase/ios_500/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTL Luxembourg
+http://live01.rtl.lu/channel1/smil:channel1/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTL 2
+http://live01.rtl.lu/channel2/smil:channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Omroep Zeeland
+https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Omroep Ede
+https://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/chunklist_w1121029744_b1894400_slNLD.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Omroep Gelderland
+https://web.omroepgelderland.nl/live/livetv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Omroep Flevoland
+https://videostream.flevolandstreaming.nl/vod/_definst_/ondemand/streams/transfer/1minuut/hoog/181023_DIF_00000QWW_2018-10-23-18-11-04.mp4/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Omrop Fryslan
+https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/stream04/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Omroep West
+http://d2dslh4sd7yvc1.cloudfront.net/live/omroepwest/ngrp:tv-feed_all/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Rm3u8 O
+https://hls.streamonecloud.net/livestream/amlst:s4fa9kmgzp/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tele Bruxelles
+https://59959724487e3.streamlock.net/stream/live/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Alsace 20
+http://live.alsace20.fr/live/alsace20/ngrp:alsace20_all/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",BFM Paris
+http://bfmparishdslive-lh.akamaihd.net/i/DVMR_PARIS@429747/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",France 24
+http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Francophonie
+http://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Monaco Info
+http://46.105.34.238/liveevent.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",WEO TV
+https://stream-05.dc3.dailymotion.com/dm/3/x63085w/live-1.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",GRAND LILLE TV
+https://live.creacast.com/grandlilletv/smil:grandlilletv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tebeo
+http://live2.awedia.com/hls/tebeo.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV7 Bordeaux
+https://dmxleo.dailymotion.com/cdn/manifest/video/x8ca6qn.m3u8?auth=1540937496-2688-2gocwwsq-946aa43174fa668d4b43836c58972510Z2gocwwsq&bs=1
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",La Chaine Normande
+http://live.lachainenormande.fr/live/lcn/livestream/playlist.m3u8
 

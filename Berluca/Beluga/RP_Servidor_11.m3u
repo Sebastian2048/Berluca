@@ -902,8 +902,6 @@ http://cdnua03.hls.tv/476/hls/c4a7acbb4f6a85595a117f7aa2099d65/4779/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Estrella Tv ✅
 http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158680/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
-
-
 # ====== ★ CANALES ROLL-OVER/OTROS ★ ======
 
 #EXTINF:-1 tvg-id="" tvg-name="breakingbads4e13 - Face Off" tvg-logo="https://goo.gl/wzfo2t" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads4e13 - Face Off
@@ -1085,4 +1083,187 @@ http://painel.iptvmove.com:25461/movie/danga07/1963/3143.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="Anne.S01E03" tvg-logo="http://144.217.255.85/filmes/anne.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Anne.S01E03
 http://painel.iptvmove.com:25461/movie/danga07/1963/3146.mp4
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Nasim
+http://cdn1.live.irib.ir:1935/live-channels/smil:nasim/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Tamasha
+http://cdn1.live.irib.ir:1935/live-channels/smil:tamasha/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Omid
+http://cdn1.live.irib.ir:1935/live-channels/smil:omid/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Shoma
+http://cdn1.live.irib.ir:1935/live-channels/smil:shoma/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Irankala
+http://cdn1.live.irib.ir:1935/live-channels/smil:irankala/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Shinamak
+http://cdn1.live.irib.ir:1935/channel-live/smil:shinamak/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Shimana
+http://cdn1.live.irib.ir:1935/channel-live/smil:shinama/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Shiran
+http://cdn1.live.irib.ir:1935/channel-live/smil:shiran/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Shijam
+http://cdn1.live.irib.ir:1935/channel-live/smil:shijam/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Sepehr
+http://cdn1.live.irib.ir:1935/live-channels/smil:sepehr/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Mahabad
+http://cdn1.live.irib.ir:1935/live-channels/smil:mahabad/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Baran
+http://cdn1.live.irib.ir:1935/live-channels/smil:baran/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ABC
+https://content-ausc1.uplynk.com/channel/7f4366ed88e344da86947eb0fa080ec2/f.m3u8?exp=1527750966&ct=c&cid=7f4366ed88e344da86947eb0fa080ec2&sig=37af99214f85e55b1dfbec4030d06a8dee848131f8be1421ef36fbbae30e5387&pbs=cc5c74a2900d47b48ce4ec207b247a2d
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ABC News
+https://abclive2-lh.akamaihd.net/i/abc_live11@423404/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CNBC
+http://stitcher.pluto.tv/stitch/hls/channel/57ebfd64f70792b24b5bd9a6/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Combat Go
+http://bcoveliveios-i.akamaihd.net/hls/live/632424/5725327446001_02/playlist.m3u8
+
+#EXTINF;-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBS
+http://161.0.157.50/PLTV/88888888/224/3221227041/03.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBS News
+http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBSN
+https://www.cbsnews.com/common/video/dai_prod.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure TV
+http://stitcher.pluto.tv/stitch/hls/channel/5938876b78d8d9c074c3c657/master.m3u8?deviceType=&deviceMake=&deviceModel=&sid=2&deviceId=&deviceVersion=&appVersion=&deviceDNT=&userId=&advertisingId=&deviceLat=&deviceLon=-&app_name=&appName=&appStoreUrl=&profileLimit=high
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Investigation Discovery
+http://80.80.160.168/live/5/live.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",MLB Network 2
+http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/MLB_VIDEO_MLBN_FAUX_LINEAR_STREAM_1_MLBN_Linear_Stream_Friday_20180420_1524239987507/3000K/3000_slide.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Travel Channel
+http://80.80.160.168/live/3/live.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Stadium
+https://d28avce4cnwu2y.cloudfront.net/v1/manifest/61a556f78e4547c8ab5c6297ea291d6350767ca2/Mux/37f5dd6d-5713-4998-8354-8c6675612b42/0.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBC Television
+http://161.0.157.50/PLTV/88888888/224/3221227004/03.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News
+http://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tele Quebec
+https://teleqmmd.mmdlive.lldns.net/teleqmmd/f386e3b206814e1f8c8c1c71c0f8e748/chunklist_b2592000.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Space
+http://pe-ak-lp01a-9c9media.akamaized.net/live/Space/p/hls/00000201/689924a518f2c776/index/2176f3ac/live/stream/h264/v1/3500000/manifest.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",NTV Newfounland
+http://1-fss-fso35.streamhoster.com/lv_ntv/_definst_/broadcast1/chunklist.m3u8
+
+#EXTINF:1 group-title="★ CANALES ROLL-OVER/OTROS ★",Landscape TV
+http://130.88.20.237:1235/monitor.flv
+
+#EXTINF:1 group-title="★ CANALES ROLL-OVER/OTROS ★",London Live
+http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master.m3u8
+
+#EXTINF:1 group-title="★ CANALES ROLL-OVER/OTROS ★",Sky News
+http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
+
+#EXTINF:1 group-title="★ CANALES ROLL-OVER/OTROS ★",TG4
+http://csm-e.cds1.yospace.com/csm/live/74246610.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",WestTV
+http://westtvalive1-a.akamaihd.net/599fba3e4e8d4b879e6b7ce8ad163c9b/ap-southeast-2/5575390700001/profile_2/chunklist_dvr.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",2UE Sydney
+http://syd2uevid-lh.akamaihd.net/i/sydneyuevid_1@110994/index_500_av-p.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Three
+http://mediaworks-i.akamaihd.net/hls/live/220435/3812193411001/3news_live/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TVSN
+http://tvsn-i.akamaihd.net/hls/live/261837/tvsn_nz/tvsn_nz_750.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Wairarapa TV
+http://stream.wairarapatv.co.nz/Cellular_High/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Jamaica News Network
+https://tvjlocal.akamaized.net/univ_video_jnn/abr/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Catch
+http://161.0.157.9/PLTV/88888888/224/3221226865/index.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Catch 2
+http://161.0.157.8/PLTV/88888888/224/3221226874/03.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Mello TV
+https://wowzaprod133-i.akamaihd.net/hls/live/577385/a1e0ad3f/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CaribVision
+https://uvodscp-lh.akamaihd.net/i/rjrCvtv_1@79763/master.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBC TV 8
+https://59cc03a18f8dd.streamlock.net/cbcbarbados/live/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ZIZ
+http://162.244.81.111:1937/liveTrans/livestream_360p/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CNC 3
+http://161.0.157.8/PLTV/88888888/224/3221226845/index.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTV Ruanda
+http://197.243.19.131:1935/rtv/rtv/chunklist_w2093872577.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Radio TeleBoston
+http://162.244.81.145:3333/live//telebostonrtb/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Ynet
+http://162.244.83.199:1935/ynettv/ynettv/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CBC TV
+http://161.0.157.9/PLTV/88888888/224/3221226831/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Audio
+http://161.0.157.9/PLTV/88888888/224/3221226832/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Audio 2
+http://161.0.157.9/PLTV/88888888/224/3221226847/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",CN
+http://161.0.157.9/PLTV/88888888/224/3221226843/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Universal
+http://161.0.157.9/PLTV/88888888/224/3221226828/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Citytv HD
+http://apk2.futeboltvgratis.com:8081/live/10/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ROLL-OVER/OTROS ★",Telecosta
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=arcamediastream.net:1935/8374/8374/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ROLL-OVER/OTROS ★",A+
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=aztecahls2-lh.akamaihd.net/i/aztecahls2_1@455692/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ROLL-OVER/OTROS ★",ADN 40
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=aztecalive-lh.akamaihd.net/i/0kus659k5_1@501884/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ROLL-OVER/OTROS ★",Ocho TV
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=bcliveuniv-lh.akamaihd.net/i/Live_1@170324/master.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ROLL-OVER/OTROS ★",VTV
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=cdn.streamingmedia.cl:1935/live//vtvvina/playlist.m3u8
 

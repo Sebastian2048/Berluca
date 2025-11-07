@@ -902,8 +902,6 @@ http://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 LAG ✅
 http://mdstrm.com/live-stream-playlist/57bf686a61ff39e1085d43e1.m3u8
-
-
 # ====== ★ CANALES ROLL-OVER/OTROS ★ ======
 
 #EXTINF:-1 tvg-id="" tvg-name="T02E12 - Ã‰ uma armadilha" tvg-logo="https://goo.gl/upCSGW" group-title="★ CANALES ROLL-OVER/OTROS ★",T02E12 - Ã‰ uma armadilha
@@ -1085,4 +1083,187 @@ http://painel.iptvmove.com:25461/movie/danga07/1963/3066.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="breakingbads4e12 - End Times" tvg-logo="https://goo.gl/wzfo2t" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads4e12 - End Times
 http://painel.iptvmove.com:25461/movie/danga07/1963/3074.mp4
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",L Equipe 21
+http://ec.playmedia.fr/lequipe21/live/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tele Grenoble
+https://stream-15.dc3.dailymotion.com/dm/3/x128fjo/live-2.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RUV
+http://ruvruverl-live.hls.adaptive.level3.net/ruv/ruverl/index/stream4.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",N4
+http://tv.vodafoneplay.is/n4/03.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Syd
+http://cdn-lt-live.tvsyd.dk/dc-1/live/hls/p/1956351/e/0_e9slj9wh/t/ut3_n5VQ1FqzlqMhwbQmJg/index-s32.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Fam3u8tone TV
+http://bgo1.cdn.s3m.no/fs/live/ngrp:live_all/chunklist_b5196000.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Kanal 10
+http://cdn-kanal10.crossnet.net/kanal10no/live1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Stortinget
+http://flash0.19333-live0.dna.qbrick.com:1935/19333-live0/push-stortinget_1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Himlen TV7
+http://vod.tv7.fi:1935/tv7-se/_definst_/mp4:tv7-se.stream_360p/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV OOST
+http://urtmpkal-f.akamaihd.net/i/156m2vpg5_1@322941/index_1_av-p.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTVS 1
+https://rtvslolive.akamaized.net/hls/live/584144/tv_slo1/slo1/r-playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTVS 2
+https://rtvslolive.akamaized.net/hls/live/584144/tv_slo2/slo2_360p/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",RTVS 3
+https://rtvslolive.akamaized.net/hls/live/685537/tv_slo3/slo3_360p/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",KAPODISTRIA
+https://rtvslolive.akamaized.net/hls/live/689305/tv_kp/tvkp_360p/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",MARIBOR TV
+https://rtvslolive.akamaized.net/hls/live/689305/tv_mb/tvmb_360p/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",MMC
+https://rtvslolive.akamaized.net/hls/live/685537/tv_mmc/mmctv_360p/chunklist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",1plus1 International
+https://live-k2302-kbp.1plus1.video/227022/smil:227022.smil/playlist.m3u8
+
+#EXTINF:16 group-title="★ CANALES ROLL-OVER/OTROS ★",TRT HABER
+http://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TVR HD
+http://89.136.209.26:1935/liveedge/TVRHD.stream/playlist.m3u8
+
+#EXTINF:27 group-title="★ CANALES ROLL-OVER/OTROS ★",Rustavi2
+http://94.43.239.178:8080/CHANNEL808.../playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ETV
+https://sb.err.ee/live/etv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",ETV 2
+https://sb.err.ee/live/etv2.m3u8
+
+#EXTINF:4 group-title="★ CANALES ROLL-OVER/OTROS ★",RTK 1
+http://84.22.56.10:1935/rtk1stream/rtk1.stream/chunklist_w1411141996.m3u8
+
+#EXTINF:5 group-title="★ CANALES ROLL-OVER/OTROS ★",RTK 2
+http://stream1.rtkit.com:1935/rtk2stream/rtk2.stream/chunklist_w4886007.m3u8
+
+#EXTINF:6 group-title="★ CANALES ROLL-OVER/OTROS ★",RTK 3
+http://stream2.rtkit.com:1935/rtk3stream/rtk3.stream/chunklist_w2121045972.m3u8
+
+#EXTINF:7 group-title="★ CANALES ROLL-OVER/OTROS ★",RTK 4
+http://stream2.rtkit.com:1935/rtk4stream/rtk4.stream/chunklist_w599618358.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Digi 24
+http://82.76.40.76/digi24edge/digi24hdhqhls/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TV Publika Moldava
+http://livebeta.publika.md/LIVE/P/6810.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tele M
+http://webmobile.xdev.ro:81/tv16/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Duga TV
+http://w10.streamgb.com:1935/dugaplus/dugaplus/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",BN TV Bosnia
+http://tvstream.rtvbn.com:1935/live/stream/chunklist_w1957700324.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Plus TV Macedonia
+http://141.136.14.18/kanal1/kanal1_1500/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Sky Folk TV
+http://skyfolk.mk/live.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Planeta HD
+http://84.43.207.130/planetahd/planetahd.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Travel HD
+http://31.13.223.104:1935/travel/community.stream/chunklist_w511463959.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Arig US 24
+http://arigus-online.ru/files/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Impact
+http://206.190.141.27:1935/live/impact/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",M1 Global
+http://live-m1globaltv.cdnvideo.ru/m1globaltv/m1globaltv-rtmp-eng_720p/chunklist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Mir 24
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",MostVideo TV 1
+http://w4.mostvideo.tv/tv/ch1.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",O2 TV HD
+http://hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_hd.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tivikom Uland Udje
+http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",Tochka TV
+http://serv24.vintera.tv:8081/tochka/tochkatv/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",TRO Soyuz
+http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",5 Kanal
+http://94.158.80.101:8080/5channel/stream.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",21 Uzhgorod
+http://s9.crafit.com:8087/live/qa6pk3/hls/live.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB 1
+http://cdn1.live.irib.ir:1935/live-channels/smil:tv1/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB 2
+http://cdn1.live.irib.ir:1935/live-channels/smil:tv2/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB 3
+http://cdn1.live.irib.ir:1935/live-channels/smil:tv3/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB 4
+http://cdn1.live.irib.ir:1935/live-channels/smil:tv4/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB 5
+http://cdn1.live.irib.ir:1935/live-channels/smil:tv5/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Irinn
+http://cdn1.live.irib.ir:1935/live-channels/smil:irinn/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Amouzesh
+http://cdn1.live.irib.ir:1935/live-channels/smil:amouzesh/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Quran
+http://cdn1.live.irib.ir:1935/live-channels/smil:quran/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Mostanad
+http://cdn1.live.irib.ir:1935/live-channels/smil:mostanad/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Namayesh
+http://cdn1.live.irib.ir:1935/live-channels/smil:namayesh/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Ofogh
+http://cdn1.live.irib.ir:1935/live-channels/smil:ofogh/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Varzesh
+http://cdn1.live.irib.ir:1935/live-channels/smil:varzesh/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Pouya
+http://cdn1.live.irib.ir:1935/live-channels/smil:pouya/playlist.m3u8
+
+#EXTINF:-1 group-title="★ CANALES ROLL-OVER/OTROS ★",IRIB Salamat
+http://cdn1.live.irib.ir:1935/live-channels/smil:salamat/playlist.m3u8
 

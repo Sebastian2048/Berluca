@@ -1,4 +1,4 @@
-# clasificador.py (VERSION CON BARRA DE PROGRESO - TQDM)
+# clasificador.py
 import os
 import re 
 from typing import List, Dict, Optional, Tuple, Set
@@ -21,8 +21,8 @@ except ImportError as e:
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # --- CONFIGURACIÓN DEL CHECK REAL SELECTIVO ---
-TIMEOUT_CHECK = 10 
-VERIFICACION_SELECTIVA_RATIO = 500
+TIMEOUT_CHECK = 10 # Tiempo de espera ampliado
+VERIFICACION_SELECTIVA_RATIO = 500 # Ratio de verificación selectiva (1 de cada 500)
 contador_verificacion = 0
 
 # =========================================================================================
@@ -32,6 +32,7 @@ contador_verificacion = 0
 def verificar_estado_canal(url: str, nombre: str, index: int) -> str:
     """
     Verificación selectiva de URL por HTTP para obtener el estado real.
+    Maneja TimeoutError y ConnectionError para evitar bloqueos.
     """
     global contador_verificacion
     contador_verificacion += 1
@@ -59,6 +60,7 @@ def verificar_estado_canal(url: str, nombre: str, index: int) -> str:
         except requests.exceptions.Timeout:
             return "dudoso" 
         except requests.exceptions.ConnectionError:
+            # Captura errores de conexión de bajo nivel (incluyendo TimeoutError de socket)
             return "fallido"
         except requests.exceptions.RequestException:
             return "fallido"
@@ -81,14 +83,14 @@ def clasificar_bloque(bloque: List[str]) -> str:
     if is_not_spanish_language:
         return "roll_over" 
 
-    # 2. Bucle Nivel 1
+    # 2. Bucle Nivel 1 (Clasificación principal, más específica)
     for categoria, claves in CLAVES_CATEGORIA.items():
         if categoria == "roll_over": continue
         
         if any(clave in nombre_lower for clave in claves):
             return categoria
             
-    # 3. Bucle Nivel 2
+    # 3. Bucle Nivel 2 (Re-clasificación de "roll_over")
     for categoria, claves in CLAVES_CATEGORIA_N2.items():
         if any(clave in nombre_lower for clave in claves):
             return categoria
@@ -123,9 +125,8 @@ def clasificar_enlaces(ruta_temp: str) -> List[Dict]:
     excluidos_por_contenido = 0
     
     # 🌟 IMPLEMENTACIÓN DE LA BARRA DE PROGRESO 🌟
-    # Envolvemos el bucle for con tqdm para mostrar el progreso
     for i, bloque in enumerate(tqdm(bloques_nuevos, desc="Analizando Canales", unit="Canal")):
-        # --- Lógica de procesamiento de bloques (sin cambios) ---
+        
         nombre = extraer_nombre_canal(bloque)
         url = extraer_url(bloque)
         
@@ -162,9 +163,8 @@ def clasificar_enlaces(ruta_temp: str) -> List[Dict]:
             "categoria": categoria,
             "estado": estado
         })
-    # --- Fin de la lógica de procesamiento de bloques ---
 
-    print(f"✅ Clasificación y Enriquecimiento finalizados. Bloques listos para distribuir: {len(bloques_enriquecidos)}")
+    print(f"\n✅ Clasificación y Enriquecimiento finalizados. Bloques listos para distribuir: {len(bloques_enriquecidos)}")
     print(f"   -> Verificaciones de estado realizadas: {contador_verificacion // VERIFICACION_SELECTIVA_RATIO}")
     print(f"   -> Excluidos por contenido (religioso, etc.): {excluidos_por_contenido}")
     

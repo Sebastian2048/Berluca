@@ -1,0 +1,185 @@
+#EXTM3U
+
+
+# ====== ★ CANALES ROLLOVEROTROS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rescue 911
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f21e831e9fe730007706acb/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b8981-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=829d9eef-9cc5-49ef-9790-7aed2bb2aa09
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Roya Drama (1080p)
+https://playlist.fasttvcdn.com/pl/a2le4pbpa6rpzv147haf4w/drama/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RTB Pelangi ✅
+https://d2kziuzkf9oizb.cloudfront.net/rd001/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Horizon Sports (USA) (🇺🇸)
+https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",FOX Sports (USA) (🇺🇸)
+https://apollo.production-public.tubi.io/live/fox-sports.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Eurosports 2 (UK) (🇬🇧)
+http://175.107.244.52:4457/play/a06w/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Sports (UK) (🇬🇧)
+https://tinyurl.com/2fw79tx8?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BEK Sports West (USA) (🇺🇸)
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bein Sports Xtra (USA) (🇺🇸)
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Campus Lore Sports (USA) (🇺🇸)
+https://tinyurl.com/4t54ftdy?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 1 (Emiratos) (🇦🇪)
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 2 (Emiratos) (🇦🇪)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 2 FHD - Opción 2 ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 2 FHD ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 3 (Emiratos) (🇦🇪)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 3 FHD - Opción 2 ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dubai Sports 3 FHD ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Setanta Sports 1 (Rusia) (🇷🇺)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/271/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Setanta Sports 2 (Rusia) (🇷🇺)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/270/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Futbol Network (USA) (🇺🇸)
+https://is.gd/r77jwh?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LSN Lax Sports Network (USA) (🇺🇸)
+https://1840769862.rsc.cdn77.org/FTF/LSN.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Detroit (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84676.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Detroit Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84677.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Florida (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84678.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Great Lakes (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84679.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Indiana (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84680.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Kansas City (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84681.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Kansas City Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84682.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports MidWest (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84683.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Midwest Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84684.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports New Orleans (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84685.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports North (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84686.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports North Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84687.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Ohio (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84688.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Ohio Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84689.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Oklahoma (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84690.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Oklahoma Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84691.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports SoCal (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84692.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports South (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84693.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports SouthEast (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84694.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Southwest (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84695.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Southwest Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84696.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Sun (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84697.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports West (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84698.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Wisconsin (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84699.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA-Bally Sports Wisconsin Plus (L)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/84700.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bein Sports (USA) (🇺🇸)
+https://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBS Sports Network (USA) (🇺🇸)
+https://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Fight Sports (USA) (🇺🇸)
+https://d2p372oxiwmcn1.cloudfront.net/hls/1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",MAV Motor Sports (UK) (🇬🇧)
+https://amg00378-maverickenterta-mavtv-smn-gb-samsung-rakuten-ozity.amagi.tv/playlist/amg00378-maverickenterta-mavtv-smn-gb-samsung-rakuten/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Origin Sports (UK) (🇬🇧)
+https://amg01258-raycomsports-originsports-samsunguk-1f7fe.amagi.tv/playlist/amg01258-raycomsports-originsports-samsunguk/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sports Connect (Sudafrica) (🇿🇦)
+https://origin3.afxp.telemedia.co.za/PremiumFree/sportsconnect/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Womens Sports Network (USA) (🇺🇸)
+https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Fast-Studios-Womens-Sports.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Nova Sport 2 HD ✅
+http://78.130.250.2:8023/play/a004/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ViP Sport 1 HD ✅
+http://de.seetv.cc/play/5009/9195C9EF9216242/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ViP Sport 10 HD ✅
+http://de.seetv.cc/play/5018/9195C9EF9216242/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ViP Sport 12 HD ✅
+http://de.seetv.cc/play/5020/9195C9EF9216242/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ViP Sport 2 HD ✅
+http://de.seetv.cc/play/5010/9195C9EF9216242/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ViP Sport 3 HD ✅
+http://de.seetv.cc/play/5011/9195C9EF9216242/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ViP Sport 5 HD ✅
+http://de.seetv.cc/play/5013/9195C9EF9216242/video.m3u8
+

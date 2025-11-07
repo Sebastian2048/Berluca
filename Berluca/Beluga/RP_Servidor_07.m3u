@@ -902,8 +902,6 @@ http://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",DN2 Dong Nai 2 (Vietnam) (🇻🇳)
 http://118.107.85.4:1935/live/smil:DNTV2.smil/.m3u8
-
-
 # ====== ★ CANALES ROLL-OVER/OTROS ★ ======
 
 #EXTINF:-1 tvg-id="" tvg-name="Brasileirinhas - Novinhas 1" tvg-logo="https://goo.gl/Dgza6f" group-title="★ CANALES ROLL-OVER/OTROS ★",Brasileirinhas - Novinhas 1
@@ -1085,4 +1083,187 @@ http://painel.iptvmove.com:25461/movie/danga07/1963/2762.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="GOTS03E07" tvg-logo="http://144.217.255.85/filmes/got3.PNG" group-title="★ CANALES ROLL-OVER/OTROS ★",GOTS03E07
 http://painel.iptvmove.com:25461/movie/danga07/1963/2759.mp4
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/1200px-VH1_logonew.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",VH1
+http://91dfeb88.iptvzone.me/iptv/3RD7RBR9A3CVSX/536/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://i64.tinypic.com/1058jgn.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",MuzzOne
+http://live.muzzone.cdnvideo.ru/muzzone/muzzone.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.ustkut.ru/dlya-doma2/logo/Nano%20TV.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Nano TV Russia
+http://85.132.71.6/ru/nano/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://freerutube.com/wp-content/uploads/2016/10/current-time-tv.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Nastoyashcheye Vremya
+http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://freerutube.com/wp-content/uploads/2016/10/current-time-tv.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Nastoyashcheye Vremya (Opt-2)
+https://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/index_1080_av-p.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://freerutube.com/wp-content/uploads/2016/10/current-time-tv.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Nastoyashcheye Vremya (Opt-3)
+https://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/yStKJJr.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Novyj Mir
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0b/O2tvlogo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",O2 TV SD
+http://hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_sd.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pp.userapi.com/c633925/v633925449/3834f/BhMJWO71WIc.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Otkrytyj
+http://77.232.128.68/bks.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://online-red.com/images/tv/education.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Prosveshhenie
+http://cdn-01.bonus-tv.ru:8080/prosveschenie_edge/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.radostmoya.ru/uploads/images/videoPreview/Logo.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radost' Moja
+http://cdn-01.bonus-tv.ru:8080/radostmoya_edge/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.livenewson.com/wp-content/uploads/2015/05/RBC-TV1.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",RBC (Opt-1)
+http://92.50.128.180/utv/1358/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.livenewson.com/wp-content/uploads/2015/05/RBC-TV1.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",RBC (Opt-3)
+http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/RTD-TV-logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RT Documentary (Russian)
+https://cdn-01.bonus-tv.ru:8090/rtdoc/tracks-v3a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://gtrksmolensk.ru/media/channel/R1_b_648.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Russia-1 (Opt-1)
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r1.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn-st1.rtr-vesti.ru/lrt_cdn/i/logo/ch-logo-3.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Russia-24
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lion-tv.com/uploads/posm3u8/2016-09/1472964269_178.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Shanson TV (Opt-1)
+http://hls.shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://lion-tv.com/uploads/posm3u8/2016-09/1472964269_178.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Shanson TV (Opt-2)
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://irecommend.ru/sites/default/files/product-images/10297/sn3sMUMZsCXZoggBgiIkaA.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Shopping Live
+http://shoppinglive.mediacdn.ru/sr1/shoppinglive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pp.userapi.com/c605926/v605926465/5557/g0bL-ADWjOI.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Skazki Zayki
+http://skazki.vintera.tv:8081/skazki/zaj/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://online-red.com/images/tv/smilik-tv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Smilik TV
+http://109.68.190.192:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://archive.li/d4STq/14904cadcdedfa7151d92e37923398e37fc62fc0.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",STRK
+http://sochi-strk.ru:1936/strk/strk.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/4jujUGU.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",TV-21 Murmansk
+http://tv21.inmurmansk.ru/full_stream.flv
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://s3.vefire.ru/l/250x150/ru/TBN.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TBN
+http://109.68.190.192:1935/WEB_TBN/TBN.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://sat-one.info/news-imeg/13588.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TDK
+http://live.tdktv.cdnvideo.ru/tdktv/tdktv.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.itver.cc/wp-content/uploads/2015/07/Travel-Adventure-HD-670x300.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Travel + Adventure HD
+http://213.59.128.162:9999/play/Travel-Adventure_HD
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://ugramediaperson.ru/upload/resize_cache/iblock/24a/176_176_2/24ad91471767088bb863f20ebc50e5fa.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Ugra TV
+http://live.ugratv.cdnvideo.ru/ugratv/smil:ugrastream1.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/7a/ca/c27aca60-b11b-a96c-f0f0-4db68607933b/source/512x512bb.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Vintera TV
+http://serv30.vintera.tv:8081/test/Made_in_Siberia2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://volgograd24.tv/tmpl/main/images/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Volgograd 24
+http://serv24.vintera.tv:8081/volga24/volgograd24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zvezda_logo.svg/1200px-Zvezda_logo.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Zvezda (Opt-1)
+http://cdn-01.bonus-tv.ru:8080/zvezda/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zvezda_logo.svg/1200px-Zvezda_logo.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Zvezda (Opt-2)
+https://cdn-01.bonus-tv.ru:8090/zvezda/tracks-v3a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.politnavigator.net/wp-content/uploads/2017/01/1PLUS1-TV.png" group-title="★ CANALES ROLL-OVER/OTROS ★",1+1
+http://stream2g03-f23.ovva.tv/227022/smil:227022.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://4news.com.ua/images/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",4 Kanal
+http://cdn.vsnw.net:8081/interradio/720i.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_5_Channel.svg/1200px-Logo_5_Channel.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",5 Kanal (Opt-2)
+http://api.tv.ipnet.ua/api/v1/manifest/1293299450.m3u8
+
+#EXTINF:-1 tvg-logo="http://tv-online.at.ua/1logo/1/7_kanal-odessa.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 Kanal
+http://cdn10.live-tv.od.ua:8081/7tvod/7tvod-abr/7tvod/7tvod/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FMGTlD8.png" group-title="★ CANALES ROLL-OVER/OTROS ★",24 Kanal
+http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b1328800.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.frocus.net/images/logotv/original/33-kanal-hmeln.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",33 Kanal
+http://77.120.29.10/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/34_channel_logo.svg/440px-34_channel_logo.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",34 Kanal
+http://api.tv.ipnet.ua/api/v1/manifest/2118742463.m3u8?codec=mpeg4&app=playlist
+
+#EXTINF:-1 tvg-logo="http://shokernadom.ru/wp-content/img/perviy-gorodskoy-kirov-efiri.png" group-title="★ CANALES ROLL-OVER/OTROS ★",1TV Odessa
+http://cdn1.live-tv.od.ua:8081/1tvod/1tvod-abr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.ak.od.ua/wp-content/uploads/2017/02/ACADEMY-LOGORUR.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Academy
+http://cdn1.live-tv.od.ua:8081/36chod/36chod-abr/36chod/36chod/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://detector.media/doc/images/news/archive/2016/114248/ArticleImage_114248.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Antenna Online
+http://streamer.antenna.com.ua/hls/antenna.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.1550.com.ua/uploads/ent_company/114034_arxatlogo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Arhat TV
+http://arhat.tv/public/720p/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.firstonetv.eu/images/logos/ua/BAMBARBIA.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bambarbia TV
+http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-abr/bbb/bbbtv-720p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/xua-chernomorskaya-tv.jpg.pagespeed.ic.YIo6Ziq5qu.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Black Sea TV
+http://live-blackseatv.cdnvideo.ru/blackseatv/blackseatv.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://bdmsummit.com/wp-content/uploads/2016/03/brain-tv-1.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Brain TV
+http://jabber.divan.tv:8002/tv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XJ9IdWf.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BRT
+http://194.11.28.3:7070/udp/239.255.1.1:1234?box_mac=c802104fe8fc
+
+#EXTINF:-1 tvg-logo="http://ukrtvr.org/images/Chernivzi/chrnpr.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Chernіveckij Promіn
+http://langate.tv/promin/live_720/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domashniy_tv_logo.svg/2000px-Domashniy_tv_logo.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Domashny
+http://api.tv.ipnet.ua/api/v1/manifest/2118742470.m3u8?codec=mpeg4&app=playlist
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dHqUHfw.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Donechchina TV
+http://stream.dn.ua/hls/stream.m3u8
+
+#EXTINF:-1 tvg-logo="http://dumskaya.net/i3/logotv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dumskaya-TV
+http://cdn1.live-tv.od.ua:8081/dumska/dumska-abr/dumska/dumska720p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.eko-tv.tv/assem3u8/template/img/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Eko TV
+http://api.tv.ipnet.ua/api/v1/manifest/1311963170.m3u8?codec=mpeg4
+
+#EXTINF:-1 tvg-logo="https://ukraine.mom-rsf.org/uploads/tx_lfrogmom/media/427-136_import.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Espreso TV
+http://api.tv.ipnet.ua/api/v1/manifest/2007567821.m3u8?codec=mpeg4
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XlVNwEj.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Exclusive TV
+http://excl.com.ua/hls/ex.m3u8
+
+#EXTINF:-1 tvg-logo="http://rusvesna.su/sites/default/files/styles/orign_wm/public/1_respublikanskiy_tv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",First Republic
+http://185.114.136.25/first_republic_st/first_republic_st.mpd
+
+#EXTINF:-1 tvg-logo="http://galtv.if.ua/assem3u8/images/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Galichina
+http://api.tv.ipnet.ua/api/v1/manifest/2118742464.m3u8?codec=mpeg4
+
+#EXTINF:-1 tvg-logo="https://khersontv.com/wp-content/themes/hueman/img/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Herson
+http://46.175.163.130/ks_plus/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/Qwwhqh9.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Hromadske TV
+http://94.45.135.158:1935/live/HrBroadcast/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://online-red.com/images/tv/iks-tv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",IKS Sevastopol
+http://ikstv-htlive.cdn.ngenix.net/live/_definst_/ikstv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.iconsdb.com/icons/preview/persian-red/tv-xxl.png" group-title="★ CANALES ROLL-OVER/OTROS ★",INTV
+http://5.58.64.7:7777/udp/237.0.1.1:1234
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2zAC1cK.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ITV
+http://195.5.108.14:1935/live/itv1/playlist.m3u8
 

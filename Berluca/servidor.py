@@ -9,15 +9,15 @@ import logging
 # 📦 Importaciones de configuración y auxiliares
 try:
     from config import (
-        CARPETA_SALIDA, NOMBRE_BASE_SERVIDOR, LIMITE_BLOQUES_SERVIDOR, 
-        PRIORIDAD_ESTADO, TITULOS_VISUALES, LOGO_DEFAULT, MAX_SERVIDORES_BUSCAR
+        CARPETA_SALIDA, NOMBRE_BASE_SERVIDOR, LIMITE_BLOQUES_CATEGORIA,
+        LIMITE_BLOQUES_SERVIDOR_GLOBAL, PRIORIDAD_ESTADO, TITULOS_VISUALES, 
+        LOGO_DEFAULT, MAX_SERVIDORES_BUSCAR
     )
     from auxiliar import (
         extraer_bloques_m3u, extraer_url, extraer_nombre_canal, 
         extraer_estado, extraer_prioridad, extraer_categoria_del_bloque
     )
 except ImportError as e:
-    # Este error debe manejarse en el main.py
     logging.error(f"Error al importar módulos en servidor.py: {e}")
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -34,8 +34,7 @@ def obtener_servidor_path(servidor_num: int) -> str:
 def obtener_inventario_servidor(servidor_num: int) -> Dict[str, List[Dict]]:
     """
     Carga los bloques de un servidor M3U existente en una estructura de inventario.
-    
-    CORRECCIÓN CRÍTICA: Asegura que cada canal cargado tenga la clave 'categoria'.
+    Incluye la corrección del KeyError: 'categoria'.
     """
     ruta_servidor = obtener_servidor_path(servidor_num)
     inventario = defaultdict(list)
@@ -55,7 +54,7 @@ def obtener_inventario_servidor(servidor_num: int) -> Dict[str, List[Dict]]:
                 "url": extraer_url(bloque),
                 "nombre_limpio": extraer_nombre_canal(bloque).strip().lower().replace(" ", "").replace("ñ", "n"),
                 "estado": extraer_estado(bloque),
-                "categoria": categoria,  # <--- CORRECCIÓN AÑADIDA
+                "categoria": categoria,  # <--- CORRECCIÓN APLICADA
                 "prioridad": extraer_prioridad(bloque) 
             })
         
@@ -93,15 +92,14 @@ def guardar_inventario_servidor(servidor_num: int, inventario: Dict[str, List[Di
 
 
 # =========================================================================================
-# 🧠 DISTRIBUCIÓN PRINCIPAL
+# 🧠 DISTRIBUCIÓN Y AUDITORÍA
 # =========================================================================================
 
 def distribuir_por_servidor(bloques_enriquecidos: List[Dict]):
     """
-    Asigna bloques a servidores basado en: 1. Categoría, 2. Límite, 3. Prioridad, 4. Balanceo.
+    Asigna bloques a servidores basado en: 1. Categoría, 2. Límite (60), 3. Prioridad, 4. Balanceo.
     """
     
-    # Pre-procesar los bloques entrantes para priorizar los de mejor calidad
     bloques_entrantes = sorted(bloques_enriquecidos, key=lambda b: PRIORIDAD_ESTADO.get(b['estado'], 0), reverse=True)
     
     bloques_pendientes = list(bloques_entrantes)
@@ -115,14 +113,11 @@ def distribuir_por_servidor(bloques_enriquecidos: List[Dict]):
         inventario_servidor = obtener_inventario_servidor(servidor_actual)
         
         bloques_desplazados = []
-        bloques_asignados_en_servidor = set()
-
         nuevos_pendientes = [] 
         
         # Agrupar los pendientes por categoría para procesar por grupos
         pendientes_por_categoria = defaultdict(list)
         for bloque in bloques_pendientes:
-            # Línea 121: Ahora los bloques desplazados tienen la clave 'categoria'
             pendientes_por_categoria[bloque['categoria']].append(bloque) 
             
         
@@ -142,49 +137,174 @@ def distribuir_por_servidor(bloques_enriquecidos: List[Dict]):
                     continue
 
                 # 5. Regla de Capacidad (Límite 60)
-                if len(canales_categoria) < LIMITE_BLOQUES_SERVIDOR:
+                if len(canales_categoria) < LIMITE_BLOQUES_CATEGORIA:
                     # Ingreso directo: Hay espacio.
-                    
-                    # Asegurar que el nuevo canal tenga la clave 'prioridad'
                     nuevo_canal['prioridad'] = prioridad_nueva 
-                    
                     canales_categoria.append(nuevo_canal) 
-                    bloques_asignados_en_servidor.add(url)
                     
                 else:
                     # 6. Regla de Prioridad/Desplazamiento
-                    
-                    # Buscar el canal con la prioridad más baja (ahora seguro por la corrección anterior)
                     canal_a_desplazar = min(canales_categoria, key=lambda c: c['prioridad']) 
                     
                     if prioridad_nueva > canal_a_desplazar['prioridad']:
                         
-                        # El canal entrante es de mejor calidad: Desplazar al de peor calidad
+                        # Desplazar al de peor calidad
                         canales_categoria.remove(canal_a_desplazar)
-                        
-                        # Asegurar que el nuevo canal tenga la clave 'prioridad'
                         nuevo_canal['prioridad'] = prioridad_nueva 
-                        
                         canales_categoria.append(nuevo_canal)
                         
                         # Añadir el bloque desplazado a la lista para re-procesar en el siguiente servidor
                         bloques_desplazados.append(canal_a_desplazar)
-                        bloques_asignados_en_servidor.add(url)
                         
                     else:
-                        # El nuevo canal no tiene prioridad suficiente para desplazar, pasa al siguiente.
+                        # Pasa al siguiente servidor.
                         nuevos_pendientes.append(nuevo_canal)
             
-            # Actualizar la categoría en el inventario
             inventario_servidor[categoria] = canales_categoria
 
-        # 7. Guardar el estado del servidor actual
         guardar_inventario_servidor(servidor_actual, inventario_servidor)
         
-        # 8. Mover bloques desplazados y no asignados al inicio de la siguiente iteración
         bloques_pendientes = nuevos_pendientes + bloques_desplazados
         
-        servidor_actual += 1 # Ir al siguiente servidor
+        servidor_actual += 1 
 
     if bloques_pendientes:
-        print(f"\n⚠️ {len(bloques_pendientes)} bloques no pudieron ser asignados a ningún servidor (Roll-Over).")
+        print(f"\n⚠️ {len(bloques_pendientes)} bloques no pudieron ser asignados en la distribución inicial.")
+
+
+def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
+    """
+    Verifica el límite global de bloques por servidor (2000) y desplaza el exceso
+    a un buffer para re-distribución.
+    """
+    print("\n--- ⚖️ Iniciando Auditoría y Balanceo de Servidores (Límite Global) ---")
+    
+    bloques_excedentes = []
+    
+    servidores_auditados = 0
+    servidor_num = 1
+    
+    # Bucle para auditar todos los servidores que se hayan creado
+    while True:
+        ruta_servidor = obtener_servidor_path(servidor_num)
+        if not os.path.exists(ruta_servidor) and servidor_num > max_servidores_a_auditar:
+            break
+        
+        if not os.path.exists(ruta_servidor) and servidor_num <= max_servidores_a_auditar:
+            servidor_num += 1
+            continue
+
+        inventario = obtener_inventario_servidor(servidor_num)
+        total_bloques_servidor = sum(len(canales) for canales in inventario.values())
+        
+        if total_bloques_servidor > LIMITE_BLOQUES_SERVIDOR_GLOBAL:
+            print(f"⚠️ Servidor {servidor_num:02d} excede el límite ({total_bloques_servidor} > {LIMITE_BLOQUES_SERVIDOR_GLOBAL}). Desplazando...")
+            
+            exceso = total_bloques_servidor - LIMITE_BLOQUES_SERVIDOR_GLOBAL
+            
+            # Buscar la categoría más grande para desplazar el exceso
+            conteo_por_categoria = {cat: len(canales) for cat, canales in inventario.items()}
+            categorias_ordenadas = sorted(conteo_por_categoria.items(), key=lambda item: item[1], reverse=True)
+            
+            bloques_movidos_servidor = 0
+            
+            for categoria, _ in categorias_ordenadas:
+                if bloques_movidos_servidor >= exceso:
+                    break
+                    
+                canales_categoria = inventario[categoria]
+                
+                # Mover el exceso, priorizando mover los canales de menor prioridad
+                canales_a_mover = min(
+                    len(canales_categoria), 
+                    exceso - bloques_movidos_servidor
+                )
+                
+                if canales_a_mover > 0:
+                    # Mover los canales con menor prioridad
+                    canales_a_mover_lista = sorted(canales_categoria, key=lambda c: c['prioridad'], reverse=False)[:canales_a_mover]
+                    
+                    for canal in canales_a_mover_lista:
+                        canales_categoria.remove(canal)
+                        bloques_excedentes.append(canal)
+                        bloques_movidos_servidor += 1
+                        
+                inventario[categoria] = canales_categoria 
+            
+            # Guardar el inventario reducido
+            guardar_inventario_servidor(servidor_num, inventario)
+
+        servidor_num += 1
+        servidores_auditados += 1
+
+
+    # 2. Redistribuir los bloques excedentes
+    if bloques_excedentes:
+        print(f"\n🔄 Redistribuyendo {len(bloques_excedentes)} bloques excedentes a nuevos servidores...")
+        
+        # Ordenar por prioridad para priorizar los mejores al re-distribuir
+        bloques_excedentes = sorted(bloques_excedentes, key=lambda b: PRIORIDAD_ESTADO.get(b['estado'], 0), reverse=True)
+        
+        # Llamamos a una función simplificada de distribución para los excedentes
+        distribuir_excedentes(bloques_excedentes, servidor_num)
+        
+    print("✅ Auditoría de límite global finalizada.")
+
+
+def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int):
+    """
+    Distribuye bloques en servidores nuevos o existentes con espacio,
+    respetando el LIMITE_BLOQUES_SERVIDOR_GLOBAL.
+    """
+    servidor_actual = servidor_inicial 
+    
+    while bloques_pendientes:
+        
+        inventario_servidor = obtener_inventario_servidor(servidor_actual)
+        nuevos_pendientes = []
+        bloques_asignados_count = 0
+
+        total_bloques_servidor = sum(len(canales) for canales in inventario_servidor.values())
+        
+        if total_bloques_servidor >= LIMITE_BLOQUES_SERVIDOR_GLOBAL:
+            # Si el servidor ya está lleno (lo que podría pasar si fue creado justo por debajo del límite)
+            servidor_actual += 1
+            continue
+            
+        print(f"🔄 Asignando a Servidor {servidor_actual:02d} ({total_bloques_servidor} / {LIMITE_BLOQUES_SERVIDOR_GLOBAL})...")
+
+        for nuevo_canal in bloques_pendientes:
+            
+            if total_bloques_servidor >= LIMITE_BLOQUES_SERVIDOR_GLOBAL:
+                nuevos_pendientes.append(nuevo_canal) 
+                continue
+            
+            categoria = nuevo_canal['categoria']
+            canales_categoria = inventario_servidor[categoria]
+            nombre_limpio = nuevo_canal['nombre_limpio']
+            
+            # Deduplicación por Servidor y Límite por Categoría (60)
+            if any(c['nombre_limpio'] == nombre_limpio for c in canales_categoria):
+                nuevos_pendientes.append(nuevo_canal)
+                continue
+            if len(canales_categoria) >= LIMITE_BLOQUES_CATEGORIA:
+                nuevos_pendientes.append(nuevo_canal)
+                continue
+
+            # ASIGNACIÓN DIRECTA
+            nuevo_canal['prioridad'] = PRIORIDAD_ESTADO.get(nuevo_canal['estado'], 0) 
+            canales_categoria.append(nuevo_canal)
+            inventario_servidor[categoria] = canales_categoria
+            total_bloques_servidor += 1
+            bloques_asignados_count += 1
+            
+        
+        if bloques_asignados_count > 0:
+            guardar_inventario_servidor(servidor_actual, inventario_servidor)
+        
+        bloques_pendientes = nuevos_pendientes 
+
+        servidor_actual += 1
+
+    if bloques_pendientes:
+        print(f"\n⚠️ {len(bloques_pendientes)} bloques no pudieron ser re-asignados y quedaron en el roll-over final.")

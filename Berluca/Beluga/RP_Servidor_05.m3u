@@ -971,8 +971,6 @@ http://109.233.89.166/Eurosport_2_HD/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Arena Sport 1 (Eslovaquia) (🇸🇰)
 http://78.130.250.2:8023/play/a02o/index.m3u8
-
-
 # ====== ★ CANALES ROLL-OVER/OTROS ★ ======
 
 #EXTINF:-1 tvg-id="" tvg-name="Assassin's Creed" tvg-logo="https://static.omelete.uol.com.br/media/filer_public/61/4d/614d1d5f-314d-4613-b458-932b588826aa/assassinscreeddvd.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Assassin's Creed
@@ -1154,4 +1152,187 @@ http://painel.iptvmove.com:25461/movie/danga07/1963/2118.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="Tempos de Violencia" tvg-logo="http://painel.iptvmove.com:25461/images/0433387.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Tempos de Violencia
 http://painel.iptvmove.com:25461/movie/danga07/1963/1853.mp4
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 tvg-logo="http://fight-time.com/wp-content/uploads/2017/03/Fight-Time-Logo-Transparente-g.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Fight Time (Opt-2)
+http://109.232.71.249/stream/stream_fighttime/fighttimehd.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://ibizaglobal.tv/wp-content/uploads/2017/03/LOGO-GLOBALTV.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Ibiza Global TV
+http://server10.streaming-pro.com:1937/live/ibgtvlive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.televisioneducativa.gob.mx/work/models/DGTVE/Template/resource/canales/img/m3u8.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Telesecundaria 1
+http://live10.cdnmedia.tv/dgtvelive/smil:telese11.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://entreriostv.com.ar/wp-content/uploads/2018/05/Logo-ertv-png.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 Entre Ríos TV
+http://stmv1.questreaming.com/canal6/canal6/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://catamarcartv.com/wp-content/uploads/2013/11/Logo-canal-Nosotros.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 7 Catamarca
+https://58ee6ee476b11.streamlock.net/live/smil:catamarca/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QX4vqEG.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 17 Milenium Salta
+https://59c5c86e10038.streamlock.net/6605140/6605140/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://cappissimamultimedial.cl/radio/wp-content/themes/cappissima/images/logo-cappissima.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Multimedia Cappissima TV
+http://cl.streaminghd.cl:80/cappissima/cappissima/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:0 tvg-logo="http://images.eltelon.com/cache/media/4835/square_150x150-2.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Agricultura
+https://unlimited1-cl.dps.live/921tv/921tv.smil/921tv/livestream1/chunks.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.liveonlineradio.net/wp-content/uploads/2014/09/Radio-Congreso.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Congreso Online
+http://190.107.176.55:1935/live/archi-congreso/chunklist_w810766943.m3u8
+
+#EXTINF:-1 tvg-logo="http://files.csvrenca.webnode.cl/200001127-92f9593f5c/Radio-Cooperativa.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Cooperativa
+http://unlimited1-cl.dps.live/coopetv/coopetv.smil/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:0 tvg-logo="http://sitio.sindicatoescondida.cl/page/wp-content/uploads/2017/03/radioelconsquistador.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio El Conquistador
+http://eu1.servers10.com:1935/8282/8282/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://s3.amazonaws.com/cdn.radionewproject.com/551a2b74cd340075703c598add621927.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio La Clave
+http://unlimited5-cl.dps.live/laclavetv/laclavetv.smil/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://roccotv.cl/wp-content/uploads/2015/02/roccotv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rocco TV
+http://evo.eltelon.com:1935/live/rocco-tv/chunklist_w1064108788.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://images.eltelon.com/cache/media/4477/square_150x150-2.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Trailer TV Kids
+http://evo.eltelon.com:1935/trailertvkids/smil:trailertvkids.smil/chunklist_w194535224_b650000_sleng.m3u8?xtreamiptv.m3u8
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/38/TVSenado.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV Senado (Opt-1)
+http://janus-tv-ply.senado.cl/playlist/stream.m3u8?s=tvsenado-sd?fluxustv.m3u8
+
+#EXTINF:0 tvg-logo="http://ik.imagekit.io/ulangotv/image/upload/3782554_logo_tv_2_choapa.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV2 Choapa
+http://unlimited4-cl.dps.live/tv2choapa/tv2choapa.smil/tv2choapa/livestream2/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zhsczwN.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV4 Lota
+http://evo.eltelon.com:1935/live/tv4-television/chunklist_w1931852168.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/xcl-tv8.jpg.pagespeed.ic.6I4Upv3y-j.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",TV8 Concepcion
+https://593b04c4c5670.streamlock.net/8134/8134/chunklist_w1803894255.m3u8?fluxustv.m3u8
+
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tvu_hd.png/200px-Tvu_hd.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TVU Concepcion
+https://unlimited2-cl.dps.live/tvu/tvu.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.utvsanclemente.cl/img/logo-utv-sc.png" group-title="★ CANALES ROLL-OVER/OTROS ★",UTV San Clemente
+http://v3.tustreaming.cl/utvsc/live1/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.canartelevision.com/wp-content/uploads/2015/09/LOGO-CANARTELEVISION1.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canar TV
+http://stmv2.srvstm.com/manatv/manatv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/8D1LrKO.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canela TV
+http://servicioamerica.com:1935/8200/8200/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.liveonlineradio.net/wp-content/uploads/2018/06/Radio-Hechos-Ecuador.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Hechos Ecuador
+http://37.187.7.106/hechostv/live.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/fdd1b1_ea866a37c0114866acf8472c1f42000d~mv2.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Telemedellin
+http://level3itvo.cdnar.net/itvmedia/14/1/channel_000.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/LOGO_TV_PERU_2012.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV Peru (Opt-1)
+http://cdnh15.iblups.com/hls/R9WtilpKKB.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/LOGO_TV_PERU_2012.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV Peru (Opt-2)
+http://cdnh4.iblups.com/hls/irtp.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.claro.com.do/portal/do/gc/canales/1492787065158-Imagen.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Acento TV
+http://acentotv01.streamprolive.com/hls/live.m3u8
+
+#EXTINF:-1 tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/cana-vision-tv-300x169.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Cana Vision 88
+http://cm.hostlagarto.com:8081/Canavision/CanavisionHD.myStream/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.claro.com.do/portal/do/gc/canales/1496684778213-Imagen.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal del Sol 65
+http://canaldelsol01.streamprolive.com/hls/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-qnBTdXIAwmo/WSzJWOzajII/AAAAAAAADa4/fRwpY0v-ViMHc4uLHvUz3rpegI681QQCgCLcB/s1600/color%2Bvision%2Ben%2Bvivo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Color Vision 9
+http://ss2.domint.net:2138/cvh_str/colorvisionhd/chunklist_w854987298.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://domintdb.com/imgEstacion/909.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Digital Vision 63
+http://ss1.domint.net:2106/dv6_str/digitalvision/chunklist_w635489753.m3u8
+
+#EXTINF:-1 tvg-logo="http://dominicanchannels.net/wp-content/uploads/2014/12/galaxiatv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Galaxia TV 42
+http://server3.prostudionetwork.com:1957/telecontacto/galaxia/chunklist_w1071664231.m3u8
+
+#EXTINF:-1 tvg-logo="http://hostlagarto.com/streaming/wp-content/uploads/2017/03/LINIEROS-TV.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Linieros TV 36
+http://cm.hostlagarto.com:8081/LinierosTV/linieros.myStream/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.lunatv.do/stream/imagen/logo-stream.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Luna TV
+http://ss1.domint.net:2140/luna_str/lunatv/chunklist_w321264520.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="http://mangotvrd.com/wp-content/uploads/2012/12/MANGO-COLOR1.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Mango TV RD
+http://mangotv01.streamprolive.com/hls/live.m3u8
+
+#EXTINF:-1 tvg-logo="http://grupomedrano.com.do/wp-content/uploads/2014/09/Microvision-Canal-101.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Microvision 10
+http://190.103.183.24:1935/live/MicroHD/chunklist_w1468779956.m3u8
+
+#EXTINF:-1 tvg-logo="https://domintdb.com/imgEstacion/280.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Onda TV 10
+http://ss6.domint.net:2052/otv_str/tv10/chunklist_w1442080980.m3u8
+
+#EXTINF:-1 tvg-logo="http://mitvrd.com/uploads/telecentro-13.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telecentro 13
+http://stream.grupotelemicro.com/13.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.claro.com.do/portal/do/gc/canales/1492788167904-Imagen.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Telecontacto 57
+http://server3.prostudionetwork.com:1957/telecontacto/smil:telecontacto.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/ktGu7ySJobA/maxresdefault.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telekaribe
+http://ss1.domint.net:2208/tka_str/telekaribe/chunklist_w37205285.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/telenord.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telenord Canal 8
+http://newyorkstream.ddns.net:1935/telenord8/telenord8/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/telenord.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telenord Canal 10
+http://newyorkstream.ddns.net:1935/telenord10/telenord10/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/telenord.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telenord Canal 12
+http://newyorkstream.ddns.net:1935/telenord12/telenord12/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/telenord.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telenord Canal 14
+http://newyorkstream.ddns.net:1935/telenord14/telenord14/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/canal43.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Telenovisa 43
+http://ss6.domint.net:2084/203_str/telenovisa/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.teleradioamerica.com/wp-content/themes/tra2017/imagenes/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Teleradio America 45
+http://ss1.domint.net:2310/tra_str/canal45/chunklist_w1884577868.m3u8
+
+#EXTINF:-1 tvg-logo="http://mitvrd.com/uploads/YunaVision-Canal-10-Bonao.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Yuna Vision 10
+http://ss1.domint.net:2300/yv_str/yuna/chunklist_w1312196465.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.hit-tuner.net/images/radiologos/img_laender/zol_1065_fm.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Zol FM
+http://ss6.domint.net:1948/zol_str/vzol/chunklist_w745366436.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yQXrN1I.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 10
+http://198.24.135.42:80/canal10/canal10/playlist.m3u8?fluxustv.m3u8
+
+#EXTINF:0 tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2018/03/activatvhonduras.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Activa TV
+http://200.58.160.67:8081/envivo/activatv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.freeetv.com/images/03_logo/Promar_tv_Venezuela.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Promar TV (Opt-1)
+http://edge.wms28.lorini.net/promar/promar/live.m3u8
+
+#EXTINF:0 tvg-logo="http://vepacotv.tv/images/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Vepaco TV
+http://edge.wms28.lorini.net/tvepaco/tvepaco/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://www.foromedios.com/uploads/gallery/category_6/gallery_9461_6_34035.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Cadena A
+http://www.channel.tevemi.com:1935/CadenaA/CadenaA/playlist.m3u8
+
+#EXTINF:0 tvg-logo="http://www.catolicatelevision.com/wp-content/uploads/sites/9/2013/10/logo_ctv2.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Catolica TV
+http://www.channel.tevemi.com:1935/CatolicaTv/CatolicaTv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="http://tvofftravel.com/wp-content/uploads/sites/4/2015/04/logoOficial.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV OFF Travel
+http://www.channel.tevemi.com:1935/TvOff/TvOff/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://accenttv.ro/wp-content/uploads/2017/06/logoaccenttv-3-Copy-1-300x145.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Accent TV
+http://188.173.22.231:8080/video/emisie.m3u8
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/0/08/Antena_International_HD.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Antena International
+https://d201h06fdwdct7.cloudfront.net/antenainternational/ngrp:stream_all/chunklist_b946000.m3u8
+
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-diL-ndtqU2A/WFTv1oXXObI/AAAAAAAANW4/HA5iscL25ycSaAvOWzGK1vnCP5KpXCBTACLcB/s1600/B1tvrom.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",B1
+http://stream.adunity.com/b1/b1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-48n8Ahbntvc/AAAAAAAAAAI/AAAAAAAAAAA/PudXnVCofrI/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Cromtel TV
+http://webmobile.xdev.ro:81/tv7/playlist.m3u8?time=1463062060161
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://live.moldova9.com/wp-content/uploads/iasi-tv-life.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Iasi TV Life
+http://webmobile.xdev.ro:81/tv24/playlist.m3u8?time=1464028219168
 

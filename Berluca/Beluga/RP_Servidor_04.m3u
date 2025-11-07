@@ -1490,141 +1490,7 @@ http://176.65.146.108:8022/play/a06r/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",DAZN 2 (Portugal/Brasil) (🇵🇹🇧🇷)
 http://176.65.146.108:8022/play/a072/index.m3u8
-
-
 # ====== ★ CINE Y PELÍCULAS ★ ======
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CineLife
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinelife/playlist.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22933&ads.content_duration=18000&ads.episode_id=49342&ads.show_id=1259&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CMovies%2CDrama%2CAction%2FAdventure%2CFantasy%2CEnglish&ads.showRating=TV-14&ads.episodeRating=TV-14&ads.language=en&ads.showtitle=CineLife&ads.episodetitle=CineLife&ads.keywords=cinelife&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=cinelife&ads.islive=1&ads.streamtype=live&ads.vf=20241020
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinemasegreto (IT)
-https://minerva-cinemasegreto-1-it.xiaomi.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CINE LATINO ✅
-http://181.119.86.68:8000/play/b057/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Series ✅
-http://179.51.136.19:8000/play/a1a3/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Series HD - Opción 2 ✅
-http://179.51.136.19:8000/play/a1al/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine LatinoD ✅
-http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278460/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MOVIEDOME
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84addd31-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5bdf8fde-2533-4c16-b518-58e9777e93ca
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieSphere by Lionsgate
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64a3d96f060e830008af6745/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f6-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=41f0c8e5-55e6-4740-a854-15ac608b8c65
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Moviepilot TV mit Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67d572fac9c000835eb3a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84addd32-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fcc33217-17d7-4dc5-9361-70dd91fef90e
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Kino Filme
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63c9430af13a9b000786422a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aea086-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7546b852-e5e0-42d1-9d5a-c9e4615d9110
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Kultfilme
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dde47b63585b500099f74ec/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aea088-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3418c444-a5b9-456d-9d11-e4e9c7b5eec0
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Movies
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aec791-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5500aa67-c527-4db6-868b-d37341c34286
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",C1 Cinema One (Filipinas) (🇵🇭)
-https://cinemaone-abscbn-ono.amagi.tv/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Canela Cinema (España) (🇪🇸)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=3134
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Canela Cinema (Mexico) (🇲🇽)
-https://ov.ottera.tv/channels/cnm_cn_mv/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine 5 (Turquia) (🇹🇷)
-https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Estrella (Mexico) (🇲🇽)
-https://tinyurl.com/y7u5685s?.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Familiar (España) (🇪🇸)
-http://181.78.82.6:46090/play/a051/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Familiar (Mexico) (🇲🇽)
-http://190.121.42.18:8000/play/a017/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Feel Good (España) (🇪🇸)
-https://daiconnect.com/live/hls/tvup/rt-fg/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Hispano (España) (🇪🇸)
-http://181.78.82.6:46090/play/a052/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Hispano (Mexico) (🇲🇽)
-http://181.78.8.90:16123/play/ch51/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Madame (Italia) (🇮🇹)
-https://tinyurl.com/yvdk42d6?.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Mo! (Filipinas) (🇵🇭)
-https://cinemo-abscbn-ono.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Picante (Mexico) (🇲🇽)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5629
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Romantico (España) (🇪🇸)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=656
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinema Segreto (Italia) (🇮🇹)
-https://minerva-cinemasegreto-1-it.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinerama (Bolivia) (🇧🇴)
-https://5d00db0e0fcd5.streamlock.net/7062/7062/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Black (Canada) (🇨🇦)
-https://apollo.production-public.tubi.io/live/ac-filmrise-blacktv-canada.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Horror (Canada) (🇨🇦)
-https://apollo.production-public.tubi.io/live/ac-filmrise-horror-canada.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Todo Cine (España) (🇪🇸)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=4565
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movies Thriller (1080p) ✅
-https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8ADULTOS
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Fe (Venezuela) (🇻🇪)
-https://vcp.myplaytv.com:1936/moviefe/moviefe/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",DE PELICULA ✅
-http://181.119.85.222:8000/play/a013/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",DPELICULA ✅
-http://181.119.86.68:8000/play/b035/index.m3u8
-
-
-# ====== ★ DEPORTES EN VIVO ★ ======
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 5HD ✅
-http://179.51.136.19:8000/play/a1a6/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN2 ✅
-http://181.78.106.127:9000/play/ca034/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN4 ✅
-http://181.119.86.68:8000/play/b005/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN6 ✅
-http://200.125.170.123:8000/play/a05y
-
-
-# ====== ★ DOCUMENTALES ★ ======
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Pluto TV Misterios Medicos (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f230e416b68ff00075b0139/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Pluto TV Misterios sin Resolver (480p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f610042272f68000867685b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-
-
-# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
 
 #EXTINF:-1 tvg-id="" tvg-name="Colossal" tvg-logo="http://painel.iptvmove.com:25461/images/4680182.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Colossal
 http://painel.iptvmove.com:25461/movie/danga07/1963/2084.mp4
@@ -1805,4 +1671,322 @@ http://painel.iptvmove.com:25461/movie/danga07/1963/1664.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="Valente*" tvg-logo="http://www.ocamundongo.com.br/wp-content/uploads/2012/05/valente-poster-brasil-3.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Valente*
 http://painel.iptvmove.com:25461/movie/danga07/1963/1694.mp4
+
+
+# ====== ★ CINE Y PELÍCULAS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CineLife
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinelife/playlist.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22933&ads.content_duration=18000&ads.episode_id=49342&ads.show_id=1259&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CMovies%2CDrama%2CAction%2FAdventure%2CFantasy%2CEnglish&ads.showRating=TV-14&ads.episodeRating=TV-14&ads.language=en&ads.showtitle=CineLife&ads.episodetitle=CineLife&ads.keywords=cinelife&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=cinelife&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinemasegreto (IT)
+https://minerva-cinemasegreto-1-it.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CINE LATINO ✅
+http://181.119.86.68:8000/play/b057/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Series ✅
+http://179.51.136.19:8000/play/a1a3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Series HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1al/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine LatinoD ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278460/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MOVIEDOME
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615c1e5ce3039400070a0547/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84addd31-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5bdf8fde-2533-4c16-b518-58e9777e93ca
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieSphere by Lionsgate
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64a3d96f060e830008af6745/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f6-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=41f0c8e5-55e6-4740-a854-15ac608b8c65
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Moviepilot TV mit Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67d572fac9c000835eb3a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84addd32-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fcc33217-17d7-4dc5-9361-70dd91fef90e
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Kino Filme
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63c9430af13a9b000786422a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aea086-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7546b852-e5e0-42d1-9d5a-c9e4615d9110
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Kultfilme
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dde47b63585b500099f74ec/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aea088-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3418c444-a5b9-456d-9d11-e4e9c7b5eec0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Movies
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aec791-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5500aa67-c527-4db6-868b-d37341c34286
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",C1 Cinema One (Filipinas) (🇵🇭)
+https://cinemaone-abscbn-ono.amagi.tv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Canela Cinema (España) (🇪🇸)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3134
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Canela Cinema (Mexico) (🇲🇽)
+https://ov.ottera.tv/channels/cnm_cn_mv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine 5 (Turquia) (🇹🇷)
+https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Estrella (Mexico) (🇲🇽)
+https://tinyurl.com/y7u5685s?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Familiar (España) (🇪🇸)
+http://181.78.82.6:46090/play/a051/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Familiar (Mexico) (🇲🇽)
+http://190.121.42.18:8000/play/a017/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Feel Good (España) (🇪🇸)
+https://daiconnect.com/live/hls/tvup/rt-fg/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Hispano (España) (🇪🇸)
+http://181.78.82.6:46090/play/a052/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Hispano (Mexico) (🇲🇽)
+http://181.78.8.90:16123/play/ch51/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Madame (Italia) (🇮🇹)
+https://tinyurl.com/yvdk42d6?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Mo! (Filipinas) (🇵🇭)
+https://cinemo-abscbn-ono.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Picante (Mexico) (🇲🇽)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5629
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Romantico (España) (🇪🇸)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=656
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinema Segreto (Italia) (🇮🇹)
+https://minerva-cinemasegreto-1-it.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinerama (Bolivia) (🇧🇴)
+https://5d00db0e0fcd5.streamlock.net/7062/7062/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Black (Canada) (🇨🇦)
+https://apollo.production-public.tubi.io/live/ac-filmrise-blacktv-canada.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Horror (Canada) (🇨🇦)
+https://apollo.production-public.tubi.io/live/ac-filmrise-horror-canada.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Todo Cine (España) (🇪🇸)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4565
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movies Thriller (1080p) ✅
+https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8ADULTOS
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Fe (Venezuela) (🇻🇪)
+https://vcp.myplaytv.com:1936/moviefe/moviefe/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",DE PELICULA ✅
+http://181.119.85.222:8000/play/a013/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",DPELICULA ✅
+http://181.119.86.68:8000/play/b035/index.m3u8
+# ====== ★ DEPORTES EN VIVO ★ ======
+
+
+# ====== ★ DEPORTES EN VIVO ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 5HD ✅
+http://179.51.136.19:8000/play/a1a6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN2 ✅
+http://181.78.106.127:9000/play/ca034/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN4 ✅
+http://181.119.86.68:8000/play/b005/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN6 ✅
+http://200.125.170.123:8000/play/a05y
+# ====== ★ DOCUMENTALES ★ ======
+
+
+# ====== ★ DOCUMENTALES ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Pluto TV Misterios Medicos (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f230e416b68ff00075b0139/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Pluto TV Misterios sin Resolver (480p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f610042272f68000867685b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 tvg-logo="https://gentevip.it/wp-content/uploads/2015/06/Deejay-Tv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",DeeJay TV
+http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/master.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.ottoetrenta.it/wp-content/uploads/2014/12/esperia.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Esperia TV 18 Calabria
+http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://i63.tinypic.com/felzsi.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",FM Italia
+http://flash8.streaming.xdevel.com/fmitalia/fmitalia/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/1/11/Focus_Logo.svg/1200px-Focus_Logo.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Focus Mediaset
+https://origin-free-live1.mediaset.net/content/hls_clr_xo/live/channel(ch26)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://tv-online.in/wp-content/uploads/2015/02/iris-mediaset-live.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",Iris Mediaset
+http://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch06)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.appgrid.accedo.tv/content/file/5ae6ec03a0e845000cd36a5b" group-title="★ CANALES ROLL-OVER/OTROS ★",Italia 1 Mediaset
+http://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch02)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Logo_Italia2.svg/1200px-Logo_Italia2.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Italia 2 Mediaset
+http://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch05)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/8/8b/523px-La5_Italy.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",La 5 Mediaset
+https://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch04)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/-hYWT0MBszjE/AAAAAAAAAAI/AAAAAAAAAAA/Xbg1WDitHBI/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",La 7
+http://la7-vh.akamaihd.net/i/content/entry/data/0/299/0_b7o9lvba_0_kyyr8vxz_1.mp4/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/c/cb/Mediaset_Extra_logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Mediaset Extra
+http://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch09)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/it-primarete-lombardia.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Primarete Lombardia
+http://telecolor.econcept.it/live/primarete.isml/manifest(format=m3u8-aapl).m3u8
+
+#EXTINF:-1 tvg-logo="http://www.simonachiavaccini.com/wp-content/uploads/2012/03/primocanale.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Primocanale Liguria (Opt-1)
+http://msh0203.stream.seeweb.it/live/stream1.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/R101_-_Logo_2015.svg/1200px-R101_-_Logo_2015.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",R101 TV
+http://hlslive.msf.ticdn.it/hls/CH10/live_Layer2.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://oklivetv.com/wp-content/uploads/media/149abbcb156b5e4b6d87697452d29fdf.jpeg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio 105 TV
+http://wow01.105.net:1935/live/105Test1/livestream.m3u8
+
+#EXTINF:-1 tvg-logo="http://i68.tinypic.com/25qf7rb.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Azzurra
+http://188.165.224.142:1935/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://channelpear.com/images/media/3673.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Virgin TV (Opt-1)
+http://wow01.105.net:1935/live/virgin1/livestream.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://channelpear.com/images/media/3673.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Virgin TV (Opt-2)
+http://fms.105.net:1935/live/virgin1/livestream.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://channelpear.com/images/media/3673.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",Radio Virgin TV (Opt-3)
+http://tv.105.net:1935/live/virgin1/livestream.m3u8
+
+#EXTINF:-1 tvg-logo="http://i68.tinypic.com/2vba2hh.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Radionorba TV (Opt-1)
+http://flash5.streaming.xdevel.com/radionorbatv/smil:radionorbatv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rai_4_-_Logo_2016.svg/1200px-Rai_4_-_Logo_2016.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai 4 (Opt-1)
+http://b2everyrai-lh.akamaihd.net/i/rai4_1@181951/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rai_4_-_Logo_2016.svg/1200px-Rai_4_-_Logo_2016.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai 4 (Opt-3)
+https://raiquattro1-live.akamaized.net/hls/live/598315/raiquattro1/rai4_1200/chunklist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/1200px-Rai_5_-_Logo_2017.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai 5
+https://raicinque1-live.akamaized.net/hls/live/598318/raicinque1/rai5_1200/chunklist.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1200px-Rai_Gulp_-_Logo_2017.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai Gulp
+http://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=0004119
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rai_News_24_-_Logo_2013.svg/1280px-Rai_News_24_-_Logo_2013.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai News 24
+http://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=0000001
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://wikitv.eu/wp-content/uploads/2016/01/Rai-Premium.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai Premium
+http://b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/1200px-Rai_Scuola_-_Logo_2017.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai Scuola
+http://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=0024268
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/1200px-Rai_Storia_-_Logo_2017.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai Storia
+http://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=0024269
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/3d/Rai_Südtirol.svg-0.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rai Sudtirol (Switzerland)
+http://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Rete_4.svg/1200px-Rete_4.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rete 4 Mediaset (Opt-1)
+http://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch03)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Rete_4.svg/1200px-Rete_4.svg.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rete 4 Mediaset (Opt-2)
+https://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch03)/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://ulango.tv/uploads/channels/791293/logo_rtr.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RTTR TV Trento
+http://wma07.fluidstream.net:1935/RTTRlive/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/5/5a/RTV_San_Marino_2013.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RTV San Marino
+http://o4.senape.tv:1935/webtv_live4/_definst_/0QBXFQ2L0I5P/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://webtv.senato.it/application/xmanager/projecm3u8/leg17/img/home/logo_interne.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",Senato TV
+http://senato.spectar.tv:1935/senato-live/ngrp:webtv1_all/chunklist_b1155072_DVR.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.livenewsbox.com/wp-content/uploads/2015/05/Sky-TG24-2.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Sky TG24 (Opt-1)
+http://skyianywhere2-i.akamaihd.net:80/hls/live/200275/tg24/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://i66.tinypic.com/qzrjvl.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Standby TV
+http://176.31.226.78:1935/standbytvlive/stream1.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logoicona.png/200px-Logoicona.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Studio 100 Puglia (Opt-1)
+http://wms.shared.streamshow.it:1935/studio100ta/studio100ta/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.laurapuppato.it/wp-content/uploads/2013/01/Telechiara.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",TeleChiara (Opt-1)
+http://fms.tvavicenza.it:1935/telechiara/diretta/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/xit-telemia--1.jpg.pagespeed.ic.toEb8JJ_d6.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Telemia
+http://wms.shared.streamshow.it:80/telemia/telemia/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.osm1816.it/site/wp-content/uploads/2015/05/Logo_09_teleMonteneve1.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",teleMonteneve
+http://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.teleromagna.it/wp-content/uploads/2016/01/logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Teleromagna News
+http://livetr.teleromagna.it/news/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://telesud3.com/wp-content/themes/telesud/assem3u8/img/logotelesud.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Telesud Trapani
+http://live.streamcaster.net:1935/telesud3_live/telesud/chunklist_w1977902813.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/83/TeleTicino.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TeleTicino (Switzerland)
+http://teleticinolive.vedge.infomaniak.com/livecast/teleticinolive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/Tg_norba24.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TG Norba 24
+http://37.48.83.34:80/tgnorba_24/tgnorba_24_source.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/8/85/Logo_Top_Crime.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Top Crime Mediaset
+http://live3-mediaset-it.akamaized.net/content/hls_clr_xo/live/channel(ch07)/Stream(04)/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://tvavicenza.gruppovideomedia.it/img/tvavicenza_logo_new.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TVA Vicenza (Opt-1)
+http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.ultimatv.it/wp-content/uploads/2016/09/Logo-Trasparente-UltimaTV.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Ultima TV
+http://vod1.kronopress.com:1935/ultimatv_live/4B96-D3C4-CD06-4CFE/chunklist_w1315656524.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.veratv.it/wp-content/uploads/2018/02/logo_veratv_264x143.gif" group-title="★ CANALES ROLL-OVER/OTROS ★",Vera TV
+http://wms.shared.streamshow.it/veratv/veratv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.tvdream.net/immagini/video-brescia.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Video Brescia (Opt-2)
+http://wms.shared.streamshow.it/videobrescia/videobrescia/hasbahca.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://pbs.twimg.com/profile_images/579290315338608640/fGSNs2SZ.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Video Calabria
+http://wms.shared.streamshow.it:80/videocalabria/videocalabria/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://www.videomediterraneo.it/images/gruppo/chi_siamo/chi_siamo_vm_4.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Video Mediterraneo
+http://streaming.ermeslink.com:88/hlsme/vmstream.m3u8
+
+#EXTINF:-1 tvg-logo="http://paologoglio.com/wp-content/uploads/2013/12/logo_videostarTV.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Videostar TV Lombardia
+http://dreamsiteradiocpvideo.com:1935/vds/vds/playlist.m3u8
+
+#EXTINF:0 tvg-name="" tvg-language="" tvg-country="" tvg-id="" tvg-logo="http://img.brgo.xyz/img/AMAZONSAT.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Amazon Sat
+http://slrp.sambavideos.sambatech.com/liveevent/amazonsatabr1_3e9c859611a5e7fbedc785bd33c418b5/livestream3/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.g2ptv.com.br/wp-content/uploads/2017/06/g2ptv-logo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",G2P TV
+http://srv3.zoeweb.tv:1935/z474-live/aovivo/livestream.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b1/Logotipo_da_Record_News.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Record News
+http://stmv4.srvstm.com/recordnewses/recordnewses/playlist.m3u8?wowzasessionid=356495000
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/f/f2/Logotipo_da_RedeTV%21_Rondônia.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rede TV Rondonia
+http://173.236.10.10:1935/tvonline/tvonline/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/TV_O_Povo.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TV O Povo
+http://srv3.zoeweb.tv:1935/z01-live/stream/livestream.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://diocesetb.org.br/f/i/dioceseTubaraoLogoTvTuba.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",TV Tuba
+http://69.46.0.170:1935/rcr_tuba/tv.stream/live.m3u8
+
+#EXTINF:-1 tvg-logo="http://1.bp.blogspot.com/-vMAQNoRpfA8/UelW10uDRvI/AAAAAAAAJhs/LcAP-VsO8YY/s1600/Logo_TVE_24h.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",24 Horas
+http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl0/irtve01_lv3_aosv4_gl0/irtve01_lv3_aosv4_gl0.isml/irtve01_lv3_aosv4_gl0-audio=128000-video=400000.m3u8
+
+#EXTINF:-1 tvg-logo="http://alcarria.tv/web/wp-content/uploads/2016/09/logotipo_alcarria_television.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Alcarria TV
+http://217.182.77.27/live/alcarriatv-livestream.m3u8?fluxustv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i1.wp.com/directostv.teleame.com/wp-content/uploads/2018/02/cancionero-tv.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Cancionero TV
+http://89.140.99.41/hls/1080.m3u8?fluxustv.m3u8
 

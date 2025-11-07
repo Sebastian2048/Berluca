@@ -1,0 +1,185 @@
+#EXTM3U
+
+
+# ====== ★ CANALES ROLLOVEROTROS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Inwonder HD
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwonderhd-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CNBC TV 18 Geo
+https://amg00866-amg00866c2-xiaomi-in-3516.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Go USA (EU)
+https://brandusa-gousa-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Teen Vee English
+https://amg02051-soulpublishing-amg02051c5-xiaomi-international-383.playouts.now.amagi.tv/playlist/amg02051-admecyltd-teenveeenglish-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",La LA Life English
+https://amg02051-soulpublishing-amg02051c8-xiaomi-in-398.playouts.now.amagi.tv/playlist/amg02051-admecyltd-lalalifeenglish-xiaomiin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Slick Slime Sam English
+https://amg02051-soulpublishing-amg02051c12-xiaomi-international-384.playouts.now.amagi.tv/playlist/amg02051-admecyltd-slickslimesamenglish-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",123 Go! English (IN)
+https://amg02051-soulpublishing-amg02051c17-xiaomi-in-399.playouts.now.amagi.tv/playlist/amg02051-admecyltd-123goenglish-xiaomiin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Brightside English
+https://amg02051-soulpublishing-amg02051c9-xiaomi-international-385.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsideenglish-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Mr Bean Animated (BR) Geo
+https://amg00627-amg00627c35-xiaomi-international-4921.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanbr-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Brat TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00350-bratstudio-bratttv-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BRB (EU)
+https://playworksdigital-brb-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Brightside Spanish Geo
+https://amg02051-soulpublishing-amg02051c16-xiaomi-international-371.playouts.now.amagi.tv/playlist/amg02051-admecyltd-brightsidespanish-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Masterchef Brasil Geo
+https://amg00627-amg00627c9-xiaomi-international-4915.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SBT International (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sbtintl-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Trace Brazuca
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Demand Africa
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00017-theafricachanne-demandafrica-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Yu-Gi-Oh (FR)
+https://fastmedia-yu-gi-oh-4-fr.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Mr Bean Animated (FR) Geo
+https://amg00627-amg00627c31-xiaomi-international-4917.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Travel XP (FR)
+https://travelxp-travelxp-4-fr.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Trailers (FR) Geo
+https://amg01821-lovetv-amg01821c4-xiaomi-international-657.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailersfr-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Mytime (FR)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimefr-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Fuel TV (FR)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeafrance-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Drama Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinereal-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Sureno Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesureno-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Familia Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-juntos-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Accion Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcine-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Accion Latm Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinelatam-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Estella latm Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucinelatam-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Freetv Estella us Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucineus-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Frecuencia Novelas (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-frecuencianovelas-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Museum TV (FR)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtvfr-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",MYZEN (FR)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenfr-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Drive TV La Chaine Auto (FR) Geo
+https://amg01796-amg01796c2-xiaomi-international-2756.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-drivetv-xiaomiinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Le Figaro (FR) Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01767-secomiftvlefiga-lefigaro-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Telenovela TV (FR)
+https://stormcast-telenovelatv-1-fr.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ETV (FR)
+https://sasuprimetv-etv-2-fr.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Vivaldi TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01297-mezzo-vivalditv-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Saga Music Haryanvi (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusicharyanvi-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Saga Music (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusic-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",YRF Music (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Latido Music Geo
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00274-vidaprimo-latidomusic-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",News 18 Madhya Pradesh Geo
+https://amg00866-amg00866c3-xiaomi-in-3553.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",News 18 Uttarakhand Geo
+https://amg00866-amg00866c4-xiaomi-in-3552.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",News 18 Tamil Nadu Geo
+https://amg00866-amg00866c6-xiaomi-in-3554.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",News 18 Gujarati Geo
+https://amg00866-amg00866c7-xiaomi-in-3551.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",News 18 Bangla Geo
+https://amg00866-amg00866c8-xiaomi-in-3555.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",WildEarth
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01290-wildearthgroupl-wildearth-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Mtrsprt 1
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Zee News (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeenews-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ABP News (Asia)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpnews-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",India TV Speed News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01550-indiatv-indiatv-speed-mi-xiaomi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",India TV Speed News alt Geo
+https://amg01550-amg01550c3-xiaomi-in-4367.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvspeednews-xiaomiin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",PDC Darts Geo
+https://amg02302-amg02302c3-xiaomi-international-5835.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sport Outdoor TV (EU)
+https://gto2000-sportoutdoortv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Arirang
+https://amg02040-amg02040c6-xiaomi-international-5845.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Billiards TV (EU)
+https://newidco-billiardstv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten Viki (EU)
+https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",YG TV (EU)
+https://newidco-ygtv-1-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bloomberg TV 4K (US)
+https://bloomberg-bloombergtv-3-us.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bloomberg TV (EU)
+https://bloomberg-bloombergtv-3-eu.xiaomi.wurl.tv/playlist.m3u8
+

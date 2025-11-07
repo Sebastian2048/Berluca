@@ -25,7 +25,8 @@ PRIORIDAD_ESTADO = {
 }
 
 # 🔢 Límite de Bloques (Canales) por Categoría y Servidor
-LIMITE_BLOQUES_SERVIDOR = 60
+LIMITE_BLOQUES_CATEGORIA = 60 # Límite por categoría para distribución inicial
+LIMITE_BLOQUES_SERVIDOR_GLOBAL = 2000 # Límite máximo total por servidor (Para estabilidad)
 
 # 📄 Estructura de Nombramiento de Servidores
 NOMBRE_BASE_SERVIDOR = "RP_Servidor"

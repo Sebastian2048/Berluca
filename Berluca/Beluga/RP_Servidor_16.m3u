@@ -1,0 +1,185 @@
+#EXTM3U
+
+
+# ====== ★ CANALES ROLLOVEROTROS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",NY" group-title="★ CANALES ROLL-OVER/OTROS ★",FOX (WNYW) New York, NY
+https://tvpass.org/live/WNYWDT1/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",USA Today
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxusatoday/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",WFTV Breaking News
+https://cmg-wftvbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wftvbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",WSOC Breaking News
+https://cmg-wsocbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wsocbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",WPXI Breaking News
+https://cmg-wpxibreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wpxibreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",WHIO Breaking News
+https://cmg-whiobreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-whiobreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Redbox Free Movies
+https://spotlight-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-spotlight/CDN/playlist.m3u8?p=Redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",FilmRise Free Movies
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefreemovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",XUMO FREE Movies
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxxumofreemovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",XUMO FREE Westerns
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxxumowesterns/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Divorce Court
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdivorcecourt/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Court TV
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcourttv/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Heartland
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxheartland/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Portlandia
+https://244ea2bf58804131938b09e260de0576.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_Portlandia/playlist.m3u8?ads.wurl_channel=928&ads.wurl_name=Portlandia&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Newsy
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnewsy/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Action News Jax
+https://cmg-wjaxbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wjaxbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",COPS
+https://8e5a51fd84df4fd4bd64dd49cc9ccb75.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_COPS/playlist.m3u8?ads.wurl_channel=1095&ads.wurl_name=COPS&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Jail
+https://19132c0d3d424544a7d528a39b84e5de.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Redbox_Jail/playlist.m3u8?ads.wurl_channel=1201&ads.wurl_name=Jail&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Crackle Originals
+https://cracklepg13-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-crackle-pg13-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sleuth
+https://sleuth-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-sleuth-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Forensic Files
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxforensicfiles/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Unsolved Mysteries
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxunsolvedmysteries/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",True Crime Now
+https://805a8dbf31c74c3e9fcd6bd4b1b09d51.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_TrueCrimeNow/playlist.m3u8?ads.wurl_channel=941&ads.wurl_name=TrueCrimeNow&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Judge Nosey
+https://632e7b0caa3746638fedf21c7f458fd8.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_RealNosey/playlist.m3u8?ads.wurl_channel=349&ads.wurl_name=RealNosey&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Midsomer Murders
+https://74c54ddfb668499fab43327942fb60da.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Redbox_MidsomerMurders/playlist.m3u8?ads.wurl_channel=994&ads.wurl_name=MidsomerMurders&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Dr. G: Medical Examiner
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdrgmedicalexaminer/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Caught in Providence
+https://amg00353-lionsgate-caughtinprovidence-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-lionsgate-caughtinprovidence-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Reelz Channel
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Law & Crime
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxlawandcrime/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Redbox Romance
+https://holiday-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-holiday/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Chicken Soup for the Soul
+https://chickensoup-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-chickensoup-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",AllBlk Gems
+https://f33ea23034334a979987e15c81446025.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_AllBlkGems/playlist.m3u8?ads.wurl_channel=1180&ads.wurl_name=AllBlkGems&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Maverick
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-maverickmovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Made in Hollywood
+https://13be15d3afd947ee922bc0f8a55f522d.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_MadeInHollywood/playlist.m3u8?ads.wurl_channel=276&ads.wurl_name=MadeInHollywood&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",MagellanTV Now
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvoyager/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BNC GO
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxblacknewschannel/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CRACKLE
+https://crackle-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-crackle-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",The Walking Dead Universe
+https://ec431a2c5ef845158bdac41d47b37aa5.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_TWDUniverseTV14/playlist.m3u8?ads.wurl_channel=1215&ads.wurl_name=TWDUniverseTV14&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",DUST
+https://gunpowder-dust-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-dust-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Paranormal Files
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxparanormalfiles/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Farscape
+https://06cbbbf663bb4142916b1db724408129.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_Farscape/playlist.m3u8?ads.wurl_channel=1241&ads.wurl_name=Farscape&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Wu Tang Collection TV
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgoldenmediawutangcollection/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Hi-Yah!
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhi-ya/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ALTER
+https://amg00219-gunpowder-alter-redbox.amagi.tv/hls/amagi_hls_data_gunpowder-alter-redbox/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Scream Factory TV
+https://4f87124ca4484862a02e3ce1687416b2.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_ScreamFactoryTV/playlist.m3u8?ads.wurl_channel=1154&ads.wurl_name=ScreamFactoryTV&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Shout! Cult
+https://e1de00afde284547b713d99099312f17.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_ShoutCult/playlist.m3u8?ads.wurl_channel=1169&ads.wurl_name=ShoutCult&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ElectricNOW
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxelectricnow/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",PriceIsRight
+https://thepriceisright-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-thepriceisright-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Nosey
+https://72b83bcbd2204cdabbf4ffd7742d63fa.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_Nosey/playlist.m3u8?ads.wurl_channel=319&ads.wurl_name=Nosey&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Confess by Nosey
+https://9a319e0ee0694e24b1b08471b3145672.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_ConfessByNosey/playlist.m3u8?ads.wurl_channel=1445&ads.wurl_name=ConfessByNosey&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",FearFactor
+https://banijay-fearfactor-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-fearfactor-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Game Show Central
+https://890f34d0fe9b4c13b4fea89b53b849cf.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_GameShowCentral/playlist.m3u8?ads.wurl_channel=416&ads.wurl_name=GameShowCentral&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Supermarket Sweep
+https://supermarketsweep-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-supermarketsweep-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Family Feud
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfamilyfeud/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",DealorNoDeal
+https://banijay-dealornodeal-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-dealornodeal-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TheBiggestLoser
+https://banijay-thebiggestloser-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-thebiggestloser-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Buzzr
+https://buzzr-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-buzzr-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",WipeoutXtra
+https://banijay-wipeoutxtra-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-wipeoutxtra-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Nolly Africa HD
+https://amg02784-amg02784c1-distrotv-us-3394.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-distrotvus/playlist.m3u8?c_producer=AfricanMovieChannel&dnt=__LIMIT_AD_TRACKING__&app_bundle=__APP_BUNDLE__&app_name=__APP_NAME__&app_store_url=__STORE_URL__&did=__DEVICE_ID__&app_domain=__APP_DOMAIN__&device_make=__DEVICE_MAKE__&device_model=&coppa=0&ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23057&ads.content_duration=18000&ads.episode_id=81815&ads.show_id=3164&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CMovies%2CDrama%2CAfrican&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=Nolly%20Africa%20HD&ads.episodetitle=Nolly%20Africa%20HD&ads.keywords=Nollywood%2CAfrica%2CAfrican&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+
