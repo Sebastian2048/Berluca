@@ -18,19 +18,18 @@ try:
     )
 except ImportError as e:
     logging.error(f"Error al importar configuración: {e}")
-    # Definiciones de fallback para evitar errores críticos si config.py falla
     CARPETA_ORIGEN = "Beluga/compilados"
     CARPETA_SALIDA = "Beluga"
-    CLAVES_CATEGORIA = {}
+    CLAVES_CATEGORIA = {"roll_over_general": ["tv"]}
     LIMITE_BLOQUES = 100
     OVERFLOW_MAP = {}
     CLAVES_ESPANOL = []
-    CLAVES_NO_ESPANOL = []
+    CLAVES_NO_ESPANOL = ["eng"]
     def contiene_exclusion(texto): return False
 
 
 # =========================================================================================
-# 📦 FUNCIONES DE PARSEO
+# 📦 FUNCIONES DE PARSEO (Se mantienen)
 # =========================================================================================
 
 def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
@@ -160,7 +159,6 @@ def clasificar_enlaces():
     urls_en_categoria = {}
     conteo_inicial_por_categoria = {}
 
-    # Inicializamos solo las categorías que existen en config.py
     for categoria in CLAVES_CATEGORIA.keys():
         urls_en_categoria[categoria], conteo = obtener_urls_existentes(categoria)
         conteo_inicial_por_categoria[categoria] = conteo 
@@ -184,13 +182,12 @@ def clasificar_enlaces():
         guardado_exitoso = False
         categoria_principal = None
         
-        # --- LÓGICA DE IDIOMA (Prioridad Máxima para exclusión del RP_S2048) ---
-        # Si detectamos NO ESPAÑOL y no ESPAÑOL (para evitar falsos positivos como 'HD-USA-ES')
-        is_not_spanish = any(clave in nombre_lower for clave in CLAVES_NO_ESPANOL) and not any(clave in nombre_lower for clave in CLAVES_ESPANOL)
+        # ⚠️ Verificación de Idioma ESTRICTA (Prioridad Máxima)
+        is_not_spanish_language = any(clave in nombre_lower for clave in CLAVES_NO_ESPANOL)
         
-        if is_not_spanish:
+        if is_not_spanish_language:
             
-            categoria_destino = "roll_over_general" # Va directamente al archivo correlativo
+            categoria_destino = "roll_over_general" 
             
             if url not in urls_en_categoria.get(categoria_destino, set()):
                 guardar_en_categoria(categoria_destino, bloque)
@@ -199,11 +196,9 @@ def clasificar_enlaces():
                 bloques_agregados_a_disco += 1
                 guardado_exitoso = True
             
-            # Si el idioma no es español, no intentamos las categorías principales, vamos al siguiente bloque.
-            if guardado_exitoso or url in urls_en_categoria.get(categoria_destino, set()):
-                 continue
+            continue 
             
-        # 1. Bucle de Candidatos (Intenta la Principal y Fallback en el mismo nivel)
+        # 1. Bucle de Candidatos (Solo si el idioma es potencialmente español)
         if 'sin_clasificar' not in categorias_candidatas:
             
             for i, categoria in enumerate(categorias_candidatas):
@@ -217,7 +212,7 @@ def clasificar_enlaces():
                     
                 # B. Si la categoría está llena (LIMITE_BLOQUES)
                 if totales_por_categoria.get(categoria, 0) >= LIMITE_BLOQUES:
-                    continue # Pasa al siguiente candidato
+                    continue 
                 
                 # C. Guardado exitoso
                 guardar_en_categoria(categoria, bloque)
@@ -242,11 +237,9 @@ def clasificar_enlaces():
                     guardado_exitoso = True
 
         # 3. Último Recurso: Roll-Over General (Si falló la clasificación o es sin_clasificar)
-        # Esto captura: a) Los sin_clasificar. b) Los clasificados que llenaron todos sus límites.
         if not guardado_exitoso:
             categoria_final = "roll_over_general"
             
-            # Roll-Over no tiene límite de 100, solo se verifica duplicidad de URL
             if url not in urls_en_categoria.get(categoria_final, set()):
                 guardar_en_categoria(categoria_final, bloque) 
                 urls_en_categoria[categoria_final].add(url)
@@ -254,7 +247,7 @@ def clasificar_enlaces():
                 bloques_agregados_a_disco += 1
                 guardado_exitoso = True
             
-        # 4. Descarte definitivo (Solo si es duplicado o si ya llenó el roll_over_general [aunque no tiene límite explícito])
+        # 4. Descarte definitivo 
         if not guardado_exitoso:
             descartados_por_limite += 1
             continue

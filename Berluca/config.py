@@ -23,9 +23,6 @@ MINIMO_BLOQUES_VALIDOS = 0
 LIMITE_BLOQUES = 100 
 UMBRAL_EXCLUSION_ARCHIVO = 0.999999 
 
-# ⏳ Configuración de Caducidad (ELIMINADA)
-# DIAS_EXPIRACION_MISCELANEO = 7 
-
 # 🚦 Desbordamiento Específico (Overflow)
 OVERFLOW_MAP = {
     "peliculas_principal": "peliculas_extras",
@@ -33,7 +30,7 @@ OVERFLOW_MAP = {
     "deportes_en_vivo": "deportes_extras", 
 }
 
-# 🌐 Definición de Idiomas (NUEVO)
+# 🌐 Definición de Idiomas
 # Palabras clave para identificar canales en ESPAÑOL (Castellano/Habla Hispana)
 CLAVES_ESPANOL = ["es", "castellano", "español", "latino", "arg", "mex", "col", "chile", "peru", "ven", "hd", "sd"] 
 
@@ -41,7 +38,7 @@ CLAVES_ESPANOL = ["es", "castellano", "español", "latino", "arg", "mex", "col",
 CLAVES_NO_ESPANOL = ["eng", "usa", "uk", "portugues", "br", "fr", "deu", "ger", "ru", "arabic", "turkish", "sub", "dub", "viet"]
 
 
-# 🗂️ CLAVES_CATEGORIA (Eliminamos miscelaneo_otros)
+# 🗂️ CLAVES_CATEGORIA (Usadas para la clasificación inicial)
 CLAVES_CATEGORIA = {
     "tv_argentina": ["telefe", "el trece", "canal 13", "canal 9", "america tv", "net tv", "elnueve"],
     
@@ -66,12 +63,24 @@ CLAVES_CATEGORIA = {
     
     "musica_general": ["mtv", "telehit", "qube music", "musica", "concert"],
     
-    # 🌍 Categoría de Roll-Over (Todo lo que no es Español o no clasifica)
+    # 🌍 Categoría de Descarte (Destino de canales que no cumplen límites o no son españoles)
     "roll_over_general": ["tv", "canal", "online", "hd"] 
 }
 
+# 🏷️ CATEGORÍAS PARA LA RE-CLASIFICACIÓN DEL ROLL-OVER (NUEVO - Usadas en generador.py)
+# El generador usará estas claves para segmentar el contenido de roll_over_general.m3u
+CLAVES_ROLL_OVER = {
+    "DEPORTES_LATAM": ["futbol", "deporte", "sports", "liga", "hd"],
+    "CANALES_USA": ["usa", "eng", "english", "fox", "cnn", "cbs", "abc", "nbc", "hbo", "fx", "amc", "a&e"],
+    "CANALES_BRASIL": ["br", "portugues", "globo", "band", "sbt", "record"],
+    "CANALES_FRANCIA": ["fr", "france", "francais"],
+    "MUSICA_INTERNACIONAL": ["mtv", "viva", "music", "musica", "video", "pop"],
+    "NOTICIAS_INTERNACIONAL": ["news", "bbc", "al jazeera", "rt", "euronews", "sky news"],
+    "SIN_CLASIFICAR_ROLLOVER": ["channel", "tv", "online"] # Último recurso para el roll-over
+}
+
+
 # 🏷️ Categorías que SOLO deben ir en RP_S2048.m3u (Habla Hispana)
-# Son todas las categorías principales y extras, EXCEPTO roll_over_general.
 CATEGORIAS_PRINCIPALES_ESPANOL = [
     "tv_argentina", "peliculas_principal", "peliculas_extras", "series_principal", 
     "series_extras", "cine_terror", "deportes_en_vivo", "deportes_extras",
@@ -85,13 +94,13 @@ URL_BASE_SEGMENTADOS = "https://raw.githubusercontent.com/Sebastian2048/Beluga/m
 # 🐳 Imagen por defecto
 LOGO_DEFAULT = "https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png"
 
-# 🖼️ Logos específicos por categoría (Puedes expandir esto)
+# 🖼️ Logos específicos por categoría
 LOGOS_CATEGORIA = {
     "tv_argentina": LOGO_DEFAULT, "peliculas_principal": LOGO_DEFAULT,
     "series_principal": LOGO_DEFAULT, "deportes_en_vivo": LOGO_DEFAULT
 }
 
-# ✨ Títulos visuales por categoría (Ajustamos el título de roll_over)
+# ✨ Títulos visuales por categoría
 TITULOS_VISUALES = {
     "tv_argentina": "★ TV ARGENTINA ★",
     "peliculas_principal": "★ CINE Y PELÍCULAS ★",
@@ -106,7 +115,16 @@ TITULOS_VISUALES = {
     "musica_general": "★ MÚSICA GENERAL ★",
     "infantil_kids": "★ INFANTILES KIDS ★",
     "cine_terror": "★ CINE TERROR ★",
+    
+    # Títulos para las sub-categorías de Roll-Over (RP_Sxxxx.m3u)
     "roll_over_general": "★ CANALES ROLL-OVER/OTROS (Respaldo) ★",
+    "DEPORTES_LATAM": "★ DEPORTES LATAM (Respaldo) ★",
+    "CANALES_USA": "★ CANALES DE ESTADOS UNIDOS ★",
+    "CANALES_BRASIL": "★ CANALES DE BRASIL ★",
+    "CANALES_FRANCIA": "★ CANALES DE FRANCIA ★",
+    "MUSICA_INTERNACIONAL": "★ MÚSICA INTERNACIONAL ★",
+    "NOTICIAS_INTERNACIONAL": "★ NOTICIAS INTERNACIONAL ★",
+    "SIN_CLASIFICAR_ROLLOVER": "★ OTROS CANALES NO CLASIFICADOS ★",
 }
 
 # 🔍 Función para detectar exclusiones
