@@ -1,0 +1,65 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",07.8AXN ✅
+http://200.60.124.19:29000/play/a027/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN - Opción 2 ✅
+http://181.119.86.68:8000/play/c016/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN HD
+http://181.119.85.222:8000/play/a01y/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Imagen Universal TV
+https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV
+http://181.119.85.222:8000/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_1/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV ✅
+http://tv.teleclub.xyz/stream/server_3/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",AXN (Colombia/USA) (🇨🇴🇺🇸)
+http://190.83.2.172:8081/play/a06t/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",AXN (España/UK) (🇪🇸🇬🇧)
+https://streamer1.nexgen.bz/AXN/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",AXN (Indonesia) (🇮🇩)
+https://cdn09jtedge.indihometv.com/atm/hlsv3/axn/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",AXN (Mexico) (🇲🇽)
+http://181.78.105.146:6060/play/a04m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN HD
+http://181.119.85.222:8000/play/a01y/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Imagen Universal TV
+https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV
+http://181.119.85.222:8000/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_1/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV ✅
+http://tv.teleclub.xyz/stream/server_3/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN HD
+http://181.119.85.222:8000/play/a01y/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Imagen Universal TV
+https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV
+http://181.119.85.222:8000/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_1/entretenimiento/universaltv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV ✅
+http://tv.teleclub.xyz/stream/server_3/entretenimiento/universaltv/master.m3u8
+

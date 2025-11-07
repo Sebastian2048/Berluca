@@ -1,0 +1,26 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",DISCOVERY KIDS ✅
+http://181.119.86.68:8000/play/b020/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",DK Discovery Kids (Argentina) (🇦🇷)
+http://191.52.214.5:8000/play/a02h/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",DK Discovery Kids (Chile) (🇨🇱)
+http://181.78.105.146:8800/play/a00r/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",DK Discovery Kids (Colombia) (🇨🇴)
+http://190.83.2.172:8080/play/a015/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",DK Discovery Kids (España) (🇪🇸)
+http://8.242.176.45:1013/play/a01q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",DK Discovery Kids (Mexico) (🇲🇽)
+http://179.49.163.34:45000/play/a009/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTIL EDUCATIVO ★",Discovery Kids - Opción 2 ✅
+https://proxy.movian.tv:45000/play/a00h
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",BabyTv ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/158661/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+

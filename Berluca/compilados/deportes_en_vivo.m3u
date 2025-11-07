@@ -1,0 +1,605 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",09.1ESPN 1 ✅
+http://200.60.124.19:29000/play/a016/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",11.1ESPN 2 Latin ✅
+http://200.60.124.19:29000/play/a015/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",11.2ESPN 3 ✅
+http://200.60.124.19:29000/play/a02e/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",11.3ESPN 4 ✅
+http://200.60.124.19:29000/play/a04y/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",15.1 ESPN 7 ✅
+http://200.60.124.19:29000/play/a01e/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",15.2ESPN 6 ✅
+http://200.60.124.19:29000/play/a01f/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ACCN ESPN (USA) (🇺🇸)
+https://fl2.moveonjoy.com/ACC_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Argentina) (🇦🇷)
+http://181.78.106.127:9000/play/ca033/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Chile) (🇨🇱)
+http://38.180.133.31:8000/play/a0tb/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Colombia) (🇨🇴)
+http://38.180.133.31:8000/play/a0wa/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (España) (🇪🇸)
+http://191.52.214.5:8000/play/a02s/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Mexico) (🇲🇽)
+http://181.78.82.6:46090/play/a00q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN - Opción 2 ✅
+http://181.119.86.68:8000/play/b031/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 1 - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/espn1/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Argentina) (🇦🇷)
+http://38.180.133.31:8000/play/a0w4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://244285498241827462.ofds1114.xyz:80/live/zh917087/utFFceNB@SQ/827462.ts?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Chile) (🇨🇱)
+http://191.52.214.5:8000/play/a027/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (España) (🇪🇸)
+http://181.78.82.6:46090/play/a00i/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Mexico) (🇲🇽)
+http://181.78.105.146:8800/play/a08t/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN_2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Argentina) (🇦🇷)
+http://181.78.105.146:8800/play/a053/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://authxplus-2.xyz:2082/live/Tourobox1-APhnnJ6sQS/7nAiGmzfNG/126.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Chile) (🇨🇱)
+http://190.102.246.93:9005/play/a02l/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Colombia) (🇨🇴)
+http://191.52.214.5:8000/play/a025/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (España) (🇪🇸)
+http://38.180.133.31:8000/play/a0w5/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Mexico) (🇲🇽)
+http://181.78.82.6:46090/play/a00v/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Peru) (🇵🇪)
+http://190.61.42.218:9000/play/a061/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 - Opción 2 ✅
+http://181.119.86.68:8000/play/b033/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 HD ✅
+http://138.0.228.250:44380/play/a00q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://244285498241827465.ofds1114.xyz:80/live/zh917087/utFFceNB@SQ/827465.ts?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Colombia) (🇨🇴)
+http://38.180.133.31:8000/play/a0wd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (España) (🇪🇸)
+http://190.102.246.93:9005/play/a019/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Mexico) (🇲🇽)
+http://181.78.106.127:9000/play/ca036/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 - Opción 2 ✅
+http://181.119.85.222:8000/play/a00j/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 ✅
+http://181.78.106.127:9000/play/ca036/index.m3u8 HD
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 5 (España) (🇪🇸)
+http://190.83.2.172:8081/play/a07g/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 5 (Mexico) (🇲🇽)
+http://38.180.133.31:8000/play/a0w7/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 5 HD - Opción 2 ✅
+http://181.119.85.222:8000/play/a02a/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 5HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1a6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Argentina) (🇦🇷)
+http://190.102.246.93:9005/play/a02m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://authxplus-2.xyz:2082/live/Tourobox1-APhnnJ6sQS/7nAiGmzfNG/1005.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Chile) (🇨🇱)
+http://181.78.82.6:46090/play/a00w/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Colombia) (🇨🇴)
+http://190.61.42.218:9000/play/a062/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (España) (🇪🇸)
+http://181.78.105.146:8800/play/a056/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Mexico) (🇲🇽)
+http://38.180.133.31:8000/play/a0qo/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Peru) (🇵🇪)
+http://191.52.214.5:8000/play/a026/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 mx ✅
+http://190.60.32.178:8178/play/a0aa/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 ✅
+http://181.119.86.68:8000/play/b030/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1ai/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 7 - Opción 2 ✅
+http://181.119.85.222:8000/play/a00k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 7 ✅
+http://181.119.86.68:8000/play/b029/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Deportes (España) (🇪🇸)
+http://190.92.10.66:4000/play/a003/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN HD ✅
+http://181.119.85.222:8000/play/a01q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN News (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN_NEWS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium (Colombia) (🇨🇴)
+http://45.184.87.142:8000/play/a045/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium (España) (🇪🇸)
+http://190.123.90.146:8000/play/a00f/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium (Mexico) (🇲🇽)
+http://190.102.246.93:9005/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/espnpremium/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN U (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN_U/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN2 ✅
+http://181.78.106.127:9000/play/ca034/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN3 ✅
+http://181.78.106.127:9000/play/ca035/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN4 - Opción 2 ✅
+http://181.119.86.68:8000/play/b005/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (España) (🇪🇸)
+http://181.78.106.127:9000/play/ca031/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (Mexico) (🇲🇽)
+http://200.115.120.1:8000/play/ca041/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (USA) (🇺🇸)
+https://apollo.production-public.tubi.io/live/fox-sports.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports 1 (España) (🇪🇸)
+http://191.52.214.5:8000/play/a03u/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports Espanol (Mexico) (🇲🇽)
+https://apollo.production-public.tubi.io/live/fox-sports-espanol.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports Español (España) (🇪🇸)
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Fox-Sports-Espanol2.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 1 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 1 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 MX - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_3/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 ✅
+http://181.78.106.127:9000/play/ca032/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 3 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports3mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports Premium MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsportspremiummx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",TyC Sports - Opción 2 ✅
+http://179.51.136.19:8000/play/a1h0/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",ESPN (Brasil/Portugal) (🇧🇷🇵🇹)
+http://78.159.122.138:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/1?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",ESPN 2 (Canada) (🇨🇦)
+http://tvmate.icu:8080/nCqH8t/631017/2210?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",ESPN 4 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://78.159.122.138:2082/Jvyct679999967DDDF4477/Xpluxxx3333ggghy5t57/143?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",ESPN 5 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://authxplus-2.xyz:2082/Tourobox1-APhnnJ6sQS/7nAiGmzfNG/140?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",ESPN 7 (España) (🇪🇸)
+http://nxt.plus:8080/jesus01/jesus01/13229
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ACCN ESPN (USA) (🇺🇸)
+https://fl2.moveonjoy.com/ACC_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Argentina) (🇦🇷)
+http://181.78.106.127:9000/play/ca033/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Chile) (🇨🇱)
+http://38.180.133.31:8000/play/a0tb/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Colombia) (🇨🇴)
+http://38.180.133.31:8000/play/a0wa/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (España) (🇪🇸)
+http://191.52.214.5:8000/play/a02s/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Mexico) (🇲🇽)
+http://181.78.82.6:46090/play/a00q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Argentina) (🇦🇷)
+http://38.180.133.31:8000/play/a0w4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://244285498241827462.ofds1114.xyz:80/live/zh917087/utFFceNB@SQ/827462.ts?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Chile) (🇨🇱)
+http://191.52.214.5:8000/play/a027/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Colombia) (🇨🇴)
+http://181.78.106.127:9000/play/ca034/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (España) (🇪🇸)
+http://181.78.82.6:46090/play/a00i/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Mexico) (🇲🇽)
+http://181.78.105.146:8800/play/a08t/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN_2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Argentina) (🇦🇷)
+http://181.78.105.146:8800/play/a053/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://authxplus-2.xyz:2082/live/Tourobox1-APhnnJ6sQS/7nAiGmzfNG/126.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Chile) (🇨🇱)
+http://190.102.246.93:9005/play/a02l/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Colombia) (🇨🇴)
+http://191.52.214.5:8000/play/a025/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (España) (🇪🇸)
+http://38.180.133.31:8000/play/a0w5/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Mexico) (🇲🇽)
+http://181.78.82.6:46090/play/a00v/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Peru) (🇵🇪)
+http://190.61.42.218:9000/play/a061/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://244285498241827465.ofds1114.xyz:80/live/zh917087/utFFceNB@SQ/827465.ts?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Colombia) (🇨🇴)
+http://38.180.133.31:8000/play/a0wd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (España) (🇪🇸)
+http://190.102.246.93:9005/play/a019/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Mexico) (🇲🇽)
+http://181.78.106.127:9000/play/ca036/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 5 (España) (🇪🇸)
+http://190.83.2.172:8081/play/a07g/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 5 (Mexico) (🇲🇽)
+http://38.180.133.31:8000/play/a0w7/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Argentina) (🇦🇷)
+http://190.102.246.93:9005/play/a02m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Brasil/Portugal) (🇧🇷🇵🇹)
+http://authxplus-2.xyz:2082/live/Tourobox1-APhnnJ6sQS/7nAiGmzfNG/1005.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Chile) (🇨🇱)
+http://181.78.82.6:46090/play/a00w/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Colombia) (🇨🇴)
+http://190.61.42.218:9000/play/a062/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (España) (🇪🇸)
+http://181.78.105.146:8800/play/a056/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Mexico) (🇲🇽)
+http://38.180.133.31:8000/play/a0qo/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Peru) (🇵🇪)
+http://191.52.214.5:8000/play/a026/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Deportes (España) (🇪🇸)
+http://190.92.10.66:4000/play/a003/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN News (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN_NEWS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium (Colombia) (🇨🇴)
+http://45.184.87.142:8000/play/a045/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium (España) (🇪🇸)
+http://190.123.90.146:8000/play/a00f/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN Premium (Mexico) (🇲🇽)
+http://190.102.246.93:9005/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN U (USA) (🇺🇸)
+https://fl5.moveonjoy.com/ESPN_U/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (España) (🇪🇸)
+http://181.78.106.127:9000/play/ca031/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (Mexico) (🇲🇽)
+http://200.115.120.1:8000/play/ca041/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (USA) (🇺🇸)
+https://apollo.production-public.tubi.io/live/fox-sports.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports 1 (España) (🇪🇸)
+http://191.52.214.5:8000/play/a03u/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports Espanol (Mexico) (🇲🇽)
+https://apollo.production-public.tubi.io/live/fox-sports-espanol.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports Español (España) (🇪🇸)
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Fox-Sports-Espanol2.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 1 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 MX - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_3/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 3 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports3mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports Premium MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsportspremiummx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",AYM Sports (Mexico) (🇲🇽)
+https://aym-as.otteravision.com/aym/as/as.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Abu Dhabi Sports 1 (1080p) ✅
+https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Adventure Sports (UK) (🇬🇧)
+https://tinyurl.com/2fw79tx8?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",BEK Sports West (USA) (🇺🇸)
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Bahrain Sports 1 (Barein) (🇧🇭)
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Bahrain Sports 2 (Barein) (🇧🇭)
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Bein Sports Xtra (USA) (🇺🇸)
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Bein Sports Xtra Ñ (España) (🇪🇸)
+https://tinyurl.com/yc6az36h?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Campus Lore Sports (USA) (🇺🇸)
+https://tinyurl.com/4t54ftdy?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Claro Sports 1 SD - Opción 2 ✅
+http://179.51.136.19:8000/play/a18m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Claro Sports 1 SD ✅
+http://179.51.136.19:8000/play/a18m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Claro Sports 2 SD - Opción 2 ✅
+http://179.51.136.19:8000/play/a16q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Claro Sports 2 SD ✅
+http://179.51.136.19:8000/play/a16q/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",DSPORTS - Opción 2 ✅
+http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",DSPORTS 2 - Opción 2 ✅
+http://179.51.136.19:8000/play/a112/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",DSPORTS 2 ✅
+http://179.51.136.19:8000/play/a112/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",DSPORTS ✅
+http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 1 (Emiratos) (🇦🇪)
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 2 (Emiratos) (🇦🇪)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 2 FHD - Opción 2 ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 2 FHD ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 3 (Emiratos) (🇦🇪)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 3 FHD - Opción 2 ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Dubai Sports 3 FHD ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ES: MAVTV Motorsports Network DASH ✅
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Argentina) (🇦🇷)
+http://181.78.106.127:9000/play/ca033/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN (Colombia) (🇨🇴)
+http://38.180.133.31:8000/play/a0wa/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Argentina) (🇦🇷)
+http://38.180.133.31:8000/play/a0w4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (Colombia) (🇨🇴)
+http://181.78.106.127:9000/play/ca034/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 2 (España) (🇪🇸)
+http://181.78.82.6:46090/play/a00i/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (España) (🇪🇸)
+http://38.180.133.31:8000/play/a0w5/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 3 (Mexico) (🇲🇽)
+http://181.78.82.6:46090/play/a00v/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Colombia) (🇨🇴)
+http://38.180.133.31:8000/play/a0wd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 4 (Mexico) (🇲🇽)
+http://181.78.106.127:9000/play/ca036/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Chile) (🇨🇱)
+http://181.78.82.6:46090/play/a00w/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ESPN 6 (Mexico) (🇲🇽)
+http://38.180.133.31:8000/play/a0qo/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",ETB Deportes (España) (🇪🇸)
+https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Esports Max (Venezuela) (🇻🇪)
+http://vcpar.myplaytv.com/esportsmax/live/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (España) (🇪🇸)
+http://181.78.106.127:9000/play/ca031/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",FOX Sports (Mexico) (🇲🇽)
+http://200.115.120.1:8000/play/ca041/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 1 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 MX - Opción 2 ✅
+http://tv.teleclub.xyz/stream/server_3/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 2 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports 3 MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports3mx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Fox Sports Premium MX ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsportspremiummx/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Futbol Network (USA) (🇺🇸)
+https://is.gd/r77jwh?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Horizon Sports (Italia) (🇮🇹)
+https://tinyurl.com/4trh5j6f?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Horizon Sports (USA) (🇺🇸)
+https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",MX | SPORTSGRID ✅
+https://sportsgrid-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-sportsgrid-plex/CDN/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=SYmqRsd_3zFsz7JJX_qb&channelId=5ef11485d33ab9004048a1ca
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",More Than Sports (Alemania) (🇩🇪)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Movistar Deportes - Opción 2 ✅
+http://179.51.136.19:8000/play/a0zj/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Movistar Deportes ✅
+http://179.51.136.19:8000/play/a0zj/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Oman Sports (Oman) (🇴🇲)
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Setanta Sports (Ucrania) (🇺🇦)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/272/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Setanta Sports 1 (Rusia) (🇷🇺)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/271/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Setanta Sports 2 (Rusia) (🇷🇺)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/270/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Sky Sports Bundesliga (España) (🇪🇸)
+http://190.92.10.66:4000/play/a006/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Sports (Turquia) (🇹🇷)
+https://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Star Sports 1 (India) (🇮🇳)
+http://41.205.93.154/STARSPORTS1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Tigo sports ✅
+http://181.78.106.127:9000/play/ca038/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Universo Sports ✅
+http://181.78.106.127:9000/play/ca088/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Via X Esports - Opción 2 ✅
+http://181.78.201.70:8000/play/a0ig/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Via X Esports ✅
+http://179.51.136.19:8000/play/a1h1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Win Sports+ - Opción 2 ✅
+http://179.51.136.19:8000/play/a1bp/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES ★",Win Sports+ ✅
+http://179.51.136.19:8000/play/a1it/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN ★",Golf Channel - Opción 2 ✅
+http://179.51.136.19:8000/play/a1bo/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN ★",Golf Channel ✅
+http://179.51.136.19:8000/play/a0z6/index.m3u8
+

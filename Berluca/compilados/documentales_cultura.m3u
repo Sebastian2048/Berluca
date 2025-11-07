@@ -1,0 +1,8 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts - Opción 2 ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+

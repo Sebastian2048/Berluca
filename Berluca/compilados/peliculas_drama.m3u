@@ -1,0 +1,38 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",03.6Cinemax ✅
+http://200.60.124.19:29000/play/a025/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Cinemax (España) (🇪🇸)
+http://181.78.106.127:9000/play/ca079/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Cinemax (Indonesia) (🇮🇩)
+https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/2156.ts?extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Cinemax East (USA) (🇺🇸)
+https://fl5.moveonjoy.com/CINEMAX_EAST/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",CinemaxD ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278467/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts - Opción 2 ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",STUDIO UNIVERSAL - Opción 2 ✅
+http://181.119.86.68:8000/play/c024/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SIN CLASIFICAR ★",Paramount Network (España) (🇪🇸)
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/PARAMOUNT/__op/hls-default/__f/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts - Opción 2 ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts - Opción 2 ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",Film&Arts ✅
+http://179.51.136.19:8000/play/a1go/index.m3u8
+
