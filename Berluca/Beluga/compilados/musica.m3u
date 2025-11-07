@@ -21,3 +21,24 @@ https://canal.mediaserver.com.co/live/telemusica.m3u8
 #EXTINF:0,Tu Canal Musical (España) (🇪🇸)
 https://video1.getstreamhosting.com:1936/8130/8130/.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",Concierto FM (Bolivia) (🇧🇴)
+https://eu1.servers10.com:8081/conciertotv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",Conciertos Radio 3 (España) (🇪🇸)
+https://ztnr.rtve.es/ztnr/6924117.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",Frecuencia Musical (Ecuador) (🇪🇨)
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",NPC Musica (Portugal) (🇵🇹)
+https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",Sol Musica (España) (🇪🇸)
+https://d2glyu450vvghm.cloudfront.net/sm.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",Tele Musica (Colombia) (🇨🇴)
+https://canal.mediaserver.com.co/live/telemusica.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MUSICA ★",Tu Canal Musical (España) (🇪🇸)
+https://video1.getstreamhosting.com:1936/8130/8130/.m3u8
+

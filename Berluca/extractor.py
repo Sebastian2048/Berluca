@@ -1,9 +1,8 @@
-# extractor.py
-
 import requests
 import os 
+# Asegúrate de que 'utils.py' exista para estas importaciones
+from utils import github_blob_a_raw, extraer_enlaces_m3u 
 from config import CARPETA_SALIDA
-from utils import github_blob_a_raw, extraer_enlaces_m3u
 
 def recolectar_enlaces(url_lista):
     print(f"\n📥 Descargando lista desde: {url_lista}\n")
@@ -13,7 +12,6 @@ def recolectar_enlaces(url_lista):
     print(f"🔗 URL RAW convertida: {url_final}") 
 
     # 2. Definir la ruta temporal CORRECTA: Beluga/TEMP_MATERIAL.m3u
-    # 🛑 CORRECCIÓN CLAVE: Usar CARPETA_SALIDA para la ruta temporal.
     ruta_temp = os.path.join(CARPETA_SALIDA, "TEMP_MATERIAL.m3u")
     
     try:
@@ -29,7 +27,8 @@ def recolectar_enlaces(url_lista):
         with open(ruta_temp, "w", encoding="utf-8", errors="ignore") as f:
             f.write("#EXTM3U\n\n")
             for enlace in enlaces_unicos:
-                f.write(enlace + "\n\n") # Doble salto para bloques separados
+                # Cada bloque debe tener doble salto de línea al final
+                f.write(enlace + "\n\n") 
 
         print(f"✅ Lista almacenada en: {ruta_temp} ({len(enlaces_unicos)} enlaces)\n")
 
