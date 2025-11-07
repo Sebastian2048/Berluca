@@ -1,98 +1,257 @@
 #EXTM3U
 
-#EXTINF:-1,03.7FX ✅
+#EXTINF:-1 channel-id="4010582bb66b58a69151a4f552de0823" tvg-id="4010582bb66b58a69151a4f552de0823" tvg-chno="983" tvg-name="FilmRise Series Gratis" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/4010582bb66b58a69151a4f552de0823/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1661549967029_FR_SeriesGratis_HUD_CenterAligned.png" group-title="Drama",FilmRise Series Gratis
+https://aka-live491.delivery.roku.com/3ccdcc7e-fe70-4829-9001-e99019afeaad/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-id="comedy-central-us-eastern-feed" tvg-name="Comedy Central (US) Eastern Feed" group-title="Live",Comedy Central (US) Eastern Feed
+https://tvpass.org/live/ComedyCentralEast/sd
+
+#EXTINF:-1 tvg-id="fx-movie-channel" tvg-name="FX Movie Channel" group-title="Live",FX Movie Channel
+https://tvpass.org/live/FXMovieChannel/sd
+
+#EXTINF:-1 tvg-id="fx-networks-east-coast" tvg-name="FX Networks East Coast" group-title="Live",FX Networks East Coast
+https://tvpass.org/live/FXEast/sd
+
+#EXTINF:-1 tvg-id="fxx-usa-eastern" tvg-name="FXX USA Eastern" group-title="Live",FXX USA Eastern
+https://tvpass.org/live/FXXEast/sd
+
+#EXTINF:-1,New K movies and Series
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991386
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/A96C4CAE-A18E-4BE3-BD27-FFAA808834E9/3-1x1.png" tvg-id="LN_A96C4CAE-A18E-4BE3-BD27-FFAA808834E9" group-title="LocalNowðŸ‡ºðŸ‡¸: En Espanol",TuWarner
+https://s9host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config12/playlist.m3u8?ads.cdnhost=s9host5.localnow.api.cms.amdvids.com&ads.playbackid=A96C4CAE-A18E-4BE3-BD27-FFAA808834E9&ads.n1=rule_id&ads.v1=31E67C91-301F-4DA0-997C-55E852CBE4CB-1752176430&ads.n3=qp_content_id&ads.v3=A96C4CAE-A18E-4BE3-BD27-FFAA808834E9&ads.n4=content_name&ads.v4=TuWarner&ads.n21=cust_devicename&ads.v21=desktop_web&ads.n22=content_producer_name&ads.v22=Warner%20Brothers%20Discovery&ads.n23=ifa_type&ads.v23=&ads.n24=gpp&ads.v24=&ads.n25=us_privacy&ads.v25=1YNY&ads.n26=did&ads.v26=&ads.n27=app_version&ads.v27=0.0.0&ads.n28=content_type&ads.v28=channel&ads.n29=channel_name&ads.v29=TuWarner&ads.n30=h&ads.v30=1080&ads.n31=device_type&ads.v31=&ads.n32=w&ads.v32=1920&ads.n33=dnt&ads.v33=&ads.n34=device_model&ads.v34=&ads.n35=channel_language&ads.v35=en&ads.n36=app_store_url&ads.v36=&ads.n37=app_bundle&ads.v37=&ads.n38=channel_brand_id&ads.v38=AMDB013573&ads.n39=content_custom_3_param&ads.v39=channel&ads.n40=channel_rating&ads.v40=TV-PG&ads.n41=channel_company_id&ads.v41=AMDP500559&ads.n42=pos&ads.v42=midroll&ads.n43=network_name&ads.v43=tuwarner-de-wbtv-tuwarner&ads.n44=channel_corp&ads.v44=Warner%20Brothers%20Discovery&ads.n45=url&ads.v45=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n46=content_custom_2_param&ads.v46=AMDB013573&ads.n47=ip&ads.v47=193.228.206.147&ads.n48=app_name&ads.v48=&ads.n49=ua&ads.v49=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n50=channel_ext_id&ads.v50=&ads.n51=content_provider&ads.v51=tuwarner-de-wbtv-tuwarner&ads.n52=channel_id&ads.v52=A96C4CAE-A18E-4BE3-BD27-FFAA808834E9&ads.n53=channel_genre&ads.v53=En%20Espanol&ads.n54=content_custom_1_param&ads.v54=A96C4CAE-A18E-4BE3-BD27-FFAA808834E9&ads.n55=device_make&ads.v55=&ads.n56=content_livestream&ads.v56=1&ads.n57=gpp_sid&ads.v57=&ads.n58=channel_title&ads.v58=TuWarner
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/CD6FBCE3-AAE2-4602-8CBD-7C26B897243C/3-1x1.png" tvg-id="LN_CD6FBCE3-AAE2-4602-8CBD-7C26B897243C" group-title="LocalNowðŸ‡ºðŸ‡¸: More Cities",WFXT (FOX) News 25 Boston MA
+https://s7host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config6/playlist.m3u8?ads.cdnhost=s7host1.localnow.api.cms.amdvids.com&ads.playbackid=CD6FBCE3-AAE2-4602-8CBD-7C26B897243C&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=CD6FBCE3-AAE2-4602-8CBD-7C26B897243C&ads.n4=content_name&ads.v4=EPG%20%7C%20WFXT%20Boston%20Fox%2025&ads.n21=app_store_url&ads.v21=&ads.n22=ua&ads.v22=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n23=app_bundle&ads.v23=&ads.n24=content_livestream&ads.v24=1&ads.n25=content_type&ads.v25=channel&ads.n26=channel_brand_id&ads.v26=AMDB012155&ads.n27=channel_name&ads.v27=EPG%20%20WFXT%20Boston%20Fox%2025&ads.n28=channel_title&ads.v28=EPG%20%20WFXT%20Boston%20Fox%2025&ads.n29=gpp_sid&ads.v29=&ads.n30=app_name&ads.v30=&ads.n31=network_name&ads.v31=wfxt&ads.n32=cust_devicename&ads.v32=desktop_web&ads.n33=ip&ads.v33=193.228.206.147&ads.n34=content_producer_name&ads.v34=Cox%20Broadcasting&ads.n35=channel_corp&ads.v35=Cox%20Broadcasting&ads.n36=app_version&ads.v36=0.0.0&ads.n37=content_custom_1_param&ads.v37=CD6FBCE3-AAE2-4602-8CBD-7C26B897243C&ads.n38=channel_ext_id&ads.v38=6227bf92b3d0ea4b995d47b2&ads.n39=did&ads.v39=&ads.n40=ifa_type&ads.v40=&ads.n41=device_make&ads.v41=&ads.n42=device_type&ads.v42=&ads.n43=channel_id&ads.v43=CD6FBCE3-AAE2-4602-8CBD-7C26B897243C&ads.n44=channel_rating&ads.v44=TV-PG&ads.n45=content_provider&ads.v45=wfxt&ads.n46=content_custom_2_param&ads.v46=AMDB012155&ads.n47=device_model&ads.v47=&ads.n48=channel_language&ads.v48=en&ads.n49=content_custom_3_param&ads.v49=channel&ads.n50=us_privacy&ads.v50=1YNY&ads.n51=w&ads.v51=1920&ads.n52=gpp&ads.v52=&ads.n53=channel_company_id&ads.v53=AMDP500165&ads.n54=url&ads.v54=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n55=dnt&ads.v55=&ads.n56=pos&ads.v56=midroll&ads.n57=h&ads.v57=1080&ads.n58=channel_genre&ads.v58=News
+
+#EXTINF:-1,Tu Warner (US) Geo
+https://amg00136-wbd-amg00136c55-lg-us-5701.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",RUNTIME CINE Y SERIES ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2152
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Series ✅
+http://179.51.136.19:8000/play/a1a3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Series HD - Opción 2 ✅
+http://179.51.136.19:8000/play/a1al/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",03.7FX ✅
 http://200.60.124.19:29000/play/a029/index.m3u8
 
-#EXTINF:-1,07.1Warner ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",07.1Warner ✅
 http://200.60.124.19:29000/play/a013/index.m3u8
 
-#EXTINF:-1,07.1Warner - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",07.1Warner - Opción 2 ✅
 http://200.60.124.19:29000/play/a013
 
-#EXTINF:-1,07.3STAR CHANNEL SD ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",07.3STAR CHANNEL SD ✅
 http://200.60.124.19:29000/play/a01r/index.m3u8
 
-#EXTINF:-1,07.3STAR CHANNEL - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",07.3STAR CHANNEL - Opción 2 ✅
 http://200.60.124.19:29000/play/a01r
 
-#EXTINF:-1,07.8AXN ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",07.8AXN ✅
 http://200.60.124.19:29000/play/a027/index.m3u8
 
-#EXTINF:-1,07.8AXN - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",07.8AXN - Opción 2 ✅
 http://200.60.124.19:29000/play/a027
 
-#EXTINF:-1,122_AXN ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",122_AXN ✅
 http://87.120.179.187:8000/play/a00o
 
-#EXTINF:-1,123_Star Channel ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",123_Star Channel ✅
 http://87.120.179.187:8000/play/a013
 
-#EXTINF:-1,A3SERIES ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",A3SERIES ✅
 http://181.119.85.222:8000/play/a02g/index.m3u8
 
-#EXTINF:-1,A3SERIES - Opción 2 ✅
-http://181.119.85.222:8000/play/a02g/index.m3u8
-
-#EXTINF:-1,ATRES SERIES ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",ATRES SERIES ✅
 http://179.51.136.19:8000/play/a1bw/index.m3u8
 
-#EXTINF:-1,ATRES SERIES - Opción 2 ✅
-http://179.51.136.19:8000/play/a1bw/index.m3u8
-
-#EXTINF:-1,AXN ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",AXN ✅
 http://181.119.86.68:8000/play/c016/index.m3u8
 
-#EXTINF:-1,AXN - Opción 2 ✅
-http://181.119.86.68:8000/play/c016/index.m3u8
-
-#EXTINF:-1,Comedy Central ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Comedy Central ✅
 http://179.51.136.19:8000/play/a1bt/index.m3u8
 
-#EXTINF:-1,Comedy Central - Opción 2 ✅
-http://179.51.136.19:8000/play/a1bt/index.m3u8
-
-#EXTINF:-1,FX ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",FX ✅
 http://181.78.23.26:45000/play/a032
 
-#EXTINF:-1,FX - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",FX - Opción 2 ✅
 http://181.119.85.222:8000/play/a00s/index.m3u8
 
-#EXTINF:-1,Star Channel ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Star Channel ✅
 http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278438/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
 
-#EXTINF:-1,STAR CHANNEL - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",STAR CHANNEL - Opción 2 ✅
 http://181.78.23.26:45000/play/a008
 
-#EXTINF:-1,Tejano 107.3 Maz FX live ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Tejano 107.3 Maz FX live ✅
 http://fortv.cc:8080/90820916/64752029/124299
 
-#EXTINF:-1,Universal TV ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Universal TV ✅
 http://tv.teleclub.xyz/stream/server_3/entretenimiento/universaltv/master.m3u8
 
-#EXTINF:-1,Universal TV - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Universal TV - Opción 2 ✅
 http://tv.teleclub.xyz/stream/server_1/entretenimiento/universaltv/master.m3u8
 
-#EXTINF:-1,USA SERIES ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",USA SERIES ✅
 http://181.119.86.68:8000/play/b041/index.m3u8
 
-#EXTINF:-1,USA SERIES - Opción 2 ✅
-http://181.119.86.68:8000/play/b041/index.m3u8
-
-#EXTINF:-1,Warner ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Warner ✅
 http://181.78.23.26:45000/play/a01e
 
-#EXTINF:-1,Warner - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Warner - Opción 2 ✅
 http://181.78.106.127:9000/play/ca071/index.m3u8
 
-#EXTINF:-1,Warner Channel HD ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Warner Channel HD ✅
 http://179.51.136.19:8000/play/a0pu/index.m3u8
 
-#EXTINF:-1,Warner Channel HD - Opción 2 ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Warner Channel HD - Opción 2 ✅
 http://179.51.136.19:8000/play/a17z/index.m3u8
 
-#EXTINF:-1,Warner Tv ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Warner Tv ✅
 http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/165455/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
 
-#EXTINF:-1,WFXX ThFox 107.7 live ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",WFXX ThFox 107.7 live ✅
 http://fortv.cc:8080/90820916/64752029/125200
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Pluto TV Comedy Central Latino (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96dad1652631e36d43320/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5cf96dad1652631e36d43320&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=967&terminate=false&userId=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Pluto TV Series Retro (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de802659167b10009e7deba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Star Channel (720p)
+http://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Mundo Series
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e3189902-0967-48a7-9d32-9401e34471c6/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Rakuten TV Crime Series Germany (1080p)
+https://b6244e915ee04a5aa758e863a55a6a3d.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6217/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Rakuten TV Crime Series Italy (1080p)
+https://546609034c0e41d7b5852dd870ddb53b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6216/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Rakuten TV Crime Series Spain (1080p)
+https://4ac0fe739f05408abf89ce151aced344.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6220/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",KQFX-LD1 (720p)
+https://cvtv.cvalley.net/hls/KQFXFOX/KQFXFOX.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Nick/Comedy Central +1 HD (1080p)
+https://viamotionhsi.netplus.ch/live/eds/comedycentralnick/browser-HLS8/comedycentralnick.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Persiana Series
+https://onehls.persiana.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Star Channel Latin America South (1080p)
+http://181.188.216.5:18000/play/a0pm/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",TFX (1080p)
+https://viamotionhsi.netplus.ch/live/eds/nt1/browser-HLS8/nt1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",TV Series 1 As Panteras (480p)
+https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Warner Bros. TV Say Yes to the Dress
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6532e8342cf13100083b404c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2d1026-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f2a7d6f8-3ba5-4ec9-acb3-0ba652bd6b1a
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Warner Bros. TV Sweet Escapes
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6532e7fa045c3d0008514ca7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2d1027-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ef9213e0-68a9-467b-a8ec-30b182841c0b
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Universal TV
+http://181.119.85.222:8000/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN HD
+http://181.119.85.222:8000/play/a01y/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Imagen Universal TV
+https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ KUERBA ★",SERIES
+https://github.com/R0b1NjuD/Ku3rb4/releases/download/S3R13S.M3NU/S3R13S_M3NU.m3u
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ PELICULAS ★",TF1 Series Films (1080p)
+https://viamotionhsi.netplus.ch/live/eds/hd1/browser-HLS8/hd1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",13 Teleseries (Chile) (🇨🇱)
+https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",CAN-FX (M)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/45847.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (Argentina) (🇦🇷)
+http://181.78.105.146:6060/play/a03m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (Chile) (🇨🇱)
+http://181.78.105.146:8800/play/a064/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (Colombia) (🇨🇴)
+http://190.83.2.172:8081/play/a05l/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (España) (🇪🇸)
+http://45.5.117.182:8000/play/a0id/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (Mexico) (🇲🇽)
+http://38.180.133.31:8000/play/a0pb/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",ESP - M. Series (TV)(1080)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/8203.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",ESP - Series Mania (T)(720)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/8233.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",FX (España) (🇪🇸)
+http://181.78.105.146:6060/play/a02j/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",FX Comedy (Polonia) (🇵🇱)
+http://175.107.244.52:4457/play/a07m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Series (España) (🇪🇸)
+https://is.gd/ZSBZPX?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Series Comedia (España) (🇪🇸)
+https://is.gd/tit1cW?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Series Retro (España) (🇪🇸)
+https://is.gd/IyWDEJ?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Star Channel (España) (🇪🇸)
+http://190.83.2.172:8081/play/a05a/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",USA-Comedy Central (L)(1080)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/17906.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",USA-FX (L)(1080)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/17911.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",USA-FXM (L)(1080)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/17967.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",USA-FXX (L)(1080)
+http://tv.masterplaytv.club:8080/live/mgwleor/4lhLaPDAOh/17968.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Series (España) (🇪🇸)
+https://is.gd/BRVOiZ?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Series Con Ñ (España) (🇪🇸)
+https://is.gd/d5rzud?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (USA) (🇺🇸)
+https://fl3.moveonjoy.com/Comedy_Central/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",Comedy Central (USA) (🇺🇸)
+https://streamer1.nexgen.bz/COMEDY_CENTRAL/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",TFX (Francia) (🇫🇷)
+https://live.tntdirect.tv:443/9CM2pADCxF/w5BA32MP6P/11.ts
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN (Colombia/USA) (🇨🇴🇺🇸)
+http://190.83.2.172:8081/play/a06t/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES ★",AXN (Mexico) (🇲🇽)
+http://181.78.105.146:6060/play/a04m/index.m3u8
 

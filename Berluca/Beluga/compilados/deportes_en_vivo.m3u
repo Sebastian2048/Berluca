@@ -1,278 +1,302 @@
 #EXTM3U
 
-#EXTINF:-1,09.1ESPN 1 ✅
-http://200.60.124.19:29000/play/a016/index.m3u8
+#EXTINF:-1 channel-id="0a1fae7f18a56923219beb5b34b098f3" tvg-id="0a1fae7f18a56923219beb5b34b098f3" tvg-chno="201" tvg-name="Yahoo! Sports Network" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0a1fae7f18a56923219beb5b34b098f3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1755563347829_YahooSportsNetwork_HUD_logo_260x147_centre_aligned.png" group-title="Sports",Yahoo! Sports Network
+https://aka-live491.delivery.roku.com/55916340-9c06-4cae-812c-a5d651009307/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,11.1ESPN 2 Latin ✅
-http://200.60.124.19:29000/play/a015/index.m3u8
+#EXTINF:-1 channel-id="5f9c59c52f0ad475d90a33fdfd14d651" tvg-id="5f9c59c52f0ad475d90a33fdfd14d651" tvg-chno="202" tvg-name="Ryz Sports Network" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5f9c59c52f0ad475d90a33fdfd14d651/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1755024648037_Ryz_Roku_EPG_DarkBG_V3.png" group-title="Baseball",Ryz Sports Network
+https://aka-live491.delivery.roku.com/b519e4dd-1677-44b6-81ac-c7be7018d913/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,11.2ESPN 3 ✅
-http://200.60.124.19:29000/play/a02e/index.m3u8
+#EXTINF:-1 channel-id="51dea927355343df5a6f26545d07adc8" tvg-id="51dea927355343df5a6f26545d07adc8" tvg-chno="204" tvg-name="Swerve Sports" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/51dea927355343df5a6f26545d07adc8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1750866700873_SwerveSports_260x147_HUD.png" group-title="Baseball",Swerve Sports
+https://aka-live491.delivery.roku.com/e336313c-5db7-455c-b8de-a5bc1f93447e/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,11.3ESPN 4 ✅
-http://200.60.124.19:29000/play/a04y/index.m3u8
+#EXTINF:-1 channel-id="8f7350535325c7fad29cb140ef240ed7" tvg-id="8f7350535325c7fad29cb140ef240ed7" tvg-chno="220" tvg-name="Esports Edge" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8f7350535325c7fad29cb140ef240ed7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748009508329_HUD-Logo-Centered.png" group-title="Action Sports",Esports Edge
+https://aka-live491.delivery.roku.com/9f97fba6-61c5-4ce6-8e34-ac5f31d83c56/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,15.1 ESPN 7 ✅
-http://200.60.124.19:29000/play/a01e/index.m3u8
+#EXTINF:-1 channel-id="a90a91570ce0536cbb22b591ad7e0da2" tvg-id="a90a91570ce0536cbb22b591ad7e0da2" tvg-chno="225" tvg-name="NBC Sports NOW" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a90a91570ce0536cbb22b591ad7e0da2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1736299139819_nbc-sports-now-fclogo-72-dpi-260-x-147-260-147-roku-hud-logo-center-align-efefef-w-trans-bkgd-1.png" group-title="Sports",NBC Sports NOW
+https://aka-live491.delivery.roku.com/01429be0-9d47-49d8-afb9-d5fcc1fd8a87/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,15.2ESPN 6 ✅
-http://200.60.124.19:29000/play/a01f/index.m3u8
+#EXTINF:-1 channel-id="0fc01f1136055d89bae495ba92eff445" tvg-id="0fc01f1136055d89bae495ba92eff445" tvg-chno="226" tvg-name="FOX Sports" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0fc01f1136055d89bae495ba92eff445/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1697817997944_FOXsports_Logo-monchromtic.png" group-title="Sports",FOX Sports
+https://aka-live491.delivery.roku.com/53495639-a28f-4ed7-ba19-345e9468fb01/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Abu Dhabi Sports 1 (1080p) ✅
-https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+#EXTINF:-1 channel-id="62f1cd0d4c395a2a8ab72cff688666a0" tvg-id="62f1cd0d4c395a2a8ab72cff688666a0" tvg-chno="228" tvg-name="SPORTSGRID" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/62f1cd0d4c395a2a8ab72cff688666a0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1668537442136_ROKU-SPORTSGRID-LIVE-HUD-LOGO-EFEFEF.png" group-title="Sports",SPORTSGRID
+https://aka-live491.delivery.roku.com/eedc2f7b-7c59-4577-926e-098836e2d1b7/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Bein Sports Extra Ñ ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/beinsportsextran/master.m3u8
+#EXTINF:-1 channel-id="b4273871759a5631bd536d2214f175e5" tvg-id="b4273871759a5631bd536d2214f175e5" tvg-chno="246" tvg-name="Fubo Sports" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b4273871759a5631bd536d2214f175e5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1698875309896_HUD-Ident.png" group-title="Soccer",Fubo Sports
+https://aka-live491.delivery.roku.com/4fce7c00-6a39-4c09-bc6c-2ae2c006e87e/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Canela ITV Deportes ✅
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=3010
+#EXTINF:-1 channel-id="11f70f2cc59750f4ad9a019d72ad17b1" tvg-id="11f70f2cc59750f4ad9a019d72ad17b1" tvg-chno="251" tvg-name="Women's Sports Network" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/11f70f2cc59750f4ad9a019d72ad17b1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1705940612752_WSNLogo_HUDCenter.png" group-title="Action Sports",Women's Sports Network
+https://aka-live491.delivery.roku.com/6155bdf8-2da2-457b-b315-ac28b905821d/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Claro Sports 1 SD ✅
-http://179.51.136.19:8000/play/a18m/index.m3u8
+#EXTINF:-1 channel-id="bc932f13c31e542db6e3e6247e7131bc" tvg-id="bc932f13c31e542db6e3e6247e7131bc" tvg-chno="255" tvg-name="beIN SPORTS Xtra" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/bc932f13c31e542db6e3e6247e7131bc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652896913644_beIN-SPORTS-XTRA_LOGO_ROKU_HUD_260x147%255B1%255D.png" group-title="Sports",beIN SPORTS Xtra
+https://aka-live491.delivery.roku.com/948b987e-5b69-4f1a-853a-5d62eeef2e1b/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Claro Sports 1 SD - Opción 2 ✅
-http://179.51.136.19:8000/play/a18m/index.m3u8
+#EXTINF:-1 channel-id="d5ac470e48d355c19371733b18be8925" tvg-id="d5ac470e48d355c19371733b18be8925" tvg-chno="259" tvg-name="HBCU-GO Sports" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d5ac470e48d355c19371733b18be8925/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1667009297911_ROKU_Info_HUD_Asset_HBCUGO_260x147_Center.png" group-title="Football",HBCU-GO Sports
+https://aka-live491.delivery.roku.com/d41582fa-1998-48d2-a771-9dd114ddbebd/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Claro Sports 2 SD ✅
-http://179.51.136.19:8000/play/a16q/index.m3u8
+#EXTINF:-1 channel-id="b238edf1869657abb47970bc9b7bfce1" tvg-id="b238edf1869657abb47970bc9b7bfce1" tvg-chno="260" tvg-name="CHGO Sports" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b238edf1869657abb47970bc9b7bfce1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1720447133788_Roku_HUD_CHGO.png" group-title="Sports",CHGO Sports
+https://aka-live491.delivery.roku.com/ad6a617b-0cc1-4a90-9291-aaee8f984ef8/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Claro Sports 2 SD - Opción 2 ✅
-http://179.51.136.19:8000/play/a16q/index.m3u8
+#EXTINF:-1 channel-id="9ec48964d9b9502396f19fcb3a527074" tvg-id="9ec48964d9b9502396f19fcb3a527074" tvg-chno="261" tvg-name="PHLY Sports" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/9ec48964d9b9502396f19fcb3a527074/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1720539914940_Roku_HUD_PHLY.png" group-title="Sports",PHLY Sports
+https://aka-live491.delivery.roku.com/90734930-d996-4739-b06f-959ac39c9c33/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,CO: ESPN COLOMBIA ✅
-http://fortv.cc:8080/90820916/64752029/86765
+#EXTINF:-1 channel-id="8a55c26c63bdd14653c2b02230b4ac64" tvg-id="8a55c26c63bdd14653c2b02230b4ac64" tvg-chno="266" tvg-name="MSG Sports Zone" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8a55c26c63bdd14653c2b02230b4ac64/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1730998042302_MSGSPORTZONE_Image_HUD.png" group-title="Sports",MSG Sports Zone
+https://aka-live491.delivery.roku.com/afcd12f9-f7f8-4851-99f1-1f432bc34f22/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Directv Sports ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/directvsports/master.m3u8
+#EXTINF:-1 channel-id="909b135136a1567eaf3f65fb64988323" tvg-id="909b135136a1567eaf3f65fb64988323" tvg-chno="930" tvg-name="beIN SPORTS Xtra en Español" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/909b135136a1567eaf3f65fb64988323/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652921815769_beINSPORTS-XTRA-ESPANOL_LOGO_ROKU_HUD_TOP-ALIGNED_260x147.png" group-title="Sports",beIN SPORTS Xtra en Español
+https://aka-live491.delivery.roku.com/f06a7cba-4734-4497-b091-27d89244b332/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Directv Sports + - Opción 2 ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/directvsportsplus/master.m3u8
+#EXTINF:-1 channel-id="735c2b7253c551ae9f07b07ea5278b75" tvg-id="735c2b7253c551ae9f07b07ea5278b75" tvg-chno="934" tvg-name="Canela.TV Deportes" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/735c2b7253c551ae9f07b07ea5278b75/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1734562631849_ROKU-Deportes-InfoHUD-1.png" group-title="Sports",Canela.TV Deportes
+https://aka-live491.delivery.roku.com/bdbab233-2aff-42f9-b16f-2722fad6ed5f/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,Directv Sports 2 ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/directvsports2/master.m3u8
+#EXTINF:-1 channel-id="04be54c79d1f55d0909e684f64f9fb57" tvg-id="04be54c79d1f55d0909e684f64f9fb57" tvg-chno="939" tvg-name="Azteca Deportes Network LITE 3" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/04be54c79d1f55d0909e684f64f9fb57/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1718994621239_AI_Roku_260x147_Mono_DEPORTES_TB_Oct23.png" group-title="Sports",Azteca Deportes Network LITE 3
+https://aka-live491.delivery.roku.com/d2bdc6c5-59c3-4fd9-b73a-a51c7a9cf949/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1,DSPORTS ✅
-http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+#EXTINF:-1 channel-id="USAJ4300001Q7" tvg-id="USAJ4300001Q7" tvg-chno="2372" tvg-name="beIN SPORTS XTRA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300001Q7_20241105T024240SQUARE.png" group-title="Sports & Outdoors",beIN SPORTS XTRA
+https://jmp2.uk/stvp-USAJ4300001Q7
 
-#EXTINF:-1,DSPORTS - Opción 2 ✅
-http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+#EXTINF:-1 channel-id="US2700004DX" tvg-id="US2700004DX" tvg-chno="3822" tvg-name="beIN Sports XTRA ñ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2700004DX_20240826T235608SQUARE.png" group-title="Latino",beIN Sports XTRA ñ
+https://jmp2.uk/stvp-US2700004DX
 
-#EXTINF:-1,DSPORTS 2 ✅
-http://179.51.136.19:8000/play/a112/index.m3u8
+#EXTINF:-1 channel-id="USBB4800005VO" tvg-id="USBB4800005VO" tvg-chno="2330" tvg-name="CBS Sports HQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4800005VO_20250401T004857SQUARE.png" group-title="Sports & Outdoors",CBS Sports HQ
+https://jmp2.uk/stvp-USBB4800005VO
 
-#EXTINF:-1,DSPORTS 2 - Opción 2 ✅
-http://179.51.136.19:8000/play/a112/index.m3u8
+#EXTINF:-1 channel-id="US34000040T" tvg-id="US34000040T" tvg-chno="2340" tvg-name="ESPN8: The Ocho" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US34000040T_20250812T003448SQUARE.png" group-title="Sports & Outdoors",ESPN8: The Ocho
+https://jmp2.uk/stvp-US34000040T
 
-#EXTINF:-1,Dubai Sports 2 FHD ✅
-http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+#EXTINF:-1 channel-id="US2700001QY" tvg-id="US2700001QY" tvg-chno="2334" tvg-name="FOX Sports" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2700001QY_20241105T024305SQUARE.png" group-title="Sports & Outdoors",FOX Sports
+https://jmp2.uk/stvp-US2700001QY
 
-#EXTINF:-1,Dubai Sports 2 FHD - Opción 2 ✅
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 channel-id="USAJ2200023Z0" tvg-id="USAJ2200023Z0" tvg-chno="2380" tvg-name="fubo Sports Network" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ2200023Z0_20250325T015044SQUARE.png" group-title="Sports & Outdoors",fubo Sports Network
+https://jmp2.uk/stvp-USAJ2200023Z0
 
-#EXTINF:-1,Dubai Sports 3 FHD ✅
-http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+#EXTINF:-1 channel-id="USBD300021B8" tvg-id="USBD300021B8" tvg-chno="2424" tvg-name="MSG SportsZone" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300021B8_20240520T220114SQUARE.png" group-title="Sports & Outdoors",MSG SportsZone
+https://jmp2.uk/stvp-USBD300021B8
 
-#EXTINF:-1,Dubai Sports 3 FHD - Opción 2 ✅
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+#EXTINF:-1 channel-id="USBD420002446" tvg-id="USBD420002446" tvg-chno="2338" tvg-name="NBC Sports NOW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD420002446_20250729T010447SQUARE.png" group-title="Sports & Outdoors",NBC Sports NOW
+https://jmp2.uk/stvp-USBD420002446
 
-#EXTINF:-1,ES: MAVTV Motorsports Network DASH ✅
-https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
+#EXTINF:-1 channel-id="US4500005Z1" tvg-id="US4500005Z1" tvg-chno="2339" tvg-name="Roku Sports Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4500005Z1_20250630T232527SQUARE.png" group-title="Sports & Outdoors",Roku Sports Channel
+https://jmp2.uk/stvp-US4500005Z1
 
-#EXTINF:-1,ESPN HD ✅
-http://181.119.85.222:8000/play/a01q/index.m3u8
+#EXTINF:-1 channel-id="USBA300031OT" tvg-id="USBA300031OT" tvg-chno="2362" tvg-name="SportsGrid" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20250616T221644SQUARE.png" group-title="Sports & Outdoors",SportsGrid
+https://jmp2.uk/stvp-USBA300031OT
 
-#EXTINF:-1,ESPN - Opción 2 ✅
-http://181.119.86.68:8000/play/b031/index.m3u8
+#EXTINF:-1 channel-id="US1400008DW" tvg-id="US1400008DW" tvg-chno="2388" tvg-name="Unbeaten Sports Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400008DW_20240910T003812SQUARE.png" group-title="Sports & Outdoors",Unbeaten Sports Channel
+https://jmp2.uk/stvp-US1400008DW
 
-#EXTINF:-1,ESPN 1 ✅
-http://181.205.130.194:4000/play/a07j
+#EXTINF:-1 channel-id="US4100001KP" tvg-id="US4100001KP" tvg-chno="2430" tvg-name="Women's Sports Network" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100001KP_20241210T013946SQUARE.png" group-title="Sports & Outdoors",Women's Sports Network
+https://jmp2.uk/stvp-US4100001KP
 
-#EXTINF:-1,ESPN 1 - Opción 2 ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/espn1/master.m3u8
+#EXTINF:-1 tvg-id="altitude-sports-denver" tvg-name="Altitude Sports Denver" group-title="Live",Altitude Sports Denver
+https://tvpass.org/live/altitude-sports-denver/sd
 
-#EXTINF:-1,ESPN 2 ✅
-http://181.78.23.26:45000/play/a00m
+#EXTINF:-1 tvg-id="cbs-sports-network-usa" tvg-name="CBS Sports Network USA" group-title="Live",CBS Sports Network USA
+https://tvpass.org/live/CBSSportsNetworkUSA/sd
 
-#EXTINF:-1,ESPN 2 HD - Opción 2 ✅
-http://45.176.71.20:1689/play/a0cx
+#EXTINF:-1 tvg-id="chicago-sports-network" tvg-name="Chicago Sports Network" group-title="Live",Chicago Sports Network
+https://tvpass.org/live/chicago-sports-network/sd
 
-#EXTINF:-1,ESPN 2 Latin ✅
-http://181.78.23.26:45000/play/a01h
+#EXTINF:-1 tvg-id="espn" tvg-name="ESPN" group-title="Live",ESPN
+https://tvpass.org/live/ESPN/sd
 
-#EXTINF:-1,ESPN 3 HD ✅
-http://138.0.228.250:44380/play/a00q/index.m3u8
+#EXTINF:-1 tvg-id="espn-deportes" tvg-name="ESPN Deportes" group-title="Live",ESPN Deportes
+https://tvpass.org/live/espn-deportes/sd
 
-#EXTINF:-1,ESPN 3 - Opción 2 ✅
-http://181.119.86.68:8000/play/b033/index.m3u8
+#EXTINF:-1 tvg-id="espn-news" tvg-name="ESPN News" group-title="Live",ESPN News
+https://tvpass.org/live/ESPNews/sd
 
-#EXTINF:-1,ESPN 4 ✅
-http://181.78.106.127:9000/play/ca036/index.m3u8 HD
+#EXTINF:-1 tvg-id="espn-u" tvg-name="ESPN U" group-title="Live",ESPN U
+https://tvpass.org/live/ESPNU/sd
 
-#EXTINF:-1,ESPN 4 - Opción 2 ✅
-http://181.119.85.222:8000/play/a00j/index.m3u8
+#EXTINF:-1 tvg-id="espn2" tvg-name="ESPN2" group-title="Live",ESPN2
+https://tvpass.org/live/ESPN2/sd
 
-#EXTINF:-1,ESPN 4HD ✅
-http://45.176.71.20:1689/play/a0hm
+#EXTINF:-1 tvg-id="fanduel-sports-indiana" tvg-name="Fanduel Sports Indiana" group-title="Live",Fanduel Sports Indiana
+https://tvpass.org/live/fanduel-sports-indiana/sd
 
-#EXTINF:-1,ESPN 4HD - Opción 2 ✅
-http://45.176.71.20:1689/play/a0hm
+#EXTINF:-1 tvg-id="fanduel-sports-network-detroit-hd" tvg-name="Fanduel Sports Network Detroit" group-title="Live",Fanduel Sports Network Detroit
+https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
 
-#EXTINF:-1,ESPN 5 HD ✅
-http://181.119.85.222:8000/play/a02a/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-florida" tvg-name="Fanduel Sports Network Florida" group-title="Live",Fanduel Sports Network Florida
+https://tvpass.org/live/fanduel-sports-network-florida/sd
 
-#EXTINF:-1,ESPN 5 HD - Opción 2 ✅
-http://181.119.85.222:8000/play/a02a/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-great-lakes" tvg-name="Fanduel Sports Network Great Lakes" group-title="Live",Fanduel Sports Network Great Lakes
+https://tvpass.org/live/fanduel-sports-network-great-lakes/sd
 
-#EXTINF:-1,ESPN 5HD ✅
-http://179.51.136.19:8000/play/a1a6/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-north" tvg-name="Fanduel Sports Network North" group-title="Live",Fanduel Sports Network North
+https://tvpass.org/live/fanduel-sports-network-north/sd
 
-#EXTINF:-1,ESPN 5HD - Opción 2 ✅
-http://179.51.136.19:8000/play/a1a6/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-ohio-cleveland" tvg-name="Fanduel Sports Network Ohio Cleveland" group-title="Live",Fanduel Sports Network Ohio Cleveland
+https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/sd
 
-#EXTINF:-1,ESPN 6 ✅
-http://181.119.86.68:8000/play/b030/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-oklahoma" tvg-name="Fanduel Sports Network Oklahoma" group-title="Live",Fanduel Sports Network Oklahoma
+https://tvpass.org/live/fanduel-sports-network-oklahoma/sd
 
-#EXTINF:-1,ESPN 6 - Opción 2 ✅
-http://181.205.130.194:4000/play/a07t
+#EXTINF:-1 tvg-id="fanduel-sports-network-san-diego" tvg-name="Fanduel Sports Network San Diego" group-title="Live",Fanduel Sports Network San Diego
+https://tvpass.org/live/fanduel-sports-network-san-diego/sd
 
-#EXTINF:-1,ESPN 6 mx ✅
-http://190.60.32.178:8178/play/a0aa/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-socal" tvg-name="Fanduel Sports Network Socal" group-title="Live",Fanduel Sports Network Socal
+https://tvpass.org/live/fanduel-sports-network-socal/sd
 
-#EXTINF:-1,ESPN 6 MX - Opción 2 ✅
-http://200.60.124.19:29000/play/a01f
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-carolinas" tvg-name="Fanduel Sports Network South Carolinas" group-title="Live",Fanduel Sports Network South Carolinas
+https://tvpass.org/live/fanduel-sports-network-south-carolinas/sd
 
-#EXTINF:-1,ESPN 6HD ✅
-http://45.176.71.20:1689/play/a0ho
+#EXTINF:-1 tvg-id="fanduel-sports-network-south-tennessee-usa" tvg-name="Fanduel Sports Network South Tennessee" group-title="Live",Fanduel Sports Network South Tennessee
+https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
 
-#EXTINF:-1,ESPN 6HD - Opción 2 ✅
-http://179.51.136.19:8000/play/a1ai/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-west" tvg-name="Fanduel Sports Network West" group-title="Live",Fanduel Sports Network West
+https://tvpass.org/live/fanduel-sports-network-west/sd
 
-#EXTINF:-1,ESPN 7 ✅
-http://181.119.86.68:8000/play/b029/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-network-wisconsin" tvg-name="Fanduel Sports Network Wisconsin" group-title="Live",Fanduel Sports Network Wisconsin
+https://tvpass.org/live/fanduel-sports-network-wisconsin/sd
 
-#EXTINF:-1,ESPN 7 - Opción 2 ✅
-http://181.119.85.222:8000/play/a00k/index.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-georgia" tvg-name="Fanduel Sports Southeast Georgia" group-title="Live",Fanduel Sports Southeast Georgia
+https://tvpass.org/live/fanduel-sports-southeast-georgia/sd
 
-#EXTINF:-1,ESPN 7 mx ✅
-http://181.205.130.194:4000/play/a07s
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-north-carolina" tvg-name="Fanduel Sports Southeast North Carolina" group-title="Live",Fanduel Sports Southeast North Carolina
+https://tvpass.org/live/fanduel-sports-southeast-north-carolina/sd
 
-#EXTINF:-1,ESPN 7HD ✅
-http://45.176.71.20:1689/play/a0oo
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-south-carolina" tvg-name="Fanduel Sports Southeast South Carolina" group-title="Live",Fanduel Sports Southeast South Carolina
+https://tvpass.org/live/fanduel-sports-southeast-south-carolina/sd
 
-#EXTINF:-1,ESPN 7HD - Opción 2 ✅
-http://45.176.71.20:1689/play/a0oo
+#EXTINF:-1 tvg-id="fanduel-sports-southeast-tennessee-nashville" tvg-name="Fanduel Sports Southeast Tennessee Nashville" group-title="Live",Fanduel Sports Southeast Tennessee Nashville
+https://tvpass.org/live/fanduel-sports-southeast-tennessee-nashville/sd
 
-#EXTINF:-1,ESPN CO ✅
-http://181.78.23.26:45000/play/a02p
+#EXTINF:-1 tvg-id="bally-sports-sun" tvg-name="Fanduel Sports Sun" group-title="Live",Fanduel Sports Sun
+https://tvpass.org/live/fanduel-sports-sun/sd
 
-#EXTINF:-1,ESPN Premium ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/espnpremium/master.m3u8
+#EXTINF:-1 tvg-id="fanduel-sports-tennessee-east" tvg-name="Fanduel Sports Tennessee East" group-title="Live",Fanduel Sports Tennessee East
+https://tvpass.org/live/fanduel-sports-tennessee-east/sd
 
-#EXTINF:-1,ESPN Premium HD - Opción 2 ✅
-http://179.51.136.19:8000/play/a1ar/index.m3u8
+#EXTINF:-1 tvg-id="fox-sports-1" tvg-name="Fox Sports 1" group-title="Live",Fox Sports 1
+https://tvpass.org/live/FoxSports1/sd
 
-#EXTINF:-1,ESPN2 ✅
-http://181.78.106.127:9000/play/ca034/index.m3u8
+#EXTINF:-1 tvg-id="fox-sports-2" tvg-name="Fox Sports 2" group-title="Live",Fox Sports 2
+https://tvpass.org/live/FoxSports2/sd
 
-#EXTINF:-1,ESPN3 ✅
-http://181.78.106.127:9000/play/ca035/index.m3u8
+#EXTINF:-1 tvg-id="marquee-sports-network" tvg-name="Marquee Sports Network" group-title="Live",Marquee Sports Network
+https://tvpass.org/live/marquee-sports-network/sd
 
-#EXTINF:-1,ESPN4 ✅
-http://181.119.86.68:8000/play/b005/index.m3u8
+#EXTINF:-1 tvg-id="midatlantic-sports-network" tvg-name="Midatlantic Sports Network" group-title="Live",Midatlantic Sports Network
+https://tvpass.org/live/midatlantic-sports-network/sd
 
-#EXTINF:-1,ESPN4 - Opción 2 ✅
-http://181.119.86.68:8000/play/b005/index.m3u8
+#EXTINF:-1 tvg-id="monumental-sports-network" tvg-name="Monumental Sports Network" group-title="Live",Monumental Sports Network
+https://tvpass.org/live/monumental-sports-network/sd
 
-#EXTINF:-1,ESPN5 ✅
-http://200.60.124.19:29000/play/a04y
+#EXTINF:-1 tvg-id="nba-tv-usa" tvg-name="NBA TV USA" group-title="Live",NBA TV USA
+https://tvpass.org/live/NBATV/sd
 
-#EXTINF:-1,ESPN6 ✅
-http://200.125.170.123:8000/play/a05y
+#EXTINF:-1 tvg-id="nbc-sports-bay-area" tvg-name="NBC Sports Bay Area" group-title="Live",NBC Sports Bay Area
+https://tvpass.org/live/nbc-sports-bay-area/sd
 
-#EXTINF:-1,Fox Sports ✅
-http://181.78.106.127:9000/play/ca031/index.m3u8
+#EXTINF:-1 tvg-id="nbc-sports-boston" tvg-name="NBC Sports Boston" group-title="Live",NBC Sports Boston
+https://tvpass.org/live/nbc-sports-boston/sd
 
-#EXTINF:-1,Fox Sports 1 ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1/master.m3u8
+#EXTINF:-1 tvg-id="nbc-sports-california" tvg-name="NBC Sports California" group-title="Live",NBC Sports California
+https://tvpass.org/live/nbc-sports-california/sd
 
-#EXTINF:-1,Fox Sports 1 MX ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1mx/master.m3u8
+#EXTINF:-1 tvg-id="nbc-sports-philadelphia" tvg-name="NBC Sports Philadelphia" group-title="Live",NBC Sports Philadelphia
+https://tvpass.org/live/nbc-sports-philadelphia/sd
 
-#EXTINF:-1,Fox Sports 2 ✅
-http://181.78.106.127:9000/play/ca032/index.m3u8
+#EXTINF:-1 tvg-id="new-england-sports-network" tvg-name="New England Sports Network" group-title="Live",New England Sports Network
+https://tvpass.org/live/new-england-sports-network/sd
 
-#EXTINF:-1,Fox Sports 2 - Opción 2 ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2/master.m3u8
+#EXTINF:-1 tvg-id="sny-sportsnet-new-york-comcast" tvg-name="SNY Sportsnet New York Comcast" group-title="Live",SNY Sportsnet New York Comcast
+https://tvpass.org/live/sny-sportsnet-new-york-comcast/sd
 
-#EXTINF:-1,Fox Sports 2 MX ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2mx/master.m3u8
+#EXTINF:-1 tvg-id="spectrum-sportsnet-la" tvg-name="Spectrum SportsNet LA" group-title="Live",Spectrum SportsNet LA
+https://tvpass.org/live/spectrum-sportsnet-la/sd
 
-#EXTINF:-1,Fox Sports 2 MX - Opción 2 ✅
-http://tv.teleclub.xyz/stream/server_3/deportes/foxsports2mx/master.m3u8
+#EXTINF:-1 tvg-id="spectrum-sportsnet" tvg-name="Spectrum Sportsnet Lakers" group-title="Live",Spectrum Sportsnet Lakers
+https://tvpass.org/live/spectrum-sportsnet/sd
 
-#EXTINF:-1,Fox Sports 3 HD ✅
-http://45.176.71.20:1689/play/a0cw
+#EXTINF:-1 tvg-id="sportsnet-east" tvg-name="Sportsnet (East)" group-title="Live",Sportsnet (East)
+https://tvpass.org/live/sportsnet-east/sd
 
-#EXTINF:-1,Fox Sports 3 HD - Opción 2 ✅
-http://45.176.71.20:1689/play/a0cw
+#EXTINF:-1 tvg-id="sportsnet-360" tvg-name="Sportsnet 360" group-title="Live",Sportsnet 360
+https://tvpass.org/live/sportsnet-360/sd
 
-#EXTINF:-1,Fox Sports 3 MX ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/foxsports3mx/master.m3u8
+#EXTINF:-1 tvg-id="sportsnet-one" tvg-name="Sportsnet One" group-title="Live",Sportsnet One
+https://tvpass.org/live/sportsnet-one/sd
 
-#EXTINF:-1,Fox Sports Premium MX ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/foxsportspremiummx/master.m3u8
+#EXTINF:-1 tvg-id="sportsnet-ontario" tvg-name="Sportsnet Ontario" group-title="Live",Sportsnet Ontario
+https://tvpass.org/live/sportsnet-ontario/sd
 
-#EXTINF:-1,[HD]band sports ✅
-https://stream1.freetv.fun/f55a849b8592c617e547012d8c1c9a611456461447e45fb8584ba1c2da4589a0.m3u8
+#EXTINF:-1 tvg-id="sportsnet-pacific" tvg-name="Sportsnet Pacific" group-title="Live",Sportsnet Pacific
+https://tvpass.org/live/sportsnet-pacific/sd
 
-#EXTINF:-1,MAVTV Motorsports Network ✅
-https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8?ads_amagi_channel=872&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=7&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=5458&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=c99552df-081b-4a61-8ccd-d7b86fb60c2a&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
+#EXTINF:-1 tvg-id="sportsnet-pittsburgh" tvg-name="Sportsnet Pittsburgh" group-title="Live",Sportsnet Pittsburgh
+https://tvpass.org/live/sportsnet-pittsburgh/sd
 
-#EXTINF:-1,Movistar Deportes ✅
-http://179.51.136.19:8000/play/a0zj/index.m3u8
+#EXTINF:-1 tvg-id="sportsnet-west" tvg-name="Sportsnet West" group-title="Live",Sportsnet West
+https://tvpass.org/live/sportsnet-west/sd
 
-#EXTINF:-1,Movistar Deportes - Opción 2 ✅
-http://179.51.136.19:8000/play/a0zj/index.m3u8
+#EXTINF:-1,USA Today Sports (unlisted)
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/playlist.m3u8?ads.channelId=99991279
 
-#EXTINF:-1,MX | SPORTSGRID ✅
-https://sportsgrid-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-sportsgrid-plex/CDN/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=SYmqRsd_3zFsz7JJX_qb&channelId=5ef11485d33ab9004048a1ca
+#EXTINF:-1,Fox Sports
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991196
 
-#EXTINF:-1,Tigo sports ✅
-http://181.78.106.127:9000/play/ca038/index.m3u8
+#EXTINF:-1,CBS Sports HQ (Geo)
+https://dai.google.com/linear/hls/pb/event/9Lq0ERvoSR-z9AwvFS-xYA/stream/3dbf43fd-9c7a-4ced-b049-087abae7b2cc:TPE/master.m3u8
 
-#EXTINF:-1,tyc ✅
-http://181.78.23.26:45000/play/a04m
+#EXTINF:-1,Bein Sports Xtra (Geo)
+https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
 
-#EXTINF:-1,TyC Sports ✅
-http://179.51.136.19:8000/play/a1h0/index.m3u8
+#EXTINF:-1,Origin Sports
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/playlist.m3u8?ads.channelId=99991786
 
-#EXTINF:-1,TyC Sports - Opción 2 ✅
-http://179.51.136.19:8000/play/a1h0/index.m3u8
+#EXTINF:-1,NBC Sports
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951253
 
-#EXTINF:-1,Universo Sports ✅
-http://181.78.106.127:9000/play/ca088/index.m3u8
+#EXTINF:-1,Campuslore Sports (unlisted)
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/playlist.m3u8?ads.channelId=99951179
 
-#EXTINF:-1,Via X Esports ✅
-http://179.51.136.19:8000/play/a1h1/index.m3u8
+#EXTINF:-1,Fubo Sports (Geo) (unlisted)
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/master.m3u8?ads.channelId=99991359
 
-#EXTINF:-1,Via X Esports - Opción 2 ✅
-http://181.78.201.70:8000/play/a0ig/index.m3u8
+#EXTINF:-1,Fubo Sports alt (Geo) (unlisted)
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/master.m3u8?ads.channelId=99992215
 
-#EXTINF:-1,WEBY ESPN Pensacola live ✅
-http://fortv.cc:8080/90820916/64752029/138677
+#EXTINF:-1,Sports Grid alt (unlisted)
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/playlist.m3u8?ads.channelId=99991188
 
-#EXTINF:-1,Win Sports+ ✅
-http://179.51.136.19:8000/play/a1it/index.m3u8
+#EXTINF:-1,Womens Sports Network (Geo) (unlisted)
+https://d2irko5f9gt1c5.cloudfront.net/10008/99951142/hls/playlist.m3u8?ads.xumo_channelId=99951142
 
-#EXTINF:-1,Win Sports+ - Opción 2 ✅
-http://179.51.136.19:8000/play/a1bp/index.m3u8
+#EXTINF:-1,Bein Sports Xtra Espanol
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/playlist.m3u8?ads.channelId=99991785
 
-#EXTINF:-1,Win Sports Plus ✅
-http://tv.teleclub.xyz/stream/server_2/deportes/winsportsplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/2D77A7BA-2E3D-42AA-95DD-72494995A81E/3-1x1.png" tvg-id="LN_2D77A7BA-2E3D-42AA-95DD-72494995A81E" group-title="LocalNowðŸ‡ºðŸ‡¸: New on Local Now",FOX Sports
+https://s11host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config13/lg.m3u8?ads.cdnhost=s11host1.localnow.api.cms.amdvids.com&ads.playbackid=2D77A7BA-2E3D-42AA-95DD-72494995A81E&ads.n1=rule_id&ads.v1=CA34390D-452C-4830-B084-998E2DB1A079-1755113457&ads.n3=qp_content_id&ads.v3=2D77A7BA-2E3D-42AA-95DD-72494995A81E&ads.n4=content_name&ads.v4=FOX%20Sports&ads.n21=network_name&ads.v21=fox-sports&ads.n22=channel_language&ads.v22=en&ads.n23=app_store_url&ads.v23=&ads.n24=gpp_sid&ads.v24=&ads.n25=did&ads.v25=&ads.n26=channel_title&ads.v26=FOX%20Sports&ads.n27=url&ads.v27=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n28=channel_rating&ads.v28=TV-PG&ads.n29=channel_ext_id&ads.v29=&ads.n30=content_livestream&ads.v30=1&ads.n31=pos&ads.v31=midroll&ads.n32=channel_id&ads.v32=2D77A7BA-2E3D-42AA-95DD-72494995A81E&ads.n33=cust_devicename&ads.v33=desktop_web&ads.n34=content_custom_2_param&ads.v34=AMDB013655&ads.n35=us_privacy&ads.v35=1YNY&ads.n36=channel_name&ads.v36=FOX%20Sports&ads.n37=content_provider&ads.v37=fox-sports&ads.n38=device_make&ads.v38=&ads.n39=app_bundle&ads.v39=&ads.n40=channel_corp&ads.v40=Fox%20News%20Network&ads.n41=gpp&ads.v41=&ads.n42=content_custom_1_param&ads.v42=2D77A7BA-2E3D-42AA-95DD-72494995A81E&ads.n43=channel_company_id&ads.v43=AMDP500565&ads.n44=w&ads.v44=1920&ads.n45=app_name&ads.v45=&ads.n46=dnt&ads.v46=&ads.n47=content_producer_name&ads.v47=Fox%20News%20Network&ads.n48=content_custom_3_param&ads.v48=channel&ads.n49=content_type&ads.v49=channel&ads.n50=app_version&ads.v50=0.0.0&ads.n51=ip&ads.v51=193.228.206.147&ads.n52=ua&ads.v52=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n53=device_type&ads.v53=&ads.n54=channel_brand_id&ads.v54=AMDB013655&ads.n55=h&ads.v55=1080&ads.n56=ifa_type&ads.v56=&ads.n57=device_model&ads.v57=&ads.n58=channel_genre&ads.v58=New%20on%20Local%20Now
 
-#EXTINF:-1,WMTD ESPN 102.3 ThTicket live ✅
-http://fortv.cc:8080/90820916/64752029/138317
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/D5FE2064-E664-4725-A0EC-BF43F6CF2A43/3-1x1.png" tvg-id="LN_D5FE2064-E664-4725-A0EC-BF43F6CF2A43" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",CBS Sports Golazo Network
+https://amd-mediator-eolq3tk4la-uk.a.run.app/cbs/map.m3u8?imafw__fw_is_lat=&imafw__fw_vcid2=&imafw__fw_app_bundle=&imafw__fw_us_privacy=1YNY&attmas=not_determined&am.originUrl=https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2F7f3Wv6f7QEKfQna22jHqLQ%2Fmaster.m3u8&imafw_csid=desktop_web&imafw__fw_did=&height=1080&ip_addr=193.228.206.147&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0
 
-#EXTINF:-1,World of Freesports ✅
-https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/A12CC4BA-5154-44D6-8CDE-DD0FEAEDEE3A/3-1x1.png" tvg-id="LN_A12CC4BA-5154-44D6-8CDE-DD0FEAEDEE3A" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",SportsGrid
+https://s5host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config6/playlist.m3u8?ads.cdnhost=s5host2.localnow.api.cms.amdvids.com&ads.playbackid=A12CC4BA-5154-44D6-8CDE-DD0FEAEDEE3A&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A12CC4BA-5154-44D6-8CDE-DD0FEAEDEE3A&ads.n4=content_name&ads.v4=EPG%20%7C%20SportsGrid&ads.n21=channel_title&ads.v21=EPG%20%20SportsGrid&ads.n22=channel_brand_id&ads.v22=AMDB012116&ads.n23=content_custom_3_param&ads.v23=channel&ads.n24=content_type&ads.v24=channel&ads.n25=ip&ads.v25=193.228.206.147&ads.n26=content_livestream&ads.v26=1&ads.n27=content_provider&ads.v27=sportsgrid&ads.n28=ifa_type&ads.v28=&ads.n29=device_model&ads.v29=&ads.n30=gpp&ads.v30=&ads.n31=ua&ads.v31=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n32=pos&ads.v32=midroll&ads.n33=dnt&ads.v33=&ads.n34=content_custom_1_param&ads.v34=A12CC4BA-5154-44D6-8CDE-DD0FEAEDEE3A&ads.n35=w&ads.v35=1920&ads.n36=network_name&ads.v36=sportsgrid&ads.n37=channel_genre&ads.v37=Sports&ads.n38=us_privacy&ads.v38=1YNY&ads.n39=channel_language&ads.v39=en&ads.n40=channel_name&ads.v40=EPG%20%20SportsGrid&ads.n41=app_store_url&ads.v41=&ads.n42=app_bundle&ads.v42=&ads.n43=channel_company_id&ads.v43=AMDP500153&ads.n44=app_name&ads.v44=&ads.n45=channel_corp&ads.v45=SportsGrid%20INC&ads.n46=channel_id&ads.v46=A12CC4BA-5154-44D6-8CDE-DD0FEAEDEE3A&ads.n47=cust_devicename&ads.v47=desktop_web&ads.n48=url&ads.v48=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n49=h&ads.v49=1080&ads.n50=gpp_sid&ads.v50=&ads.n51=channel_rating&ads.v51=TV-PG&ads.n52=channel_ext_id&ads.v52=606f8740e3646c717b782bd7&ads.n53=app_version&ads.v53=0.0.0&ads.n54=device_type&ads.v54=&ads.n55=did&ads.v55=&ads.n56=device_make&ads.v56=&ads.n57=content_producer_name&ads.v57=SportsGrid%20INC&ads.n58=content_custom_2_param&ads.v58=AMDB012116
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/04935AA0-65BE-43C5-8E32-55C4304C64F0/3-1x1.png" tvg-id="LN_04935AA0-65BE-43C5-8E32-55C4304C64F0" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",Locked On College Sports
+https://s9host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/713/hls/master/playlist.m3u8?ads.cdnhost=s9host4.localnow.api.cms.amdvids.com&ads.playbackid=04935AA0-65BE-43C5-8E32-55C4304C64F0&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=04935AA0-65BE-43C5-8E32-55C4304C64F0&ads.n4=content_name&ads.v4=Locked%20On%20College%20Sports&ads.n21=w&ads.v21=1920&ads.n22=channel_id&ads.v22=04935AA0-65BE-43C5-8E32-55C4304C64F0&ads.n23=channel_title&ads.v23=Locked%20On%20College%20Sports&ads.n24=content_producer_name&ads.v24=Tegna%20INC&ads.n25=network_name&ads.v25=locked-on-sports-college-football&ads.n26=pos&ads.v26=midroll&ads.n27=device_model&ads.v27=&ads.n28=gpp&ads.v28=&ads.n29=ua&ads.v29=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n30=channel_corp&ads.v30=Tegna%20INC&ads.n31=content_type&ads.v31=channel&ads.n32=content_custom_1_param&ads.v32=04935AA0-65BE-43C5-8E32-55C4304C64F0&ads.n33=channel_company_id&ads.v33=AMDP500555&ads.n34=content_livestream&ads.v34=1&ads.n35=device_type&ads.v35=&ads.n36=url&ads.v36=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n37=channel_rating&ads.v37=TV-PG&ads.n38=cust_devicename&ads.v38=desktop_web&ads.n39=channel_name&ads.v39=Locked%20On%20College%20Sports&ads.n40=content_custom_2_param&ads.v40=AMDB013554&ads.n41=app_version&ads.v41=0.0.0&ads.n42=did&ads.v42=&ads.n43=app_bundle&ads.v43=&ads.n44=channel_genre&ads.v44=Sports&ads.n45=content_custom_3_param&ads.v45=channel&ads.n46=content_provider&ads.v46=locked-on-sports-college-football&ads.n47=us_privacy&ads.v47=1YNY&ads.n48=app_store_url&ads.v48=&ads.n49=ifa_type&ads.v49=&ads.n50=gpp_sid&ads.v50=&ads.n51=app_name&ads.v51=&ads.n52=dnt&ads.v52=&ads.n53=channel_ext_id&ads.v53=&ads.n54=channel_language&ads.v54=en&ads.n55=channel_brand_id&ads.v55=AMDB013554&ads.n56=ip&ads.v56=193.228.206.147&ads.n57=h&ads.v57=1080&ads.n58=device_make&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/4CE5A5DE-CDEC-460A-B520-C37E1ABB1813/3-1x1.png" tvg-id="LN_4CE5A5DE-CDEC-460A-B520-C37E1ABB1813" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",Locked On Sports Today
+https://s9host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/722/hls/master/playlist.m3u8?ads.cdnhost=s9host4.localnow.api.cms.amdvids.com&ads.playbackid=4CE5A5DE-CDEC-460A-B520-C37E1ABB1813&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=4CE5A5DE-CDEC-460A-B520-C37E1ABB1813&ads.n4=content_name&ads.v4=Locked%20On%20Sports%20Today&ads.n21=channel_language&ads.v21=en&ads.n22=did&ads.v22=&ads.n23=cust_devicename&ads.v23=desktop_web&ads.n24=channel_genre&ads.v24=Sports&ads.n25=content_livestream&ads.v25=1&ads.n26=channel_corp&ads.v26=Tegna%20INC&ads.n27=app_store_url&ads.v27=&ads.n28=dnt&ads.v28=&ads.n29=channel_brand_id&ads.v29=AMDB013555&ads.n30=content_custom_2_param&ads.v30=AMDB013555&ads.n31=content_type&ads.v31=channel&ads.n32=device_make&ads.v32=&ads.n33=app_name&ads.v33=&ads.n34=url&ads.v34=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n35=app_version&ads.v35=0.0.0&ads.n36=device_type&ads.v36=&ads.n37=pos&ads.v37=midroll&ads.n38=channel_title&ads.v38=Locked%20On%20Sports%20Today&ads.n39=ip&ads.v39=193.228.206.147&ads.n40=app_bundle&ads.v40=&ads.n41=w&ads.v41=1920&ads.n42=content_producer_name&ads.v42=Tegna%20INC&ads.n43=channel_rating&ads.v43=TV-PG&ads.n44=h&ads.v44=1080&ads.n45=device_model&ads.v45=&ads.n46=network_name&ads.v46=locked-on-sports-today&ads.n47=ifa_type&ads.v47=&ads.n48=gpp&ads.v48=&ads.n49=channel_company_id&ads.v49=AMDP500555&ads.n50=content_custom_3_param&ads.v50=channel&ads.n51=gpp_sid&ads.v51=&ads.n52=ua&ads.v52=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n53=content_custom_1_param&ads.v53=4CE5A5DE-CDEC-460A-B520-C37E1ABB1813&ads.n54=channel_ext_id&ads.v54=&ads.n55=us_privacy&ads.v55=1YNY&ads.n56=content_provider&ads.v56=locked-on-sports-today&ads.n57=channel_id&ads.v57=4CE5A5DE-CDEC-460A-B520-C37E1ABB1813&ads.n58=channel_name&ads.v58=Locked%20On%20Sports%20Today
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/D2300A27-E817-470E-86DD-04E2B176F870/3-1x1.png" tvg-id="LN_D2300A27-E817-470E-86DD-04E2B176F870" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",Locked on NBA
+https://s9host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/628/hls/master/playlist.m3u8?ads.cdnhost=s9host4.localnow.api.cms.amdvids.com&ads.playbackid=D2300A27-E817-470E-86DD-04E2B176F870&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=D2300A27-E817-470E-86DD-04E2B176F870&ads.n4=content_name&ads.v4=Locked%20on%20NBA&ads.n21=channel_rating&ads.v21=TV-PG&ads.n22=gpp_sid&ads.v22=&ads.n23=h&ads.v23=1080&ads.n24=channel_id&ads.v24=D2300A27-E817-470E-86DD-04E2B176F870&ads.n25=network_name&ads.v25=locked-on-sports-nba&ads.n26=app_store_url&ads.v26=&ads.n27=content_custom_3_param&ads.v27=channel&ads.n28=channel_name&ads.v28=Locked%20on%20NBA&ads.n29=app_name&ads.v29=&ads.n30=did&ads.v30=&ads.n31=dnt&ads.v31=&ads.n32=cust_devicename&ads.v32=desktop_web&ads.n33=content_custom_1_param&ads.v33=D2300A27-E817-470E-86DD-04E2B176F870&ads.n34=content_custom_2_param&ads.v34=AMDB013552&ads.n35=us_privacy&ads.v35=1YNY&ads.n36=ua&ads.v36=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n37=channel_company_id&ads.v37=AMDP500555&ads.n38=gpp&ads.v38=&ads.n39=app_version&ads.v39=0.0.0&ads.n40=channel_title&ads.v40=Locked%20on%20NBA&ads.n41=channel_language&ads.v41=en&ads.n42=content_type&ads.v42=channel&ads.n43=content_provider&ads.v43=locked-on-sports-nba&ads.n44=w&ads.v44=1920&ads.n45=channel_corp&ads.v45=Tegna%20INC&ads.n46=device_type&ads.v46=&ads.n47=url&ads.v47=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n48=device_make&ads.v48=&ads.n49=app_bundle&ads.v49=&ads.n50=ip&ads.v50=193.228.206.147&ads.n51=content_livestream&ads.v51=1&ads.n52=ifa_type&ads.v52=&ads.n53=channel_genre&ads.v53=Sports&ads.n54=channel_ext_id&ads.v54=&ads.n55=content_producer_name&ads.v55=Tegna%20INC&ads.n56=device_model&ads.v56=&ads.n57=channel_brand_id&ads.v57=AMDB013552&ads.n58=pos&ads.v58=midroll
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/AF8A0869-F746-4CC3-8254-CD48E24F4F70/3-1x1.png" tvg-id="LN_AF8A0869-F746-4CC3-8254-CD48E24F4F70" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",Locked On Sports Atlanta
+https://s9host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/629/hls/master/playlist.m3u8?ads.cdnhost=s9host4.localnow.api.cms.amdvids.com&ads.playbackid=AF8A0869-F746-4CC3-8254-CD48E24F4F70&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=AF8A0869-F746-4CC3-8254-CD48E24F4F70&ads.n4=content_name&ads.v4=Locked%20On%20Sports%20Atlanta&ads.n21=channel_company_id&ads.v21=AMDP500555&ads.n22=content_producer_name&ads.v22=Tegna%20INC&ads.n23=pos&ads.v23=midroll&ads.n24=gpp_sid&ads.v24=&ads.n25=app_name&ads.v25=&ads.n26=channel_corp&ads.v26=Tegna%20INC&ads.n27=gpp&ads.v27=&ads.n28=app_store_url&ads.v28=&ads.n29=cust_devicename&ads.v29=desktop_web&ads.n30=channel_language&ads.v30=en&ads.n31=channel_id&ads.v31=AF8A0869-F746-4CC3-8254-CD48E24F4F70&ads.n32=ua&ads.v32=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n33=content_custom_1_param&ads.v33=AF8A0869-F746-4CC3-8254-CD48E24F4F70&ads.n34=content_type&ads.v34=channel&ads.n35=content_custom_2_param&ads.v35=AMDB013550&ads.n36=app_version&ads.v36=0.0.0&ads.n37=channel_brand_id&ads.v37=AMDB013550&ads.n38=w&ads.v38=1920&ads.n39=channel_title&ads.v39=Locked%20On%20Sports%20Atlanta&ads.n40=channel_ext_id&ads.v40=&ads.n41=content_custom_3_param&ads.v41=channel&ads.n42=ip&ads.v42=193.228.206.147&ads.n43=app_bundle&ads.v43=&ads.n44=channel_genre&ads.v44=Sports&ads.n45=device_model&ads.v45=&ads.n46=network_name&ads.v46=locked-on-sports-atlanta&ads.n47=dnt&ads.v47=&ads.n48=content_livestream&ads.v48=1&ads.n49=device_type&ads.v49=&ads.n50=content_provider&ads.v50=locked-on-sports-atlanta&ads.n51=h&ads.v51=1080&ads.n52=us_privacy&ads.v52=1YNY&ads.n53=did&ads.v53=&ads.n54=channel_name&ads.v54=Locked%20On%20Sports%20Atlanta&ads.n55=url&ads.v55=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n56=device_make&ads.v56=&ads.n57=ifa_type&ads.v57=&ads.n58=channel_rating&ads.v58=TV-PG
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/0809C39C-DE1C-464C-ACA0-87DF90E1DD17/3-1x1.png" tvg-id="LN_0809C39C-DE1C-464C-ACA0-87DF90E1DD17" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",Locked On Sports Los Angeles
+https://s9host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/631/hls/master/playlist.m3u8?ads.cdnhost=s9host4.localnow.api.cms.amdvids.com&ads.playbackid=0809C39C-DE1C-464C-ACA0-87DF90E1DD17&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=0809C39C-DE1C-464C-ACA0-87DF90E1DD17&ads.n4=content_name&ads.v4=Locked%20On%20Sports%20Los%20Angeles&ads.n21=app_bundle&ads.v21=&ads.n22=device_model&ads.v22=&ads.n23=cust_devicename&ads.v23=desktop_web&ads.n24=channel_name&ads.v24=Locked%20On%20Sports%20Los%20Angeles&ads.n25=app_store_url&ads.v25=&ads.n26=h&ads.v26=1080&ads.n27=ifa_type&ads.v27=&ads.n28=channel_brand_id&ads.v28=AMDB013553&ads.n29=gpp&ads.v29=&ads.n30=channel_id&ads.v30=0809C39C-DE1C-464C-ACA0-87DF90E1DD17&ads.n31=w&ads.v31=1920&ads.n32=content_producer_name&ads.v32=Tegna%20INC&ads.n33=channel_rating&ads.v33=TV-PG&ads.n34=did&ads.v34=&ads.n35=channel_corp&ads.v35=Tegna%20INC&ads.n36=channel_title&ads.v36=Locked%20On%20Sports%20Los%20Angeles&ads.n37=ua&ads.v37=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n38=device_type&ads.v38=&ads.n39=channel_genre&ads.v39=Sports&ads.n40=content_custom_1_param&ads.v40=0809C39C-DE1C-464C-ACA0-87DF90E1DD17&ads.n41=app_name&ads.v41=&ads.n42=content_custom_3_param&ads.v42=channel&ads.n43=url&ads.v43=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n44=pos&ads.v44=midroll&ads.n45=us_privacy&ads.v45=1YNY&ads.n46=app_version&ads.v46=0.0.0&ads.n47=channel_language&ads.v47=en&ads.n48=content_livestream&ads.v48=1&ads.n49=content_custom_2_param&ads.v49=AMDB013553&ads.n50=gpp_sid&ads.v50=&ads.n51=content_type&ads.v51=channel&ads.n52=channel_ext_id&ads.v52=&ads.n53=ip&ads.v53=193.228.206.147&ads.n54=device_make&ads.v54=&ads.n55=content_provider&ads.v55=locked-on-sports-los-angeles&ads.n56=network_name&ads.v56=locked-on-sports-los-angeles&ads.n57=channel_company_id&ads.v57=AMDP500555&ads.n58=dnt&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D/3-1x1.png" tvg-id="LN_0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",World of Freesports
+https://s7host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config9/playlist.m3u8?ads.cdnhost=s7host5.localnow.api.cms.amdvids.com&ads.playbackid=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n4=content_name&ads.v4=EPG%20%7C%20World%20of%20Freesports&ads.n21=us_privacy&ads.v21=1YNY&ads.n22=content_producer_name&ads.v22=Mainstream%20Media%20AG&ads.n23=app_store_url&ads.v23=&ads.n24=network_name&ads.v24=world-of-free-sports-international&ads.n25=content_provider&ads.v25=world-of-free-sports-international&ads.n26=app_name&ads.v26=&ads.n27=ip&ads.v27=193.228.206.147&ads.n28=device_model&ads.v28=&ads.n29=content_custom_1_param&ads.v29=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n30=ua&ads.v30=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n31=pos&ads.v31=midroll&ads.n32=cust_devicename&ads.v32=desktop_web&ads.n33=channel_title&ads.v33=EPG%20%20World%20of%20Freesports&ads.n34=channel_rating&ads.v34=TV-PG&ads.n35=device_type&ads.v35=&ads.n36=channel_id&ads.v36=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n37=channel_company_id&ads.v37=AMDP500497&ads.n38=channel_ext_id&ads.v38=&ads.n39=channel_corp&ads.v39=Mainstream%20Media%20AG&ads.n40=channel_brand_id&ads.v40=AMDB013343&ads.n41=app_bundle&ads.v41=&ads.n42=app_version&ads.v42=0.0.0&ads.n43=content_custom_2_param&ads.v43=AMDB013343&ads.n44=url&ads.v44=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n45=content_custom_3_param&ads.v45=channel&ads.n46=did&ads.v46=&ads.n47=h&ads.v47=1080&ads.n48=channel_genre&ads.v48=Sports&ads.n49=dnt&ads.v49=&ads.n50=channel_name&ads.v50=EPG%20%20World%20of%20Freesports&ads.n51=content_livestream&ads.v51=1&ads.n52=w&ads.v52=1920&ads.n53=ifa_type&ads.v53=&ads.n54=content_type&ads.v54=channel&ads.n55=gpp_sid&ads.v55=&ads.n56=gpp&ads.v56=&ads.n57=channel_language&ads.v57=en&ads.n58=device_make&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/662F6B8A-1762-479D-A542-4A6D78574774/3-1x1.png" tvg-id="LN_662F6B8A-1762-479D-A542-4A6D78574774" group-title="LocalNowðŸ‡ºðŸ‡¸: Sports",PowerSports World
+https://s5host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config6/bbb/pwrsp/pwrsp.m3u8?ads.cdnhost=s5host2.localnow.api.cms.amdvids.com&ads.playbackid=662F6B8A-1762-479D-A542-4A6D78574774&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=662F6B8A-1762-479D-A542-4A6D78574774&ads.n4=content_name&ads.v4=PowerSports%20World&ads.n21=content_producer_name&ads.v21=Triple-B%20Media%20LLC&ads.n22=content_provider&ads.v22=motoamerica-tv&ads.n23=us_privacy&ads.v23=1YNY&ads.n24=channel_company_id&ads.v24=AMDP500174&ads.n25=app_store_url&ads.v25=&ads.n26=w&ads.v26=1920&ads.n27=app_version&ads.v27=0.0.0&ads.n28=ip&ads.v28=193.228.206.147&ads.n29=pos&ads.v29=midroll&ads.n30=ua&ads.v30=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n31=channel_genre&ads.v31=Sports&ads.n32=content_custom_1_param&ads.v32=662F6B8A-1762-479D-A542-4A6D78574774&ads.n33=ifa_type&ads.v33=&ads.n34=channel_language&ads.v34=en&ads.n35=device_type&ads.v35=&ads.n36=device_model&ads.v36=&ads.n37=h&ads.v37=1080&ads.n38=channel_id&ads.v38=662F6B8A-1762-479D-A542-4A6D78574774&ads.n39=content_custom_2_param&ads.v39=AMDB012218&ads.n40=device_make&ads.v40=&ads.n41=cust_devicename&ads.v41=desktop_web&ads.n42=channel_name&ads.v42=PowerSports%20World&ads.n43=did&ads.v43=&ads.n44=gpp_sid&ads.v44=&ads.n45=app_bundle&ads.v45=&ads.n46=channel_corp&ads.v46=Triple-B%20Media%20LLC&ads.n47=dnt&ads.v47=&ads.n48=channel_brand_id&ads.v48=AMDB012218&ads.n49=network_name&ads.v49=motoamerica-tv&ads.n50=app_name&ads.v50=&ads.n51=channel_ext_id&ads.v51=61310bdd76163613787b2d12&ads.n52=channel_rating&ads.v52=TV-PG&ads.n53=channel_title&ads.v53=PowerSports%20World&ads.n54=content_livestream&ads.v54=1&ads.n55=url&ads.v55=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n56=content_type&ads.v56=channel&ads.n57=gpp&ads.v57=&ads.n58=content_custom_3_param&ads.v58=channel
+
+#EXTINF:-1,BR Sports (US) Geo
+https://amg00136-wbd-amg00136c43-lg-us-5711.playouts.now.amagi.tv/playlist.m3u8
 

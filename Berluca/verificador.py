@@ -1,84 +1,101 @@
 # verificador.py
-
+import requests
 import os
-import random
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import List, Set, Tuple
+import glob
+from concurrent.futures import ThreadPoolExecutor
+from typing import List, Tuple
+from config import CARPETA_ORIGEN
 
-# Importaciones de módulos centrales
-from m3u_core import extraer_bloques_m3u, extraer_url, sanear_bloque_m3u, hash_bloque
-from file_manager import leer_archivo_m3u
-from utils import verificar_disponibilidad # Función optimizada en utils.py
-from config import CARPETA_ORIGEN # Para buscar archivos
+# ⚙️ CONFIGURACIÓN DE VERIFICACIÓN
+MAX_WORKERS = 10 
+TIMEOUT_SECONDS = 5 # Tiempo máximo de espera por respuesta HTTP
 
 # =========================================================================================
-# 🔗 FUNCIONES DE VERIFICACIÓN CONCURRENTE
+# 📦 FUNCIONES DE PARSEO (Copiadas del clasificador para ser autocontenido)
 # =========================================================================================
 
-def verificar_url(url: str, hash_bloque: str) -> Tuple[str, bool]:
-    """
-    Verifica la disponibilidad de una única URL.
-    Retorna: (hash_bloque, True si disponible, False si roto)
-    """
-    return hash_bloque, verificar_disponibilidad(url)
-
-def verificar_enlaces_en_archivos(archivos_a_verificar: List[str], max_workers: int = 10, muestra_por_archivo: int = 50) -> Set[str]:
-    """
-    Escanea archivos .m3u, verifica una muestra de sus enlaces de forma concurrente,
-    y devuelve un set de HASHES de los bloques ROTOS.
-    """
-    hashes_a_verificar: List[Tuple[str, str]] = [] # Lista de (URL, Hash)
-
-    print("\n🔎 Recopilando enlaces para verificación...")
+def extraer_bloque_y_url(lineas: List[str]) -> List[Tuple[str, str]]:
+    """Extrae la línea EXTINF y la URL como una tupla (extinf_line, url_line)."""
+    bloques_con_url = []
+    extinf_line = None
     
-    # 1. Recopilar URLs y Hashes
-    for archivo_ruta in archivos_a_verificar:
-        if not os.path.exists(archivo_ruta):
+    for linea in lineas:
+        linea = linea.strip()
+        if linea.startswith("#EXTINF"):
+            extinf_line = linea
+        elif linea.startswith("http") and extinf_line:
+            bloques_con_url.append((extinf_line, linea))
+            extinf_line = None # Reset para el siguiente bloque
+    return bloques_con_url
+
+# =========================================================================================
+# 🧠 BUCLE PRINCIPAL DE VERIFICACIÓN
+# =========================================================================================
+
+def verificar_url(url: str) -> bool:
+    """Verifica si la URL devuelve un código de estado 200 (OK)."""
+    try:
+        # Usamos HEAD para no descargar el contenido, ajustamos timeout
+        response = requests.head(url, timeout=TIMEOUT_SECONDS, allow_redirects=True)
+        return response.status_code == 200
+    except requests.exceptions.RequestException:
+        return False
+
+def verificar_enlaces():
+    """Verifica todas las URLs en la carpeta compilados/ y sobrescribe los archivos solo con los enlaces válidos."""
+    print("\n🔍 Iniciando Verificación de Enlaces (Puede tardar varios minutos)...")
+    
+    patron_busqueda = os.path.join(CARPETA_ORIGEN, "*.m3u")
+    listas_clasificadas = glob.glob(patron_busqueda)
+    
+    if not listas_clasificadas:
+        print("⚠️ Advertencia: No se encontraron archivos M3U en compilados/ para verificar.")
+        return
+
+    for ruta_archivo in listas_clasificadas:
+        nombre_archivo = os.path.basename(ruta_archivo)
+        
+        try:
+            with open(ruta_archivo, "r", encoding="utf-8", errors="ignore") as f:
+                lineas = f.readlines()
+        except Exception:
             continue
-            
-        lineas = leer_archivo_m3u(archivo_ruta)
-        bloques = extraer_bloques_m3u(lineas)
+
+        bloques_con_url = extraer_bloque_y_url(lineas)
+        enlaces_totales = len(bloques_con_url)
         
-        # Filtrar solo una muestra aleatoria si el archivo es grande
-        if len(bloques) > muestra_por_archivo:
-            bloques_muestra = random.sample(bloques, muestra_por_archivo)
-        else:
-            bloques_muestra = bloques
+        if not enlaces_totales: continue
             
-        for bloque in bloques_muestra:
-            bloque_saneado = sanear_bloque_m3u(bloque)
-            if bloque_saneado:
-                url = extraer_url(bloque_saneado)
-                h = hash_bloque(bloque_saneado)
-                if url and h:
-                    hashes_a_verificar.append((url, h))
+        print(f"   -> Verificando {enlaces_totales} enlaces en {nombre_archivo}...")
 
-    print(f"🔗 Total de enlaces únicos a verificar: {len(set(h for _, h in hashes_a_verificar))}")
-    if not hashes_a_verificar:
-        return set()
+        # 🚀 Ejecución concurrente
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            # Creamos un mapa de URL a su Bloque M3U original
+            url_a_bloque = {url: (extinf, url) for extinf, url in bloques_con_url}
+            urls = [url for extinf, url in bloques_con_url]
+            
+            # Mapeamos la función verificar_url sobre todas las URLs
+            resultados = executor.map(verificar_url, urls)
 
-    # 2. Ejecutar verificación concurrente
-    hashes_rotos: Set[str] = set()
-    
-    print(f"⏱️ Iniciando verificación concurrente con {max_workers} hilos...")
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_hash = {
-            executor.submit(verificar_url, url, h): h 
-            for url, h in hashes_a_verificar
-        }
+            bloques_validos = []
+            for url, es_valido in zip(urls, resultados):
+                if es_valido:
+                    extinf, url_line = url_a_bloque[url]
+                    bloques_validos.append((extinf, url_line))
+            
+        enlaces_caidos = enlaces_totales - len(bloques_validos)
         
-        for i, future in enumerate(as_completed(future_to_hash)):
-            h, disponible = future.result()
+        if enlaces_caidos > 0:
+            print(f"      ❌ Enlaces caídos detectados y eliminados: {enlaces_caidos}")
             
-            # 3. Registrar los rotos
-            if not disponible:
-                hashes_rotos.add(h)
-                
-            # Opcional: Mostrar progreso cada N iteraciones
-            if (i + 1) % 50 == 0:
-                print(f"   -> Progreso: {i + 1}/{len(hashes_a_verificar)} verificados. Rotos: {len(hashes_rotos)}")
+        # Sobrescribir el archivo con solo los enlaces válidos
+        with open(ruta_archivo, "w", encoding="utf-8", errors="ignore") as f:
+            f.write("#EXTM3U\n\n")
+            for extinf, url_line in bloques_validos:
+                f.write(extinf + "\n")
+                f.write(url_line + "\n\n")
 
-    print(f"✅ Verificación finalizada. {len(hashes_rotos)} enlaces rotos detectados en la muestra.")
-    return hashes_rotos
+    print("✅ Verificación de enlaces finalizada. Archivos en compilados/ actualizados.")
 
-# NOTA: En generador.py, invocaremos esto con la lista de archivos en CARPETA_ORIGEN.
+if __name__ == "__main__":
+    verificar_enlaces()

@@ -2,7 +2,8 @@
 
 from extractor import recolectar_enlaces
 from clasificador import clasificar_enlaces
-from generador import generar_listas_finales, limpiar_carpeta_compilados # <-- 🛑 Importación de la función de limpieza
+from generador import generar_listas_finales, limpiar_miscelaneo_caducado # <-- ¡Importada la función de limpieza!
+# from verificador import verificar_enlaces # Mantenemos comentada hasta resolver el problema de bloqueo
 import sys 
 
 def ejecutar_proceso_completo(url_lista):
@@ -10,13 +11,17 @@ def ejecutar_proceso_completo(url_lista):
     
     recolectar_enlaces(url_lista)
     
-    # 🛑 PASO CLAVE: Limpiar la carpeta antes de clasificar
-    print("\n🧹 Eliminando archivos clasificados obsoletos de Beluga/compilados...")
-    limpiar_carpeta_compilados() # <-- 🛑 Llamada a la función de limpieza
+    # 0. Limpieza: Elimina enlaces viejos de misceláneo (más de 7 días)
+    limpiar_miscelaneo_caducado() 
     
-    # El flujo principal de procesamiento
-    clasificar_enlaces() # <-- Ahora esta función añade archivos a una carpeta VACÍA
-    generar_listas_finales() # <-- Ahora esta función solo lee los archivos nuevos y limitados
+    # 1. Clasificación/Fusión: Aplica la lógica de Fallback: Principal -> Extra -> Misceláneo.
+    clasificar_enlaces()
+    
+    # 2. Verificación (Filtra 404): Comentada para evitar el bloqueo del servidor.
+    # verificar_enlaces() 
+    
+    # 3. Generación Final: Consolida todos los archivos de compilados/
+    generar_listas_finales()
     
     print("--- ✅ Proceso Completo Finalizado ---")
 
