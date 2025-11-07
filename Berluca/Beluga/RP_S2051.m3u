@@ -1,0 +1,503 @@
+#EXTM3U
+
+
+# ====== ★ OTROS CANALES (Misceláneo/Temporal) ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Redbox Free Movies exp-date="2025-11-07"
+https://spotlight-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-spotlight/CDN/playlist.m3u8?p=Redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",IFC Films Picks exp-date="2025-11-07"
+https://e2bed9d41f6d48558d0b18cabbbf800c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_IFCFilmsPicks/playlist.m3u8?ads.wurl_channel=563&ads.wurl_name=IFCFilmsPicks&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Moviesphere exp-date="2025-11-07"
+https://moviesphere-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-moviesphere-redbox/CDN/playlist.m3u8?deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",FilmRise Free Movies exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefreemovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",COPS exp-date="2025-11-07"
+https://8e5a51fd84df4fd4bd64dd49cc9ccb75.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_COPS/playlist.m3u8?ads.wurl_channel=1095&ads.wurl_name=COPS&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Jail exp-date="2025-11-07"
+https://19132c0d3d424544a7d528a39b84e5de.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Redbox_Jail/playlist.m3u8?ads.wurl_channel=1201&ads.wurl_name=Jail&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Crackle Originals exp-date="2025-11-07"
+https://cracklepg13-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-crackle-pg13-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Sleuth exp-date="2025-11-07"
+https://sleuth-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-sleuth-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Forensic Files exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxforensicfiles/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Unsolved Mysteries exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxunsolvedmysteries/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",True Crime Now exp-date="2025-11-07"
+https://805a8dbf31c74c3e9fcd6bd4b1b09d51.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_TrueCrimeNow/playlist.m3u8?ads.wurl_channel=941&ads.wurl_name=TrueCrimeNow&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Judge Nosey exp-date="2025-11-07"
+https://632e7b0caa3746638fedf21c7f458fd8.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_RealNosey/playlist.m3u8?ads.wurl_channel=349&ads.wurl_name=RealNosey&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Divorce Court exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdivorcecourt/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Court TV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcourttv/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Midsomer Murders exp-date="2025-11-07"
+https://74c54ddfb668499fab43327942fb60da.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Redbox_MidsomerMurders/playlist.m3u8?ads.wurl_channel=994&ads.wurl_name=MidsomerMurders&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Dr. G: Medical Examiner exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdrgmedicalexaminer/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Caught in Providence exp-date="2025-11-07"
+https://amg00353-lionsgate-caughtinprovidence-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-lionsgate-caughtinprovidence-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Reelz Channel exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Law & Crime exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxlawandcrime/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Redbox Romance exp-date="2025-11-07"
+https://holiday-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-holiday/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Chicken Soup for the Soul exp-date="2025-11-07"
+https://chickensoup-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-chickensoup-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Hallmark Movies & More exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcrownmediahallmarkmovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",XUMO FREE Movies exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxxumofreemovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Filmhub exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmhub/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Gravitas Movies exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgravitas/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",AllBlk Gems exp-date="2025-11-07"
+https://f33ea23034334a979987e15c81446025.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_AllBlkGems/playlist.m3u8?ads.wurl_channel=1180&ads.wurl_name=AllBlkGems&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Maverick exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-maverickmovies/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Made in Hollywood exp-date="2025-11-07"
+https://13be15d3afd947ee922bc0f8a55f522d.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_MadeInHollywood/playlist.m3u8?ads.wurl_channel=276&ads.wurl_name=MadeInHollywood&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",MagellanTV Now exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvoyager/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",BNC GO exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxblacknewschannel/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",CRACKLE exp-date="2025-11-07"
+https://crackle-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-crackle-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Walking Dead Universe exp-date="2025-11-07"
+https://ec431a2c5ef845158bdac41d47b37aa5.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_TWDUniverseTV14/playlist.m3u8?ads.wurl_channel=1215&ads.wurl_name=TWDUniverseTV14&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",DUST exp-date="2025-11-07"
+https://gunpowder-dust-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-dust-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Paranormal Files exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxparanormalfiles/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Farscape exp-date="2025-11-07"
+https://06cbbbf663bb4142916b1db724408129.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_Farscape/playlist.m3u8?ads.wurl_channel=1241&ads.wurl_name=Farscape&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Wu Tang Collection TV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgoldenmediawutangcollection/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Hi-Yah! exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhi-ya/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",FilmRise Sci-Fi exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisescifi/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",ALTER exp-date="2025-11-07"
+https://amg00219-gunpowder-alter-redbox.amagi.tv/hls/amagi_hls_data_gunpowder-alter-redbox/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Scream Factory TV exp-date="2025-11-07"
+https://4f87124ca4484862a02e3ce1687416b2.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_ScreamFactoryTV/playlist.m3u8?ads.wurl_channel=1154&ads.wurl_name=ScreamFactoryTV&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Shout! Cult exp-date="2025-11-07"
+https://e1de00afde284547b713d99099312f17.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_ShoutCult/playlist.m3u8?ads.wurl_channel=1169&ads.wurl_name=ShoutCult&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Popcornflix exp-date="2025-11-07"
+https://popcornflix-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-popcornflix-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",ElectricNOW exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxelectricnow/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",PriceIsRight exp-date="2025-11-07"
+https://thepriceisright-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-thepriceisright-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Nosey exp-date="2025-11-07"
+https://72b83bcbd2204cdabbf4ffd7742d63fa.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_Nosey/playlist.m3u8?ads.wurl_channel=319&ads.wurl_name=Nosey&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Confess by Nosey exp-date="2025-11-07"
+https://9a319e0ee0694e24b1b08471b3145672.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_ConfessByNosey/playlist.m3u8?ads.wurl_channel=1445&ads.wurl_name=ConfessByNosey&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",FearFactor exp-date="2025-11-07"
+https://banijay-fearfactor-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-fearfactor-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Game Show Central exp-date="2025-11-07"
+https://890f34d0fe9b4c13b4fea89b53b849cf.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_GameShowCentral/playlist.m3u8?ads.wurl_channel=416&ads.wurl_name=GameShowCentral&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Supermarket Sweep exp-date="2025-11-07"
+https://supermarketsweep-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-supermarketsweep-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Family Feud exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfamilyfeud/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Family Feud exp-date="2025-11-07"
+https://familyfeud-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-familyfeud-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",DealorNoDeal exp-date="2025-11-07"
+https://banijay-dealornodeal-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-dealornodeal-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",TheBiggestLoser exp-date="2025-11-07"
+https://banijay-thebiggestloser-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-thebiggestloser-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Buzzr exp-date="2025-11-07"
+https://buzzr-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-buzzr-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",WipeoutXtra exp-date="2025-11-07"
+https://banijay-wipeoutxtra-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-banijay-wipeoutxtra-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",All Reality WE tv exp-date="2025-11-07"
+https://49ae7dfd78e642cba00a192a5bea7c10.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_AllReality/playlist.m3u8?ads.wurl_channel=475&ads.wurl_name=AllReality&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Redbox War & Westerns exp-date="2025-11-07"
+https://rush-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-rush/CDN/playlist.m3u8?p=Redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Snowy River: The Mcgregor Saga exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-samuelgoldwynlicensed/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Wanted: Dead or Alive exp-date="2025-11-07"
+https://amg00353-lionsgate-wanteddeadoralive-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-lionsgate-wanted-deadoralive-redbox/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",XUMO FREE Westerns exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxxumowesterns/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Cowboy Way exp-date="2025-11-07"
+https://dai2.xumo.com/xumocdn/p=redbox/amagi_hls_data_xumo1212A-redboxcowboyway/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",World Poker Tour exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxworldpokertour/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",SPEEDVISION exp-date="2025-11-07"
+https://e72dfa6f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmVkYm94X1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8?ads.wurl_channel=1325&ads.wurl_name=Speedvision&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",BilliardTV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbilliardtv/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",GLORY Kickboxing exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxglorykickboxing/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",IMPACT Wrestling Channel exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxanthemsportsimpactwrestling/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",ACL Cornhole exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxaclcornhole/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Nitro Circus exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnitrocircus/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Fight Network exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfightnetwork/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Unbeaten exp-date="2025-11-07"
+https://inverleigh-unbeaten-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-inverleigh-unbeaten-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Hard Knocks Fighting Championship exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhardknocksfightingchampionship/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Outdoor America exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxoutdooramerica/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Outside TV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxoutsidetv/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Redbox Rewind exp-date="2025-11-07"
+https://comedy-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-comedy/CDN/playlist.m3u8?p=Redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Baywatch exp-date="2025-11-07"
+https://baywatch-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-baywatch-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Crackle Classics exp-date="2025-11-07"
+https://crackleclassics-redbox.amagi.tv/hls/amagi_hls_data_crackleAA-crackleclassics-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",ALF exp-date="2025-11-07"
+https://6962cced8042497f86bd17ca6f91d963.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Redbox_ALF/playlist.m3u8?ads.wurl_channel=1183&ads.wurl_name=ALF&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Its Showtime At The Apollo exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxshowtimeattheapollo/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",FilmRise Classic TV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmriseclassictv/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Bob Ross Channel exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbobross/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Johnny Carson TV exp-date="2025-11-07"
+https://johnnycarson-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-johnnycarson-redbox/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Shout! Factory TV exp-date="2025-11-07"
+https://shoutfactory-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-shoutfactorytv/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",American Classics exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Archive exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxthearchive/CDN/playlist.m3u8??p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Redbox Faith & Family exp-date="2025-11-07"
+https://sci-fi-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-sci-fi/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",FilmRise Family exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Dove Channel exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdovenow/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The LEGO Channel exp-date="2025-11-07"
+https://d4e4b47f05724d05814819ba38a5408a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_TheLEGOChannel/playlist.m3u8?ads.wurl_channel=791&ads.wurl_name=TheLEGOChannel&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Heartland exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxheartland/CDN/playlist.m3u8?p=redbox&device_id=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",BABY SHARK TV exp-date="2025-11-07"
+https://7a730d80a1554e0b9c0bd604f276c552.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_BabySharkTV/playlist.m3u8?ads.wurl_channel=696&ads.wurl_name=BabySharkTV&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Toon Goggles exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxtoongoggles/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",pocket.watch exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxpocketwatch/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",batteryPop exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbatterypop/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Happykids exp-date="2025-11-07"
+https://6490c4f30f3848f78e657d20f022d6ed.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_HappyKidsTV/playlist.m3u8?ads.wurl_channel=876&ads.wurl_name=HappyKidsTV&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Trinity Broadcasting Network exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxtrinitybroadcastingnetwork/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",LOL Network exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxlolcomedy/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Portlandia exp-date="2025-11-07"
+https://244ea2bf58804131938b09e260de0576.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_Portlandia/playlist.m3u8?ads.wurl_channel=928&ads.wurl_name=Portlandia&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Are We There Yet exp-date="2025-11-07"
+https://lionsgate-arewethereyet-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-lionsgate-arewethereyet-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Red Green Channel exp-date="2025-11-07"
+https://446b4f00568042eea80eda81ad95595b.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_TheRedGreenChannel/playlist.m3u8?ads.wurl_channel=949&ads.wurl_name=TheRedGreenChannel&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",MST3K exp-date="2025-11-07"
+https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Fail Army exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfailarmy/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Pet Collective exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxpetcollective/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Funny or Die exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Quip exp-date="2025-11-07"
+https://quip-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-quip-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Comedy Dynamics exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcomedydynamics/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Slightly Off IFC exp-date="2025-11-07"
+https://6a4f448e48194a9ea3a16a39105eb0eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_SlightlyOffIFC/playlist.m3u8?ads.wurl_channel=564&ads.wurl_name=SlightlyOffIFC&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Just For Laughs Gags exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxjustforlaughsgags/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Dry Bar Comedy exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdrybar/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",CHIVE TV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxchive/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Jamie Oliver exp-date="2025-11-07"
+https://jamieoliver-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-jamieoliver-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Tastemade exp-date="2025-11-07"
+https://tastemadefr16min-redbox.amagi.tv/hls/amagi_hls_data_tastemade-tastemadefreetv16-redbox/CDN/playlist.m3u8?p=Redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Food52 exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfood52A/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Bon Appetit exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbonappetit/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",CookChopChat exp-date="2025-11-07"
+https://cookchopchat-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-cookchopchat-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Hungry exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhungry/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Places and Spaces exp-date="2025-11-07"
+https://placesandspaces-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-buzzr-placesandspaces-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Design Network exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxthedesignnetwork/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Architectural Digest exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxarchitecturaldigest/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Vevo exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvevo/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Vevo 80's exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvevo80s/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Stingray Everything 80s exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayeverything80s/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Stingray Classic Rock exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayclassicrock/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Stingray Hitlist exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingrayhitlist/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Stingray Soul Storm exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingraysoulstorm/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Stingray Naturescape exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingraynaturescape/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Accu Weather exp-date="2025-11-07"
+https://accuweather-redbox.amagi.tv/hls/amagi_hls_data_accuweath-accuweather-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Cheddar exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcheddar/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",USA Today exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxusatoday/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Bloomberg Television exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxbloomberg/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",YahooFinance exp-date="2025-11-07"
+https://yahoo-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-yahoofinance/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Newsy exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnewsy/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",CBC News exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcbcnews/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",NowThis exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnowthis/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Wired exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxwired/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",WSB Breaking News exp-date="2025-11-07"
+https://cmg-wsbbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wsbbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",WFTV Breaking News exp-date="2025-11-07"
+https://cmg-wftvbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wftvbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",WSOC Breaking News exp-date="2025-11-07"
+https://cmg-wsocbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wsocbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",KIRO Seattle exp-date="2025-11-07"
+https://cmg-kirobreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-kirobreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Boston 25 exp-date="2025-11-07"
+https://cmg-wfxtbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wfxtbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",WPXI Breaking News exp-date="2025-11-07"
+https://cmg-wpxibreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wpxibreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Action News Jax exp-date="2025-11-07"
+https://cmg-wjaxbreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-wjaxbreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",WHIO Breaking News exp-date="2025-11-07"
+https://cmg-whiobreakingnews-redbox.amagi.tv/hls/amagi_hls_data_cmgAAAAAA-whiobreakingnewsredbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Pattrn exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxpattrn/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",The Weather Channel En EspaÃ±ol exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxtheweatherchannelespanol/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",ES16US exp-date="2025-11-07"
+https://tm-es16us-redbox.amagi.tv/hls/amagi_hls_data_tastemade-tm-es16us-redbox/CDN/playlist.m3u8?p=redbox
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Sony Canal Novelas exp-date="2025-11-07"
+https://8111cdb914be41de9a96651a8a8d5a5c.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_SonyCanalNovelas/playlist.m3u8?ads.wurl_channel=694&ads.wurl_name=SonyCanalNovelas&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Sony Canal Competencias exp-date="2025-11-07"
+https://21f068bc92c4408289525b6d95c9e053.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_SonyCanalCompetencias/playlist.m3u8?ads.wurl_channel=692&ads.wurl_name=SonyCanalCompetencias&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Sony Canal Comedias exp-date="2025-11-07"
+https://b987e5dd92fa4a0cb7c2f7d3f266b6c3.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Redbox_SonyCanalComedias/playlist.m3u8?ads.wurl_channel=693&ads.wurl_name=SonyCanalComedias&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.coppa=%7Bcoppa%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",HSN exp-date="2025-11-07"
+https://qvchsn-hsn-2-us.redbox.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",QVC exp-date="2025-11-07"
+https://qvchsn-qvc-2-us.redbox.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",All Weddings WE tv exp-date="2025-11-07"
+https://138c87d932d843fba278cb698a90e08c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Redbox_AllWeddingsbyWEtv/playlist.m3u8?ads.wurl_channel=695&ads.wurl_name=AllWeddingsbyWEtv&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Love Stories TV exp-date="2025-11-07"
+https://2a99b69896764d8f99233b0bc3560a51.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Redbox_LoveStoriesTV/playlist.m3u8?ads.wurl_channel=1061&ads.wurl_name=LoveStoriesTV&ads.coppa=%7Bcoppa%7D&ads.subp=%7Bsubp%7D&ads.deviceid=%7Bdeviceid%7D&ads.dnt=%7Bdnt%7D&ads.sz=%7Bsz%7D&ads.idtype=%7Bidtype%7D&ads.device=%7Bdevice%7D&ads.is_roku_lat=%7Bis_roku_lat%7D&ads.us_privacy=%7Bus_privacy%7D&ads.app_bundle=%7Bapp_bundle%7D&ads.studio_name=%7Bstudio_name%7D&ads.language=%7Blanguage%7D
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",People Are Awesome exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxpeopleareawesome/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Tastemade Travel exp-date="2025-11-07"
+https://tastemadetravel-redbox.amagi.tv/hls/amagi_hls_data_tastemade-tastemade-tarvel-redbox/CDN/playlist.m3u8?p=Redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Go Traveler exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgotraveler/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",XUMO Travel & Lifestyle exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxxumotravellifestyle/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Complex exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcomplex/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",FUSE exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfuse/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Circle TV exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxcircletv/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",AXS TV NOW exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxaxstv/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Journy exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxjourny/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Weatherspy exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",GQ exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgq/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Glamour exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxglamour/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Vanity Fair exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvanityfair/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ OTROS CANALES (Misceláneo/Temporal) ★",Vogue exp-date="2025-11-07"
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxvogue/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=
+

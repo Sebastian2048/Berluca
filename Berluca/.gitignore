@@ -2,5 +2,4 @@ __pycache__/
 *.pyc
 Beluga/*.txt
 Beluga/*.html
-Beluga/*.m3u
 cache.json
