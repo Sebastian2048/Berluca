@@ -1,6 +1,5 @@
 #EXTM3U
 
-# Este tag establece el nombre de la lista principal en algunos reproductores.
 #EXTALB:★ BERLUCA ★
 
 # ====== ★ CATEGORÍAS ★ ======
@@ -44,17 +43,17 @@ https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2056.m3u
 
 # --- INTERNACIONAL 9 ---
-#EXTALB:tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTER 9 ★", 
+#EXTALB:★ INTER 9 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2057.m3u
 
 # --- INTERNACIONAL 10 ---
-#EXTALB:tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTER 10 ★",
+#EXTALB:★ INTER 10 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2058.m3u
 
 # --- INTERNACIONAL 11 ---
-#EXTALB:tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTER 11 ★",
+#EXTALB:★ INTER 11 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2059.m3u
 
 # --- INTERNACIONAL 12 ---
-#EXTALB:tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INTER 12 ★",
+#EXTALB:★ INTER 12 ★
 https://raw.githubusercontent.com/Sebastian2048/Berluca/main/Berluca/Beluga/RP_S2060.m3u
