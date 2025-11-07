@@ -1,0 +1,1088 @@
+#EXTM3U
+
+
+# ====== ★ CANALES ROLLOVEROTROS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Scripps News
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-publica-hlsv3/playlist.m3u8?ads.channelId=99991148
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",NEWSMAX2
+https://s4host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config5/hls/live/2020471/Live_1/index.m3u8?ads.cdnhost=s4host4.localnow.api.cms.amdvids.com&ads.playbackid=12EBEC2E-2C3E-4FE9-812A-B69DF4F7C925&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=12EBEC2E-2C3E-4FE9-812A-B69DF4F7C925&ads.n4=content_name&ads.v4=Newsmax%202&ads.n21=cust_devicename&ads.v21=desktop_web&ads.n22=device_make&ads.v22=&ads.n23=device_model&ads.v23=&ads.n24=dnt&ads.v24=&ads.n25=app_name&ads.v25=&ads.n26=gpp_sid&ads.v26=&ads.n27=app_version&ads.v27=0.0.0&ads.n28=app_store_url&ads.v28=&ads.n29=ip&ads.v29=193.228.206.147&ads.n30=device_type&ads.v30=&ads.n31=content_livestream&ads.v31=1&ads.n32=content_custom_1_param&ads.v32=12EBEC2E-2C3E-4FE9-812A-B69DF4F7C925&ads.n33=channel_genre&ads.v33=News&ads.n34=ifa_type&ads.v34=&ads.n35=pos&ads.v35=midroll&ads.n36=channel_ext_id&ads.v36=606f8fe60f7a8a12a27f8242&ads.n37=w&ads.v37=1920&ads.n38=channel_brand_id&ads.v38=AMDB012082&ads.n39=channel_language&ads.v39=en&ads.n40=channel_id&ads.v40=12EBEC2E-2C3E-4FE9-812A-B69DF4F7C925&ads.n41=channel_name&ads.v41=Newsmax%202&ads.n42=channel_rating&ads.v42=TV-PG&ads.n43=channel_title&ads.v43=Newsmax%202&ads.n44=ua&ads.v44=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n45=content_custom_2_param&ads.v45=AMDB012082&ads.n46=gpp&ads.v46=&ads.n47=network_name&ads.v47=newsmax&ads.n48=content_type&ads.v48=channel&ads.n49=h&ads.v49=1080&ads.n50=channel_corp&ads.v50=Newsmax%20Broadcasting%20LLC&ads.n51=content_producer_name&ads.v51=Newsmax%20Broadcasting%20LLC&ads.n52=content_provider&ads.v52=newsmax&ads.n53=app_bundle&ads.v53=&ads.n54=did&ads.v54=&ads.n55=us_privacy&ads.v55=1YNY&ads.n56=url&ads.v56=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n57=channel_company_id&ads.v57=AMDP500144&ads.n58=content_custom_3_param&ads.v58=channel
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",News 12 New York
+https://s3host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config3/news12ny/index.m3u8?ads.cdnhost=s3host3.localnow.api.cms.amdvids.com&ads.playbackid=1D30823F-180F-423B-86E4-DE4C1BE12004&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=1D30823F-180F-423B-86E4-DE4C1BE12004&ads.n4=content_name&ads.v4=EPG%20%7C%20News12&ads.n21=content_livestream&ads.v21=1&ads.n22=app_store_url&ads.v22=&ads.n23=channel_corp&ads.v23=CSC%20Holdings%20LLC&ads.n24=content_custom_3_param&ads.v24=channel&ads.n25=w&ads.v25=1920&ads.n26=network_name&ads.v26=news12&ads.n27=channel_genre&ads.v27=News&ads.n28=content_provider&ads.v28=news12&ads.n29=dnt&ads.v29=&ads.n30=us_privacy&ads.v30=1YNY&ads.n31=url&ads.v31=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n32=gpp&ads.v32=&ads.n33=channel_ext_id&ads.v33=5f84951fcd58b17880350243&ads.n34=app_name&ads.v34=&ads.n35=app_version&ads.v35=0.0.0&ads.n36=channel_company_id&ads.v36=AMDP500132&ads.n37=channel_name&ads.v37=EPG%20%20News12&ads.n38=content_producer_name&ads.v38=CSC%20Holdings%20LLC&ads.n39=content_custom_1_param&ads.v39=1D30823F-180F-423B-86E4-DE4C1BE12004&ads.n40=gpp_sid&ads.v40=&ads.n41=device_type&ads.v41=&ads.n42=app_bundle&ads.v42=&ads.n43=ua&ads.v43=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n44=cust_devicename&ads.v44=desktop_web&ads.n45=content_type&ads.v45=channel&ads.n46=device_make&ads.v46=&ads.n47=pos&ads.v47=midroll&ads.n48=ifa_type&ads.v48=&ads.n49=did&ads.v49=&ads.n50=channel_language&ads.v50=en&ads.n51=channel_rating&ads.v51=TV-PG&ads.n52=ip&ads.v52=193.228.206.147&ads.n53=channel_brand_id&ads.v53=AMDB012081&ads.n54=h&ads.v54=1080&ads.n55=channel_id&ads.v55=1D30823F-180F-423B-86E4-DE4C1BE12004&ads.n56=device_model&ads.v56=&ads.n57=content_custom_2_param&ads.v57=AMDB012081&ads.n58=channel_title&ads.v58=EPG%20%20News12
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KTVQ Q2 News Billings
+https://s6host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config8/playlist.m3u8?ads.cdnhost=s6host2.localnow.api.cms.amdvids.com&ads.playbackid=B079A8A6-7336-4545-A6D4-11ED589C4997&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=B079A8A6-7336-4545-A6D4-11ED589C4997&ads.n4=content_name&ads.v4=EPG%20%7C%20KTVQ%20Billings%20MT&ads.n21=h&ads.v21=1080&ads.n22=content_producer_name&ads.v22=Scripps%20Media%20INC&ads.n23=content_custom_2_param&ads.v23=AMDB012746&ads.n24=ip&ads.v24=193.228.206.147&ads.n25=ua&ads.v25=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n26=channel_brand_id&ads.v26=AMDB012746&ads.n27=app_bundle&ads.v27=&ads.n28=gpp&ads.v28=&ads.n29=device_type&ads.v29=&ads.n30=app_store_url&ads.v30=&ads.n31=content_custom_1_param&ads.v31=B079A8A6-7336-4545-A6D4-11ED589C4997&ads.n32=dnt&ads.v32=&ads.n33=url&ads.v33=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n34=app_name&ads.v34=&ads.n35=channel_id&ads.v35=B079A8A6-7336-4545-A6D4-11ED589C4997&ads.n36=network_name&ads.v36=ktvq&ads.n37=channel_ext_id&ads.v37=62700a793429eb205e29e142&ads.n38=app_version&ads.v38=0.0.0&ads.n39=cust_devicename&ads.v39=desktop_web&ads.n40=device_model&ads.v40=&ads.n41=w&ads.v41=1920&ads.n42=ifa_type&ads.v42=&ads.n43=device_make&ads.v43=&ads.n44=content_livestream&ads.v44=1&ads.n45=channel_title&ads.v45=EPG%20%20KTVQ%20Billings%20MT&ads.n46=pos&ads.v46=midroll&ads.n47=channel_genre&ads.v47=News&ads.n48=content_provider&ads.v48=ktvq&ads.n49=channel_corp&ads.v49=Scripps%20Media%20INC&ads.n50=channel_name&ads.v50=EPG%20%20KTVQ%20Billings%20MT&ads.n51=channel_rating&ads.v51=TV-PG&ads.n52=content_custom_3_param&ads.v52=channel&ads.n53=us_privacy&ads.v53=1YNY&ads.n54=content_type&ads.v54=channel&ads.n55=gpp_sid&ads.v55=&ads.n56=channel_language&ads.v56=en&ads.n57=channel_company_id&ads.v57=AMDP500135&ads.n58=did&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KBZK News Bozeman
+https://s1host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config1/playlist.m3u8?ads.cdnhost=s1host4.localnow.api.cms.amdvids.com&ads.playbackid=61DD30DD-79E5-4D78-BEBE-EE90094E6FE6&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=61DD30DD-79E5-4D78-BEBE-EE90094E6FE6&ads.n4=content_name&ads.v4=EPG%20%7C%20KBZK%20Butte%2C%20MT&ads.n21=channel_genre&ads.v21=News&ads.n22=device_make&ads.v22=&ads.n23=content_custom_2_param&ads.v23=AMDB012730&ads.n24=url&ads.v24=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n25=ifa_type&ads.v25=&ads.n26=channel_language&ads.v26=en&ads.n27=channel_corp&ads.v27=Scripps%20Media%20INC&ads.n28=ua&ads.v28=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n29=content_provider&ads.v29=kbzk&ads.n30=device_model&ads.v30=&ads.n31=network_name&ads.v31=kbzk&ads.n32=content_livestream&ads.v32=1&ads.n33=channel_rating&ads.v33=TV-PG&ads.n34=content_type&ads.v34=channel&ads.n35=did&ads.v35=&ads.n36=channel_name&ads.v36=EPG%20%20KBZK%20Butte%2C%20MT&ads.n37=dnt&ads.v37=&ads.n38=channel_id&ads.v38=61DD30DD-79E5-4D78-BEBE-EE90094E6FE6&ads.n39=app_bundle&ads.v39=&ads.n40=app_store_url&ads.v40=&ads.n41=ip&ads.v41=193.228.206.147&ads.n42=gpp&ads.v42=&ads.n43=content_producer_name&ads.v43=Scripps%20Media%20INC&ads.n44=channel_title&ads.v44=EPG%20%20KBZK%20Butte%2C%20MT&ads.n45=gpp_sid&ads.v45=&ads.n46=h&ads.v46=1080&ads.n47=device_type&ads.v47=&ads.n48=pos&ads.v48=midroll&ads.n49=channel_brand_id&ads.v49=AMDB012730&ads.n50=us_privacy&ads.v50=1YNY&ads.n51=app_version&ads.v51=0.0.0&ads.n52=channel_ext_id&ads.v52=626c4b5a317ecb722d0d3426&ads.n53=cust_devicename&ads.v53=desktop_web&ads.n54=content_custom_1_param&ads.v54=61DD30DD-79E5-4D78-BEBE-EE90094E6FE6&ads.n55=app_name&ads.v55=&ads.n56=w&ads.v56=1920&ads.n57=channel_company_id&ads.v57=AMDP500135&ads.n58=content_custom_3_param&ads.v58=channel
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KRTV News Great Falls
+https://s1host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config1/playlist.m3u8?ads.cdnhost=s1host2.localnow.api.cms.amdvids.com&ads.playbackid=CCB34894-6026-4066-9311-FFBFD9C77675&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=CCB34894-6026-4066-9311-FFBFD9C77675&ads.n4=content_name&ads.v4=EPG%20%7C%20KRTV%20Great%20Falls%20MT&ads.n21=content_custom_3_param&ads.v21=channel&ads.n22=content_producer_name&ads.v22=Scripps%20Media%20INC&ads.n23=channel_language&ads.v23=en&ads.n24=channel_name&ads.v24=EPG%20%20KRTV%20Great%20Falls%20MT&ads.n25=device_make&ads.v25=&ads.n26=channel_rating&ads.v26=TV-PG&ads.n27=channel_ext_id&ads.v27=62701632b31e377f50040c12&ads.n28=network_name&ads.v28=krtv&ads.n29=device_type&ads.v29=&ads.n30=content_livestream&ads.v30=1&ads.n31=h&ads.v31=1080&ads.n32=ua&ads.v32=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n33=content_custom_1_param&ads.v33=CCB34894-6026-4066-9311-FFBFD9C77675&ads.n34=dnt&ads.v34=&ads.n35=app_bundle&ads.v35=&ads.n36=ifa_type&ads.v36=&ads.n37=app_name&ads.v37=&ads.n38=channel_brand_id&ads.v38=AMDB012740&ads.n39=app_store_url&ads.v39=&ads.n40=channel_id&ads.v40=CCB34894-6026-4066-9311-FFBFD9C77675&ads.n41=url&ads.v41=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n42=cust_devicename&ads.v42=desktop_web&ads.n43=channel_genre&ads.v43=News&ads.n44=channel_title&ads.v44=EPG%20%20KRTV%20Great%20Falls%20MT&ads.n45=us_privacy&ads.v45=1YNY&ads.n46=pos&ads.v46=midroll&ads.n47=channel_corp&ads.v47=Scripps%20Media%20INC&ads.n48=app_version&ads.v48=0.0.0&ads.n49=w&ads.v49=1920&ads.n50=device_model&ads.v50=&ads.n51=channel_company_id&ads.v51=AMDP500135&ads.n52=content_type&ads.v52=channel&ads.n53=gpp&ads.v53=&ads.n54=content_custom_2_param&ads.v54=AMDB012740&ads.n55=ip&ads.v55=193.228.206.147&ads.n56=content_provider&ads.v56=krtv&ads.n57=gpp_sid&ads.v57=&ads.n58=did&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KTVH News Helena
+https://s3host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config4/playlist.m3u8?ads.cdnhost=s3host4.localnow.api.cms.amdvids.com&ads.playbackid=2D5C8F57-B650-4F77-A837-4DE7F4EF97FD&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=2D5C8F57-B650-4F77-A837-4DE7F4EF97FD&ads.n4=content_name&ads.v4=EPG%20%7C%20KTVH%20Helena%20MT&ads.n21=ua&ads.v21=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n22=content_custom_3_param&ads.v22=channel&ads.n23=device_type&ads.v23=&ads.n24=channel_rating&ads.v24=TV-PG&ads.n25=app_name&ads.v25=&ads.n26=content_livestream&ads.v26=1&ads.n27=w&ads.v27=1920&ads.n28=device_make&ads.v28=&ads.n29=ip&ads.v29=193.228.206.147&ads.n30=channel_company_id&ads.v30=AMDP500135&ads.n31=pos&ads.v31=midroll&ads.n32=channel_name&ads.v32=EPG%20%20KTVH%20Helena%20MT&ads.n33=channel_id&ads.v33=2D5C8F57-B650-4F77-A837-4DE7F4EF97FD&ads.n34=channel_title&ads.v34=EPG%20%20KTVH%20Helena%20MT&ads.n35=channel_genre&ads.v35=News&ads.n36=network_name&ads.v36=ktvh&ads.n37=content_custom_2_param&ads.v37=AMDB012744&ads.n38=channel_brand_id&ads.v38=AMDB012744&ads.n39=us_privacy&ads.v39=1YNY&ads.n40=ifa_type&ads.v40=&ads.n41=dnt&ads.v41=&ads.n42=channel_ext_id&ads.v42=6270265b569a2b6c5f1fdaf6&ads.n43=channel_corp&ads.v43=Scripps%20Media%20INC&ads.n44=device_model&ads.v44=&ads.n45=content_producer_name&ads.v45=Scripps%20Media%20INC&ads.n46=content_custom_1_param&ads.v46=2D5C8F57-B650-4F77-A837-4DE7F4EF97FD&ads.n47=channel_language&ads.v47=en&ads.n48=url&ads.v48=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n49=gpp&ads.v49=&ads.n50=gpp_sid&ads.v50=&ads.n51=app_version&ads.v51=0.0.0&ads.n52=app_store_url&ads.v52=&ads.n53=h&ads.v53=1080&ads.n54=did&ads.v54=&ads.n55=content_type&ads.v55=channel&ads.n56=cust_devicename&ads.v56=desktop_web&ads.n57=content_provider&ads.v57=ktvh&ads.n58=app_bundle&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KOMO 4 News Seattle WA
+https://s9host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/709/hls/master/playlist.m3u8?ads.cdnhost=s9host1.localnow.api.cms.amdvids.com&ads.playbackid=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n4=content_name&ads.v4=KOMO%20Seattle%20WA&ads.n21=channel_rating&ads.v21=TV-PG&ads.n22=content_provider&ads.v22=komo-seattle&ads.n23=content_custom_3_param&ads.v23=channel&ads.n24=content_livestream&ads.v24=1&ads.n25=device_model&ads.v25=&ads.n26=content_custom_2_param&ads.v26=AMDB013447&ads.n27=channel_genre&ads.v27=News&ads.n28=dnt&ads.v28=&ads.n29=did&ads.v29=&ads.n30=url&ads.v30=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n31=content_custom_1_param&ads.v31=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n32=content_type&ads.v32=channel&ads.n33=gpp_sid&ads.v33=&ads.n34=app_bundle&ads.v34=&ads.n35=channel_ext_id&ads.v35=&ads.n36=channel_language&ads.v36=en&ads.n37=h&ads.v37=1080&ads.n38=device_type&ads.v38=&ads.n39=app_version&ads.v39=0.0.0&ads.n40=us_privacy&ads.v40=1YNY&ads.n41=channel_company_id&ads.v41=AMDP500539&ads.n42=cust_devicename&ads.v42=desktop_web&ads.n43=channel_name&ads.v43=KOMO%20Seattle%20WA&ads.n44=channel_title&ads.v44=KOMO%20Seattle%20WA&ads.n45=channel_brand_id&ads.v45=AMDB013447&ads.n46=pos&ads.v46=midroll&ads.n47=app_store_url&ads.v47=&ads.n48=app_name&ads.v48=&ads.n49=ifa_type&ads.v49=&ads.n50=channel_id&ads.v50=5E089950-3207-495C-90C9-4EB3251B8A12&ads.n51=ip&ads.v51=193.228.206.147&ads.n52=gpp&ads.v52=&ads.n53=network_name&ads.v53=komo-seattle&ads.n54=device_make&ads.v54=&ads.n55=channel_corp&ads.v55=Sinclair%20Television%20Group%20INC&ads.n56=ua&ads.v56=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n57=content_producer_name&ads.v57=Sinclair%20Television%20Group%20INC&ads.n58=w&ads.v58=1920
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Apple Valley News Now
+https://s7host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config8/m2/localnow/895375dd86c496d884e490fd33e721121cbb74469a71f3fa5c55135073880102b22768a1db14/master.m3u8?ads.cdnhost=s7host4.localnow.api.cms.amdvids.com&ads.playbackid=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n4=content_name&ads.v4=EPG%20%7C%20Apple%20Valley%20News%20Now%20KAPP%20KVEW&ads.n21=gpp_sid&ads.v21=&ads.n22=device_type&ads.v22=&ads.n23=us_privacy&ads.v23=1YNY&ads.n24=gpp&ads.v24=&ads.n25=did&ads.v25=&ads.n26=content_custom_3_param&ads.v26=channel&ads.n27=channel_name&ads.v27=EPG%20%20Apple%20Valley%20News%20Now%20KAPP%20KVEW&ads.n28=content_custom_2_param&ads.v28=AMDB012941&ads.n29=content_provider&ads.v29=kapp&ads.n30=app_store_url&ads.v30=&ads.n31=channel_rating&ads.v31=TV-PG&ads.n32=dnt&ads.v32=&ads.n33=channel_id&ads.v33=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n34=ua&ads.v34=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n35=channel_corp&ads.v35=Morgan%20Murphy%20Media&ads.n36=app_bundle&ads.v36=&ads.n37=w&ads.v37=1920&ads.n38=url&ads.v38=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n39=pos&ads.v39=midroll&ads.n40=ip&ads.v40=193.228.206.147&ads.n41=channel_company_id&ads.v41=AMDP500435&ads.n42=channel_ext_id&ads.v42=6483929784fd0de50b045073&ads.n43=channel_title&ads.v43=EPG%20%20Apple%20Valley%20News%20Now%20KAPP%20KVEW&ads.n44=content_producer_name&ads.v44=Morgan%20Murphy%20Media&ads.n45=content_custom_1_param&ads.v45=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n46=ifa_type&ads.v46=&ads.n47=device_model&ads.v47=&ads.n48=content_type&ads.v48=channel&ads.n49=app_name&ads.v49=&ads.n50=channel_genre&ads.v50=News&ads.n51=h&ads.v51=1080&ads.n52=network_name&ads.v52=kapp&ads.n53=cust_devicename&ads.v53=desktop_web&ads.n54=content_livestream&ads.v54=1&ads.n55=device_make&ads.v55=&ads.n56=channel_brand_id&ads.v56=AMDB012941&ads.n57=channel_language&ads.v57=en&ads.n58=app_version&ads.v58=0.0.0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KERO 23 News Bakersfield
+https://s4host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config5/playlist.m3u8?ads.cdnhost=s4host5.localnow.api.cms.amdvids.com&ads.playbackid=BC955D44-FD17-4FDD-81CA-CA8B75F67CBC&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=BC955D44-FD17-4FDD-81CA-CA8B75F67CBC&ads.n4=content_name&ads.v4=EPG%20%7C%20KERO%20Bakersfield&ads.n21=channel_company_id&ads.v21=AMDP500135&ads.n22=ip&ads.v22=193.228.206.147&ads.n23=channel_brand_id&ads.v23=AMDB012601&ads.n24=content_livestream&ads.v24=1&ads.n25=content_type&ads.v25=channel&ads.n26=app_store_url&ads.v26=&ads.n27=channel_corp&ads.v27=Scripps%20Media%20INC&ads.n28=channel_ext_id&ads.v28=621fdc36cc497c1a3d558e92&ads.n29=channel_genre&ads.v29=News&ads.n30=content_producer_name&ads.v30=Scripps%20Media%20INC&ads.n31=w&ads.v31=1920&ads.n32=h&ads.v32=1080&ads.n33=device_model&ads.v33=&ads.n34=channel_id&ads.v34=BC955D44-FD17-4FDD-81CA-CA8B75F67CBC&ads.n35=content_custom_3_param&ads.v35=channel&ads.n36=channel_rating&ads.v36=TV-PG&ads.n37=app_version&ads.v37=0.0.0&ads.n38=device_make&ads.v38=&ads.n39=ua&ads.v39=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n40=ifa_type&ads.v40=&ads.n41=network_name&ads.v41=kero&ads.n42=channel_title&ads.v42=EPG%20%20KERO%20Bakersfield&ads.n43=pos&ads.v43=midroll&ads.n44=dnt&ads.v44=&ads.n45=channel_name&ads.v45=EPG%20%20KERO%20Bakersfield&ads.n46=url&ads.v46=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n47=channel_language&ads.v47=en&ads.n48=us_privacy&ads.v48=1YNY&ads.n49=app_bundle&ads.v49=&ads.n50=app_name&ads.v50=&ads.n51=gpp_sid&ads.v51=&ads.n52=did&ads.v52=&ads.n53=content_provider&ads.v53=kero&ads.n54=cust_devicename&ads.v54=desktop_web&ads.n55=device_type&ads.v55=&ads.n56=content_custom_1_param&ads.v56=BC955D44-FD17-4FDD-81CA-CA8B75F67CBC&ads.n57=content_custom_2_param&ads.v57=AMDB012601&ads.n58=gpp&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KSBY News California
+https://s5host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config7/playlist.m3u8?ads.cdnhost=s5host4.localnow.api.cms.amdvids.com&ads.playbackid=9B2234AF-39A3-4DCF-B1E6-30A90701D1E0&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=9B2234AF-39A3-4DCF-B1E6-30A90701D1E0&ads.n4=content_name&ads.v4=EPG%20%7C%20KSBY%20Santa%20Barbara%2C%20CA&ads.n21=app_version&ads.v21=0.0.0&ads.n22=device_model&ads.v22=&ads.n23=channel_ext_id&ads.v23=62214b8a8055464c89566b93&ads.n24=channel_brand_id&ads.v24=AMDB012576&ads.n25=cust_devicename&ads.v25=desktop_web&ads.n26=content_custom_1_param&ads.v26=9B2234AF-39A3-4DCF-B1E6-30A90701D1E0&ads.n27=content_provider&ads.v27=ksby&ads.n28=w&ads.v28=1920&ads.n29=content_type&ads.v29=channel&ads.n30=content_livestream&ads.v30=1&ads.n31=channel_genre&ads.v31=News&ads.n32=channel_corp&ads.v32=Scripps%20Media%20INC&ads.n33=did&ads.v33=&ads.n34=url&ads.v34=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n35=ifa_type&ads.v35=&ads.n36=channel_id&ads.v36=9B2234AF-39A3-4DCF-B1E6-30A90701D1E0&ads.n37=network_name&ads.v37=ksby&ads.n38=ua&ads.v38=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n39=app_store_url&ads.v39=&ads.n40=content_custom_2_param&ads.v40=AMDB012576&ads.n41=channel_language&ads.v41=en&ads.n42=h&ads.v42=1080&ads.n43=gpp_sid&ads.v43=&ads.n44=app_name&ads.v44=&ads.n45=pos&ads.v45=midroll&ads.n46=channel_rating&ads.v46=TV-PG&ads.n47=device_type&ads.v47=&ads.n48=gpp&ads.v48=&ads.n49=channel_name&ads.v49=EPG%20%20KSBY%20Santa%20Barbara%2C%20CA&ads.n50=us_privacy&ads.v50=1YNY&ads.n51=content_custom_3_param&ads.v51=channel&ads.n52=device_make&ads.v52=&ads.n53=ip&ads.v53=193.228.206.147&ads.n54=content_producer_name&ads.v54=Scripps%20Media%20INC&ads.n55=channel_company_id&ads.v55=AMDP500135&ads.n56=dnt&ads.v56=&ads.n57=channel_title&ads.v57=EPG%20%20KSBY%20Santa%20Barbara%2C%20CA&ads.n58=app_bundle&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KTVZ News Bend OR
+https://s9host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/m2/localnow/f578cebb7b3b39916a1e1d811a46e9804581ccfc4bdf6951d9a934f44aef2b5da2f3b83d5b4b/master.m3u8?ads.cdnhost=s9host3.localnow.api.cms.amdvids.com&ads.playbackid=A015CAB8-1081-4C44-9259-FC3ED664AD1F&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A015CAB8-1081-4C44-9259-FC3ED664AD1F&ads.n4=content_name&ads.v4=KTVZ%20Bend%20OR&ads.n21=content_livestream&ads.v21=1&ads.n22=content_type&ads.v22=channel&ads.n23=device_make&ads.v23=&ads.n24=channel_corp&ads.v24=News%20Press%20and%20Gazette%20Company&ads.n25=channel_brand_id&ads.v25=AMDB013509&ads.n26=cust_devicename&ads.v26=desktop_web&ads.n27=channel_rating&ads.v27=TV-14&ads.n28=channel_company_id&ads.v28=AMDP500545&ads.n29=app_store_url&ads.v29=&ads.n30=channel_language&ads.v30=en&ads.n31=content_producer_name&ads.v31=News%20Press%20and%20Gazette%20Company&ads.n32=gpp&ads.v32=&ads.n33=w&ads.v33=1920&ads.n34=content_custom_2_param&ads.v34=AMDB013509&ads.n35=content_provider&ads.v35=ktvz&ads.n36=dnt&ads.v36=&ads.n37=ua&ads.v37=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n38=ip&ads.v38=193.228.206.147&ads.n39=app_version&ads.v39=0.0.0&ads.n40=content_custom_1_param&ads.v40=A015CAB8-1081-4C44-9259-FC3ED664AD1F&ads.n41=app_name&ads.v41=&ads.n42=channel_id&ads.v42=A015CAB8-1081-4C44-9259-FC3ED664AD1F&ads.n43=channel_name&ads.v43=KTVZ%20Bend%20OR&ads.n44=url&ads.v44=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n45=channel_genre&ads.v45=More%20Cities&ads.n46=us_privacy&ads.v46=1YNY&ads.n47=did&ads.v47=&ads.n48=gpp_sid&ads.v48=&ads.n49=channel_title&ads.v49=KTVZ%20Bend%20OR&ads.n50=network_name&ads.v50=ktvz&ads.n51=app_bundle&ads.v51=&ads.n52=ifa_type&ads.v52=&ads.n53=device_model&ads.v53=&ads.n54=pos&ads.v54=midroll&ads.n55=device_type&ads.v55=&ads.n56=h&ads.v56=1080&ads.n57=content_custom_3_param&ads.v57=channel&ads.n58=channel_ext_id&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",2 News Oklahoma (US) Geo
+https://amg01438-ewscripps-amg01438c8-lg-us-4344.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",KOAA News 5 (US) Geo
+https://amg01438-ewscripps-amg01438c11-lg-us-4341.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",NewsChannel 5 (US) Geo
+https://amg01438-ewscripps-amg01438c25-lg-us-4328.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",scripps news? only?
+https://amg01438-ewscripps-amg01438c35-lg-us-4318.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",APB News (IN) Geo
+https://amg01043-abpnewsnetwork-amg01043c2-lg-in-2042.playouts.now.amagi.tv/playlist/amg01043-abpnewsnetwork-abpnews-lgin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",APB News Ananda (IN) Geo
+https://amg01043-abpnewsnetwork-amg01043c3-lg-in-2043.playouts.now.amagi.tv/playlist/amg01043-abpnewsnetwork-abpananda-lgin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",APB News Majha (IN) Geo
+https://amg01043-abpnewsnetwork-amg01043c5-lg-in-2041.playouts.now.amagi.tv/playlist/amg01043-abpnewsnetwork-abpmajha-lgin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (AU)
+https://autentic-adventure-earth-1-au.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (FI)
+https://autentic-adventure-earth-1-fi.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (GB)
+https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (IE)
+https://autentic-adventure-earth-1-ie.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (DK)
+https://autentic-adventure-earth-1-dk.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (NL)
+https://autentic-adventure-earth-1-nl.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (NO)
+https://autentic-adventure-earth-1-no.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Adventure Earth (SE)
+https://autentic-adventure-earth-1-se.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Artflix (AT)
+https://amogonetworx-artflix-2-at.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Artflix (DE)
+https://amogonetworx-artflix-2-de.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Artflix (ES)
+https://amogonetworx-artflix-3-es.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Artflix (GB)
+https://amogonetworx-artflix-1-gb.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Artflix (CH)
+https://amogonetworx-artflix-2-ch.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC Heartland (CA) Geo
+https://amg00788-cbc-amg00788c8-lg-ca-5531.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Nova Scotia (CA) Geo
+https://amg00788-cbc-amg00788c10-lg-ca-5529.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Quebec (CA) Geo
+https://amg00788-cbc-amg00788c11-lg-ca-5528.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Calgary (CA) Geo
+https://amg00788-cbc-amg00788c12-lg-ca-5921.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News North (CA) Geo
+https://amg00788-cbc-amg00788c13-lg-ca-5922.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Edmonton (CA) Geo
+https://amg00788-cbc-amg00788c14-lg-ca-5923.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Saskatchewan (CA) Geo
+https://amg00788-cbc-amg00788c15-lg-ca-5924.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Manitoba (CA) Geo
+https://amg00788-cbc-amg00788c16-lg-ca-5925.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News Windsor (CA) Geo
+https://amg00788-cbc-amg00788c17-lg-ca-5926.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News PEI (CA) Geo
+https://amg00788-cbc-amg00788c18-lg-ca-5927.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CBC News PEI other (CA) Geo
+https://amg00788-cbc-amg00788c19-lg-ca-5928.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Court TV (CA)
+https://scripps-courttv-3-ca.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Court TV (US)
+https://scripps-courttv-4-us.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CTV News (CA) Geo
+https://amg00089-bellmedia-amg00089c3-lg-ca-2995.playouts.now.amagi.tv/playlist/amg00089-bellmediafast-ctvnews-lgca/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Divorce Court (US)
+https://foxlincolnwooddrive-divorcecourt-1-us.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Estrella News (US)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellanews-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Evolution Earth (CA) Geo
+https://amg00276-aenetwork-amg00276c15-lg-ca-3643.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Evolution Earth (GB) Geo
+https://amg00276-aenetwork-amg00276c15-lg-gb-5552.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Evolution Earth (NL)
+https://amg00276-aenetwork-amg00276c15-lg-nl-3757.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Evolution Earth (NO) Geo
+https://amg00276-aenetwork-amg00276c15-lg-no-3758.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Leadstory News (AU) Geo
+https://amg02703-leadstory-amg02703c16-lg-au-3151.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LocalNow - Portland (US) Geo
+https://amg01583-localnow-amg01583c23-lg-us-1428.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowportland-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LocalNow - Hartford (US) Geo
+https://amg01583-localnow-amg01583c26-lg-us-1431.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowhartford-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LocalNow - Fort Myers (US) Geo
+https://amg01583-localnow-amg01583c53-lg-us-1458.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowfortmyers-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LocalNow - Fort Smith (US) Geo
+https://amg01583-localnow-amg01583c86-lg-us-1489.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowfortsmith-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LocalNow - Fort Wayne (US) Geo
+https://amg01583-localnow-amg01583c91-lg-us-1606.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowfortwayne-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",LocalNow - Shreveport (US) Geo
+https://amg01583-localnow-amg01583c102-lg-us-1498.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowshreveport-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 28 NL ✅
+https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 3 - GUA ✅
+http://179.51.136.19:8000/play/a0w7/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 3 LaHera| AR ✅
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 3 LaHera(720p) ✅
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 3 Telesistemas HND ✅
+http://179.51.136.19:8000/play/a18d/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL 34 ✅
+http://streamyes.alsolnet.com/canal34hd/live/chunklist_w332382386.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 34 San Juan ✅
+http://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 34 San Juan | AR ✅
+https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 Bahia Blanca | AR ✅
+https://bvclive1.boldmss.com/BVC_HD/BVC_HD.isml/BVC_HD.m3u8?dvr_window_length=60&PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 Jujuy | AR ✅
+https://5cd577a3dd8ec.streamlock.net/CAMARAS/live4/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 - NIC ✅
+http://179.51.136.19:8000/play/a188/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 Posada| AR ✅
+https://iptv.ixfo.com.ar:30443/live-HD/C4POS/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 Posadas ✅
+http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 Posadas - Opción 2 ✅
+https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 RD ✅
+https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 San Juan | AR ✅
+https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 44 ✅
+https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 5 ✅
+http://181.78.106.127:9000/play/ca012/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 5 del Pueblo | AR ✅
+https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 51 TV ✅
+http://178.32.140.155/canale51/canale51/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 55 Telemorisco TV (720p) ✅
+http://canal.mediaserver.com.co/live/telemorisco.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 ✅
+http://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8?null=0?ref=http://www.multimedios.com
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 - Opción 2 ✅
+https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 CDJ ✅
+http://mdstrm.com/live-stream-playlist/5d9e440d675235586a92be7f.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 GDL ✅
+http://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 GTO ✅
+http://mdstrm.com/live-stream-playlist/5d4b0fec848918070128c8cb.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 LAG ✅
+http://mdstrm.com/live-stream-playlist/57bf686a61ff39e1085d43e1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 Laguna ✅
+http://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 Posada| AR ✅
+https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 PUE ✅
+http://mdstrm.com/live-stream-playlist/5d56ed29c92dd106ff01543b.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 7 ✅
+http://181.78.106.127:9000/play/ca008/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 7 - GUA ✅
+http://179.51.136.19:8000/play/a0w6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 8 ✅
+http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 8 - Opción 2 ✅
+http://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?null=0?ref=http://www.multimedios.com
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 8 Catacao| PE ✅
+https://live.obslivestream.com/canal8/index.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 8 | CR ✅
+https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Antigua - GUA ✅
+http://179.51.136.19:8000/play/a0w4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal | AR ✅
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL CAPITAL ✅
+http://45.176.71.20:1689/play/a0pb
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal  Capital - Opción 2 ✅
+http://179.51.136.19:8000/play/a1gi/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Claro ✅
+http://181.78.23.26:45000/play/a01x
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL CONGRESO ✅
+http://45.176.71.20:1689/play/a0pa
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL DE LAS ESTRELLAS ✅
+http://181.119.85.222:8000/play/a00e/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal del Congreso ✅
+http://181.78.23.26:45000/play/a02l
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal del Congreso - Opción 2 ✅
+http://179.51.136.19:8000/play/a186/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Dos Yopal (720p) ✅
+http://131.221.41.94/hls/canal2.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Estrellas ✅
+http://181.78.23.26:45000/play/a01q
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal I (720p) ✅
+https://vcp10.myplaytv.com/canali/canali/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Institucional ✅
+http://181.78.23.26:45000/play/a02k
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Institucional - Opción 2 ✅
+http://179.51.136.19:8000/play/a1ga/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal IPe (1080p) ✅
+https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal ISB | CL ✅
+https://unlimited1-cl-isp.dps.live/isb/isb.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Local | CL ✅
+https://v2.tustreaming.cl/canallocalcl/index.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Más Televisión (720p) ✅
+https://movil.ejeserver.com/live/teledoradahd.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal N ✅
+http://179.51.136.19:8000/play/a16u/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Nubeh TV (720p) ✅
+https://vcp.myplaytv.com/nubehtv/nubehtv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Oración Con Son (1080p) ✅
+https://canal.mediaserver.com.co/live/oracionconson.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal Sur Patagonia | CL ✅
+https://v2.tustreaming.cl/fmarcoirirs/tracks-v1a1/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL TRO ✅
+http://45.176.71.20:1689/play/a0pc
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal U ✅
+https://stream.arcast.live/canalu/canalu/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 Jujuy (Argentina) (🇦🇷)
+https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 Neuquen (Argentina) (🇦🇷)
+https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 Santiago del Estero (Argentina) (🇦🇷)
+https://stream.arcast.com.ar/envivo/castv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",8 Valle De Uco (Argentina) (🇦🇷)
+https://videostream.shockmedia.com.ar:19360/canal8/canal8.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",9 Litoral (Argentina) (🇦🇷)
+https://stream.arcast.live/ahora/ahora/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",ANT Antares (Peru) (🇵🇪)
+https://5c3fb01839654.streamlock.net:1963/iptvantares/liveantarestv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",AS Az Star (Azerbaiyan) (🇦🇿)
+https://live.livestreamtv.ca/azstar/azstar/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Al Wafa Tarim (Indonesia) (🇮🇩)
+https://ammedia.siar.us/ammedia/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Alcarrizos (Rep. Dominicana) (🇩🇴)
+https://5790d294af2dc.streamlock.net/alcarrizostv/alcarrizostv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",America Estereo Ibarra (Ecuador) (🇪🇨)
+https://video.makrodigital.com/americaestereoibarra/americaestereoibarra/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Pluto TV Serie Italy (720p)
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60b9ff2722bfa400072676ef/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CH200 (Nueva Zelanda) (🇳🇿)
+https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Digital Congo (Rep. Dem. Congo) (🇨🇩)
+https://tnt-television.com/DIGITAL_REGIE/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Echo 24 (Rusia) (🇷🇺)
+http://stream.novouralsk-news.ru/echotv24/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Milenial (Peru) (🇵🇪)
+https://www.milenial.news/salida/milenial.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Now 70's (Nueva Zelanda) (🇳🇿)
+https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Now 80's (Nueva Zelanda) (🇳🇿)
+https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Peru (Peru) (🇵🇪)
+https://bantel-cdn1.iptvperu.tv:1936/nacls_mov/atvnoticiasmovil_t6.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",VNP (Peru) (🇵🇪)
+https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",8-BIT CHRISTMAS (NAVIDAD EN 8 BITS) (2021)SUB
+https://tvinnov.online/Peliculas/8-Bit%20Christmas%20(Navidad%20en%208%20Bits)%20(2021)SUB.mp4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 PRISIONEROS SUB
+https://tvinnov.online/Peliculas/7%20prisioneros%20SUB.mp4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 PRISIONEROS LAT
+https://tvinnov.online/Peliculas/7%20prisioneros%20LAT.mp4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",7 DIAS 2005
+https://tvinnov.online/Peliculas/7.dias.2005.mp4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",(REMINISCENCIA) (2021)SUB
+https://tvinnov.online/Peliculas/(Reminiscencia)%20(2021)SUB.mp4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Nick Space
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/619b82cc70a9ba00074429e2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc8504f3-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2ebc8c79-fdfa-4600-a1ab-63ff8d30ff13
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Pluto TV Space
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61409f8d6feb30000766b675/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc85c846-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=107edfdc-70b3-44a9-b352-7604fe6120d9
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Space TV
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Star Trek Deep Space Nine
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69bbfd77d450008c7ffee/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e3a3277-9d15-4813-a57c-5547e9d53d6e
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Star Trek: Deep Space Nine
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67d200c7ff50008cb131a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b210d34-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=35795be0-a9bf-4b10-b542-2134b369c86c
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",05.1Space ✅
+http://181.78.106.127:9000/play/ca072/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Spacetoon Arabic (1080p) ✅
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",05.1Space - Opción 2 ✅
+http://200.60.124.19:29000/play/a028/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SpaceD ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278515/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Zylo Ciné Nanar
+https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten Top Movies UK (1080p)
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Action Movies Germany (1080p)
+https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Action Movies UK (1080p)
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Comedy Movies Germany (1080p)
+https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Comedy Movies UK (1080p)
+https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Drama Movies Germany (1080p)
+https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Drama Movies UK (1080p)
+https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Family Movies Germany (1080p)
+https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Family Movies UK (1080p)
+https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV German Cinema (1080p)
+https://a5dc66582aa040269fd99d7d7a6ac23b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6200/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Romance Movies UK (1080p)
+https://2c88ed8c4df9479aa0c7138dc42115e2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6194/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Top Movies Germany (1080p)
+https://cbb622b29f5d43b598991f3fa19de291.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5985/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RetroCrush (1080p)
+https://cineverse.g-mana.live/media/ac7cff3c-5bc3-4745-ac4d-56aadb586d00/profile/1/profileManifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",StashTV Black Stories (720p) [Geo-blocked]
+https://amg01720-amg01720c1-klowdtv-us-4664.playouts.now.amagi.tv/playlist/amg01720-filmhub-stashtvblackstories-klowdtvus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Stormcast Westerns (720p)
+https://stormcast-cinema-llc-westernmaniafast-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Zylo Ciné Western
+https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",QwestTV ✅
+https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Cinespanto Runtime (España) (🇪🇸)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6126
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Discover Film (UK) (🇬🇧)
+https://discoverfilm-discoverfilm-1-gb.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",FilmRise Classic (UK) (🇬🇧)
+https://tinyurl.com/57ca82u4?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Filmzie (UK) (🇬🇧)
+https://filmzie-filmzie-1-gb.vidaa.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",MeatEater
+https://amg01201-amg01201c35-cineverse-us-3139.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-meateater-cineverseus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",MyTime Movie Network Germany (1080p)
+https://appletree-mytimemoviegerman-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Noovo Cinéma (1080p)
+https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr1ct045l70mz/Noovo_Cinema.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RUNTIME CINE ESPANTO ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3529
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rakuten TV Romance Movies Germany (1080p)
+https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",MULTIPREMIER - Opción 2 ✅
+http://181.119.85.222:8000/play/a016/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Power Türk Slow ✅
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Power Türk Taptaze ✅
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Project Runway ✅
+https://amg02189-amg02189c1-rakuten-us-5453.playouts.now.amagi.tv/playlist/amg02189-spyglass-projectrunway-rakutenus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RAI - Opción 2 ✅
+http://179.51.136.19:8000/play/a1gx/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RCG 1 Saltillo | MX ✅
+https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RCG TV (1080p) ✅
+https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RCV TV (712p) ✅
+https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",READY TV ✅
+https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",REC TV ✅
+http://179.51.136.19:8000/play/a1i0/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RED Televisiðn ✅
+http://179.51.136.19:8000/play/a1hw/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",REWIND - Opción 2 ✅
+http://181.119.85.222:8000/play/a03f/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RHEMA TV - Opción 2 ✅
+http://179.51.136.19:8000/play/a18z/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RUMBA TV - Opción 2 ✅
+http://181.119.85.222:8000/play/a01l/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rabeh Saqer (1080p) ✅
+https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rapsodia TV ✅
+http://92.86.248.141:8080/ram/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Rasi Hollywood ✅
+http://rasinetworks.in:1935/rasihollywood/rasihollywood.stream_aac/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Ready TV | DO ✅
+https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Real Crime ✅
+https://lds-realcrimebeta-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lds-realcrime2-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Real Madrid TV ✅
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Real Wild ✅
+https://lds-realwild-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-realwild-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Red Circl| CL ✅
+https://5e3483cba9114.streamlock.net:443/8016/8016/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Red Vision Television | CL ✅
+https://tls-cl.cdnz.cl/livertv/live/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RedBull TV ✅
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Retro PluTV Señal 2 | CL ✅
+https://tls-cl.cdnz.cl/retroplustvdos/live/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Reuters ✅
+https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",RikuTv
+https://riku-tv.fillkatv.pro/Rikutv/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Run Time Ana y los 7 ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2722
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Run Time Clasicos ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3053
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Run Time Crimen 2 ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3533
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Run Time Crimen ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3527
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Run Time Romance ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3056
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Run Time Trash ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4647
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SBC (1080p) ✅
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SEMILLITAS - Opción 2 ✅
+http://179.51.136.19:8000/play/a0uc/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SHOW BUSINESS - Opción 2 ✅
+http://181.119.85.222:8000/play/a002/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SONY - Opción 2 ✅
+http://181.119.86.68:8000/play/c023/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SUPER TV - Opción 2 ✅
+http://iptv.supertv.ro:8000/play/a001/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sabor TV | CL ✅
+https://v1.tustreaming.cl/sabortv/index.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sextreme - Opción 2 ✅
+http://179.51.136.19:8000/play/a1h6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Shanson TV ✅
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sol Televisión (720p) ✅
+https://video03.logicahost.com.br/soltv/soltv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",SoloBailalo ✅
+https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Solobailalo TV ✅
+https://5ff3d9babae13.streamlock.net:443/8000/8000/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Somos TV | VE ✅
+https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Soy Plancha TV | CR ✅
+https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sula TV ✅
+https://tv.webmedialive.com/sulatv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Sun Channel - Opción 2 ✅
+http://179.51.136.19:8000/play/a1bu/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Supersonika TV | CL ✅
+https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",T-Vinet - Opción 2 ✅
+https://unlimited1-cl-isp.dps.live/inet2/inet2.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",T-Vinet ✅
+https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",T13 - Opción 2 ✅
+http://179.51.136.19:8000/play/a1i1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",T13 | CL ✅
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TBN Enlace - Opción 2 ✅
+http://179.51.136.19:8000/play/a0uu/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TC Televisiðn - Opción 2 ✅
+http://179.51.136.19:8000/play/a1fb/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TDT Multimedia (720p) ✅
+https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TELE NOSTALGIA ✅
+http://181.119.86.68:8000/play/b053/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TELE NOVELAS ✅
+http://181.119.86.68:8000/play/c010/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TELEFORMULA ✅
+http://mdstrm.com/live-stream-playlist/62f2c855f7981b5a5a2d8763.m3u8?null=0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",TELEMUNDO - Opción 2 ✅
+http://181.119.86.68:8000/play/b023/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Unsolved Mysteries
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e924f2be69bc0007b7d53d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c9e93-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6362993f-fcc4-4e58-9056-bca26f635dcb
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",16.3Enlace ✅
+http://200.60.124.19:29000/play/a01y/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",24 H ✅
+http://138.0.228.250:44380/play/a00u/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",6 (Armenia) (🇦🇲)
+http://ott-cdn.ucom.am/s66/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",9400-FOOD NETWORK - NKT ✅
+http://138.0.228.250:44380/play/a01a/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",@TV (Tailandia) (🇹🇭)
+http://49.0.87.24:1936/HDAttv/Attv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",A and E - Opción 2 ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278388/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",A and E ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278389/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",A2 (Armenia) (🇦🇲)
+http://ott-cdn.ucom.am/s33/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",AS Antena Seis (Costa Rica) (🇨🇷)
+http://video1.azulstream.com:8080/antenaseistv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Alien Nation (Canada) (🇨🇦)
+https://tinyurl.com/25d7n9y8?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Andromeda (Italia) (🇮🇹)
+https://tinyurl.com/5n7d8ufy?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Animallanet - Opción 2 ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/163547/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Animallanet ✅
+http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278616/index.m3u8?kt=DB2nHHkDthLZJguDKkaSzVhfUPez82McDKh8uF
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Animax (Corea Del Sur) (🇰🇷)
+https://tinyurl.com/ycye8tx8?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Are We There Yet? (UK) (🇬🇧)
+https://tinyurl.com/42fhpb6f?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Arirang (Corea Del Sur) (🇰🇷)
+https://tinyurl.com/4k6vznmu?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Armenia (Armenia) (🇦🇲)
+http://ott-cdn.ucom.am/s4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Augsburg (Alemania) (🇩🇪)
+https://tinyurl.com/bdh2sp6a?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Auto 24 (Rusia) (🇷🇺)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/538/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Auto Plus (Rusia) (🇷🇺)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/151/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Autostop Per Il Cielo (Italia) (🇮🇹)
+https://tinyurl.com/yy74m9yy?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Ax Men (UK) (🇬🇧)
+https://tinyurl.com/4tmkrkx2?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Ayeneh Radio (Iran) (🇮🇷)
+https://tinyurl.com/25ercvpn?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BLK (Alemania) (🇩🇪)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:BLKonline_high/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BST (Rusia) (🇷🇺)
+http://bsttv.bonus-tv.ru:80/cdn/bst/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",BTV Bardejovska (Eslovaquia) (🇸🇰)
+https://fs3.kabelko.sk/9011/index.m3u8?token=btv
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Big Planet (Rusia) (🇷🇺)
+http://185.50.148.2:7703/BigPlanet/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bio Bio TV | CL ✅
+https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Black (Rusia) (🇷🇺)
+http://serv8.iptv11.com:8080/SonyTurbo/video.m3u8?token=45BAD2250F38E
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Bollywood Classic (India) (🇮🇳)
+https://tinyurl.com/yumej6ec?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",C DE LAS ESTRELLAS ✅
+http://181.119.86.68:8000/play/b059/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CAN (Turquia) (🇹🇷)
+http://canbroadcast.com:7000/canlican/tv.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL DE LAS ESTRELLAS ✅
+http://181.119.85.222:8000/play/a00e/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CANAL ZOOM - Opción 2 ✅
+http://181.119.85.222:8000/play/a036/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CTV (Guatemala) (🇬🇹)
+http://181.78.105.146:2000/play/a08s/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CVA (Honduras) (🇭🇳)
+http://190.124.161.21:8086/cvatv/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CYC Christian Youth (Australia) (🇦🇺)
+http://media.smc-host.com:1935/cycnow.com/cyc2/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Cable 37 (Tailandia) (🇹🇭)
+http://www5.cabletv.co.th/StreamToCTV/cablechannel/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Cali TV ✅
+http://vbox.cehis.net/live-calitv/calitv1/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",CanaL 11 - Opción 2 ✅
+http://181.78.106.127:9000/play/ca002/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canada One (Canada) (🇨🇦)
+http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal  21 - ESA ✅
+http://179.51.136.19:8000/play/a18b/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal  Capital - Opción 2 ✅
+http://179.51.136.19:8000/play/a1gi/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 10 SOL TV (1080p) ✅
+http://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 14 San Carlos ✅
+http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 2 - ESA - Opción 2 ✅
+http://179.51.136.19:8000/play/a0w8/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 2 - NIC - Opción 2 ✅
+http://179.51.136.19:8000/play/a0wb/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 2 dSan Antonio | CL ✅
+http://unlimited6-cl.dps.live/canal2/canal2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 2000 La Solana ✅
+http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 26 Aguascalientes ✅
+http://streamingcws10.com:1935/telemetrika3/videotelemetrika3/chunklist_w1756871323.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 3 - GUA - Opción 2 ✅
+http://179.51.136.19:8000/play/a0w7/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 3 Telesistemas HND - Opción 2 ✅
+http://179.51.136.19:8000/play/a18d/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 4 - NIC - Opción 2 ✅
+http://179.51.136.19:8000/play/a188/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 5 ✅
+http://181.78.106.127:9000/play/ca012/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 51 TV ✅
+http://178.32.140.155/canale51/canale51/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 55 Telemorisco TV (720p) ✅
+http://canal.mediaserver.com.co/live/telemorisco.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 CDJ ✅
+http://mdstrm.com/live-stream-playlist/5d9e440d675235586a92be7f.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 GDL ✅
+http://mdstrm.com/live-stream-playlist/5c54d38ca392a5119bb0aa0d.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ROLL-OVER/OTROS ★",Canal 6 LAG ✅
+http://mdstrm.com/live-stream-playlist/57bf686a61ff39e1085d43e1.m3u8
+
+
+# ====== ★ CANALES ROLL-OVER/OTROS ★ ======
+
+#EXTINF:-1 tvg-id="" tvg-name="T02E12 - Ã‰ uma armadilha" tvg-logo="https://goo.gl/upCSGW" group-title="★ CANALES ROLL-OVER/OTROS ★",T02E12 - Ã‰ uma armadilha
+http://painel.iptvmove.com:25461/movie/danga07/1963/2916.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="T02E13 - Algo ruÃ­m aconteceu" tvg-logo="https://goo.gl/upCSGW" group-title="★ CANALES ROLL-OVER/OTROS ★",T02E13 - Algo ruÃ­m aconteceu
+http://painel.iptvmove.com:25461/movie/danga07/1963/2913.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="T02E14 - Meu BebÃª" tvg-logo="https://goo.gl/upCSGW" group-title="★ CANALES ROLL-OVER/OTROS ★",T02E14 - Meu BebÃª
+http://painel.iptvmove.com:25461/movie/danga07/1963/2908.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="T02E15 - Anna Mae" tvg-logo="https://goo.gl/upCSGW" group-title="★ CANALES ROLL-OVER/OTROS ★",T02E15 - Anna Mae
+http://painel.iptvmove.com:25461/movie/danga07/1963/2910.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e01" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e01
+http://painel.iptvmove.com:25461/movie/danga07/1963/2965.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e02" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e02
+http://painel.iptvmove.com:25461/movie/danga07/1963/2957.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e03" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e03
+http://painel.iptvmove.com:25461/movie/danga07/1963/2951.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e04" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e04
+http://painel.iptvmove.com:25461/movie/danga07/1963/2952.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e05" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e05
+http://painel.iptvmove.com:25461/movie/danga07/1963/2953.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e06" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e06
+http://painel.iptvmove.com:25461/movie/danga07/1963/2950.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e07" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e07
+http://painel.iptvmove.com:25461/movie/danga07/1963/2964.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.S02E08" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.S02E08
+http://painel.iptvmove.com:25461/movie/danga07/1963/2956.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.S02E09" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.S02E09
+http://painel.iptvmove.com:25461/movie/danga07/1963/2960.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e10" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e10
+http://painel.iptvmove.com:25461/movie/danga07/1963/2954.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e11" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e11
+http://painel.iptvmove.com:25461/movie/danga07/1963/2967.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e12" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e12
+http://painel.iptvmove.com:25461/movie/danga07/1963/2966.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e13" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e13
+http://painel.iptvmove.com:25461/movie/danga07/1963/2962.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e14" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e14
+http://painel.iptvmove.com:25461/movie/danga07/1963/2961.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e15" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e15
+http://painel.iptvmove.com:25461/movie/danga07/1963/2963.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e16" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e16
+http://painel.iptvmove.com:25461/movie/danga07/1963/2958.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e17" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e17
+http://painel.iptvmove.com:25461/movie/danga07/1963/2959.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucifer.s02e18" tvg-logo="https://goo.gl/SqTMSj" group-title="★ CANALES ROLL-OVER/OTROS ★",Lucifer.s02e18
+http://painel.iptvmove.com:25461/movie/danga07/1963/2955.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="Your Name" tvg-logo="http://br.web.img3.acsta.net/c_215_290/pictures/17/10/04/19/01/4966397.jpg" group-title="★ CANALES ROLL-OVER/OTROS ★",Your Name
+http://painel.iptvmove.com:25461/movie/danga07/1963/2968.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e1-Piloto" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e1-Piloto
+http://painel.iptvmove.com:25461/movie/danga07/1963/3035.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e2 - Ressurreicao" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e2 - Ressurreicao
+http://painel.iptvmove.com:25461/movie/danga07/1963/3032.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e3 - Duvida" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e3 - Duvida
+http://painel.iptvmove.com:25461/movie/danga07/1963/3036.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e4 - Homem com CÃ¢ncer" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e4 - Homem com CÃ¢ncer
+http://painel.iptvmove.com:25461/movie/danga07/1963/3034.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e5 - MatÃ©ria Cinzenta" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e5 - MatÃ©ria Cinzenta
+http://painel.iptvmove.com:25461/movie/danga07/1963/3038.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e6 -  O Grande Blefe" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e6 -  O Grande Blefe
+http://painel.iptvmove.com:25461/movie/danga07/1963/3037.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads1e7 - Um Trato Sem Dificuldades" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads1e7 - Um Trato Sem Dificuldades
+http://painel.iptvmove.com:25461/movie/danga07/1963/3033.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e1 - Seven Thirty-Seven" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e1 - Seven Thirty-Seven
+http://painel.iptvmove.com:25461/movie/danga07/1963/3049.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e10 - Over" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e10 - Over
+http://painel.iptvmove.com:25461/movie/danga07/1963/3040.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e11 - Mandala" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e11 - Mandala
+http://painel.iptvmove.com:25461/movie/danga07/1963/3046.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e12 - Phoenix" tvg-logo="https://goo.gl/m5UDfa" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e12 - Phoenix
+http://painel.iptvmove.com:25461/movie/danga07/1963/3039.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e13 - ABQ" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e13 - ABQ
+http://painel.iptvmove.com:25461/movie/danga07/1963/3051.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e2 - Grilled" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e2 - Grilled
+http://painel.iptvmove.com:25461/movie/danga07/1963/3047.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e3 - Bit by a Dead Bee" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e3 - Bit by a Dead Bee
+http://painel.iptvmove.com:25461/movie/danga07/1963/3044.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e4 - Down" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e4 - Down
+http://painel.iptvmove.com:25461/movie/danga07/1963/3043.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e5 - Breakage" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e5 - Breakage
+http://painel.iptvmove.com:25461/movie/danga07/1963/3045.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e6 - Peekaboo" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e6 - Peekaboo
+http://painel.iptvmove.com:25461/movie/danga07/1963/3042.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e7 - Negro y Azul" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e7 - Negro y Azul
+http://painel.iptvmove.com:25461/movie/danga07/1963/3050.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e8 - Better Call Saul" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e8 - Better Call Saul
+http://painel.iptvmove.com:25461/movie/danga07/1963/3048.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads2e9 - 4 Days Out" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads2e9 - 4 Days Out
+http://painel.iptvmove.com:25461/movie/danga07/1963/3041.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e1 - No MÃ¡s" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e1 - No MÃ¡s
+http://painel.iptvmove.com:25461/movie/danga07/1963/3061.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e10 - Fly" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e10 - Fly
+http://painel.iptvmove.com:25461/movie/danga07/1963/3059.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e11 - Abiquiu" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e11 - Abiquiu
+http://painel.iptvmove.com:25461/movie/danga07/1963/3055.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e12 - Half Measures" tvg-logo="https://goo.gl/8jEAmj" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e12 - Half Measures
+http://painel.iptvmove.com:25461/movie/danga07/1963/3054.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e13 - Full Measure" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e13 - Full Measure
+http://painel.iptvmove.com:25461/movie/danga07/1963/3064.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e2 - Caballo sin Nombre" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e2 - Caballo sin Nombre
+http://painel.iptvmove.com:25461/movie/danga07/1963/3060.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e3 - I.F.T." tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e3 - I.F.T.
+http://painel.iptvmove.com:25461/movie/danga07/1963/3056.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e4 - Green Light" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e4 - Green Light
+http://painel.iptvmove.com:25461/movie/danga07/1963/3063.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e5 - MÃ¡s" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e5 - MÃ¡s
+http://painel.iptvmove.com:25461/movie/danga07/1963/3058.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e6 - Sunset" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e6 - Sunset
+http://painel.iptvmove.com:25461/movie/danga07/1963/3052.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e7 - One Minute" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e7 - One Minute
+http://painel.iptvmove.com:25461/movie/danga07/1963/3057.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e8 - I See You" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e8 - I See You
+http://painel.iptvmove.com:25461/movie/danga07/1963/3053.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads3e9 - Kafkaesque" tvg-logo="https://goo.gl/qdGqxg" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads3e9 - Kafkaesque
+http://painel.iptvmove.com:25461/movie/danga07/1963/3062.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads4e1 - Box Cutter" tvg-logo="https://goo.gl/wzfo2t" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads4e1 - Box Cutter
+http://painel.iptvmove.com:25461/movie/danga07/1963/3065.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads4e10 - Salud" tvg-logo="https://goo.gl/wzfo2t" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads4e10 - Salud
+http://painel.iptvmove.com:25461/movie/danga07/1963/3072.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads4e11 - Crawl Space" tvg-logo="https://goo.gl/wzfo2t" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads4e11 - Crawl Space
+http://painel.iptvmove.com:25461/movie/danga07/1963/3066.mp4
+
+#EXTINF:-1 tvg-id="" tvg-name="breakingbads4e12 - End Times" tvg-logo="https://goo.gl/wzfo2t" group-title="★ CANALES ROLL-OVER/OTROS ★",breakingbads4e12 - End Times
+http://painel.iptvmove.com:25461/movie/danga07/1963/3074.mp4
+

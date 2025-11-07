@@ -2,31 +2,42 @@
 
 from extractor import recolectar_enlaces
 from clasificador import clasificar_enlaces
-from generador import generar_listas_finales # ¡Importamos solo generar_listas_finales!
-# from verificador import verificar_enlaces 
+from servidor import distribuir_por_servidor
+import os
 import sys 
 
 def ejecutar_proceso_completo(url_lista):
-    print("--- 🚀 Iniciando Flujo de Beluga ---")
+    print("--- 🚀 Iniciando Flujo de Beluga con Prioridad Multi-Servidor ---")
     
-    recolectar_enlaces(url_lista)
+    # 1. Extracción y Guardado Temporal
+    ruta_temp = recolectar_enlaces(url_lista)
     
-    # 0. Limpieza de caducidad eliminada
+    if not ruta_temp:
+        print("❌ No se pudo obtener la lista M3U. Terminando.")
+        return
+        
+    # 2. Clasificación: Asigna Categoría, Idioma y Estado
+    bloques_para_distribuir = clasificar_enlaces(ruta_temp)
     
-    # 1. Clasificación/Fusión: Aplica la lógica de Idioma y Fallback a roll_over_general.
-    clasificar_enlaces()
+    # 3. Distribución: Aplica la lógica de Servidor, Prioridad y Balanceo
+    if bloques_para_distribuir:
+        distribuir_por_servidor(bloques_para_distribuir)
     
-    # 2. Verificación (Filtra 404): Comentada para evitar el bloqueo del servidor.
-    # verificar_enlaces() 
-    
-    # 3. Generación Final: Consolida los archivos principales en RP_S2048.m3u 
-    # y el contenido de roll_over_general en RP_Sxxxx.m3u.
-    generar_listas_finales()
-    
+    # 4. Limpieza (Opcional)
+    try:
+        os.remove(ruta_temp)
+        print(f"🗑️ Archivo temporal {os.path.basename(ruta_temp)} eliminado.")
+    except Exception as e:
+        print(f"⚠️ Error al eliminar archivo temporal: {e}")
+
     print("--- ✅ Proceso Completo Finalizado ---")
 
 if __name__ == "__main__":
-    url = input("🔗 Ingresa la URL de la lista .m3u: ").strip()
+    if len(sys.argv) > 1:
+        url = sys.argv[1].strip()
+    else:
+        url = input("🔗 Ingresa la URL de la lista .m3u: ").strip()
+        
     if url:
         ejecutar_proceso_completo(url)
     else:

@@ -1,267 +1,171 @@
-# clasificador.py
+# clasificador.py (VERSION CON BARRA DE PROGRESO - TQDM)
 import os
-import datetime 
-from collections import Counter
-from typing import List, Optional, Tuple, Set
 import re 
+from typing import List, Dict, Optional, Tuple, Set
 import logging
+import requests 
+from tqdm import tqdm # NUEVA IMPORTACIÓN
 
-# Configuración básica de logging
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-
-# 📦 Importaciones de configuración
+# 📦 Importaciones de configuración y auxiliares
 try:
     from config import (
-        CARPETA_ORIGEN, CARPETA_SALIDA, CLAVES_CATEGORIA, 
-        contiene_exclusion, LIMITE_BLOQUES, OVERFLOW_MAP,
-        CLAVES_ESPANOL, CLAVES_NO_ESPANOL
+        CLAVES_CATEGORIA, contiene_exclusion, CLAVES_NO_ESPANOL, 
+        TITULOS_VISUALES, CLAVES_CATEGORIA_N2
+    )
+    from auxiliar import (
+        extraer_bloques_m3u, extraer_nombre_canal, extraer_url
     )
 except ImportError as e:
-    logging.error(f"Error al importar configuración: {e}")
-    CARPETA_ORIGEN = "Beluga/compilados"
-    CARPETA_SALIDA = "Beluga"
-    CLAVES_CATEGORIA = {"roll_over_general": ["tv"]}
-    LIMITE_BLOQUES = 100
-    OVERFLOW_MAP = {}
-    CLAVES_ESPANOL = []
-    CLAVES_NO_ESPANOL = ["eng"]
-    def contiene_exclusion(texto): return False
+    logging.error(f"Error al importar configuración/auxiliares: {e}")
 
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+# --- CONFIGURACIÓN DEL CHECK REAL SELECTIVO ---
+TIMEOUT_CHECK = 10 
+VERIFICACION_SELECTIVA_RATIO = 500
+contador_verificacion = 0
 
 # =========================================================================================
-# 📦 FUNCIONES DE PARSEO (Se mantienen)
+# 🧠 LÓGICA DE ASIGNACIÓN
 # =========================================================================================
 
-def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
-    """Extrae bloques M3U completos (EXTINF + URL) como listas de líneas."""
-    bloques = []
-    buffer = []
-    for linea in lineas:
-        linea = linea.strip()
-        if not linea or (linea.startswith("#") and not linea.startswith("#EXTINF")):
-            continue
-        if linea.startswith("#EXTINF"):
-            buffer = [linea]
-        elif buffer and linea.startswith("http"): 
-            buffer.append(linea)
-            bloques.append(buffer)
-            buffer = []
-        elif buffer: 
-            buffer.append(linea)
-            
-    return [b for b in bloques if any(l.startswith("#EXTINF") for l in b) and any(l.startswith("http") for l in b)]
+def verificar_estado_canal(url: str, nombre: str, index: int) -> str:
+    """
+    Verificación selectiva de URL por HTTP para obtener el estado real.
+    """
+    global contador_verificacion
+    contador_verificacion += 1
 
-def extraer_nombre_canal(bloque: List[str]) -> str:
-    """Extrae el nombre del canal desde EXTINF."""
-    for linea in bloque:
-        if linea.startswith("#EXTINF"):
-            partes = linea.split(",", 1)
-            if len(partes) > 1:
-                return partes[1].strip()
-    return "Sin nombre"
-
-def extraer_url(bloque: List[str]) -> str:
-    """Extrae la URL del canal (la primera línea que comienza con http)."""
-    for linea in bloque:
-        if linea.startswith("http"):
-            return linea.strip()
-    return ""
-
-# =========================================================================================
-# 💾 FUSIÓN Y GUARDADO CLAVE
-# =========================================================================================
-
-def obtener_urls_existentes(categoria: str) -> Tuple[Set[str], int]:
-    """Lee el archivo existente de la categoría y devuelve las URLs únicas y el conteo de bloques."""
-    ruta = os.path.join(CARPETA_ORIGEN, f"{categoria}.m3u")
-    urls_existentes = set()
-    conteo_bloques = 0
-    
-    if os.path.exists(ruta):
-        try:
-            with open(ruta, "r", encoding="utf-8", errors="ignore") as f:
-                lineas = f.readlines()
-            
-            for bloque in extraer_bloques_m3u(lineas):
-                url = extraer_url(bloque)
-                if url:
-                    urls_existentes.add(url)
-                    conteo_bloques += 1
-        except Exception as e:
-            logging.warning(f"Error al leer el archivo existente {ruta}: {e}")
-            
-    return urls_existentes, conteo_bloques
-
-def guardar_en_categoria(categoria: str, bloque: List[str]):
-    """Añade un bloque al archivo de categoría existente (sin lógica de fecha)."""
-    os.makedirs(CARPETA_ORIGEN, exist_ok=True)
-    ruta = os.path.join(CARPETA_ORIGEN, f"{categoria}.m3u")
-
-    modo_apertura = "a"
-    if not os.path.exists(ruta) or os.path.getsize(ruta) == 0:
-        modo_apertura = "w"
-
-    extinf = [l.strip() for l in bloque if l.startswith("#EXTINF")][0] if any(l.startswith("#EXTINF") for l in bloque) else None
-    url = extraer_url(bloque)
-    
-    if extinf and url:
-        # Limpiamos cualquier metadato de fecha antigua
-        extinf = re.sub(r' exp-date="[^"]*"', '', extinf).strip()
+    # 1. Chequeo Selectivo
+    if contador_verificacion % VERIFICACION_SELECTIVA_RATIO == 0:
         
-        with open(ruta, modo_apertura, encoding="utf-8", errors="ignore") as f:
-            if modo_apertura == "w":
-                 f.write("#EXTM3U\n\n")
-            f.write(extinf + "\n")      
-            f.write(url + "\n\n")    
+        try:
+            # Intentar obtener solo los headers (más rápido)
+            response = requests.head(url, timeout=TIMEOUT_CHECK, allow_redirects=True)
+            status_code = response.status_code
 
-def clasificacion_multiple(bloque: List[str]) -> List[str]:
-    """Devuelve una lista de categorías relevantes (snake_case) para un bloque."""
+            # Códigos de éxito (abierto)
+            if 200 <= status_code < 400:
+                return "abierto"
+            
+            # Códigos dudosos (requiere autenticación, temporalmente no disponible, etc.)
+            elif status_code in [401, 403, 408, 503]:
+                return "dudoso"
+            
+            # 404 y otros errores se consideran fallidos
+            else:
+                return "fallido"
+                
+        except requests.exceptions.Timeout:
+            return "dudoso" 
+        except requests.exceptions.ConnectionError:
+            return "fallido"
+        except requests.exceptions.RequestException:
+            return "fallido"
+            
+    # 2. Asignación por Defecto/Palabras Clave
+    nombre_lower = nombre.lower()
+    if "test" in nombre_lower or "demo" in nombre_lower or "prueba" in nombre_lower:
+        return "dudoso"
+
+    return "dudoso" 
+
+
+def clasificar_bloque(bloque: List[str]) -> str:
+    """Devuelve la mejor categoría (snake_case) para un bloque, usando Nivel 1 y Nivel 2."""
     nombre = extraer_nombre_canal(bloque)
     nombre_lower = nombre.lower().replace("ñ", "n").replace(".", "")
     
-    categorias_encontradas = []
-    
+    # 1. Filtro de Idioma Estricto
+    is_not_spanish_language = any(clave in nombre_lower for clave in CLAVES_NO_ESPANOL)
+    if is_not_spanish_language:
+        return "roll_over" 
+
+    # 2. Bucle Nivel 1
     for categoria, claves in CLAVES_CATEGORIA.items():
-        # Excluimos las categorías de desbordamiento y roll_over_general en la primera pasada
-        if categoria in OVERFLOW_MAP.values() or categoria == "roll_over_general": 
-            continue 
+        if categoria == "roll_over": continue
         
         if any(clave in nombre_lower for clave in claves):
-            categorias_encontradas.append(categoria)
+            return categoria
             
-    return categorias_encontradas if categorias_encontradas else ["sin_clasificar"]
+    # 3. Bucle Nivel 2
+    for categoria, claves in CLAVES_CATEGORIA_N2.items():
+        if any(clave in nombre_lower for clave in claves):
+            return categoria
+            
+    return "roll_over" 
 
 
 # =========================================================================================
-# 🧠 BUCLE PRINCIPAL DE CLASIFICACIÓN (Multi-Nivel Fallback con Idioma)
+# 📦 FUNCIÓN PRINCIPAL DE CLASIFICACIÓN
 # =========================================================================================
 
-def clasificar_enlaces():
+def clasificar_enlaces(ruta_temp: str) -> List[Dict]:
     """
-    Lee la lista TEMP_MATERIAL.m3u y FUSIONA los nuevos canales con los archivos 
-    existentes en compilados/, aplicando la lógica de Idioma y Fallback.
+    Lee la lista temporal, asigna categoría, estado y retorna bloques enriquecidos.
     """
-    
-    ruta_temp = os.path.join(CARPETA_SALIDA, "TEMP_MATERIAL.m3u")
+    global contador_verificacion
+    contador_verificacion = 0 
     
     if not os.path.exists(ruta_temp):
-        logging.error(f"Error: No se encontró el archivo TEMP_MATERIAL.m3u en {ruta_temp}.")
-        return
+        logging.error(f"Error: No se encontró el archivo temporal en {ruta_temp}.")
+        return []
 
-    print("🧠 Iniciando clasificación y FUSIÓN de bloques...")
+    print("🧠 Iniciando clasificación, asignación de estado y enriquecimiento de bloques...")
 
     with open(ruta_temp, "r", encoding="utf-8", errors="ignore") as f:
         lineas = f.readlines()
 
     bloques_nuevos = extraer_bloques_m3u(lineas)
+    bloques_enriquecidos = []
     
-    # Inicialización de conteo de URLs existentes
-    urls_en_categoria = {}
-    conteo_inicial_por_categoria = {}
-
-    for categoria in CLAVES_CATEGORIA.keys():
-        urls_en_categoria[categoria], conteo = obtener_urls_existentes(categoria)
-        conteo_inicial_por_categoria[categoria] = conteo 
-
-    totales_por_categoria = conteo_inicial_por_categoria.copy()
-    
+    urls_procesadas = set()
     excluidos_por_contenido = 0
-    descartados_por_limite = 0
-    bloques_agregados_a_disco = 0
-
-    for bloque in bloques_nuevos:
+    
+    # 🌟 IMPLEMENTACIÓN DE LA BARRA DE PROGRESO 🌟
+    # Envolvemos el bucle for con tqdm para mostrar el progreso
+    for i, bloque in enumerate(tqdm(bloques_nuevos, desc="Analizando Canales", unit="Canal")):
+        # --- Lógica de procesamiento de bloques (sin cambios) ---
         nombre = extraer_nombre_canal(bloque)
         url = extraer_url(bloque)
-        nombre_lower = nombre.lower().replace("ñ", "n")
         
+        if not url or url in urls_procesadas:
+            continue
+            
+        urls_procesadas.add(url)
+            
         if contiene_exclusion(nombre):
             excluidos_por_contenido += 1
             continue
 
-        categorias_candidatas = clasificacion_multiple(bloque)
-        guardado_exitoso = False
-        categoria_principal = None
+        # 1. Asignar Categoría (Nivel 1 y Nivel 2)
+        categoria = clasificar_bloque(bloque)
+
+        # 2. Asignar Estado (VERIFICACIÓN REAL SELECTIVA)
+        estado = verificar_estado_canal(url, nombre, i)
         
-        # ⚠️ Verificación de Idioma ESTRICTA (Prioridad Máxima)
-        is_not_spanish_language = any(clave in nombre_lower for clave in CLAVES_NO_ESPANOL)
+        # 3. Enriquecer el bloque
         
-        if is_not_spanish_language:
-            
-            categoria_destino = "roll_over_general" 
-            
-            if url not in urls_en_categoria.get(categoria_destino, set()):
-                guardar_en_categoria(categoria_destino, bloque)
-                urls_en_categoria[categoria_destino].add(url)
-                totales_por_categoria[categoria_destino] += 1
-                bloques_agregados_a_disco += 1
-                guardado_exitoso = True
-            
-            continue 
-            
-        # 1. Bucle de Candidatos (Solo si el idioma es potencialmente español)
-        if 'sin_clasificar' not in categorias_candidatas:
-            
-            for i, categoria in enumerate(categorias_candidatas):
-                if i == 0:
-                    categoria_principal = categoria 
-                
-                # A. Deduplicación
-                if url in urls_en_categoria.get(categoria, set()):
-                    guardado_exitoso = True
-                    break
-                    
-                # B. Si la categoría está llena (LIMITE_BLOQUES)
-                if totales_por_categoria.get(categoria, 0) >= LIMITE_BLOQUES:
-                    continue 
-                
-                # C. Guardado exitoso
-                guardar_en_categoria(categoria, bloque)
-                urls_en_categoria[categoria].add(url)
-                totales_por_categoria[categoria] += 1
-                bloques_agregados_a_disco += 1
-                guardado_exitoso = True
-                break
-                
-            # 2. Lógica de Desbordamiento Específico (Overflow - Nivel Extra)
-            if not guardado_exitoso and categoria_principal and categoria_principal in OVERFLOW_MAP:
-                
-                categoria_extra = OVERFLOW_MAP[categoria_principal]
-                
-                # Intentar guardar en la categoría EXTRA
-                if url not in urls_en_categoria.get(categoria_extra, set()) and totales_por_categoria.get(categoria_extra, 0) < LIMITE_BLOQUES:
-                    
-                    guardar_en_categoria(categoria_extra, bloque)
-                    urls_en_categoria[categoria_extra].add(url)
-                    totales_por_categoria[categoria_extra] += 1
-                    bloques_agregados_a_disco += 1
-                    guardado_exitoso = True
+        extinf_line = [l for l in bloque if l.startswith("#EXTINF")][0]
+        
+        # Añadimos la categoría como group-title 
+        titulo_visual = TITULOS_VISUALES.get(categoria, f"★ {categoria.replace('_', ' ').upper()} ★")
+        extinf_line_mod = re.sub(r'group-title="[^"]*"', f'group-title="{titulo_visual}"', extinf_line)
+        if 'group-title' not in extinf_line_mod:
+            extinf_line_mod = extinf_line_mod.replace(f",{nombre}", f' group-title="{titulo_visual}",{nombre}')
 
-        # 3. Último Recurso: Roll-Over General (Si falló la clasificación o es sin_clasificar)
-        if not guardado_exitoso:
-            categoria_final = "roll_over_general"
-            
-            if url not in urls_en_categoria.get(categoria_final, set()):
-                guardar_en_categoria(categoria_final, bloque) 
-                urls_en_categoria[categoria_final].add(url)
-                totales_por_categoria[categoria_final] += 1
-                bloques_agregados_a_disco += 1
-                guardado_exitoso = True
-            
-        # 4. Descarte definitivo 
-        if not guardado_exitoso:
-            descartados_por_limite += 1
-            continue
+        # El bloque final para el inventario:
+        bloques_enriquecidos.append({
+            "bloque": [extinf_line_mod, f"#ESTADO:{estado}", url], 
+            "url": url,
+            "nombre_limpio": nombre.strip().lower().replace(" ", "").replace("ñ", "n"),
+            "categoria": categoria,
+            "estado": estado
+        })
+    # --- Fin de la lógica de procesamiento de bloques ---
 
-
-    print(f"✅ Fusión y Clasificación finalizada. Total bloques procesados: {len(bloques_nuevos)}")
-    print(f"   -> Enlaces nuevos agregados a disco: {bloques_agregados_a_disco}")
+    print(f"✅ Clasificación y Enriquecimiento finalizados. Bloques listos para distribuir: {len(bloques_enriquecidos)}")
+    print(f"   -> Verificaciones de estado realizadas: {contador_verificacion // VERIFICACION_SELECTIVA_RATIO}")
     print(f"   -> Excluidos por contenido (religioso, etc.): {excluidos_por_contenido}")
-    print(f"   -> Descartados por límite (no hubo fallback disponible): {descartados_por_limite}")
     
-    categorias_generadas = [k for k, v in totales_por_categoria.items() if v > 0]
-    categorias_finales = ", ".join(categorias_generadas)
-    print(f"   -> Categorías con contenido total (incl. anterior): {categorias_finales}")
-    print(f"📁 Archivos clasificados/fusionados en: {CARPETA_ORIGEN}/")
-    
-if __name__ == "__main__":
-    clasificar_enlaces()
+    return bloques_enriquecidos
