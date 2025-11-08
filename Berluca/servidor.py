@@ -77,16 +77,13 @@ def guardar_inventario_servidor(servidor_num: int, inventario: Dict[str, List[Di
             
             salida.write(f"\n# ====== {titulo_visual} ======\n\n")
 
-            # Ordenar por Prioridad (Abierto > Dudoso > Fallido)
             canales_ordenados = sorted(inventario[nombre_categoria_snake], key=lambda c: c['prioridad'], reverse=True)
             
             for canal in canales_ordenados:
-                # Escribir las líneas del bloque
                 for linea in canal['bloque']:
-                    # Omitimos escribir la línea #ESTADO:X, solo es metadata interna
                     if not linea.startswith("#ESTADO:"):
                         salida.write(linea + "\n")
-                salida.write("\n") # Espacio entre bloques
+                salida.write("\n")
                 
     print(f"✅ {os.path.basename(ruta_servidor)} actualizado.")
 
@@ -115,7 +112,6 @@ def distribuir_por_servidor(bloques_enriquecidos: List[Dict]):
         bloques_desplazados = []
         nuevos_pendientes = [] 
         
-        # Agrupar los pendientes por categoría para procesar por grupos
         pendientes_por_categoria = defaultdict(list)
         for bloque in bloques_pendientes:
             pendientes_por_categoria[bloque['categoria']].append(bloque) 
@@ -131,14 +127,13 @@ def distribuir_por_servidor(bloques_enriquecidos: List[Dict]):
                 prioridad_nueva = PRIORIDAD_ESTADO.get(nuevo_canal['estado'], 0)
                 nombre_limpio = nuevo_canal['nombre_limpio']
 
-                # 4. Regla de Balanceo (Deduplicación por Servidor)
+                # 4. Regla de Balanceo (Deduplicación)
                 if any(c['nombre_limpio'] == nombre_limpio for c in canales_categoria):
                     nuevos_pendientes.append(nuevo_canal)
                     continue
 
                 # 5. Regla de Capacidad (Límite 60)
                 if len(canales_categoria) < LIMITE_BLOQUES_CATEGORIA:
-                    # Ingreso directo: Hay espacio.
                     nuevo_canal['prioridad'] = prioridad_nueva 
                     canales_categoria.append(nuevo_canal) 
                     
@@ -148,16 +143,13 @@ def distribuir_por_servidor(bloques_enriquecidos: List[Dict]):
                     
                     if prioridad_nueva > canal_a_desplazar['prioridad']:
                         
-                        # Desplazar al de peor calidad
                         canales_categoria.remove(canal_a_desplazar)
                         nuevo_canal['prioridad'] = prioridad_nueva 
                         canales_categoria.append(nuevo_canal)
                         
-                        # Añadir el bloque desplazado a la lista para re-procesar en el siguiente servidor
                         bloques_desplazados.append(canal_a_desplazar)
                         
                     else:
-                        # Pasa al siguiente servidor.
                         nuevos_pendientes.append(nuevo_canal)
             
             inventario_servidor[categoria] = canales_categoria
@@ -181,16 +173,15 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
     
     bloques_excedentes = []
     
-    servidores_auditados = 0
     servidor_num = 1
     
-    # Bucle para auditar todos los servidores que se hayan creado
+    # Bucle para auditar todos los servidores que se hayan creado (hasta 10 extra para el balanceo)
     while True:
         ruta_servidor = obtener_servidor_path(servidor_num)
-        if not os.path.exists(ruta_servidor) and servidor_num > max_servidores_a_auditar:
+        if not os.path.exists(ruta_servidor) and servidor_num > max_servidores_a_auditar + 10:
             break
         
-        if not os.path.exists(ruta_servidor) and servidor_num <= max_servidores_a_auditar:
+        if not os.path.exists(ruta_servidor) and servidor_num <= max_servidores_a_auditar + 10:
             servidor_num += 1
             continue
 
@@ -202,7 +193,6 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
             
             exceso = total_bloques_servidor - LIMITE_BLOQUES_SERVIDOR_GLOBAL
             
-            # Buscar la categoría más grande para desplazar el exceso
             conteo_por_categoria = {cat: len(canales) for cat, canales in inventario.items()}
             categorias_ordenadas = sorted(conteo_por_categoria.items(), key=lambda item: item[1], reverse=True)
             
@@ -214,14 +204,12 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
                     
                 canales_categoria = inventario[categoria]
                 
-                # Mover el exceso, priorizando mover los canales de menor prioridad
                 canales_a_mover = min(
                     len(canales_categoria), 
                     exceso - bloques_movidos_servidor
                 )
                 
                 if canales_a_mover > 0:
-                    # Mover los canales con menor prioridad
                     canales_a_mover_lista = sorted(canales_categoria, key=lambda c: c['prioridad'], reverse=False)[:canales_a_mover]
                     
                     for canal in canales_a_mover_lista:
@@ -231,21 +219,17 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
                         
                 inventario[categoria] = canales_categoria 
             
-            # Guardar el inventario reducido
             guardar_inventario_servidor(servidor_num, inventario)
 
         servidor_num += 1
-        servidores_auditados += 1
 
 
     # 2. Redistribuir los bloques excedentes
     if bloques_excedentes:
         print(f"\n🔄 Redistribuyendo {len(bloques_excedentes)} bloques excedentes a nuevos servidores...")
         
-        # Ordenar por prioridad para priorizar los mejores al re-distribuir
         bloques_excedentes = sorted(bloques_excedentes, key=lambda b: PRIORIDAD_ESTADO.get(b['estado'], 0), reverse=True)
         
-        # Llamamos a una función simplificada de distribución para los excedentes
         distribuir_excedentes(bloques_excedentes, servidor_num)
         
     print("✅ Auditoría de límite global finalizada.")
@@ -267,7 +251,6 @@ def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int)
         total_bloques_servidor = sum(len(canales) for canales in inventario_servidor.values())
         
         if total_bloques_servidor >= LIMITE_BLOQUES_SERVIDOR_GLOBAL:
-            # Si el servidor ya está lleno (lo que podría pasar si fue creado justo por debajo del límite)
             servidor_actual += 1
             continue
             
@@ -283,7 +266,6 @@ def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int)
             canales_categoria = inventario_servidor[categoria]
             nombre_limpio = nuevo_canal['nombre_limpio']
             
-            # Deduplicación por Servidor y Límite por Categoría (60)
             if any(c['nombre_limpio'] == nombre_limpio for c in canales_categoria):
                 nuevos_pendientes.append(nuevo_canal)
                 continue
@@ -291,7 +273,6 @@ def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int)
                 nuevos_pendientes.append(nuevo_canal)
                 continue
 
-            # ASIGNACIÓN DIRECTA
             nuevo_canal['prioridad'] = PRIORIDAD_ESTADO.get(nuevo_canal['estado'], 0) 
             canales_categoria.append(nuevo_canal)
             inventario_servidor[categoria] = canales_categoria

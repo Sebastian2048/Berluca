@@ -1,0 +1,8 @@
+#EXTM3U
+
+
+# ====== ★ CINE Y PELÍCULAS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Sci-Fi
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisescifi/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=
+

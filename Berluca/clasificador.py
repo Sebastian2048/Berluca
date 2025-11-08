@@ -4,7 +4,7 @@ import re
 from typing import List, Dict, Optional, Tuple, Set
 import logging
 import requests 
-from tqdm import tqdm # NUEVA IMPORTACIÓN
+from tqdm import tqdm 
 
 # 📦 Importaciones de configuración y auxiliares
 try:
@@ -21,8 +21,8 @@ except ImportError as e:
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # --- CONFIGURACIÓN DEL CHECK REAL SELECTIVO ---
-TIMEOUT_CHECK = 10 # Tiempo de espera ampliado
-VERIFICACION_SELECTIVA_RATIO = 500 # Ratio de verificación selectiva (1 de cada 500)
+TIMEOUT_CHECK = 10 
+VERIFICACION_SELECTIVA_RATIO = 500 
 contador_verificacion = 0
 
 # =========================================================================================
@@ -41,26 +41,19 @@ def verificar_estado_canal(url: str, nombre: str, index: int) -> str:
     if contador_verificacion % VERIFICACION_SELECTIVA_RATIO == 0:
         
         try:
-            # Intentar obtener solo los headers (más rápido)
             response = requests.head(url, timeout=TIMEOUT_CHECK, allow_redirects=True)
             status_code = response.status_code
 
-            # Códigos de éxito (abierto)
             if 200 <= status_code < 400:
                 return "abierto"
-            
-            # Códigos dudosos (requiere autenticación, temporalmente no disponible, etc.)
             elif status_code in [401, 403, 408, 503]:
                 return "dudoso"
-            
-            # 404 y otros errores se consideran fallidos
             else:
                 return "fallido"
                 
         except requests.exceptions.Timeout:
             return "dudoso" 
         except requests.exceptions.ConnectionError:
-            # Captura errores de conexión de bajo nivel (incluyendo TimeoutError de socket)
             return "fallido"
         except requests.exceptions.RequestException:
             return "fallido"
@@ -124,7 +117,6 @@ def clasificar_enlaces(ruta_temp: str) -> List[Dict]:
     urls_procesadas = set()
     excluidos_por_contenido = 0
     
-    # 🌟 IMPLEMENTACIÓN DE LA BARRA DE PROGRESO 🌟
     for i, bloque in enumerate(tqdm(bloques_nuevos, desc="Analizando Canales", unit="Canal")):
         
         nombre = extraer_nombre_canal(bloque)

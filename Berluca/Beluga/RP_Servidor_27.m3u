@@ -1,0 +1,185 @@
+#EXTM3U
+
+
+# ====== ★ CINE Y PELÍCULAS ★ ======
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Westerns
+https://jmp2.uk/stvp-USBB32000196O
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Genie K-Movie
+https://jmp2.uk/stvp-US200001137
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Hallmark Movies & More
+https://jmp2.uk/stvp-USBD270001633
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Lifetime Movies Love & Drama
+https://jmp2.uk/stvp-US1600002OK
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Favorites By Lifetime
+https://jmp2.uk/stvp-USBB5200019FO
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Hub Romance
+https://jmp2.uk/stvp-USBD3500033U0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Hub West
+https://jmp2.uk/stvp-USBD3500036HP
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieSphere
+https://jmp2.uk/stvp-USBD17000117B
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",NEW KMOVIES
+https://jmp2.uk/stvp-USAJ30000122O
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Universal Movies
+https://jmp2.uk/stvp-USBB3200030CG
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Independent Film Channel US
+https://tvpass.org/live/IFCEast/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Lifetime Movies East
+https://tvpass.org/live/LifetimeMoviesEast/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieMax (Max 6) East
+https://tvpass.org/live/MovieMaxEast/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Hallmark Movies and More
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Filmrise
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991337
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Sphere by Lionsgate
+https://d2vv1kwm3dofeu.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/playlist.m3u8?ads.xumo_channelId=99951251
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Samuel Goldwyn Films
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991393
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Alice Movies
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991300
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Shout! Movies
+https://s10host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config13/playlist.m3u8?ads.cdnhost=s10host5.localnow.api.cms.amdvids.com&ads.playbackid=81229C1A-6D45-43AB-8E20-6991B800F08D&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=81229C1A-6D45-43AB-8E20-6991B800F08D&ads.n4=content_name&ads.v4=Shout%21%20Movies&ads.n21=cust_devicename&ads.v21=desktop_web&ads.n22=content_custom_3_param&ads.v22=channel&ads.n23=url&ads.v23=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n24=ip&ads.v24=193.228.206.147&ads.n25=app_store_url&ads.v25=&ads.n26=content_provider&ads.v26=shout-movies&ads.n27=channel_title&ads.v27=Shout%21%20Movies&ads.n28=ifa_type&ads.v28=&ads.n29=dnt&ads.v29=&ads.n30=us_privacy&ads.v30=1YNY&ads.n31=channel_rating&ads.v31=TV-PG&ads.n32=channel_brand_id&ads.v32=AMDB013648&ads.n33=h&ads.v33=1080&ads.n34=ua&ads.v34=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n35=channel_id&ads.v35=81229C1A-6D45-43AB-8E20-6991B800F08D&ads.n36=app_version&ads.v36=0.0.0&ads.n37=channel_corp&ads.v37=Shout%21%20Factory%20LLC&ads.n38=channel_genre&ads.v38=Recommended&ads.n39=pos&ads.v39=midroll&ads.n40=channel_language&ads.v40=en&ads.n41=content_livestream&ads.v41=1&ads.n42=content_custom_2_param&ads.v42=AMDB013648&ads.n43=content_type&ads.v43=channel&ads.n44=channel_name&ads.v44=Shout%21%20Movies&ads.n45=content_producer_name&ads.v45=Shout%21%20Factory%20LLC&ads.n46=channel_company_id&ads.v46=AMDP500152&ads.n47=app_bundle&ads.v47=&ads.n48=content_custom_1_param&ads.v48=81229C1A-6D45-43AB-8E20-6991B800F08D&ads.n49=channel_ext_id&ads.v49=&ads.n50=did&ads.v50=&ads.n51=network_name&ads.v51=shout-movies&ads.n52=device_make&ads.v52=&ads.n53=w&ads.v53=1920&ads.n54=app_name&ads.v54=&ads.n55=gpp&ads.v55=&ads.n56=device_model&ads.v56=&ads.n57=device_type&ads.v57=&ads.n58=gpp_sid&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Kung Fu Movies
+https://s2host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config2/d/XUU229YVT9R4U3TK0SQC/hls3/now_-1m_15s/m.m3u8?ads.rating=TV14&ads.vast_id=SGL104&ads.channel_name=Kung%20Fu%20Movies&ads.content_genre=Action%2CClassic%2CMovies&ads.content_series=invincible%20obsessed%20fighter.1982.exported&ads.ic=IAB1-5&ads.provider=Global%20Media&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ip_addr=193.228.206.147&ads.cdnhost=s2host3.localnow.api.cms.amdvids.com&ads.playbackid=7DB404D9-5CF0-414C-9A60-A05839756563&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=7DB404D9-5CF0-414C-9A60-A05839756563&ads.n4=content_name&ads.v4=EPG%20%7C%20Kung%20Fu%20Movies&ads.n21=channel_name&ads.v21=EPG%20%20Kung%20Fu%20Movies&ads.n22=url&ads.v22=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n23=content_type&ads.v23=channel&ads.n24=channel_brand_id&ads.v24=AMDB012682&ads.n25=us_privacy&ads.v25=1YNY&ads.n26=content_custom_1_param&ads.v26=7DB404D9-5CF0-414C-9A60-A05839756563&ads.n27=channel_genre&ads.v27=Action%2FAdventure&ads.n28=content_livestream&ads.v28=1&ads.n29=channel_ext_id&ads.v29=61f9beda75ae24607c1e2885&ads.n30=network_name&ads.v30=kung-fu-movies&ads.n31=channel_corp&ads.v31=SotalCloud%20INC&ads.n32=content_custom_2_param&ads.v32=AMDB012682&ads.n33=ua&ads.v33=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n34=content_custom_3_param&ads.v34=channel&ads.n35=content_producer_name&ads.v35=SotalCloud%20INC&ads.n36=gpp&ads.v36=&ads.n37=dnt&ads.v37=&ads.n38=channel_id&ads.v38=7DB404D9-5CF0-414C-9A60-A05839756563&ads.n39=did&ads.v39=&ads.n40=device_make&ads.v40=&ads.n41=channel_rating&ads.v41=TV-PG&ads.n42=channel_title&ads.v42=EPG%20%20Kung%20Fu%20Movies&ads.n43=app_store_url&ads.v43=&ads.n44=content_provider&ads.v44=kung-fu-movies&ads.n45=w&ads.v45=1920&ads.n46=device_type&ads.v46=&ads.n47=gpp_sid&ads.v47=&ads.n48=app_name&ads.v48=&ads.n49=pos&ads.v49=midroll&ads.n50=h&ads.v50=1080&ads.n51=device_model&ads.v51=&ads.n52=app_bundle&ads.v52=&ads.n53=channel_company_id&ads.v53=AMDP500264&ads.n54=channel_language&ads.v54=en&ads.n55=ifa_type&ads.v55=&ads.n56=cust_devicename&ads.v56=desktop_web&ads.n57=ip&ads.v57=193.228.206.147&ads.n58=app_version&ads.v58=0.0.0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Action Hollywood Movies
+https://s8host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/playlist.m3u8?ads.cdnhost=s8host2.localnow.api.cms.amdvids.com&ads.playbackid=9DA67180-77F0-4AAA-A1C4-148BEBA5BD25&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=9DA67180-77F0-4AAA-A1C4-148BEBA5BD25&ads.n4=content_name&ads.v4=EPG%20%7C%20%20Action%20Hollywood%20Movies&ads.n21=did&ads.v21=&ads.n22=w&ads.v22=1920&ads.n23=content_producer_name&ads.v23=Lightning%20International%20Limited&ads.n24=channel_genre&ads.v24=Action%2FAdventure&ads.n25=content_custom_3_param&ads.v25=channel&ads.n26=channel_language&ads.v26=en&ads.n27=content_type&ads.v27=channel&ads.n28=channel_id&ads.v28=9DA67180-77F0-4AAA-A1C4-148BEBA5BD25&ads.n29=content_provider&ads.v29=action-hollywood-movies&ads.n30=device_type&ads.v30=&ads.n31=h&ads.v31=1080&ads.n32=dnt&ads.v32=&ads.n33=channel_rating&ads.v33=TV-PG&ads.n34=cust_devicename&ads.v34=desktop_web&ads.n35=channel_name&ads.v35=EPG%20%20%20Action%20Hollywood%20Movies&ads.n36=channel_ext_id&ads.v36=&ads.n37=app_version&ads.v37=0.0.0&ads.n38=ifa_type&ads.v38=&ads.n39=device_make&ads.v39=&ads.n40=us_privacy&ads.v40=1YNY&ads.n41=pos&ads.v41=midroll&ads.n42=channel_title&ads.v42=EPG%20%20%20Action%20Hollywood%20Movies&ads.n43=ua&ads.v43=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n44=content_livestream&ads.v44=1&ads.n45=gpp_sid&ads.v45=&ads.n46=device_model&ads.v46=&ads.n47=content_custom_1_param&ads.v47=9DA67180-77F0-4AAA-A1C4-148BEBA5BD25&ads.n48=app_store_url&ads.v48=&ads.n49=content_custom_2_param&ads.v49=AMDB013350&ads.n50=ip&ads.v50=193.228.206.147&ads.n51=channel_corp&ads.v51=Lightning%20International%20Limited&ads.n52=channel_brand_id&ads.v52=AMDB013350&ads.n53=channel_company_id&ads.v53=AMDP500507&ads.n54=gpp&ads.v54=&ads.n55=url&ads.v55=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n56=app_name&ads.v56=&ads.n57=network_name&ads.v57=action-hollywood-movies&ads.n58=app_bundle&ads.v58=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",At the Movies
+https://s10host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config12/playlist.m3u8?ads.cdnhost=s10host1.localnow.api.cms.amdvids.com&ads.playbackid=D2DC3D4D-2ACF-475A-A254-0016D18F3BF0&ads.n1=rule_id&ads.v1=31E67C91-301F-4DA0-997C-55E852CBE4CB-1752176430&ads.n3=qp_content_id&ads.v3=D2DC3D4D-2ACF-475A-A254-0016D18F3BF0&ads.n4=content_name&ads.v4=At%20the%20Movies&ads.n21=network_name&ads.v21=at-the-movies&ads.n22=cust_devicename&ads.v22=desktop_web&ads.n23=ifa_type&ads.v23=&ads.n24=channel_rating&ads.v24=TV-PG&ads.n25=content_type&ads.v25=channel&ads.n26=ua&ads.v26=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n27=gpp&ads.v27=&ads.n28=content_livestream&ads.v28=1&ads.n29=gpp_sid&ads.v29=&ads.n30=pos&ads.v30=midroll&ads.n31=ip&ads.v31=193.228.206.147&ads.n32=device_model&ads.v32=&ads.n33=content_provider&ads.v33=at-the-movies&ads.n34=channel_brand_id&ads.v34=AMDB013579&ads.n35=channel_id&ads.v35=D2DC3D4D-2ACF-475A-A254-0016D18F3BF0&ads.n36=channel_name&ads.v36=At%20the%20Movies&ads.n37=w&ads.v37=1920&ads.n38=app_store_url&ads.v38=&ads.n39=url&ads.v39=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n40=app_bundle&ads.v40=&ads.n41=device_type&ads.v41=&ads.n42=content_custom_2_param&ads.v42=AMDB013579&ads.n43=dnt&ads.v43=&ads.n44=did&ads.v44=&ads.n45=h&ads.v45=1080&ads.n46=content_custom_1_param&ads.v46=D2DC3D4D-2ACF-475A-A254-0016D18F3BF0&ads.n47=channel_language&ads.v47=en&ads.n48=channel_corp&ads.v48=Warner%20Brothers%20Discovery&ads.n49=device_make&ads.v49=&ads.n50=channel_genre&ads.v50=Movies%20and%20TV&ads.n51=channel_company_id&ads.v51=AMDP500559&ads.n52=channel_title&ads.v52=At%20the%20Movies&ads.n53=content_custom_3_param&ads.v53=channel&ads.n54=app_name&ads.v54=&ads.n55=channel_ext_id&ads.v55=&ads.n56=us_privacy&ads.v56=1YNY&ads.n57=content_producer_name&ads.v57=Warner%20Brothers%20Discovery&ads.n58=app_version&ads.v58=0.0.0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",B4U Movies (IN) Geo
+https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Bizzarro Movies (IT)
+https://minerva-bizzarromovies-1-it.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Film Gold (CH)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-filmgoldch-lgch/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Film Gold (DE)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-filmgoldde-lgde/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Filmzie (GB)
+https://filmzie-filmzie-1-gb.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Great Movies! (GB) Geo
+https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Great Movies! (IE) Geo
+https://amg01753-amg01753c3-lg-ie-2962.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lgie/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Icon Film Classics (GB)
+https://iconfilmsdistribution-iconfilmchannelclassics-1-gb.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Icon Film Classics (IE)
+https://iconfilmsdistribution-iconfilmchannelclassics-1-ie.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Lifetime Movies (GB) Geo
+https://amg00276-aenetwork-amg00276c21-lg-gb-5291.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieSphere (DE) Geo
+https://amg00353-amg00353c42-lg-de-5243.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieDome
+https://kochmedia-moviedome-lg.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MovieDome Family
+https://kochmedia-moviedomefamily-lg.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Mytime Movie Network (AU)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytimemovient-lgau/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Mytime Movie Network (US)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00500-studiocitypictu-mytime-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Mytime Movie Network alt Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/xumo-host-mytime-lg/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",New Movies (CA)
+https://newidco-newmovies-1-ca.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",New Movies (US)
+https://newidco-newmovies-1-us.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sparkle Movies (GB)
+https://candlelightmedia-sparklemovies-1-gb.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sparkle Movies (AU)
+https://candlelightmedia-sparklemovies-1-au.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sparkle Movies (DK)
+https://candlelightmedia-sparklemovies-1-dk.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sparkle Movies (FI)
+https://candlelightmedia-sparklemovies-1-fi.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sparkle Movies (NL)
+https://candlelightmedia-sparklemovies-1-nl.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Watch4Movies
+https://watch4movies-lg.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Watch4Movies Geo
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/videosolu-watch4movies-lg/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Wedo TV Movies (DE)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedomoviesde-lgch/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Wedo TV Movies (LU) Geo
+https://amg00735-amg00735c24-lg-lu-3630.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Wedo TV Movies (IT)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedomoviesitaly-lgit/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Wedo TV Movies (FI) Geo
+https://amg00735-amg00735c27-lg-fi-3635.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",My Time Movie Network
+https://aka-live491.delivery.roku.com/f776bdec-ebce-432b-847d-c7c2400d82e0/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Hub Action
+https://aka-live491.delivery.roku.com/be8e0aad-9c0d-4b4d-ac10-d0c72bb6c7f3/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Action
+https://aka-live491.delivery.roku.com/6872f94b-9d18-49bf-83cb-832dd25a5cb4/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Gravitas Movies
+https://aka-live491.delivery.roku.com/31aec68c-0544-4b96-9ffb-c47ca025a74a/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Movie Hub
+https://aka-live491.delivery.roku.com/4eddfb64-e03e-4a12-b889-53eed835572e/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Western
+https://aka-live491.delivery.roku.com/19152b37-cae5-4c48-9cd1-3d18d0857485/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Classic TV
+https://aka-live491.delivery.roku.com/9f8d19b2-1dfc-432a-bc3e-e1dacf2f0e4e/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Black TV
+https://aka-live491.delivery.roku.com/8ce67602-c071-4cae-8b5b-e555cf05145f/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",FilmRise Forensic Files
+https://aka-live491.delivery.roku.com/44ad8bf1-82c2-476d-89c2-0ee89d0747b5/t2-origin/out/v1/live.m3u8
+

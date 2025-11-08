@@ -14,16 +14,14 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 def descargar_lista(url: str, ruta_destino: str) -> bool:
     """Descarga el contenido de la URL en la ruta_destino."""
     try:
-        # Usamos stream=True y un chunksize para manejar archivos muy grandes
         response = requests.get(url, stream=True, timeout=30)
-        response.raise_for_status() # Lanza HTTPError si el status code es 4xx o 5xx
+        response.raise_for_status() 
         
-        # Crear la carpeta de destino si no existe
         os.makedirs(os.path.dirname(ruta_destino), exist_ok=True)
 
         with open(ruta_destino, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):
-                if chunk: # filtrar por seguridad
+                if chunk: 
                     f.write(chunk)
         return True
     except requests.exceptions.RequestException as e:
@@ -72,14 +70,12 @@ def extraer_nombre_canal(bloque: List[str]) -> str:
     """Extrae el nombre del canal de la línea #EXTINF."""
     for linea in bloque:
         if linea.startswith("#EXTINF"):
-            # Busca el nombre del canal después de la coma (,)
             if ',' in linea:
                 return linea.split(',')[-1].strip()
     return "Desconocido"
 
 def extraer_url(bloque: List[str]) -> str:
     """Extrae la URL del canal (la última línea del bloque)."""
-    # La URL siempre es la última línea de un bloque M3U válido
     return bloque[-1].strip() if bloque and not bloque[-1].startswith('#') else ""
 
 # =========================================================================================
@@ -95,7 +91,6 @@ def extraer_estado(bloque: List[str]) -> str:
 
 def extraer_prioridad(bloque: List[str]) -> int:
     """Extrae la prioridad (solo si se necesita para comparar bloques)."""
-    # Mapeo simple basado en el estado (debería coincidir con config.PRIORIDAD_ESTADO)
     estado = extraer_estado(bloque)
     return {"abierto": 3, "dudoso": 2, "fallido": 1, "desconocido": 0}.get(estado, 0)
 
@@ -105,9 +100,7 @@ def extraer_categoria_del_bloque(bloque: List[str]) -> str:
         if linea.startswith("#EXTINF"):
             match = re.search(r'group-title="([^"]*)"', linea)
             if match:
-                # Normaliza el título visual a snake_case para usarlo como clave
                 titulo_visual = match.group(1).strip()
-                # Eliminamos emojis, estrellas y convertimos a snake_case (ej: TV ARGENTINA -> tv_argentina)
                 limpio = re.sub(r'[^\w\s]', '', titulo_visual).lower()
                 return '_'.join(limpio.split())
     return ""
