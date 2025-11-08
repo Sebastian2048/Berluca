@@ -95,7 +95,7 @@ def auditar_canales_servidores():
     
     # 1. Recorrer todos los servidores generados
     archivos_servidores = []
-    for i in range(1, MAX_SERVIDORES_BUSCAR + 10):
+    for i in range(1, MAX_SERVIDORES_BUSCAR + 100):
         ruta = obtener_servidor_path(i)
         if os.path.exists(ruta):
             archivos_servidores.append(ruta)

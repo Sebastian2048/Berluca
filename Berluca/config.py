@@ -26,15 +26,16 @@ PRIORIDAD_ESTADO = {
 
 # 🔢 Límite de Bloques (Canales) por Categoría y Servidor
 LIMITE_BLOQUES_CATEGORIA = 50 # Límite por categoría para distribución inicial
-LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1500 # Límite máximo total por servidor (Para estabilidad)
+LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1500 # <--- Límite Máximo Global Mantenido
+                                     # (Para estabilidad y rapidez de parsing)
 
 # 📄 Estructura de Nombramiento de Servidores
 NOMBRE_BASE_SERVIDOR = "RP_Servidor"
 MAX_SERVIDORES_BUSCAR = 10 
 
-# 🌐 URL BASE del Repositorio (¡CORRECCIÓN CLAVE para el error 404!)
-# Esta URL apunta a la raíz de la rama 'main' donde está la carpeta 'Beluga'.
+# 🌐 URL BASE del Repositorio (CORRECCIÓN CRÍTICA del error 404)
 URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/"
+
 
 # 🧹 Palabras clave para excluir contenido no deseado
 exclusiones = [
@@ -58,8 +59,15 @@ CLAVES_CATEGORIA = {
     "roll_over": ["tv", "canal", "online", "hd"] # Descarte inicial
 }
 
-# 🗂️ CLAVES_CATEGORIA_N2 (Nivel 2: Para re-clasificar los bloques que caen en 'roll_over')
+# 🗂️ CLAVES_CATEGORIA_N2 (Nivel 2: Reforzado para re-clasificar los bloques que caen en 'roll_over')
 CLAVES_CATEGORIA_N2 = {
+    # Nuevas categorías para descomponer el Roll Over
+    "peliculas_clasicas": ["classic", "oro", "antiguo", "retro", "vintage"],
+    "peliculas_premiun": ["hbo", "space", "universal", "paramount", "cinemax", "amc", "movie"],
+    "deportes_lucha": ["wwe", "aew", "ufc", "box", "lucha", "mma"],
+    "deportes_motor": ["f1", "nascar", "rally", "motor", "coche", "moto"],
+    "cultura_hogar": ["cocina", "hogar", "decoracion", "recetas", "gourmet"],
+    
     # Clasificación por Países/Regiones
     "tv_mexico": ["mexico", "mex", "azteca", "televisa", "galavision", "tv azteca"],
     "tv_colombia": ["colombia", "rcn", "caracol", "canal uno"],
@@ -68,13 +76,13 @@ CLAVES_CATEGORIA_N2 = {
     "tv_espana": ["espana", "tve", "antena 3", "la sexta"],
     
     # Clasificación por Contenido Genérico (si no se detectó en Nivel 1)
-    "documentales": ["ciencia", "animales", "misterio", "historia"],
-    "musica": ["hit", "pop", "rock", "clasic", "reguetton"],
-    "peliculas": ["movie", "cinema", "film", "pelicula"],
+    "documentales_gen": ["ciencia", "animales", "misterio", "historia"],
+    "musica_gen": ["hit", "pop", "rock", "clasic", "reguetton"],
+    "variedad_gen": ["entretenimiento", "show", "variedad", "canal"],
 }
 
 # 🖼️ Logos y Títulos (Necesario para la escritura del M3U)
-LOGO_DEFAULT = "https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png"
+LOGO_DEFAULT = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png"
 
 TITULOS_VISUALES = {
     "tv_argentina": "★ TV ARGENTINA ★",
@@ -87,11 +95,21 @@ TITULOS_VISUALES = {
     "noticias": "★ NOTICIAS GLOBAL ★",
     "musica": "★ MÚSICA GENERAL ★",
     "roll_over": "★ CANALES ABIERTOS ★",
+    
+    # Títulos Nivel 2
     "tv_mexico": "★ TV MÉXICO ★",
     "tv_colombia": "★ TV COLOMBIA ★",
     "tv_peru": "★ TV PERÚ ★",
     "tv_chile": "★ TV CHILE ★",
     "tv_espana": "★ TV ESPAÑA ★",
+    "peliculas_clasicas": "★ CINE CLÁSICO ★",
+    "peliculas_premiun": "★ CINE PREMIUM ★",
+    "deportes_lucha": "★ DEPORTES LUCHA ★",
+    "deportes_motor": "★ DEPORTES MOTOR ★",
+    "cultura_hogar": "★ CULTURA Y HOGAR ★",
+    "documentales_gen": "★ DOCUMENTALES VARIOS ★",
+    "musica_gen": "★ MÚSICA VARIOS ★",
+    "variedad_gen": "★ VARIEDADES GENERALES ★",
 }
 
 # 🔍 Función para detectar exclusiones

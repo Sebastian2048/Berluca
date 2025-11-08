@@ -6,7 +6,7 @@ import logging
 
 # 📦 Importaciones de módulos locales
 try:
-    from config import CARPETA_SALIDA, MAX_SERVIDORES_BUSCAR
+    from config import CARPETA_SALIDA, MAX_SERVIDORES_BUSCAR, PRIORIDAD_ESTADO
     from auxiliar import extraer_bloques_m3u, extraer_url
     from servidor import (
         obtener_servidor_path, guardar_inventario_servidor, 
@@ -62,11 +62,10 @@ def actualizar_servidores_con_auditoria():
     servidores_modificados = []
     
     # 1. Recorrer todos los servidores para actualizar el estado interno
-    for i in range(1, MAX_SERVIDORES_BUSCAR + 10):
+    for i in range(1, MAX_SERVIDORES_BUSCAR + 100):
         ruta_servidor = obtener_servidor_path(i)
         
         if not os.path.exists(ruta_servidor):
-            # Si ya encontramos servidores y el siguiente no existe, paramos
             if len(servidores_modificados) > 0 and i > MAX_SERVIDORES_BUSCAR:
                 break
             continue
@@ -78,16 +77,15 @@ def actualizar_servidores_con_auditoria():
             for canal in canales:
                 url = canal['url']
                 
-                # Obtener el estado real de la auditoría
+                # Obtener el estado real de la auditoría o mantener el actual
                 nuevo_estado = estados_auditados.get(url, canal['estado'])
                 
                 if nuevo_estado != canal['estado']:
-                    # Reemplazar la línea #ESTADO: en el bloque
                     
                     # 1. Actualizar el diccionario interno del canal
                     canal['estado'] = nuevo_estado
                     
-                    # 2. Actualizar la línea #ESTADO: dentro del bloque (para que guardar_inventario_servidor la use)
+                    # 2. Actualizar la línea #ESTADO: dentro del bloque (garantizada por servidor.py)
                     linea_estado_antigua = [l for l in canal['bloque'] if l.startswith("#ESTADO:")][0]
                     linea_estado_nueva = f"#ESTADO:{nuevo_estado}"
                     
@@ -95,25 +93,20 @@ def actualizar_servidores_con_auditoria():
                     canal['bloque'][index_estado] = linea_estado_nueva
                     
                     # 3. Actualizar la prioridad interna (para el reordenamiento)
-                    from config import PRIORIDAD_ESTADO
                     canal['prioridad'] = PRIORIDAD_ESTADO.get(nuevo_estado, 0)
                     
                     cambios_servidor += 1
         
-        if cambios_servidor > 0:
-            print(f"✅ Servidor {i:02d} actualizado: {cambios_servidor} canales con nuevo estado.")
-            guardar_inventario_servidor(i, inventario) # Guardar con los nuevos estados
-            servidores_modificados.append(i)
-        else:
-            # Aunque no hubo cambios, lo guardamos para el balanceo final
-            guardar_inventario_servidor(i, inventario)
+        # Guardar para aplicar los nuevos #ESTADO: y el reordenamiento
+        if cambios_servidor > 0 or os.path.exists(ruta_servidor):
+            if guardar_inventario_servidor(i, inventario):
+                servidores_modificados.append(i)
 
 
     # 2. Ejecutar la Auditoría y Balanceo Global (Reclasificación)
     print("\n--- ⚖️ Ejecutando Reclasificación por Prioridad ---")
     
-    # Esto forzará a los canales con bajo #ESTADO: (Fallido) a ser desplazados
-    # si los servidores exceden el límite de 2000.
+    # Esto forzará a los canales con bajo #ESTADO: (Fallido) a ser desplazados si hay exceso.
     auditar_y_balancear_servidores(MAX_SERVIDORES_BUSCAR)
     
     print("\n--- ✅ Proceso de Reclasificación por Auditoría Finalizado ---")
