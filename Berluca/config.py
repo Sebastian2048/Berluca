@@ -25,12 +25,16 @@ PRIORIDAD_ESTADO = {
 }
 
 # 🔢 Límite de Bloques (Canales) por Categoría y Servidor
-LIMITE_BLOQUES_CATEGORIA = 60 # Límite por categoría para distribución inicial
-LIMITE_BLOQUES_SERVIDOR_GLOBAL = 2000 # Límite máximo total por servidor (Para estabilidad)
+LIMITE_BLOQUES_CATEGORIA = 50 # Límite por categoría para distribución inicial
+LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1500 # Límite máximo total por servidor (Para estabilidad)
 
 # 📄 Estructura de Nombramiento de Servidores
 NOMBRE_BASE_SERVIDOR = "RP_Servidor"
 MAX_SERVIDORES_BUSCAR = 10 
+
+# 🌐 URL BASE del Repositorio (¡CORRECCIÓN CLAVE para el error 404!)
+# Esta URL apunta a la raíz de la rama 'main' donde está la carpeta 'Beluga'.
+URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/"
 
 # 🧹 Palabras clave para excluir contenido no deseado
 exclusiones = [
@@ -82,7 +86,7 @@ TITULOS_VISUALES = {
     "documentales": "★ DOCUMENTALES ★",
     "noticias": "★ NOTICIAS GLOBAL ★",
     "musica": "★ MÚSICA GENERAL ★",
-    "roll_over": "★ CANALES ROLL-OVER/OTROS ★",
+    "roll_over": "★ CANALES ABIERTOS ★",
     "tv_mexico": "★ TV MÉXICO ★",
     "tv_colombia": "★ TV COLOMBIA ★",
     "tv_peru": "★ TV PERÚ ★",
