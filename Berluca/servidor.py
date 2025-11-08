@@ -33,8 +33,8 @@ def obtener_servidor_path(servidor_num: int) -> str:
 
 def obtener_inventario_servidor(servidor_num: int) -> Dict[str, List[Dict]]:
     """
-    Carga los bloques de un servidor M3U existente en una estructura de inventario.
-    Incluye la corrección del KeyError: 'categoria'.
+    Carga los bloques de un servidor M3U existente en una estructura de inventario,
+    asegurando que la metadata #ESTADO: esté presente para uso interno.
     """
     ruta_servidor = obtener_servidor_path(servidor_num)
     inventario = defaultdict(list)
@@ -43,25 +43,45 @@ def obtener_inventario_servidor(servidor_num: int) -> Dict[str, List[Dict]]:
         return inventario
     
     with open(ruta_servidor, "r", encoding="utf-8", errors="ignore") as f:
-        bloques = extraer_bloques_m3u(f.readlines())
+        bloques_raw = extraer_bloques_m3u(f.readlines())
         
-    for bloque in bloques:
+    for bloque in bloques_raw:
         categoria = extraer_categoria_del_bloque(bloque)
         
         if categoria:
+            # 1. Extraer el estado (esto ahora puede ser "desconocido" si se eliminó de la escritura)
+            estado_extraido = extraer_estado(bloque) 
+            
+            # 2. Reconstruir el bloque para el inventario, asegurando la línea #ESTADO:
+            bloque_interno = []
+            
+            # Reconstruir líneas (ignorando estados anteriores que puedan existir)
+            for linea in bloque:
+                if not linea.startswith("#ESTADO:"):
+                    bloque_interno.append(linea)
+
+            # Insertar la línea de estado basada en lo que extrajimos (será 'desconocido' si no existía)
+            # La insertamos después de #EXTINF, que debe ser el índice 0 del bloque_interno
+            bloque_interno.insert(1, f"#ESTADO:{estado_extraido}") 
+
+            # 3. Construir el canal enriquecido para el inventario
             inventario[categoria].append({
-                "bloque": bloque,
+                "bloque": bloque_interno, # <-- Usamos el bloque reconstruido con #ESTADO:
                 "url": extraer_url(bloque),
                 "nombre_limpio": extraer_nombre_canal(bloque).strip().lower().replace(" ", "").replace("ñ", "n"),
-                "estado": extraer_estado(bloque),
-                "categoria": categoria,  # <--- CORRECCIÓN APLICADA
-                "prioridad": extraer_prioridad(bloque) 
+                "estado": estado_extraido,
+                "categoria": categoria,
+                "prioridad": PRIORIDAD_ESTADO.get(estado_extraido, 0) # Usamos el estado extraído
             })
         
     return inventario
 
+
 def guardar_inventario_servidor(servidor_num: int, inventario: Dict[str, List[Dict]]):
-    """Guarda el inventario modificado reescribiendo el archivo M3U del servidor."""
+    """
+    Guarda el inventario modificado reescribiendo el archivo M3U del servidor.
+    Se asegura de escribir solo #EXTINF y la URL (Formato robusto para Movian).
+    """
     ruta_servidor = obtener_servidor_path(servidor_num)
     
     print(f"💾 Guardando {os.path.basename(ruta_servidor)}...")
@@ -77,13 +97,30 @@ def guardar_inventario_servidor(servidor_num: int, inventario: Dict[str, List[Di
             
             salida.write(f"\n# ====== {titulo_visual} ======\n\n")
 
+            # Ordenar por Prioridad (Abierto > Dudoso > Fallido)
             canales_ordenados = sorted(inventario[nombre_categoria_snake], key=lambda c: c['prioridad'], reverse=True)
             
             for canal in canales_ordenados:
+                
+                extinf_escrito = False
+                url_escrita = False
+
                 for linea in canal['bloque']:
-                    if not linea.startswith("#ESTADO:"):
+                    linea = linea.strip()
+                    
+                    # 1. Escribir la línea #EXTINF (que está en índice 0)
+                    if linea.startswith("#EXTINF") and not extinf_escrito:
                         salida.write(linea + "\n")
-                salida.write("\n")
+                        extinf_escrito = True
+                        
+                    # 2. Escribir la URL (la última línea, sin #)
+                    elif not linea.startswith("#") and not url_escrita:
+                        salida.write(linea + "\n")
+                        url_escrita = True
+                
+                # Esto asegura un formato estricto: #EXTINF... \n URL \n \n
+                if extinf_escrito and url_escrita:
+                    salida.write("\n") # Espacio entre bloques
                 
     print(f"✅ {os.path.basename(ruta_servidor)} actualizado.")
 
@@ -175,9 +212,11 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
     
     servidor_num = 1
     
-    # Bucle para auditar todos los servidores que se hayan creado (hasta 10 extra para el balanceo)
+    # Bucle para auditar todos los servidores que se hayan creado 
     while True:
         ruta_servidor = obtener_servidor_path(servidor_num)
+        
+        # Parar la búsqueda si el archivo no existe y hemos pasado el número de servidores base
         if not os.path.exists(ruta_servidor) and servidor_num > max_servidores_a_auditar + 10:
             break
         
@@ -210,6 +249,7 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
                 )
                 
                 if canales_a_mover > 0:
+                    # Mover los de menor prioridad (Fallidos) primero
                     canales_a_mover_lista = sorted(canales_categoria, key=lambda c: c['prioridad'], reverse=False)[:canales_a_mover]
                     
                     for canal in canales_a_mover_lista:
@@ -228,6 +268,7 @@ def auditar_y_balancear_servidores(max_servidores_a_auditar: int):
     if bloques_excedentes:
         print(f"\n🔄 Redistribuyendo {len(bloques_excedentes)} bloques excedentes a nuevos servidores...")
         
+        # Ordenamos por prioridad (Abierto > Dudoso > Fallido) para que los Fallidos se asignen al final
         bloques_excedentes = sorted(bloques_excedentes, key=lambda b: PRIORIDAD_ESTADO.get(b['estado'], 0), reverse=True)
         
         distribuir_excedentes(bloques_excedentes, servidor_num)
@@ -250,6 +291,7 @@ def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int)
 
         total_bloques_servidor = sum(len(canales) for canales in inventario_servidor.values())
         
+        # Si el servidor ya está lleno, pasa al siguiente
         if total_bloques_servidor >= LIMITE_BLOQUES_SERVIDOR_GLOBAL:
             servidor_actual += 1
             continue
@@ -258,6 +300,7 @@ def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int)
 
         for nuevo_canal in bloques_pendientes:
             
+            # Si el servidor se llenó durante esta iteración, el resto queda pendiente
             if total_bloques_servidor >= LIMITE_BLOQUES_SERVIDOR_GLOBAL:
                 nuevos_pendientes.append(nuevo_canal) 
                 continue
@@ -266,13 +309,13 @@ def distribuir_excedentes(bloques_pendientes: List[Dict], servidor_inicial: int)
             canales_categoria = inventario_servidor[categoria]
             nombre_limpio = nuevo_canal['nombre_limpio']
             
-            if any(c['nombre_limpio'] == nombre_limpio for c in canales_categoria):
-                nuevos_pendientes.append(nuevo_canal)
-                continue
-            if len(canales_categoria) >= LIMITE_BLOQUES_CATEGORIA:
+            # Chequeos de deduplicación y límite de categoría (60)
+            if any(c['nombre_limpio'] == nombre_limpio for c in canales_categoria) or \
+               len(canales_categoria) >= LIMITE_BLOQUES_CATEGORIA:
                 nuevos_pendientes.append(nuevo_canal)
                 continue
 
+            # Asignar el canal
             nuevo_canal['prioridad'] = PRIORIDAD_ESTADO.get(nuevo_canal['estado'], 0) 
             canales_categoria.append(nuevo_canal)
             inventario_servidor[categoria] = canales_categoria

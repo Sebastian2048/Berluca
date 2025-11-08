@@ -18,6 +18,9 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/"
 
 
+# generar_maestro.py (función mejorada para Movian)
+# ... (mantener imports y URL_BASE_REPOSITORIO)
+
 def generar_maestro_m3u():
     """Genera el archivo Berluca.m3u con enlaces RAW a todos los servidores segmentados."""
     
@@ -32,7 +35,6 @@ def generar_maestro_m3u():
             
             servidores_encontrados = 0
 
-            # Buscar hasta 20 servidores para cubrir el balanceo de 2000 bloques.
             for i in range(1, MAX_SERVIDORES_BUSCAR + 10): 
                 
                 nombre_servidor = f"{NOMBRE_BASE_SERVIDOR}_{i:02d}.m3u"
@@ -43,16 +45,15 @@ def generar_maestro_m3u():
                         break
                     continue 
 
-                # Construir la URL RAW de GitHub
                 ruta_relativa_github = os.path.join(CARPETA_SALIDA, nombre_servidor).replace('\\', '/')
                 url_raw_servidor = f"{URL_BASE_REPOSITORIO}{ruta_relativa_github}"
                 
-                # Nombre de la lista para el cliente (Ej: Servidor 01)
                 nombre_lista_cliente = nombre_servidor.replace(".m3u", "").replace("_", " ").title()
 
-                # 🌟 FORMATO CORREGIDO (tvg-logo antes de group-title) 🌟
+                # 🌟 FORMATO SIMPLIFICADO para Movian: Eliminamos 'group-title' 🌟
+                # Esto presenta la lista como un "canal" simple que debe cargarse.
                 salida.write(
-                    f'\n#EXTINF:-1 tvg-logo="https://i.imgur.com/2sR2O0t.png", group-title="★ SERVIDORES BELUGA ★",{nombre_lista_cliente}\n'
+                    f'\n#EXTINF:-1 tvg-logo="https://i.imgur.com/2sR2O0t.png",{nombre_lista_cliente}\n'
                 )
                 salida.write(f'{url_raw_servidor}\n')
                 
