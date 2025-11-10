@@ -15,23 +15,21 @@ except ImportError as e:
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-# --- DEFINICIÓN DE SUBDIRECTORIOS DE SALIDA (Añadido) ---
-# Se asume que el archivo maestro y Beluga/ están un nivel arriba del repositorio,
-# por lo que la ruta relativa debe incluir la carpeta de la que se parte.
-CARPETA_BASE_GITHUB = "Berluca" # Nombre de la carpeta del proyecto en el repositorio
-CARPETA_LISTAS = "Beluga"      # Nombre de la carpeta de listas de salida (CARPETA_SALIDA)
-
+# --- DEFINICIÓN DE SUBDIRECTORIOS DE SALIDA (Añadido para ruta GitHub) ---
+# Estas variables deben coincidir con la estructura de carpetas del repositorio
+REPO_ROOT_FOLDER = "Berluca" 
+CARPETA_LISTAS = CARPETA_SALIDA # 'Beluga' (de config.py)
 
 def generar_maestro_m3u():
     """
-    Genera el archivo Berluca.m3u usando el formato #EXTALB personalizado,
-    enlazando a los archivos de servidor individuales con URL de referencia de rama.
+    Genera el archivo Berluca.m3u usando el formato estándar #EXTINF,
+    enlazando a los archivos de servidor individuales con metadata de logo.
     """
     
     NOMBRE_ARCHIVO_FINAL = "Berluca.m3u"
     ruta_final = os.path.join(CARPETA_SALIDA, NOMBRE_ARCHIVO_FINAL)
     
-    print(f"--- 🔗 Iniciando generación de lista Maestra (Formato #EXTALB Personalizado): {NOMBRE_ARCHIVO_FINAL} ---")
+    print(f"--- 🔗 Iniciando generación de lista Maestra (Formato #EXTINF Estándar): {NOMBRE_ARCHIVO_FINAL} ---")
 
     if not URL_BASE_REPOSITORIO or not URL_BASE_REPOSITORIO.startswith("http"):
         logging.error("❌ ERROR: URL_BASE_REPOSITORIO no está definida o es inválida en config.py. Verifica la ruta.")
@@ -52,33 +50,29 @@ def generar_maestro_m3u():
                     if servidores_encontrados > 0 and i > MAX_SERVIDORES_BUSCAR:
                         break
                     continue 
+
                 
-                # 🛠️ CONCATENACIÓN CRÍTICA MODIFICADA
-                # Construye la ruta completa: BASE_URL/Berluca/Beluga/RP_Servidor_xx.m3u
-                ruta_completa_github = f"{CARPETA_BASE_GITHUB}/{CARPETA_LISTAS}/{nombre_servidor}"
-                
+                # 🛠️ Construcción de la URL de Referencia (Robust URL)
+                # Formato: BASE_URL/Berluca/Beluga/RP_Servidor_xx.m3u
+                ruta_completa_github = f"{REPO_ROOT_FOLDER}/{CARPETA_LISTAS}/{nombre_servidor}"
                 url_raw_servidor = f"{URL_BASE_REPOSITORIO}/{ruta_completa_github}"
                 
-                # Ejemplo: "RP_Servidor_01.m3u" -> "Rp Servidor 01"
+                # Ejemplo: "RP_Servidor_01.m3u" -> "RP Servidor 01"
                 nombre_lista_cliente = nombre_servidor.replace(".m3u", "").replace("_", " ").title()
                 
                 
-                # --- ALTERNATIVAS DE FORMATO ---
+                # 📌 FORMATO SOLICITADO: #EXTINF con tvg-logo y group-title
+                salida.write(
+                    f'\n#EXTINF:-1 tvg-logo="{LOGO_DEFAULT}" group-title="SERVIDORES IPTV",{nombre_lista_cliente}\n'
+                )
                 
-                # 📌 OPCIÓN 1: Formato EXTALB Minimalista (el que preferimos ahora)
-                salida.write(f'\n#EXTALB:{nombre_lista_cliente}\n')
-                
-                # 📌 OPCIÓN 2: Formato EXTALB con metadata (La versión anterior)
-                # salida.write(f'\n#EXTALB:{nombre_lista_cliente} tvg-logo="{LOGO_DEFAULT}",{nombre_lista_cliente}\n')
-                
-                
-                # Escribir la URL (Aplicable a ambas opciones de EXTALB)
+                # Escribir la URL del servidor M3U
                 salida.write(f'{url_raw_servidor}\n')
                 
                 servidores_encontrados += 1
             
         print(f"✅ Lista maestra {NOMBRE_ARCHIVO_FINAL} generada con {servidores_encontrados} enlaces.")
-        print(f"   -> URLs generadas usando la referencia de rama (refs/heads/main).")
+        print(f"   -> Formato final #EXTINF Estándar, listo para ser consumido por la mayoría de los clientes.")
 
     except Exception as e:
         logging.error(f"Error al generar el archivo maestro: {e}")
