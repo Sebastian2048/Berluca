@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 
 # 📁 Carpetas base utilizadas por Beluga
-CARPETA_SALIDA = "Beluga"
+CARPETA_SALIDA = "Beluga" # Asegúrate de que esta sea la ruta correcta
 CARPETA_ORIGEN = os.path.join(CARPETA_SALIDA, "compilados")
 CARPETA_SEGMENTADOS = os.path.join(CARPETA_SALIDA, "segmentados")
 CARPETA_LOGS = os.path.join(CARPETA_SALIDA, "logs")
@@ -24,16 +24,15 @@ PRIORIDAD_ESTADO = {
     "desconocido": 0
 }
 
-# 🔢 Límite de Bloques (Canales) por Categoría y Servidor
-LIMITE_BLOQUES_CATEGORIA = 50 # Límite por categoría para distribución inicial
-LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1500 # <--- Límite Máximo Global Mantenido
-                                     # (Para estabilidad y rapidez de parsing)
-
+# 🔢 Límite de Bloques (Canales) por Categoría y Servidor (REQUERIDO)
+LIMITE_BLOQUES_CATEGORIA = 30 # ¡NUEVO LÍMITE: 30 canales por categoría!
+LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1200 # ¡NUEVO LÍMITE GLOBAL!
+                                     
 # 📄 Estructura de Nombramiento de Servidores
 NOMBRE_BASE_SERVIDOR = "RP_Servidor"
-MAX_SERVIDORES_BUSCAR = 10 
+MAX_SERVIDORES_BUSCAR = 40 # ¡NUEVO LÍMITE DE SERVIDORES!
 
-# 🌐 URL BASE del Repositorio (CORRECCIÓN CRÍTICA del error 404)
+# 🌐 URL BASE del Repositorio (Mantenida)
 URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/"
 
 

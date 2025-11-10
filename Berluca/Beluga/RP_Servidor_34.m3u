@@ -1,86 +1,123 @@
 #EXTM3U
 
+# ====== ★ VARIEDADES GENERALES ★ ======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Ace Bodyguard (2021) ✅
+#ESTADO:abierto
+https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/66a74ed46134930013b921d4.m3u8
 
-# ====== ★ CANALES ABIERTOS ★ ======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Activa TV (720p) ✅
+#ESTADO:abierto
+https://streamtv.mediasector.es/hls/activatv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dubai Sports 2 FHD - Opción 2 ✅
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",The Boat Show (FR)
+#ESTADO:abierto
+https://vitor-theboatshow-1-fr.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dubai Sports 3 FHD - Opción 2 ✅
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Travel XP (FR)
+#ESTADO:abierto
+https://travelxp-travelxp-4-fr.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 2 Portuguese (ES)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=10934
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Unbeaten (FR)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00721-inverleigh-unbeaten-lgfr/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 3 Portuguese (ES)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=10933
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Watchmojo (FR)
+#ESTADO:abierto
+https://watchmojo-1-fr.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai Sport Portuguese (ES)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=10932
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Waterbear Network (FR)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amgx0019-amagicontentplu-waterbear-lgfr/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Mister Rogers' Neighborhood
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65e23f340d4561000821540d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c29dbd1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=18721deb-08cc-4fc5-b3dd-89d418b508de
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World Of Free Sport (AT)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-worldoffreespor-lgat/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TNT Music (Rusia) (🇷🇺)
-http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/710/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World of Free Sport (CH)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-worldoffreespor-lgch/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Crunchyroll
-https://aka-live491.delivery.roku.com/cdd53068-81e9-4898-999d-7f4f6d0b28ad/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World of Free Sport (DE)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-worldoffreespor-lgde/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Wasabi La Chaine Anime (FR) Geo
-https://amg01796-amg01796c3-xiaomi-international-2755.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-wasabii-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Yaquelaverite (FR)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-yaquelaverite-lgfr/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Anime (Brasil) (🇧🇷)
-https://stmv1.srvif.com/animetv/animetv/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bab Al Hara (1080p) ✅
+#ESTADO:abierto
+https://shls-live-enc.edgenextcdn.net/out/v1/948c54279b594944adde578c95f1d7d1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Otaku (Brasil) (🇧🇷)
-https://stmv1.srvif.com/otaku/otaku/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BabyFirst Spanish ✅
+#ESTADO:abierto
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be6f9eac-280e-4748-b866-2eb2463c1844/manifest.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MTV USA Eastern Feed
-https://tvpass.org/live/MTVEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bloomberg TV EMEA Live Event (720p) ✅
+#ESTADO:abierto
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BBC World ServicEnglish (UK Schedule) ✅
-http://fortv.cc:8080/90820916/64752029/14387
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BLUETV ✅
+#ESTADO:abierto
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",La calle del terror (Parte 1): 1994 (2021)
-https://archive.org/download/01_20210705_20210705_1643/01.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bolivision | BO ✅
+#ESTADO:abierto
+https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",La calle del terror (Parte 2): 1978 (2021)
-https://archive.org/download/01_20210717_20210717_2032/01.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bolivisión LPZ (720p) ✅
+#ESTADO:abierto
+https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",La calle del terror (Parte 3): 1666 (2021)
-https://archive.org/download/01_20210717_20210717_2038/01.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BTA TV (720p) ✅
+#ESTADO:abierto
+https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World of Freesports
-https://s7host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config9/playlist.m3u8?ads.cdnhost=s7host5.localnow.api.cms.amdvids.com&ads.playbackid=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n4=content_name&ads.v4=EPG%20%7C%20World%20of%20Freesports&ads.n21=us_privacy&ads.v21=1YNY&ads.n22=content_producer_name&ads.v22=Mainstream%20Media%20AG&ads.n23=app_store_url&ads.v23=&ads.n24=network_name&ads.v24=world-of-free-sports-international&ads.n25=content_provider&ads.v25=world-of-free-sports-international&ads.n26=app_name&ads.v26=&ads.n27=ip&ads.v27=193.228.206.147&ads.n28=device_model&ads.v28=&ads.n29=content_custom_1_param&ads.v29=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n30=ua&ads.v30=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n31=pos&ads.v31=midroll&ads.n32=cust_devicename&ads.v32=desktop_web&ads.n33=channel_title&ads.v33=EPG%20%20World%20of%20Freesports&ads.n34=channel_rating&ads.v34=TV-PG&ads.n35=device_type&ads.v35=&ads.n36=channel_id&ads.v36=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n37=channel_company_id&ads.v37=AMDP500497&ads.n38=channel_ext_id&ads.v38=&ads.n39=channel_corp&ads.v39=Mainstream%20Media%20AG&ads.n40=channel_brand_id&ads.v40=AMDB013343&ads.n41=app_bundle&ads.v41=&ads.n42=app_version&ads.v42=0.0.0&ads.n43=content_custom_2_param&ads.v43=AMDB013343&ads.n44=url&ads.v44=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n45=content_custom_3_param&ads.v45=channel&ads.n46=did&ads.v46=&ads.n47=h&ads.v47=1080&ads.n48=channel_genre&ads.v48=Sports&ads.n49=dnt&ads.v49=&ads.n50=channel_name&ads.v50=EPG%20%20World%20of%20Freesports&ads.n51=content_livestream&ads.v51=1&ads.n52=w&ads.v52=1920&ads.n53=ifa_type&ads.v53=&ads.n54=content_type&ads.v54=channel&ads.n55=gpp_sid&ads.v55=&ads.n56=gpp&ads.v56=&ads.n57=channel_language&ads.v57=en&ads.n58=device_make&ads.v58=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BUENA TV ✅
+#ESTADO:abierto
+https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Euronews English
-https://3728a4a2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TG9jYWxOb3dfRXVyb25ld3NFbmdsaXNoX0hMUw/playlist.m3u8?ads.ifa_type=&ads.ip=193.228.206.147&ads.wurl_name=EuronewsEnglish&ads.device_make=&ads.did=&ads.ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.content_provider=euronews&ads.channel_corp=Southern%20Cross%20International&ads.content_title=EPG%20%20Euronews%20English&ads.channel_company_id=AMDP500203&ads.device_type=&ads.channel_brand_id=AMDB013277&ads.app_name=&ads.wurl_channel=670&ads.cust_devicename=&ads.app_store_url=&ads.app_bundle=&ads.dnt=&ads.content_id=8F2F78C5-E1C5-436F-B8AC-771C644B08C7&ads.device_model=&ads.us_privacy=1YNY&ads.channel_ext_id=6314cce180b6d2037207ae19&ads.coppa=0&ads.cust_channeltype=channel&ads.content_genre=News&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&width=1920&app_version=0.0.0&device_devicetype=desktop_web&height=1080
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",C y G TV | CL ✅
+#ESTADO:abierto
+https://tv.telselec.cl:3254/live/cygtvlive.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cinema Hausa
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinema-hausa/playlist.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23181&ads.content_duration=18000&ads.episode_id=76859&ads.show_id=2967&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CMovies%2CDrama%2CAfrican&ads.showRating=TV-14&ads.episodeRating=TV-14&ads.language=ha&ads.showtitle=Cinema%20Hausa&ads.episodetitle=Cinema%20Hausa&ads.keywords=Cinema%20Hausa%2Cafrican&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (AU)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-au.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 1 Portuguese (BR)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=11777
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (FI)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-fi.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 2 Portuguese (BR)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=11776
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (IE)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-ie.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 3 Portuguese (BR)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=11775
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (DK)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-dk.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 4 Portuguese (BR)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=11774
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (NL)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-nl.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Anime Onegai 5 Portuguese (BR)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=11773
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (NO)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-no.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Al Jazeera Mubasher Broadcast 2 (1080p) ✅
-https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (SE)
+#ESTADO:abierto
+https://autentic-adventure-earth-1-se.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bref Cinema (FR)
-https://lagenceducourtmetrage-brefcinema-01-fr.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Artflix (AT)
+#ESTADO:abierto
+https://amogonetworx-artflix-2-at.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Runtime TV Cine Espanto (BR)
-https://run-th-br-lgchannels.otteravision.com/run/th_br/th_br.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Artflix (DE)
+#ESTADO:abierto
+https://amogonetworx-artflix-2-de.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Artflix (ES)
+#ESTADO:abierto
+https://amogonetworx-artflix-3-es.lg.wurl.tv/playlist.m3u8
 

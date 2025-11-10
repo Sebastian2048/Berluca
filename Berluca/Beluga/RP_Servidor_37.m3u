@@ -1,143 +1,133 @@
 #EXTM3U
 
+# ====== ★ VARIEDADES GENERALES ★ ======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",7 PRISIONEROS SUB
+#ESTADO:dudoso
+https://tvinnov.online/Peliculas/7%20prisioneros%20SUB.mp4
 
-# ====== ★ CANALES ABIERTOS ★ ======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",7 PRISIONEROS LAT
+#ESTADO:dudoso
+https://tvinnov.online/Peliculas/7%20prisioneros%20LAT.mp4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",PBR: Ride Pass
-https://aka-live491.delivery.roku.com/6e3c080c-c614-41fb-a62c-903dfc196e6b/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",7 DIAS 2005
+#ESTADO:dudoso
+https://tvinnov.online/Peliculas/7.dias.2005.mp4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FilmRise British TV
-https://aka-live491.delivery.roku.com/d83b2941-9473-4d27-adb0-aec056e72ef8/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",(REMINISCENCIA) (2021)SUB
+#ESTADO:dudoso
+https://tvinnov.online/Peliculas/(Reminiscencia)%20(2021)SUB.mp4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Super Mario Brothers
-https://aka-live491.delivery.roku.com/4c394a43-2ae4-493b-acce-7dd7700495ef/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ESP - Hollywood (T)(720)
+#ESTADO:dudoso
+http://tv.zapping.life:8080/live/mgwleor/4lhLaPDAOh/8190.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FilmRise Free Movies
-https://aka-live491.delivery.roku.com/1c6ad6fa-bf05-4887-9469-74eb48c81627/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Invencible Un nino fuera de serie (2025) Webdl
+#ESTADO:dudoso
+https://1a-1791.com/video/fww1/20/s8/2/S/O/B/s/SOBsy.aaa.mp4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Ryan and Friends
-https://aka-live491.delivery.roku.com/eea269e7-8969-4c5c-87bd-a961ffaf3ade/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Blue Lock Episodio Nagi (2024) HDTS
+#ESTADO:dudoso
+https://hugh.cdn.rumble.cloud/video/s8/2/L/M/F/9/LMF9s.aaa.mp4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fox Business
-https://tvpass.org/live/FoxBusiness/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Tastemade
+#ESTADO:dudoso
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tmes8intl-xiaomi/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fox News
-https://tvpass.org/live/FoxNewsChannel/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Wannasee
+#ESTADO:dudoso
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-wannasee-xiaomi/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FYI USA Eastern
-https://tvpass.org/live/FYIEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Love Wine
+#ESTADO:dudoso
+https://amg01821-amg01821c17-xiaomi-international-4602.playouts.now.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Golf Channel USA
-https://tvpass.org/live/GolfChannel/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Inwonder
+#ESTADO:dudoso
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-inwonder-xiaomi/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",HGTV USA Eastern Feed
-https://tvpass.org/live/HGTVEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",InTrouble
+#ESTADO:dudoso
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00861-terninternation-introuble-xiaomi/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Investigation Discovery USA Eastern
-https://tvpass.org/live/InvestigationDiscoveryEast/sd
+#EXTINF:-1 group-title="★ CANALES ABIERTOS ★",*Mejor proveedor de IPTV premium | Más de 3000 canales Full HD
+#ESTADO:dudoso
+https://ia601406.us.archive.org/8/items/MejoradaLaMejorSuscripcion/mejorada%20la%20mejor%20suscripcion.mp4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MSNBC USA
-https://tvpass.org/live/MSNBC/sd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://oklivetv.com/wp-content/uploads/2015/02/tv-plus-suceava.png" group-title="★ CANALES ABIERTOS ★",TVPlus Suceava
+#ESTADO:dudoso
+http://85.186.146.34:8080
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NBC (KNBC) Los Angeles
-https://tvpass.org/live/nbc-knbc-los-angeles-ca/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ABC Kids ✅
+#ESTADO:dudoso
+https://c.mjh.nz/abc-kids.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NHL Network USA
-https://tvpass.org/live/NHLNetwork/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Sony Wah (1080p)
+#ESTADO:dudoso
+https://nxtlive.net/sliv/stream.php?id=0898545986&e=.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Oprah Winfrey Network USA Eastern
-https://tvpass.org/live/OWNEast/sd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qmFK5y8.gif" group-title="★ CANALES ABIERTOS ★", ARG:CANAL PROVINCIAL SD
+#ESTADO:dudoso
+http://www.trimi.com.ar/provincial/streaming/mystream.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",SundanceTV USA East
-https://tvpass.org/live/SundanceTVEast/sd
+#EXTINF:-1 tvg-logo="https://pp.userapi.com/c5716/g37499646/a_d47b5054.jpg?ava=1" group-title="★ CANALES ABIERTOS ★",M-Studio
+#ESTADO:dudoso
+http://213.174.23.59:8080/MS
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TLC USA Eastern
-https://tvpass.org/live/TLCEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",☀️ IPTV World Mix By @Sunstar_16 ☀️
+#ESTADO:dudoso
+https://raw.githubusercontent.com/Sunstar16/MagisTV-AS-A-m3u-PLAYLIST/refs/heads/main/MagisTV+.m3u
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",truTV USA Eastern
-https://tvpass.org/live/truTVEast/sd
+#EXTINF:-1 tvg-logo="http://zaplist.streamedias.online/wp-content/uploads/2017/12/DJING-FRENCH-TOUCH.jpg" group-title="★ CANALES ABIERTOS ★",DJing French Touch
+#ESTADO:dudoso
+https://www.djing.com/tv/session_french-touch.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Turner Classic Movies USA
-https://tvpass.org/live/TCMEast/sd
+#EXTINF:-1 tvg-logo="http://zaplist.streamedias.online/wp-content/uploads/2017/12/DJING-300x155.jpg" group-title="★ CANALES ABIERTOS ★",DJing Karaoke
+#ESTADO:dudoso
+https://www.djing.com/tv/karaoke.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",USA Network East Feed
-https://tvpass.org/live/USANetworkEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Golden Premiere 2 HD ✅
+#ESTADO:dudoso
+http://200.125.170.121:8000/play/a00m
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Infast Lifestyle HD (AU) Geo
-https://amg00861-terncloud-amg00861c9-lg-au-3098.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-lifestylehd-lgau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fox Sport3 ✅
+#ESTADO:dudoso
+http://181.78.23.26:45000/play/a01s
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Introuble HD (AU) Geo
-https://amg00861-terncloud-amg00861c6-lg-au-3099.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-introublehd-lgau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Coleccion Hombres de Negro ✅
+#ESTADO:dudoso
+https://dl.dropbox.com/s/57o6kcnj0f2x89f/COLEHOMBR3SDENEGRO.M3U
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Inwonder HD (AU) Geo
-https://amg00861-terncloud-amg00861c8-lg-au-3101.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-inwonderhd-lgau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Moldova TV (576p) [Not 24/7]
+#ESTADO:dudoso
+http://89.38.8.130:39435
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",LiveNOW from FOX
-https://aka-live491.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MBC Drama (480p) [Geo-blocked]
+#ESTADO:dudoso
+http://mytv.dothome.co.kr/ch/catv/26.php
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FOX Weather
-https://aka-live491.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Kino Barrandov (720p)
+#ESTADO:dudoso
+http://83.167.253.107/hdmi1_ext
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",USA Today
-https://aka-live491.delivery.roku.com/fbf32bf2-55f3-4816-aade-98ce75fb57bb/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MBC 2 (576p)
+#ESTADO:dudoso
+http://213.57.91.138:8000/play/a05k
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Team USA TV
-https://aka-live491.delivery.roku.com/84cec635-79f8-4edb-a045-1b6f19889d24/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Win Sport+ HD ✅
+#ESTADO:dudoso
+http://181.78.23.26:45000/play/a03d
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",CBS News Texas
-https://jmp2.uk/stvp-USBD17000129L
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fox Sport2 ✅
+#ESTADO:dudoso
+http://181.78.23.26:45000/play/a01r
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fox 4 Dallas - Fort Worth
-https://jmp2.uk/stvp-USBD1200013ET
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NBC Dallas Fort Worth News
-https://jmp2.uk/stvp-USBC15000058Z
+# ====== ★ VARIEDADES GENERALES ★ ======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ VARIEDADES GENERALES ★",Canal 8 (720p) [Not 24/7]
+#ESTADO:dudoso
+https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NY" group-title="★ CANALES ABIERTOS ★",CBS (WCBS) New York, NY
-https://tvpass.org/live/WCBSDT1/sd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FOX Soul
-https://aka-live491.delivery.roku.com/a78c669e-4142-41cb-82d0-f445277b257c/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Chaos on Cam by A&E
-https://aka-live491.delivery.roku.com/c116c3c3-ca0e-4fac-a3d1-3bfa3e2a5abb/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Storage Wars by A&E
-https://aka-live491.delivery.roku.com/faabf0d8-4315-4386-bf21-c778c681083d/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ABC7 Sarasota
-https://aka-live491.delivery.roku.com/31ffe9d4-e69d-46ba-8a71-c48afd5065ff/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",KPTV FOX 12 Oregon News
-https://aka-live491.delivery.roku.com/6cf6f0d1-6a6c-470d-b894-d7302c15c901/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Britbox Mysteries
-https://aka-live491.delivery.roku.com/958c324b-b3cc-4d40-aeea-1b1a85ec6321/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Celebrity Name Game
-https://aka-live491.delivery.roku.com/ec72d023-678e-40b4-9ce8-f34ee4270089/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FreeTV Banda
-https://aka-live491.delivery.roku.com/4c05a4a9-1b73-4e6a-a9a4-0fde48dab9c6/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Stingray Free Riding
-https://aka-live491.delivery.roku.com/1a63d26b-e049-418f-9ba0-3dc6f89382b3/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FreeTV Acción
-https://aka-live491.delivery.roku.com/16ccb3b4-50c5-4f2c-912f-c9ed6a236373/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FreeTV Estelar
-https://aka-live491.delivery.roku.com/f7529edd-5c62-4b7d-b72e-b4e17172e1eb/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FreeTV Asia
-https://aka-live491.delivery.roku.com/e394d580-0f69-4045-9b7d-f001a74eb2e9/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FreeTV Sureño
-https://aka-live491.delivery.roku.com/6a0ad8b3-cfc7-4c4e-9bdd-817ceb7df982/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Runtime Sangre Fría
-https://aka-live491.delivery.roku.com/51278b09-b210-4d6f-860b-7e2bdba396bd/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Always Funny Videos
-https://aka-live491.delivery.roku.com/b1beefe1-d4e3-43c6-b15c-7c24f0044827/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ VARIEDADES GENERALES ★",Mi Canal (576p) [Not 24/7]
+#ESTADO:dudoso
+http://ms.android-iptv.com/live/V7rA1feOk3/FkGkEh8Spe/6671.m3u8
 

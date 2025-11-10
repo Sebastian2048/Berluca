@@ -1,17 +1,23 @@
 #EXTM3U
 
+# ====== ★ VARIEDADES GENERALES ★ ======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Zee Aflam (576p)
+#ESTADO:dudoso
+http://213.57.91.138:8000/play/a05s
 
-# ====== ★ CANALES ABIERTOS ★ ======
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ABIERTOS ★",Telecosta
+#ESTADO:dudoso
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=arcamediastream.net:1935/8374/8374/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",LiveNOW from FOX
-https://aka-live491.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ABIERTOS ★",A+
+#ESTADO:dudoso
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=aztecahls2-lh.akamaihd.net/i/aztecahls2_1@455692/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FOX Weather
-https://aka-live491.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ABIERTOS ★",ADN 40
+#ESTADO:dudoso
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=aztecalive-lh.akamaihd.net/i/0kus659k5_1@501884/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",USA Today
-https://aka-live491.delivery.roku.com/fbf32bf2-55f3-4816-aade-98ce75fb57bb/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Team USA TV
-https://aka-live491.delivery.roku.com/84cec635-79f8-4edb-a045-1b6f19889d24/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-logo="" group-title="★ CANALES ABIERTOS ★",Ocho TV
+#ESTADO:dudoso
+http://tvpremiumhd.club/lista-gratuita/130810/tv/live.php?id=bcliveuniv-lh.akamaihd.net/i/Live_1@170324/master.m3u8
 

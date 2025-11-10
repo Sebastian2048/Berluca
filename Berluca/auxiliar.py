@@ -64,22 +64,39 @@ def extraer_bloques_m3u(lineas: List[str]) -> List[List[str]]:
     if bloque_actual:
         bloques.append(bloque_actual)
         
-    return bloques
+    # Limpieza: La URL debe ser el último elemento y no una línea de metadata.
+    bloques_limpios = []
+    for bloque in bloques:
+        # Encontrar la línea que no es metadata (la URL)
+        url_linea = [l for l in bloque if not l.startswith('#')]
+        
+        if url_linea:
+            url = url_linea[0]
+            # Bloque final: [EXTINF, #ESTADO:..., URL]
+            bloque_final = [l for l in bloque if l.startswith('#EXTINF')] + \
+                           [l for l in bloque if l.startswith('#ESTADO:')] + \
+                           [url]
+            bloques_limpios.append(bloque_final)
+        
+    return bloques_limpios
 
 def extraer_nombre_canal(bloque: List[str]) -> str:
     """Extrae el nombre del canal de la línea #EXTINF."""
     for linea in bloque:
         if linea.startswith("#EXTINF"):
-            if ',' in linea:
-                return linea.split(',')[-1].strip()
+            # Usar regex para obtener el nombre después de la última coma
+            match = re.search(r',(.+?)(?:\s*#ESTADO_AUDITORIA:|$)', linea)
+            if match:
+                return match.group(1).strip()
     return "Desconocido"
 
 def extraer_url(bloque: List[str]) -> str:
     """Extrae la URL del canal (la última línea del bloque)."""
+    # La URL es la última línea, siempre que no empiece por #
     return bloque[-1].strip() if bloque and not bloque[-1].startswith('#') else ""
 
 # =========================================================================================
-# ⚙️ EXTRACCIÓN DE METADATA ENRIQUECIDA (PARA INVENTARIO)
+# ⚙️ EXTRACCIÓN Y NORMALIZACIÓN DE METADATA (PARA INVENTARIO)
 # =========================================================================================
 
 def extraer_estado(bloque: List[str]) -> str:
@@ -94,13 +111,58 @@ def extraer_prioridad(bloque: List[str]) -> int:
     estado = extraer_estado(bloque)
     return {"abierto": 3, "dudoso": 2, "fallido": 1, "desconocido": 0}.get(estado, 0)
 
+
+def normalizar_categoria(nombre_categoria: str) -> str:
+    """
+    Limpia y estandariza el nombre de la categoría (group-title) para evitar 
+    duplicados y categorías genéricas. Retorna un formato limpio (snake_case).
+    """
+    if not nombre_categoria:
+        return "sin_categoria"
+
+    # 1. Convertir a minúsculas, eliminar acentos
+    nombre = nombre_categoria.lower()
+    reemplazos = {
+        'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u',
+        'ñ': 'n', '&': 'y', '-': ' '
+    }
+    for k, v in reemplazos.items():
+        nombre = nombre.replace(k, v)
+        
+    # 2. Mapeo de sinónimos comunes a una forma estándar (para mejorar la calidad)
+    sinonimos = {
+        'peliculas': 'cine_peliculas',
+        'series': 'series_tv',
+        'sports': 'deportes_envivo',
+        'futbol': 'deportes_envivo',
+        'noticias': 'noticias',
+        'news': 'noticias',
+        'infantil': 'infantil_kids',
+        'kids': 'infantil_kids',
+        'adultos': 'adulta_xxx', # Asumiendo que las quieres fuera, pero se normalizan
+        'canales abiertos': 'variedad_gen'
+    }
+    
+    for k, v in sinonimos.items():
+        if k in nombre:
+            # Usar el valor normalizado si encuentra un sinónimo
+            nombre = v 
+            break 
+
+    # 3. Eliminar caracteres no deseados y espacios múltiples
+    nombre = re.sub(r'[^\w\s]', '', nombre)
+    nombre = re.sub(r'\s+', '_', nombre).strip('_')
+    
+    # 4. Evitar que quede vacío
+    return nombre if nombre else "sin_categoria"
+
+
 def extraer_categoria_del_bloque(bloque: List[str]) -> str:
-    """Extrae la categoría del atributo group-title."""
+    """Extrae la categoría del atributo group-title y la normaliza."""
     for linea in bloque:
         if linea.startswith("#EXTINF"):
             match = re.search(r'group-title="([^"]*)"', linea)
             if match:
-                titulo_visual = match.group(1).strip()
-                limpio = re.sub(r'[^\w\s]', '', titulo_visual).lower()
-                return '_'.join(limpio.split())
-    return ""
+                # Usar la nueva función de normalización
+                return normalizar_categoria(match.group(1).strip())
+    return "sin_categoria"
