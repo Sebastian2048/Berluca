@@ -16,20 +16,19 @@ except ImportError as e:
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # --- DEFINICIÓN DE SUBDIRECTORIOS DE SALIDA (Añadido para ruta GitHub) ---
-# Estas variables deben coincidir con la estructura de carpetas del repositorio
 REPO_ROOT_FOLDER = "Berluca" 
 CARPETA_LISTAS = CARPETA_SALIDA # 'Beluga' (de config.py)
 
 def generar_maestro_m3u():
     """
-    Genera el archivo Berluca.m3u usando el formato estándar #EXTINF,
+    Genera el archivo Berluca.m3u usando el formato #EXTALB enriquecido,
     enlazando a los archivos de servidor individuales con metadata de logo.
     """
     
     NOMBRE_ARCHIVO_FINAL = "Berluca.m3u"
     ruta_final = os.path.join(CARPETA_SALIDA, NOMBRE_ARCHIVO_FINAL)
     
-    print(f"--- 🔗 Iniciando generación de lista Maestra (Formato #EXTINF Estándar): {NOMBRE_ARCHIVO_FINAL} ---")
+    print(f"--- 🔗 Iniciando generación de lista Maestra (Formato #EXTALB Enriquecido): {NOMBRE_ARCHIVO_FINAL} ---")
 
     if not URL_BASE_REPOSITORIO or not URL_BASE_REPOSITORIO.startswith("http"):
         logging.error("❌ ERROR: URL_BASE_REPOSITORIO no está definida o es inválida en config.py. Verifica la ruta.")
@@ -53,7 +52,6 @@ def generar_maestro_m3u():
 
                 
                 # 🛠️ Construcción de la URL de Referencia (Robust URL)
-                # Formato: BASE_URL/Berluca/Beluga/RP_Servidor_xx.m3u
                 ruta_completa_github = f"{REPO_ROOT_FOLDER}/{CARPETA_LISTAS}/{nombre_servidor}"
                 url_raw_servidor = f"{URL_BASE_REPOSITORIO}/{ruta_completa_github}"
                 
@@ -61,9 +59,10 @@ def generar_maestro_m3u():
                 nombre_lista_cliente = nombre_servidor.replace(".m3u", "").replace("_", " ").title()
                 
                 
-                # 📌 FORMATO SOLICITADO: #EXTINF con tvg-logo y group-title
+                # 📌 FORMATO EXTALB ENRIQUECIDO (Mejora la visualización en Movian)
+                # Incluye nombre de lista, tvg-logo y luego el nombre final después de la coma.
                 salida.write(
-                    f'\n#EXTINF:-1 tvg-logo="{LOGO_DEFAULT}" group-title="SERVIDORES IPTV",{nombre_lista_cliente}\n'
+                    f'\n#EXTALB:{nombre_lista_cliente} tvg-logo="{LOGO_DEFAULT}",{nombre_lista_cliente}\n'
                 )
                 
                 # Escribir la URL del servidor M3U
@@ -72,7 +71,7 @@ def generar_maestro_m3u():
                 servidores_encontrados += 1
             
         print(f"✅ Lista maestra {NOMBRE_ARCHIVO_FINAL} generada con {servidores_encontrados} enlaces.")
-        print(f"   -> Formato final #EXTINF Estándar, listo para ser consumido por la mayoría de los clientes.")
+        print(f"   -> Usando formato #EXTALB con metadatos para mejor apariencia.")
 
     except Exception as e:
         logging.error(f"Error al generar el archivo maestro: {e}")
