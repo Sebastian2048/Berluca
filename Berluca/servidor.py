@@ -1,18 +1,17 @@
 # servidor.py
 import os
-from collections import defaultdict
-import re
+import shutil
+from collections import defaultdict, Counter
 from typing import List, Dict, Any
 import logging
-import shutil
-from datetime import datetime # ¡IMPORTACIÓN NECESARIA para la Guía!
+from datetime import datetime
 
 # 📦 Importaciones de configuración y auxiliares
 try:
     from config import (
         CARPETA_SALIDA, NOMBRE_BASE_SERVIDOR, LIMITE_BLOQUES_CATEGORIA,
         LIMITE_BLOQUES_SERVIDOR_GLOBAL, PRIORIDAD_ESTADO, TITULOS_VISUALES, 
-        MAX_SERVIDORES_BUSCAR
+        MAX_SERVIDORES_BUSCAR, LOGO_DEFAULT
     )
     from auxiliar import (
         extraer_bloques_m3u, extraer_url, extraer_nombre_canal, 
@@ -20,7 +19,6 @@ try:
     )
 except ImportError as e:
     logging.error(f"Error al importar módulos en servidor.py: {e}")
-    # Nota: Si este error ocurre, verifica que config.py y auxiliar.py estén correctos.
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -57,14 +55,9 @@ def obtener_inventario_servidor(servidor_num: int) -> Dict[str, List[Dict]]:
             
             # 1. Reconstruir el bloque para el inventario, asegurando la línea #ESTADO:
             bloque_interno = []
-            
-            # Mantener #EXTINF y la URL
             bloque_interno.append(bloque[0]) # #EXTINF
-            
-            # Insertar la línea de estado (#ESTADO:abierto)
             bloque_interno.append(f"#ESTADO:{estado_extraido}") 
             
-            # Mantener otros metadatos si existen
             for linea in bloque[1:-1]:
                  if not linea.startswith("#ESTADO:"): # Evitar duplicados
                      bloque_interno.append(linea)
@@ -73,7 +66,7 @@ def obtener_inventario_servidor(servidor_num: int) -> Dict[str, List[Dict]]:
 
             # 2. Construir el canal enriquecido para el inventario
             inventario[categoria].append({
-                "bloque": bloque_interno, # <-- Usamos el bloque reconstruido con #ESTADO:
+                "bloque": bloque_interno,
                 "url": url,
                 "nombre_limpio": extraer_nombre_canal(bloque).strip().lower().replace(" ", "").replace("ñ", "n"),
                 "estado": estado_extraido,
@@ -118,6 +111,31 @@ def guardar_inventario_servidor(servidor_num: int, inventario: Dict[str, List[Di
     os.replace(temp_ruta, ruta_servidor)
     print(f"✅ {os.path.basename(ruta_servidor)} actualizado.")
 
+def guardar_canales_excluidos(canales_excluidos: List[Dict]):
+    """Guarda los canales dudosos/fallidos en un archivo para su re-auditoría futura."""
+    if not canales_excluidos:
+        # Si no hay canales excluidos, elimina el archivo anterior si existe.
+        ruta_pendientes = os.path.join(CARPETA_SALIDA, "RP_Pendientes_Auditoria.m3u")
+        if os.path.exists(ruta_pendientes):
+            os.remove(ruta_pendientes)
+        return
+        
+    ruta_pendientes = os.path.join(CARPETA_SALIDA, "RP_Pendientes_Auditoria.m3u")
+    print(f"💾 Guardando {len(canales_excluidos)} canales excluidos/pendientes en {os.path.basename(ruta_pendientes)}...")
+    
+    with open(ruta_pendientes, "w", encoding="utf-8", errors="ignore") as salida:
+        salida.write("#EXTM3U\n")
+        
+        # Ordenar por Prioridad (para que los 'dudoso' queden primero)
+        canales_excluidos.sort(key=lambda c: c['prioridad'], reverse=True)
+        
+        for canal in canales_excluidos:
+            for linea in canal['bloque']:
+                salida.write(linea.strip() + "\n")
+            salida.write("\n")
+            
+    print(f"✅ Canales excluidos guardados para próxima revisión.")
+
 
 # =========================================================================================
 # 🧠 DISTRIBUCIÓN Y AUDITORÍA ESTRATÉGICA
@@ -126,15 +144,15 @@ def guardar_inventario_servidor(servidor_num: int, inventario: Dict[str, List[Di
 def auditar_y_balancear_servidores(max_servidores_final: int):
     """
     Recolecta todos los canales, los ordena por prioridad, los distribuye 
-    respetando el LIMITE_BLOQUES_CATEGORIA (30) y elimina los vacíos.
+    respetando el LIMITE_BLOQUES_CATEGORIA (30), EXCLUYE DUDOSOS/FALLIDOS,
+    y elimina los vacíos.
     """
-    print("\n--- ⚖️ Iniciando Balanceo Estratégico (30 canales/categoría y Eliminación de Vacíos) ---")
+    print("\n--- ⚖️ Iniciando Balanceo Estratégico (Exclusión de Dudosos/Fallidos) ---")
     
     canales_globales = []
     urls_vistas = set()
     
     # 1. Recolección Global (Lectura de todos los servidores y deduplicación)
-    # Busca hasta 100 servidores para consolidar todo lo que haya
     for i in range(1, MAX_SERVIDORES_BUSCAR + 100): 
         if os.path.exists(obtener_servidor_path(i)):
             inventario = obtener_inventario_servidor(i)
@@ -149,17 +167,24 @@ def auditar_y_balancear_servidores(max_servidores_final: int):
     # 2. Ordenamiento Global por Prioridad (abierto > dudoso > fallido)
     canales_globales.sort(key=lambda c: c['prioridad'], reverse=True)
     
-    # 3. Distribución Estratégica con Límite de 30 por Categoría (Implementación de la regla clave)
+    # 3. Distribución Estratégica con Límite de 30 por Categoría
     
     inventarios_nuevos = defaultdict(lambda: defaultdict(list))
+    canales_excluidos = [] # NUEVA LISTA para canales dudosos/fallidos
     servidor_actual = 1
     canales_asignados_por_categoria = {} 
     canales_totales_servidor = 0
     
     for canal in canales_globales:
+        
+        # 🛑 REGLA CLAVE: Excluir dudosos y fallidos de la asignación a servidores finales.
+        if canal['estado'] not in ['abierto']:
+            canales_excluidos.append(canal)
+            continue # Salta al siguiente canal sin asignarlo
+        
         categoria = canal['categoria']
 
-        # Inicializar el contador para la categoría si es el primer canal de ese tipo en el servidor actual
+        # Inicializar el contador para la categoría
         if categoria not in canales_asignados_por_categoria:
             canales_asignados_por_categoria[categoria] = 0
             
@@ -180,13 +205,15 @@ def auditar_y_balancear_servidores(max_servidores_final: int):
             # 3. Verificar si se excedió el límite total de servidores
             if servidor_actual > max_servidores_final:
                 logging.warning(f"⚠️ Se excedió el límite de {max_servidores_final} servidores. Canales restantes descartados.")
+                # NO ES NECESARIO HACER BREAK, pues los canales 'abierto' deberían caber primero.
+                # Si se llega aquí, es porque ya se llenaron los límites, y el canal se perderá.
                 break 
 
-            # 4. Inicializar la categoría en el nuevo servidor si se saltó por límite global/categoría
+            # 4. Inicializar la categoría en el nuevo servidor
             if categoria not in canales_asignados_por_categoria:
                  canales_asignados_por_categoria[categoria] = 0
 
-        # --- Asignación del Canal ---
+        # --- Asignación del Canal ('abierto') ---
         
         # Asignar el canal y actualizar contadores
         inventarios_nuevos[servidor_actual][categoria].append(canal)
@@ -198,23 +225,23 @@ def auditar_y_balancear_servidores(max_servidores_final: int):
     
     servidores_eliminados = 0
     
-    # Recorrer todos los posibles archivos de servidor (hasta el máximo + un margen)
     for i in range(1, max_servidores_final + 100):
         ruta = obtener_servidor_path(i)
         
         if i in inventarios_nuevos and inventarios_nuevos[i]:
-            # Guardar el servidor si tiene contenido
             guardar_inventario_servidor(i, inventarios_nuevos[i])
             
         elif os.path.exists(ruta):
-             # Si el archivo existe pero no fue rellenado (vacío) o excede el límite
              os.remove(ruta)
              servidores_eliminados += 1
              logging.info(f"🗑️ Servidor {i:02d} eliminado (vacío/excedente).")
 
-    # 5. Generar la Guía de Contenido (¡NUEVO PASO!)
-    generar_guia_contenido(inventarios_nuevos, max_servidores_final)
+    # 5. Guardar los canales excluidos (dudosos/fallidos)
+    guardar_canales_excluidos(canales_excluidos)
     
+    # 6. Generar la Guía de Contenido
+    generar_guia_contenido(inventarios_nuevos, max_servidores_final)
+
     print(f"✅ Balanceo Estratégico finalizado. Se eliminaron {servidores_eliminados} archivos de servidor vacíos.")
 
 
@@ -232,17 +259,15 @@ def generar_guia_contenido(inventarios_finales: Dict[int, Dict[str, List[Dict]]]
     
     print(f"\n--- 📝 Generando Guía de Contenido: {ruta_guia} ---")
     
-    # Obtener la fecha y hora actual para el encabezado
     fecha_actualizacion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    # 1. Preparar el contenido del archivo
     contenido = []
     contenido.append(f"# 📊 Guía de Contenido - Beluga IPTV\n")
     contenido.append(f"Última Actualización: **{fecha_actualizacion}**\n")
     contenido.append(f"--- \n")
     contenido.append(f"Esta guía detalla el contenido clasificado y balanceado en cada servidor, \n")
-    contenido.append(f"aplicando un límite de **{LIMITE_BLOQUES_CATEGORIA} canales** por categoría para asegurar un reparto óptimo. \n")
-    contenido.append(f"Solo se listan los **{MAX_SERVIDORES_BUSCAR}** servidores principales (o menos si hay excedentes).\n")
+    contenido.append(f"aplicando un límite de **{LIMITE_BLOQUES_CATEGORIA} canales** por categoría. \n")
+    contenido.append(f"**Nota:** Solo los canales con estado `abierto` se incluyen en los servidores finales.\n")
     
     servidores_activos = sorted(inventarios_finales.keys())
     
@@ -252,39 +277,27 @@ def generar_guia_contenido(inventarios_finales: Dict[int, Dict[str, List[Dict]]]
     for num_servidor in servidores_activos:
         inventario = inventarios_finales[num_servidor]
         if not inventario:
-             continue # Omitir servidores vacíos (aunque ya deberían estar eliminados)
+             continue 
 
         servidor_total_canales = sum(len(canales) for canales in inventario.values())
         
         contenido.append(f"\n## 💻 Servidor {num_servidor:02d} (`RP_Servidor_{num_servidor:02d}.m3u`)\n")
-        contenido.append(f"**Canales Totales:** {servidor_total_canales}\n")
-        contenido.append("| Categoría | Canales (Total) | Abiertos 🟢 | Dudosos 🟡 | Fallidos 🔴 |\n")
-        contenido.append("| :--- | :---: | :---: | :---: | :---: |\n")
+        contenido.append(f"**Canales Totales:** {servidor_total_canales} (Todos `abierto` 🟢)\n")
+        contenido.append("| Categoría | Canales (Total) |\n")
+        contenido.append("| :--- | :---: |\n")
         
-        # Ordenar categorías alfabéticamente para la tabla
         categorias_ordenadas = sorted(inventario.keys())
         
         for categoria_snake in categorias_ordenadas:
             canales = inventario[categoria_snake]
-            
-            # Contar estados
-            conteo_estados = defaultdict(int)
-            for canal in canales:
-                conteo_estados[canal['estado']] += 1
-                
-            # Usar el título visual
             titulo_visual = TITULOS_VISUALES.get(categoria_snake, categoria_snake.replace('_', ' ').title())
 
             # Escribir fila de la tabla
             contenido.append(
                 f"| {titulo_visual} "
-                f"| {len(canales)} "
-                f"| {conteo_estados.get('abierto', 0)} "
-                f"| {conteo_estados.get('dudoso', 0)} "
-                f"| {conteo_estados.get('fallido', 0)} |\n"
+                f"| {len(canales)} |\n"
             )
 
-    # 2. Escribir el archivo
     try:
         with open(ruta_guia, "w", encoding="utf-8") as f:
             f.writelines(contenido)

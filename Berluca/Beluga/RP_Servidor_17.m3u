@@ -1,30 +1,6 @@
 #EXTM3U
 
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Yaquelaverite
-#ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-yaquelaverite-xiaomi/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Petclub
-#ESTADO:abierto
-https://lightning-petclub-xiaomi.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Trace Urban
-#ESTADO:abierto
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-xiaomi/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",CGTV (IT)
-#ESTADO:abierto
-https://cgentertainment-cgtv-1-it.xiaomi.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Love The Planet (IT)
-#ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovetheplanetit-xiaomi/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Serially Drama (IT)
-#ESTADO:abierto
-https://ixmediasrl-serially-1-it.xiaomi.wurl.tv/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Serially Crime (IT)
 #ESTADO:abierto
 https://ixmediasrl-seriallycrime-1-it.xiaomi.wurl.tv/playlist.m3u8
@@ -120,4 +96,28 @@ https://3abn-live.akamaized.net/hls/live/2010544/International/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Top TV | BR ✅
 #ESTADO:abierto
 https://isaocorp.cloudecast.com/toptv/index.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Aracati | BR ✅
+#ESTADO:abierto
+https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV| BR ✅
+#ESTADO:abierto
+http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Destak | BR ✅
+#ESTADO:abierto
+https://video03.logicahost.com.br/pascoal/pascoal/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Digital Birigui | BR ✅
+#ESTADO:abierto
+https://video03.logicahost.com.br/tvdigitalbirigui/tvdigitalbirigui/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV J.SID | BR ✅
+#ESTADO:abierto
+https://video05.logicahost.com.br/tvjsid/tvjsid/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Maná Brasil | BR ✅
+#ESTADO:abierto
+https://w1.manasat.com:443/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8?PlaylistM3UCL
 

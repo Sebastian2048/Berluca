@@ -5,13 +5,15 @@ import requests
 import logging
 
 # 📦 Importaciones de módulos locales
+# Importamos auditar_y_balancear_servidores (la función principal de balanceo)
 try:
     from config import CARPETA_SALIDA, MAX_SERVIDORES_BUSCAR
     from auxiliar import (
         descargar_lista, limpiar_archivos_temporales
     )
-    from clasificador import clasificar_enlaces
-    from servidor import distribuir_por_servidor, auditar_y_balancear_servidores
+    # NOTA: clasificador.py DEBE existir y su función clasificar_enlaces() debe estar disponible.
+    from clasificador import clasificar_enlaces 
+    from servidor import auditar_y_balancear_servidores # <--- ÚNICA FUNCIÓN DE SERVIDOR NECESARIA
 except ImportError as e:
     print(f"ERROR: No se pudo importar un módulo necesario. Asegúrate de tener todos los archivos (.py) en la misma carpeta.")
     print(f"Detalle del error: {e}")
@@ -40,24 +42,31 @@ def recolectar_lista(url: str) -> str:
 
 
 def ejecutar_proceso_completo(url: str):
-    """Ejecuta el flujo completo: Recolección, Clasificación, Distribución y Auditoría."""
+    """
+    Ejecuta el flujo completo: Recolección, Clasificación, y Balanceo/Auditoría Final.
+    NOTA: Para una ejecución completa (incluyendo Streamlink), se debe ejecutar 
+    'auditor_conectividad.py' entre la clasificación y el balanceo.
+    """
     ruta_temp = recolectar_lista(url)
     if not ruta_temp:
         return
 
     try:
-        bloques_para_distribuir = clasificar_enlaces(ruta_temp)
+        # 1. CLASIFICACIÓN Y CONSOLIDACIÓN (Asumimos que clasificar_enlaces también hace la Quick Audit y guarda el Resumen)
+        # En una arquitectura modular, esta función (clasificar_enlaces) debe ahora incluir:
+        # a) Lectura de la lista TEMP.
+        # b) Consolidación con servidores existentes.
+        # c) Quick Audit (requests.head) y etiquetado de estados iniciales.
+        # d) Guardado en RP_Resumen_Auditoria.m3u o similar.
+        print("\n--- 🧠 Clasificando y Consolidando Inventario (FASE 1 - Rápida) ---")
+        clasificar_enlaces(ruta_temp) # <-- Se asume que esto ahora hace la FASE 1 y guarda el archivo RP_Resumen_Auditoria.m3u
+        print("✅ Consolidación y Quick Audit finalizada. Archivo de resumen listo para balanceo.")
         
-        if bloques_para_distribuir:
-            # 1. Distribución Inicial (Límite por Categoría 60)
-            distribuir_por_servidor(bloques_para_distribuir) 
+        # 2. BALANCEO ESTRATÉGICO Y EXCLUSIÓN (FASE 3)
+        # auditar_y_balancear_servidores ahora lee el archivo de resumen auditado 
+        # y distribuye SOLO los canales 'abierto'
+        auditar_y_balancear_servidores(MAX_SERVIDORES_BUSCAR)
             
-            # 2. Auditoría y Balanceo (Límite Global 2000)
-            auditar_y_balancear_servidores(MAX_SERVIDORES_BUSCAR)
-            
-        else:
-            print("INFO: No hay bloques válidos para distribuir.")
-
     except Exception as e:
         print(f"\nERROR CRÍTICO durante el proceso: {e}")
     finally:
@@ -70,7 +79,8 @@ def ejecutar_proceso_completo(url: str):
 
 if __name__ == "__main__":
     
-    print("--- 🚀 Iniciando Flujo de Beluga con Prioridad Multi-Servidor ---")
+    # ⚠️ IMPORTANTE: Esta es una ejecución simplificada (sin Streamlink)
+    print("--- 🚀 Iniciando Flujo Simplificado de Beluga (FASE 1 y 3) ---")
     
     # 1. Solicitar URL
     url_m3u = input("🔗 Ingresa la URL de la lista .m3u: ").strip()

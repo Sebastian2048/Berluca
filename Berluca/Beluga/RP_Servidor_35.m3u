@@ -1,80 +1,6 @@
 #EXTM3U
 
-# ====== ★ DEPORTES EN VIVO ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN News
-#ESTADO:abierto
-https://tvpass.org/live/ESPNews/sd
-
-
-# ====== ★ DOCUMENTALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Channel US Eastern Feed
-#ESTADO:abierto
-https://tvpass.org/live/HistoryEast/sd
-
-
-# ====== ★ SERIES TV ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",Comedy Central (US) Eastern Feed
-#ESTADO:abierto
-https://tvpass.org/live/ComedyCentralEast/sd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ SERIES DE TV ★",FX Movie Channel
-#ESTADO:abierto
-https://tvpass.org/live/FXMovieChannel/sd
-
-
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Artflix (GB)
-#ESTADO:abierto
-https://amogonetworx-artflix-1-gb.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Artflix (CH)
-#ESTADO:abierto
-https://amogonetworx-artflix-2-ch.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Divorce Court (US)
-#ESTADO:abierto
-https://foxlincolnwooddrive-divorcecourt-1-us.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Estrella News (US)
-#ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellanews-lgus/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Evolution Earth (NL)
-#ESTADO:abierto
-https://amg00276-aenetwork-amg00276c15-lg-nl-3757.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nature & History",InWonder
-#ESTADO:abierto
-https://jmp2.uk/stvp-USBA300023G8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",PASIONEHD ✅
-#ESTADO:abierto
-http://181.119.85.222:8000/play/a00f/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Playboy HD ✅
-#ESTADO:abierto
-http://181.78.201.70:8000/play/a0oz/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",SPACE HD - Opción 2 ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a0y0/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TD+2 HD CR ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a0zb/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TD+HD CR ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a0za/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",CNBC ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a18x/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Русский Бестселлер
-#ESTADO:abierto
-http://31.148.48.15/Russkiy_Bestseller/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Sci-Fi
 #ESTADO:abierto
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60ed498c4248a400077c0b9d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b2022d0-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7622190c-0c5d-4225-bfd1-46b7e034e788
@@ -142,4 +68,56 @@ https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Vos y TV (720p) [Not 24/7]
 #ESTADO:abierto
 https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",LifevisionTV (406p) [Not 24/7]
+#ESTADO:abierto
+https://tgn.bozztv.com/lifevision/lifevision/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Light Channel (576p) [Not 24/7]
+#ESTADO:abierto
+http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Logos TV English (1080p) [Not 24/7]
+#ESTADO:abierto
+https://5aafcc5de91f1.streamlock.net/logoschannel.com/logoseng/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Multimedios Bajío (720p) [Not 24/7]
+#ESTADO:abierto
+https://mdstrm.com/live-stream-playlist/5d4b0fec848918070128c8cb.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Teve Vida Network (480p) [Not 24/7]
+#ESTADO:abierto
+https://5bf8041cb3fed.streamlock.net/Tevevida/Tevevida/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",UniversidadMayordeSanAndres (1080p) [Not 24/7]
+#ESTADO:abierto
+https://live.enhdtv.com:8081/8190/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fernandina Beach City Meeting (Fernandina Beach FL) (720p) [Not 24/7]
+#ESTADO:abierto
+https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Franken Fernsehen (Nürnberg) (1080p) [Not 24/7]
+#ESTADO:abierto
+https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",GoodLife 45 (720p) [Not 24/7]
+#ESTADO:abierto
+https://2-fss-2.streamhoster.com/pl_118/201450-1248872-1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",iSTUFF (720p) [Not 24/7]
+#ESTADO:abierto
+https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Toon Goggles en Espa√±ol
+#ESTADO:abierto
+https://api.toongoggles.com/loggingmediaurlpassthrough/a.m3u8?version=12&id=266202&partner=distro&ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22882&ads.content_duration=18000&ads.episode_id=126124&ads.show_id=5061&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CAnimation%20%26%20Anime%2CFamily%2FChildren%2CSpanish&ads.showRating=TV-Y&ads.episodeRating=TV-Y&ads.language=es&ads.showtitle=Toon%20Goggles%20en%20Espa%C3%B1ol&ads.episodetitle=Toon%20Goggles%20en%20Espa%C3%B1ol&ads.keywords=toon%20goggles%2Ccartoon&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TELEFORMULA ✅
+#ESTADO:abierto
+http://mdstrm.com/live-stream-playlist/62f2c855f7981b5a5a2d8763.m3u8?null=0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fuel (Brasil) (🇧🇷)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-samsungbr/playlist.m3u8
 

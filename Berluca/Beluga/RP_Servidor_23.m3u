@@ -1,42 +1,6 @@
 #EXTM3U
 
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Africa 24 English (1080p) ✅
-#ESTADO:abierto
-https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Discover The Palm Beaches (USA) (🇺🇸)
-#ESTADO:abierto
-https://live.feed.thepalmbeaches.tv/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fernandina Beach (USA) (🇺🇸)
-#ESTADO:abierto
-https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fetish (USA) (+18) (🇺🇸)
-#ESTADO:abierto
-https://live.redtraffic.xyz/fetish.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BR Fernsehen Nord (Alemania) (🇩🇪)
-#ESTADO:abierto
-https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BR Fernsehen Süd (Alemania) (🇩🇪)
-#ESTADO:abierto
-https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nature Time
-#ESTADO:abierto
-https://amg01515-amg01515c13-xiaomi-international-4618.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nature Time C14
-#ESTADO:abierto
-https://amg01515-amg01515c14-xiaomi-international-4619.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MYZEN
-#ESTADO:abierto
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenen-xiaomi/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Motus La Chaine
 #ESTADO:abierto
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-motuslachaine-xiaomi/playlist.m3u8
@@ -120,4 +84,40 @@ https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Sul | BR ✅
 #ESTADO:abierto
 https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",VintagTV | BR ✅
+#ESTADO:abierto
+https://video01.kshost.com.br/rogerio7271/rogerio7271/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",AfroBeats ✅
+#ESTADO:abierto
+https://stream.ecable.tv/afrobeats/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",SL 1
+#ESTADO:abierto
+https://slonehls.wns.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",SL 2
+#ESTADO:abierto
+https://sltwohls.wns.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",The Archive (1080p)
+#ESTADO:abierto
+https://cineverse.g-mana.live/media/09899328-5b22-4d3e-ba1e-111856798c99/playlist_3.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Xtrema Accion
+#ESTADO:abierto
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FOX News (USA) (🇺🇸)
+#ESTADO:abierto
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",FOX Soul (USA) (🇺🇸)
+#ESTADO:abierto
+https://fox-foxsoul-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Record News (Brasil) (🇧🇷)
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
 

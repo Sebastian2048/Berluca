@@ -480,7 +480,7 @@ https://daiconnect.com/live/hls/tvup/rk-ligainside/.m3u8?ads_amznbrmid=&ads_amzn
 #ESTADO:desconocido
 https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Litoral Atlántico HD (720p) ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Litoral Atlántico HD (720p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
 
@@ -964,7 +964,7 @@ http://181.78.201.70:8000/play/a0re/index.m3u8
 #ESTADO:desconocido
 http://181.189.244.252:8000/play/a033/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Metro TV HD [1] ✅ #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Metro TV HD [1] ✅ #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 http://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
 
@@ -1320,7 +1320,7 @@ https://cdn-2.pishow.tv/live/228/master.m3u8
 #ESTADO:desconocido
 https://metafilmhls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",MovieBox (720p) #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",MovieBox (720p) #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 
@@ -1456,7 +1456,7 @@ https://samuelgoldwyn-films-1-us.roku.wurl.tv/playlist.m3u8
 #ESTADO:desconocido
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Cinecanal #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Cinecanal #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 
@@ -2068,7 +2068,7 @@ https://jmp2.uk/stvp-USBB3200030CG
 #ESTADO:desconocido
 https://tvpass.org/live/IFCEast/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Lifetime Movies East #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Lifetime Movies East #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/LifetimeMoviesEast/sd
 
@@ -2352,7 +2352,7 @@ https://lightning-tracesportstars-xiaomi.amagi.tv/playlist.m3u8
 #ESTADO:desconocido
 https://tracetv-tracesportstars-xiaomi.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Abu Dhabi Sports 1 (1080p) ✅ #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Abu Dhabi Sports 1 (1080p) ✅ #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
 
@@ -2476,7 +2476,7 @@ https://tvpass.org/live/ESPN/sd
 #ESTADO:desconocido
 https://tvpass.org/live/espn-deportes/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",ESPN News #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",ESPN News #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/ESPNews/sd
 
@@ -2500,7 +2500,7 @@ https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
 #ESTADO:desconocido
 https://tvpass.org/live/fanduel-sports-network-florida/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Fanduel Sports Network Great Lakes #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Fanduel Sports Network Great Lakes #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://tvpass.org/live/fanduel-sports-network-great-lakes/sd
 
@@ -2696,7 +2696,7 @@ http://181.119.86.68:8000/play/b030/index.m3u8
 #ESTADO:desconocido
 http://181.205.130.194:4000/play/a07t
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",ESPN 6 mx ✅ #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",ESPN 6 mx ✅ #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 http://190.60.32.178:8178/play/a0aa/index.m3u8
 
@@ -3484,7 +3484,7 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/.m3u8
 #ESTADO:desconocido
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",RTN (Argentina) (🇦🇷) #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",RTN (Argentina) (🇦🇷) #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://media.neuquen.gov.ar/rtn/television/.m3u8
 
@@ -3820,7 +3820,7 @@ http://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
 #ESTADO:desconocido
 http://181.188.216.5:18000/play/a0pm/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Universal TV #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Universal TV #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://181.119.85.222:8000/play/a00x/index.m3u8
 
@@ -3952,7 +3952,7 @@ https://is.gd/d5rzud?.m3u8
 #ESTADO:desconocido
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Canal 9 Bío Bí­o TV | CL ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Canal 9 Bío Bí­o TV | CL ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://unlimited1-cl-isp.dps.live/c9/c9.smil/playlist.m3u8?PlaylistM3UCL
 
@@ -4372,7 +4372,7 @@ http://179.51.136.19:8000/play/a0x4/index.m3u8
 #ESTADO:desconocido
 http://181.78.23.26:45000/play/a01u
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",RCN novelas - Opción 2 ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",RCN novelas - Opción 2 ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://181.78.106.127:9000/play/ca014/index.m3u8
 
@@ -6012,7 +6012,7 @@ http://176.65.146.108:8022/play/a06u/index.m3u8
 #ESTADO:desconocido
 http://video01.kshost.com.br/luiz68286/luiz68286/.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",NE Nova Era (Brasil) (🇧🇷) #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",NE Nova Era (Brasil) (🇧🇷) #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://wz3.dnip.com.br/novaeratv/novaeratv.sdp/.m3u8
 
@@ -6876,7 +6876,7 @@ http://belami.top/L0K0TV/movian/mov/scripts/BUDTV-19/278616/index.m3u8?kt=DB2nHH
 #ESTADO:desconocido
 https://tinyurl.com/ycye8tx8?.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Are We There Yet? (UK) (🇬🇧) #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Are We There Yet? (UK) (🇬🇧) #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tinyurl.com/42fhpb6f?.m3u8
 
@@ -6920,7 +6920,7 @@ http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:BLKonline_high/.m3u8
 #ESTADO:desconocido
 http://bsttv.bonus-tv.ru:80/cdn/bst/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",BTV Bardejovska (Eslovaquia) (🇸🇰) #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",BTV Bardejovska (Eslovaquia) (🇸🇰) #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://fs3.kabelko.sk/9011/index.m3u8?token=btv
 
@@ -6940,7 +6940,7 @@ http://serv8.iptv11.com:8080/SonyTurbo/video.m3u8?token=45BAD2250F38E
 #ESTADO:desconocido
 https://tinyurl.com/yumej6ec?.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",C DE LAS ESTRELLAS ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",C DE LAS ESTRELLAS ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://181.119.86.68:8000/play/b059/index.m3u8
 
@@ -7576,7 +7576,7 @@ https://jmp2.uk/stvp-USAJ26000054W
 #ESTADO:desconocido
 https://tvpass.org/live/AMCEast/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Cinemax Eastern Feed #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Cinemax Eastern Feed #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://tvpass.org/live/CinemaxEast/sd
 
@@ -7632,7 +7632,7 @@ http://200.60.124.19:29000/play/a025
 #ESTADO:desconocido
 http://87.120.179.187:8000/play/a00s
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",3ACINE ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",3ACINE ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://181.119.85.222:8000/play/a005/index.m3u8
 
@@ -7784,7 +7784,7 @@ https://aka-live491.delivery.roku.com/44ad8bf1-82c2-476d-89c2-0ee89d0747b5/t2-or
 #ESTADO:desconocido
 https://tvpass.org/live/fanduel-sports-network-socal/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Fanduel Sports Network South Tennessee #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Fanduel Sports Network South Tennessee #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
 
@@ -8432,11 +8432,11 @@ https://jmp2.uk/stvp-USBB1000001XP
 #ESTADO:desconocido
 https://jmp2.uk/stvp-US700010XK
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",BBC America East #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",BBC America East #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/BBCAmericaEast/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",BBC News North America HD #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",BBC News North America HD #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/BBCWorldNewsNorthAmerica/sd
 
@@ -9168,7 +9168,7 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #ESTADO:desconocido
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-enquetesdechoc-xiaomi/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Love Wine #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Love Wine #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://amg01821-amg01821c17-xiaomi-international-4602.playouts.now.amagi.tv/playlist.m3u8
 
@@ -11472,7 +11472,7 @@ http://45.176.71.20:1689/play/a0ii
 #ESTADO:desconocido
 http://181.78.201.70:8000/play/a0rf/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Telehit ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Telehit ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://tv.teleclub.xyz/stream/server_1/musica/telehit/master.m3u8
 
@@ -11896,7 +11896,7 @@ https://video01.soultv.com.br/cinemonde/cinemonde/.m3u8
 #ESTADO:desconocido
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",SenJeunes TV (480p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",SenJeunes TV (480p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://stream.sen-gt.com/senjeunestv/myStream/playlist.m3u8
 
@@ -14000,7 +14000,7 @@ https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8
 #ESTADO:desconocido
 https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",KVF (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",KVF (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://w-live-edge1.kringvarp.fo/uttanlands/_definst_/smil:uttanlands.smil/playlist.m3u8
 
@@ -14064,7 +14064,7 @@ https://streamunoapp.com:3255/live/palmartvlive.m3u8
 #ESTADO:desconocido
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea18cd42ee5410007e349dc/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea18cd42ee5410007e349dc&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=200&terminate=false&userId=
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Radar Tasikmalaya TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Radar Tasikmalaya TV (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
 
@@ -14084,7 +14084,7 @@ https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
 #ESTADO:desconocido
 https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Sampit TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Sampit TV (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://sampit-tv.siar.us/live/sampit-tv.m3u8
 
@@ -14152,7 +14152,7 @@ https://live.obslivestream.com/viaaltomayomux/index.m3u8
 #ESTADO:desconocido
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Wesal TV (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Wesal TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
 
@@ -14196,7 +14196,7 @@ https://ms2.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8
 #ESTADO:desconocido
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Logos TV Kids (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Logos TV Kids (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 
@@ -14796,7 +14796,7 @@ http://highvolume04.streampartner.nl/regiomedia/regiomedia/playlist.m3u8
 #ESTADO:desconocido
 http://cdn22.streampartner.nl/streektv/streektv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",К16 (Саров) (406p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",К16 (Саров) (406p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 
@@ -15688,7 +15688,7 @@ https://amg02051-soulpublishing-amg02051c17-lg-au-340.playouts.now.amagi.tv/play
 #ESTADO:desconocido
 https://amg01583-localnow-amg01583c150-lg-us-1543.playouts.now.amagi.tv/playlist/amg01583-localnowfast-localnowwausau-lgus/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Detroit Pistons @ Brooklyn Nets (11/07 7:40 PM ET) #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Detroit Pistons @ Brooklyn Nets (11/07 7:40 PM ET) #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/NBA01/sd
 
@@ -16036,7 +16036,7 @@ https://593aed234297b.streamlock.net/rtvnof/rtvnof/playlist.m3u8
 #ESTADO:desconocido
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6130
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Ufrovision | CL ✅ #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Ufrovision | CL ✅ #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://mdstrm.com/live-stream-playlist/580a80b827de0ae2086ea6d8.m3u8?PlaylistM3UCL
 
@@ -17100,7 +17100,7 @@ https://jmp2.uk/stvp-US4500011SP
 #ESTADO:desconocido
 https://tvpass.org/live/NewsmaxTV/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",WE (Women's Entertainment) Eastern #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",WE (Women's Entertainment) Eastern #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://tvpass.org/live/WeTVEast/sd
 
@@ -17832,7 +17832,7 @@ https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8
 #ESTADO:desconocido
 https://livefta.malimarcdn.com/ftaedge00/khaomwungmai.sdp/.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Deniz Postasi (Turquia) (🇹🇷) #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Deniz Postasi (Turquia) (🇹🇷) #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 
@@ -17920,7 +17920,7 @@ https://tv91.hostingnuclear.com:19360/telecosta/telecosta.m3u8
 #ESTADO:desconocido
 https://ott1.hdlatam.tv/live_abr/webtvTarapotoPe/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Tatlises (Turquia) (🇹🇷) #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Tatlises (Turquia) (🇹🇷) #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
 
@@ -18316,7 +18316,7 @@ https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8?PlaylistM3U
 #ESTADO:desconocido
 https://live.obslivestream.com/canal8/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Canal 8 | CR ✅ #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Canal 8 | CR ✅ #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8?PlaylistM3UCL
 
@@ -18888,7 +18888,7 @@ https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 #ESTADO:desconocido
 https://iptv-hls.idc.md/hls/260/live1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",DM Malang (Indonesia) (🇮🇩) #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",DM Malang (Indonesia) (🇮🇩) #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://e.siar.us/live/dmtv.m3u8
 
@@ -19172,7 +19172,7 @@ https://s1.cystream.net/live/faros1/playlist.m3u8
 #ESTADO:desconocido
 https://s1.cystream.net/live/faros2/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Ficom Channel (Indonesia) (🇮🇩) #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Ficom Channel (Indonesia) (🇮🇩) #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
 
@@ -19308,23 +19308,23 @@ https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1
 #ESTADO:desconocido
 https://video2.makrodigital.com/zaracay/zaracay/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Astrakhan 24 #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Astrakhan 24 #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://streaming.astrakhan.ru/astrakhan24/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Mir Belogorya #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Mir Belogorya #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Parlamentsfernsehen 2 (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Parlamentsfernsehen 2 (1080p) [Not 24/7] #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk2/_definst_/live/video/hk2_de.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Parlamentsfernsehen 3 (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Parlamentsfernsehen 3 (1080p) [Not 24/7] #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk3/_definst_/live/video/hk3_de.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Parlamentsfernsehen 4 (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Parlamentsfernsehen 4 (1080p) [Not 24/7] #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://bttv-live-z.r53.cdn.tv1.eu/13014bundestag-hk4/_definst_/live/video/hk4_de.smil/playlist.m3u8
 
@@ -19360,7 +19360,7 @@ http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8
 #ESTADO:desconocido
 https://5aafcc5de91f1.streamlock.net/logoschannel.com/logoseng/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Logos TV Salud (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Logos TV Salud (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8
 
@@ -19524,7 +19524,7 @@ https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/
 #ESTADO:desconocido
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Manavisión (480p) ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Manavisión (480p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://play.once.net.ec/play/Ily2oYdd3E1fi9wK2zORoRovFU9P5xM0g3CNVK2MT0M/.m3u8
 
@@ -19684,7 +19684,7 @@ https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #ESTADO:desconocido
 https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Power Türk Slow ✅ #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Power Türk Slow ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 
@@ -20908,7 +20908,7 @@ https://2-fss-2.streamhoster.com/pl_118/201450-1248872-1/playlist.m3u8
 #ESTADO:desconocido
 https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",King TV (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",King TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8
 
@@ -21340,7 +21340,7 @@ http://stream.wairarapatv.co.nz/Cellular_High/playlist.m3u8
 #ESTADO:desconocido
 https://rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Luna Estéreo 106.4 FM (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Luna Estéreo 106.4 FM (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://servervideo.intermediacolombia.com:19360/kychbbfhdz/kychbbfhdz.m3u8
 
@@ -22012,7 +22012,7 @@ https://d201h06fdwdct7.cloudfront.net/antenainternational/ngrp:stream_all/chunkl
 #ESTADO:desconocido
 http://stream.adunity.com/b1/b1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",RTU (1080p) [Not 24/7] #ESTADO_AUDITORIA:abierto
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",RTU (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
 #ESTADO:desconocido
 https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid=
 
@@ -23804,7 +23804,7 @@ https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
 #ESTADO:desconocido
 https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Canal 8 (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Canal 8 (720p) [Not 24/7] #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
 
@@ -25608,7 +25608,7 @@ https://jmp2.uk/stvp-USBB40000028E
 #ESTADO:desconocido
 https://jmp2.uk/stvp-USBB3500001O6
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",A&E US Eastern Feed #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",A&E US Eastern Feed #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://tvpass.org/live/AEEast/sd
 
@@ -25640,7 +25640,7 @@ https://tvpass.org/live/CNBC/sd
 #ESTADO:desconocido
 https://tvpass.org/live/EEast/sd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Food Network USA Eastern Feed #ESTADO_AUDITORIA:dudoso
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Berluca/main/beluga.png",Food Network USA Eastern Feed #ESTADO_AUDITORIA:abierto
 #ESTADO:desconocido
 https://tvpass.org/live/FoodNetworkEast/sd
 

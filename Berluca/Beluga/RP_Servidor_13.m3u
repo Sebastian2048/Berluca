@@ -1,26 +1,6 @@
 #EXTM3U
 
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Crime (England) (720p) [Not 24/7]
-#ESTADO:abierto
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea18cd42ee5410007e349dc/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea18cd42ee5410007e349dc&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=200&terminate=false&userId=
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",PromarTV (1080p) [Not 24/7]
-#ESTADO:abierto
-http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RCTV (576p) [Not 24/7]
-#ESTADO:abierto
-https://v10.siar.us/rctv/live/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTV Arnhem (480p) [Not 24/7]
-#ESTADO:abierto
-https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTV Herceg-Bosne (576p) [Not 24/7]
-#ESTADO:abierto
-https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Safari TV (480p) [Not 24/7]
 #ESTADO:abierto
 https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
@@ -120,4 +100,24 @@ https://streamunoapp.com:3960/live/claroteledomlive.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cable 14 Hamilton (USA) (🇺🇸)
 #ESTADO:abierto
 https://flowcaster1-ch.cdn.clearcable.net/C14/smil:C14.smil/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cardinal (Argentina) (🇦🇷)
+#ESTADO:abierto
+https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Caritas (Paraguay) (🇵🇾)
+#ESTADO:abierto
+https://rds3.desdeparaguay.net/caritastv/caritastv/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Carlsbad (USA) (🇺🇸)
+#ESTADO:abierto
+https://edge-f.swagit.com/live/carlsbadca/live-3-a-1/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Carolina TV 2 | CL ✅
+#ESTADO:abierto
+https://jireh-1-hls-video-cl-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Charge! (1080p)
+#ESTADO:abierto
+https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 

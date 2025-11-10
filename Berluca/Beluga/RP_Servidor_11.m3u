@@ -1,10 +1,6 @@
 #EXTM3U
 
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TC Televisiðn - Opción 2 ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a1fb/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TELE NOSTALGIA ✅
 #ESTADO:abierto
 http://181.119.86.68:8000/play/b053/index.m3u8
@@ -25,10 +21,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 #ESTADO:abierto
 http://video1.azulstream.com:8080/antenaseistv/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Are We There Yet? (UK) (🇬🇧)
-#ESTADO:abierto
-https://tinyurl.com/42fhpb6f?.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Arirang (Corea Del Sur) (🇰🇷)
 #ESTADO:abierto
 https://tinyurl.com/4k6vznmu?.m3u8
@@ -41,10 +33,6 @@ https://tinyurl.com/bdh2sp6a?.m3u8
 #ESTADO:abierto
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:BLKonline_high/.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BTV Bardejovska (Eslovaquia) (🇸🇰)
-#ESTADO:abierto
-https://fs3.kabelko.sk/9011/index.m3u8?token=btv
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bio Bio TV | CL ✅
 #ESTADO:abierto
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8?PlaylistM3UCL
@@ -52,10 +40,6 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Black (Rusia) (🇷🇺)
 #ESTADO:abierto
 http://serv8.iptv11.com:8080/SonyTurbo/video.m3u8?token=45BAD2250F38E
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",C DE LAS ESTRELLAS ✅
-#ESTADO:abierto
-http://181.119.86.68:8000/play/b059/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",CAN (Turquia) (🇹🇷)
 #ESTADO:abierto
@@ -120,4 +104,20 @@ http://tv.teleunotv.cr:1935/TVUNO/TVUNO/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",DHE HD - Opción 2 ✅
 #ESTADO:abierto
 http://181.119.85.222:8000/play/a00o/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",DISCOVERY CHANEL HD ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/c012/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",DISCOVERY KIDHD ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a009/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Discovery Theater HD ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1ae/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Discovery World HD ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a17y/index.m3u8
 

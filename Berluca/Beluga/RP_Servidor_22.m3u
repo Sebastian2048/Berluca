@@ -1,42 +1,6 @@
 #EXTM3U
 
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dismar (Paraguay) (🇵🇾)
-#ESTADO:abierto
-https://rds3.desdeparaguay.net/dismartv/dismartv/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dry Bar Comedy (Canada) (🇨🇦)
-#ESTADO:abierto
-https://drybar-drybarcomedy-1-ca.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dry Bar Comedy (Nueva Zelanda) (🇳🇿)
-#ESTADO:abierto
-https://drybar-drybarcomedy-1-nz.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Duta (Indonesia) (🇮🇩)
-#ESTADO:abierto
-https://dutatv.siar.us/dutatv/live/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ERTV (Turquia) (🇹🇷)
-#ESTADO:abierto
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ES (Turquia) (🇹🇷)
-#ESTADO:abierto
-https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ETV Manisa (Turquia) (🇹🇷)
-#ESTADO:abierto
-https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Ecua Stereo (Ecuador) (🇪🇨)
-#ESTADO:abierto
-https://video.misistemareseller.com/ecuastereotv/ecuastereotv/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Atlanta Channel (USA) (🇺🇸)
-#ESTADO:abierto
-http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Azahares (Argentina) (🇦🇷)
 #ESTADO:abierto
 https://streamyes.alsolnet.com/azaharesfm/live/.m3u8
@@ -120,4 +84,40 @@ https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",We Love Cars (USA) (🇺🇸)
 #ESTADO:abierto
 https://30a-tv.com/feeds/vidaa/cars.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Africa 24 English (1080p) ✅
+#ESTADO:abierto
+https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Discover The Palm Beaches (USA) (🇺🇸)
+#ESTADO:abierto
+https://live.feed.thepalmbeaches.tv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fernandina Beach (USA) (🇺🇸)
+#ESTADO:abierto
+https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fetish (USA) (+18) (🇺🇸)
+#ESTADO:abierto
+https://live.redtraffic.xyz/fetish.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BR Fernsehen Nord (Alemania) (🇩🇪)
+#ESTADO:abierto
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BR Fernsehen Süd (Alemania) (🇩🇪)
+#ESTADO:abierto
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nature Time
+#ESTADO:abierto
+https://amg01515-amg01515c13-xiaomi-international-4618.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nature Time C14
+#ESTADO:abierto
+https://amg01515-amg01515c14-xiaomi-international-4619.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MYZEN
+#ESTADO:abierto
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzenen-xiaomi/playlist.m3u8
 

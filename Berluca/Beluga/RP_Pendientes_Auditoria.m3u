@@ -1,0 +1,105 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",UNIVERSAL - Opción 2 ✅
+#ESTADO:dudoso
+http://181.119.85.222:8000/play/a00x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",3ACINE ✅
+#ESTADO:dudoso
+http://181.119.85.222:8000/play/a005/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network South Tennessee
+#ESTADO:dudoso
+https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Telehit ✅
+#ESTADO:dudoso
+http://tv.teleclub.xyz/stream/server_1/musica/telehit/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",BBC America East
+#ESTADO:dudoso
+https://tvpass.org/live/BBCAmericaEast/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",BBC News North America HD
+#ESTADO:dudoso
+https://tvpass.org/live/BBCWorldNewsNorthAmerica/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ TV ARGENTINA ★",Canal 9 Bío Bí­o TV | CL ✅
+#ESTADO:dudoso
+https://unlimited1-cl-isp.dps.live/c9/c9.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ TV COLOMBIA ★",RCN novelas - Opción 2 ✅
+#ESTADO:dudoso
+http://181.78.106.127:9000/play/ca014/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NE Nova Era (Brasil) (🇧🇷)
+#ESTADO:dudoso
+http://wz3.dnip.com.br/novaeratv/novaeratv.sdp/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Are We There Yet? (UK) (🇬🇧)
+#ESTADO:dudoso
+https://tinyurl.com/42fhpb6f?.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BTV Bardejovska (Eslovaquia) (🇸🇰)
+#ESTADO:dudoso
+https://fs3.kabelko.sk/9011/index.m3u8?token=btv
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",C DE LAS ESTRELLAS ✅
+#ESTADO:dudoso
+http://181.119.86.68:8000/play/b059/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",KVF (720p) [Not 24/7]
+#ESTADO:dudoso
+https://w-live-edge1.kringvarp.fo/uttanlands/_definst_/smil:uttanlands.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Litoral Atlántico HD (720p) ✅
+#ESTADO:dudoso
+https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Tatlises TV (1080p) [Not 24/7]
+#ESTADO:dudoso
+https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",SenJeunes TV (480p) [Not 24/7]
+#ESTADO:dudoso
+https://stream.sen-gt.com/senjeunestv/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Deniz Postasi (Turquia) (🇹🇷)
+#ESTADO:dudoso
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Wesal TV (720p) [Not 24/7]
+#ESTADO:dudoso
+https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Logos TV Kids (720p) [Not 24/7]
+#ESTADO:dudoso
+https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN News
+#ESTADO:dudoso
+https://tvpass.org/live/ESPNews/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Detroit Pistons @ Brooklyn Nets (11/07 7:40 PM ET)
+#ESTADO:dudoso
+https://tvpass.org/live/NBA01/sd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTU (1080p) [Not 24/7]
+#ESTADO:dudoso
+https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Logos TV Salud (720p) [Not 24/7]
+#ESTADO:dudoso
+https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",King TV (720p) [Not 24/7]
+#ESTADO:dudoso
+https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",К16 (Саров) (406p) [Not 24/7]
+#ESTADO:dudoso
+http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",WE (Women's Entertainment) Eastern
+#ESTADO:dudoso
+https://tvpass.org/live/WeTVEast/sd
+

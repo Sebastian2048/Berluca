@@ -1,30 +1,6 @@
 #EXTM3U
 
 # ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Antigua - GUA - Opción 2 ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a0w4/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal Institucional - Opción 2 ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a1ga/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal N - Opción 2 ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a16u/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canal del Congreso - Opción 2 ✅
-#ESTADO:abierto
-http://179.51.136.19:8000/play/a186/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Canale 21 Extra (Italia) (🇮🇹)
-#ESTADO:abierto
-https://tinyurl.com/4tddn7wk?.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Channel 8 (Tailandia) (🇹🇭)
-#ESTADO:abierto
-http://vip.login.in.th:1935/ch8/ch8/.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Channel Y (Canada) (🇨🇦)
 #ESTADO:abierto
 http://cdn19.live247stream.com/channely/tv/playlist.m3u8
@@ -73,10 +49,6 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist_shareExt_b744100_sleng
 #ESTADO:abierto
 https://mam.jogjaprov.go.id:1937/tv/jitv_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Tatlises TV (1080p) [Not 24/7]
-#ESTADO:abierto
-https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",like Gecko) Chrome/77.0.3865.90 Safari/537.36",Telearuba (1080p) [Not 24/7]
 #ESTADO:abierto
 https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist.m3u8
@@ -120,4 +92,32 @@ https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Musayof (Israel) (240p) [Not 24/7]
 #ESTADO:abierto
 http://wowza.media-line.co.il/Musayof-Live/livestream.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nativa TV Satipo (720p) [Not 24/7]
+#ESTADO:abierto
+https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nour Al Koddas (406p) [Not 24/7]
+#ESTADO:abierto
+https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nova TV Brasov (576p) [Not 24/7]
+#ESTADO:abierto
+http://novapress.ro:2022/live/nova/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",OK Dessau (1080p) [Not 24/7]
+#ESTADO:abierto
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Omroep West (1080p) [Not 24/7]
+#ESTADO:abierto
+https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Orler TV (420p) [Not 24/7]
+#ESTADO:abierto
+https://w1.mediastreaming.it/orlertv/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Punta Cana TV (720p) [Not 24/7]
+#ESTADO:abierto
+https://rdn.essastream.com:3544/live/puntacanatvlive.m3u8
 
