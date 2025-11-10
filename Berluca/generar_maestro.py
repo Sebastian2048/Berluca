@@ -15,10 +15,17 @@ except ImportError as e:
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
+# --- DEFINICIÓN DE SUBDIRECTORIOS DE SALIDA (Añadido) ---
+# Se asume que el archivo maestro y Beluga/ están un nivel arriba del repositorio,
+# por lo que la ruta relativa debe incluir la carpeta de la que se parte.
+CARPETA_BASE_GITHUB = "Berluca" # Nombre de la carpeta del proyecto en el repositorio
+CARPETA_LISTAS = "Beluga"      # Nombre de la carpeta de listas de salida (CARPETA_SALIDA)
+
+
 def generar_maestro_m3u():
     """
     Genera el archivo Berluca.m3u usando el formato #EXTALB personalizado,
-    enlazando a los archivos de servidor individuales.
+    enlazando a los archivos de servidor individuales con URL de referencia de rama.
     """
     
     NOMBRE_ARCHIVO_FINAL = "Berluca.m3u"
@@ -36,40 +43,42 @@ def generar_maestro_m3u():
             
             servidores_encontrados = 0
 
-            # Buscar más allá de MAX_SERVIDORES_BUSCAR para asegurar la captura de todos los archivos generados
             for i in range(1, MAX_SERVIDORES_BUSCAR + 100): 
                 
                 nombre_servidor = f"{NOMBRE_BASE_SERVIDOR}_{i:02d}.m3u"
                 ruta_local = os.path.join(CARPETA_SALIDA, nombre_servidor)
                 
-                # Dejamos de buscar si no encontramos archivos nuevos después de empezar a contarlos
                 if not os.path.exists(ruta_local):
-                    # Si ya encontramos al menos un servidor, podemos detenernos si ya superamos el límite configurado
                     if servidores_encontrados > 0 and i > MAX_SERVIDORES_BUSCAR:
                         break
                     continue 
-
-                ruta_relativa_github = os.path.join(CARPETA_SALIDA, nombre_servidor).replace('\\', '/')
-                url_raw_servidor = f"{URL_BASE_REPOSITORIO}/{ruta_relativa_github}" # Añadido '/' por seguridad
+                
+                # 🛠️ CONCATENACIÓN CRÍTICA MODIFICADA
+                # Construye la ruta completa: BASE_URL/Berluca/Beluga/RP_Servidor_xx.m3u
+                ruta_completa_github = f"{CARPETA_BASE_GITHUB}/{CARPETA_LISTAS}/{nombre_servidor}"
+                
+                url_raw_servidor = f"{URL_BASE_REPOSITORIO}/{ruta_completa_github}"
                 
                 # Ejemplo: "RP_Servidor_01.m3u" -> "Rp Servidor 01"
                 nombre_lista_cliente = nombre_servidor.replace(".m3u", "").replace("_", " ").title()
                 
-                # 📌 FORMATO SOLICITADO (Solo #EXTALB y el nombre del servidor)
-                # La estructura es: #EXTALB:Nombre \n URL
                 
-                # CORRECCIÓN: Se elimina el tvg-logo y la metadata adicional
-                salida.write(
-                    f'\n#EXTALB:{nombre_lista_cliente}\n'
-                )
+                # --- ALTERNATIVAS DE FORMATO ---
                 
-                # La URL es el enlace RAW del archivo M3U del servidor.
+                # 📌 OPCIÓN 1: Formato EXTALB Minimalista (el que preferimos ahora)
+                salida.write(f'\n#EXTALB:{nombre_lista_cliente}\n')
+                
+                # 📌 OPCIÓN 2: Formato EXTALB con metadata (La versión anterior)
+                # salida.write(f'\n#EXTALB:{nombre_lista_cliente} tvg-logo="{LOGO_DEFAULT}",{nombre_lista_cliente}\n')
+                
+                
+                # Escribir la URL (Aplicable a ambas opciones de EXTALB)
                 salida.write(f'{url_raw_servidor}\n')
                 
                 servidores_encontrados += 1
             
         print(f"✅ Lista maestra {NOMBRE_ARCHIVO_FINAL} generada con {servidores_encontrados} enlaces.")
-        print(f"   -> Formato final #EXTALB listo para ser consumido por clientes.")
+        print(f"   -> URLs generadas usando la referencia de rama (refs/heads/main).")
 
     except Exception as e:
         logging.error(f"Error al generar el archivo maestro: {e}")

@@ -33,7 +33,7 @@ NOMBRE_BASE_SERVIDOR = "RP_Servidor"
 MAX_SERVIDORES_BUSCAR = 40 # ¡NUEVO LÍMITE DE SERVIDORES!
 
 # 🌐 URL BASE del Repositorio (Mantenida)
-URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/"
+URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/refs/heads/main"
 
 
 # 🧹 Palabras clave para excluir contenido no deseado
