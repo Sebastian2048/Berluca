@@ -1,123 +1,343 @@
 #EXTM3U
-
-# ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Sitcoms+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Free Movies Plus #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cd149f021cb6c55e258bbe8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc85c845-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b1efada2-5c1e-4c67-8d37-a989831dc9f3
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Mister Rogers' Neighborhood
+https://s8host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/e1074d51-e146-4054-af60-8179449c237c/36-90-1020.m3u8?ads.cdnhost=s8host2.localnow.api.cms.amdvids.com&ads.playbackid=6D30170C-D7B3-46A2-8C1F-302D8399F44D&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=6D30170C-D7B3-46A2-8C1F-302D8399F44D&ads.n4=content_name&ads.v4=Free%20Movies%20Plus&ads.n21=network_name&ads.v21=free-movies-plus&ads.n22=channel_genre&ads.v22=Entertainment&ads.n23=channel_brand_id&ads.v23=AMDB013395&ads.n24=gpp&ads.v24=&ads.n25=w&ads.v25=1920&ads.n26=device_type&ads.v26=&ads.n27=h&ads.v27=1080&ads.n28=app_name&ads.v28=&ads.n29=app_store_url&ads.v29=&ads.n30=channel_ext_id&ads.v30=&ads.n31=device_make&ads.v31=&ads.n32=channel_id&ads.v32=6D30170C-D7B3-46A2-8C1F-302D8399F44D&ads.n33=channel_company_id&ads.v33=AMDP500517&ads.n34=url&ads.v34=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n35=ifa_type&ads.v35=&ads.n36=cust_devicename&ads.v36=desktop_web&ads.n37=channel_name&ads.v37=Free%20Movies%20Plus&ads.n38=channel_corp&ads.v38=OTT%20Studio%20LLC.&ads.n39=app_version&ads.v39=0.0.0&ads.n40=app_bundle&ads.v40=&ads.n41=us_privacy&ads.v41=1YNY&ads.n42=content_producer_name&ads.v42=OTT%20Studio%20LLC.&ads.n43=content_custom_3_param&ads.v43=channel&ads.n44=content_custom_2_param&ads.v44=AMDB013395&ads.n45=device_model&ads.v45=&ads.n46=gpp_sid&ads.v46=&ads.n47=did&ads.v47=&ads.n48=content_type&ads.v48=channel&ads.n49=channel_language&ads.v49=en&ads.n50=dnt&ads.v50=&ads.n51=channel_rating&ads.v51=TV-PG&ads.n52=content_livestream&ads.v52=1&ads.n53=content_provider&ads.v53=free-movies-plus&ads.n54=ip&ads.v54=193.228.206.147&ads.n55=pos&ads.v55=midroll&ads.n56=content_custom_1_param&ads.v56=6D30170C-D7B3-46A2-8C1F-302D8399F44D&ads.n57=channel_title&ads.v57=Free%20Movies%20Plus&ads.n58=ua&ads.v58=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Movies 4 Free #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65e23f340d4561000821540d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c29dbd1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=18721deb-08cc-4fc5-b3dd-89d418b508de
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Komsan TV [Not 24/7]
+https://movies4free-lg.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Movies 4 Free Geo #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NEWSMAX2
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/videosolu-movies4free-lg/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",24 Hour Free Movies (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://jmp2.uk/stvp-USBA300028QU
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV True Crime
+https://tinyurl.com/4azsc6z4?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",FilmRise Free Movies (Canada) (🇨🇦) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/615333098185f00008715a56/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aeeea8-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=96f45124-9486-4038-a177-6f5206a39041
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Action
+https://d3fmqi91qduj7.cloudfront.net/11401/88814500/hls/master.m3u8?ads.xumo_channelId=88814500
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Cowboy Movie Channel (USA) (🇺🇸) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ac632-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9bd2e9c0-393b-484b-b5bc-b1869a276513
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Crime Drama
+https://tinyurl.com/y942vm3e?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten Top Movies UK (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e92708a7ce600007b2676a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b8d26-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=59a15527-cb90-4bf4-90ab-ec456c5d2df2
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Drama
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Action Movies Germany (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b4e92e4694c027be6ecece1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2aed44-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=01b9b883-5344-4e99-81f9-dc1d9942ca58
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Horror
+https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Action Movies UK (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/569546031a619b8f07ce6e25/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b1450-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3f8b9bca-2807-48aa-a7cc-8513d68f8d92
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Reaction
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Comedy Movies Germany (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/617b37b361e0fd0008cfd8c5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b1457-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=32aea123-3ab5-4713-944a-87ebeb334781
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Romance
+https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Comedy Movies UK (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a66795ef91fef2c7031c599/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b1459-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=195653a1-6a75-4cb6-b94d-0fe4a7594dba
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Sci-Fi
+https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Drama Movies Germany (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b4fc274694c027be6ed3eea/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b60-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ed62db1c-5556-4fa7-b231-9514fcc69832
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Spotlight
+https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6096/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Drama Movies UK (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ba3fb9c4b078e0f37ad34e8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b64-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a26dc013-1780-409c-9a56-09ae4538fe40
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Staff Picks
+https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Family Movies Germany (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d863b98b41000076cd061/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b65-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c2fde2b7-d78e-4906-abf2-3c433f73ec5b
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Terror
+https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Family Movies UK (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c6dc88fcd232425a6e0f06e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b67-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bbd5d7ff-a6cc-4ad9-bb5f-d0f36c75fc29
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Thrillers
+https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Romance Movies UK (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b4e69e08291147bd04a9fd7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b68-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2bd17736-43bd-4c5d-aaa9-c3cdc2c77562
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Western
+https://2c88ed8c4df9479aa0c7138dc42115e2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6194/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Top Movies Germany (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/630dd3b2605f140007e002f5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b2049e2-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=59d31236-c94c-43d9-a034-2227dea980c8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Westerns
+https://cbb622b29f5d43b598991f3fa19de291.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5985/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",MyTime Movie Network Germany (1080p) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b4e94282d4ec87bdcbb87cd/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b6272-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5e8336d8-e46b-4f0f-86ff-ba6f9678d77a
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Russkiy Detektiv
+https://appletree-mytimemoviegerman-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",Rakuten TV Romance Movies Germany (1080p) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-http://31.148.48.15/Russkiy_Detektiv/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",M95 Televisión Marbella (1080p) [Not 24/7]
+https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE PREMIUM ★",24 Hour Free Movies #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://limited2.todostreaming.es/live/m95-livestream.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Miavision TV [Not 24/7]
+https://d1b5mlajbmvkjv.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22907&ads.content_duration=18000&ads.episode_id=39730&ads.show_id=1195&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CMovies%2CDrama%2CAction%2FAdventure%2CEnglish&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=24%20Hour%20Free%20Movies&ads.episodetitle=24%20Hour%20Free%20Movies&ads.keywords=24%20Hour%20Free%20Movies&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Pluto TV Retro Crime Drama
 #ESTADO:abierto
-https://rdn.essastream.com:3550/live/miavisiontvlive.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",News 24 (392p) [Not 24/7]
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/630f1e6073bd1800082107f0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7bb431-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8e4df61b-f0fe-477e-8bdf-c892174573c4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",TVS Classic Movies (288p)
 #ESTADO:abierto
-https://tv.balkanweb.com/news24/livestream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Lahore News (720p) [Not 24/7]
+https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Vevo Retro Rock (Australia) (🇦🇺)
 #ESTADO:abierto
-https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Malai Murasu TV (720p) [Not 24/7]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Classica Stingray (Canada) (🇨🇦)
 #ESTADO:abierto
-https://cdn-3.pishow.tv/live/1606/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Mereja TV (1080p) [Not 24/7]
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Megaclassic TV | AR ✅
 #ESTADO:abierto
-https://rumble.com/live-hls-dvr/4c14o3/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Metro Globe Network (1080p) [Not 24/7]
+https://stmvideo1.livecastv.com/megaclassic/megaclassic/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Retro PluTV Señal 2 | CL ✅
 #ESTADO:abierto
-https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Mírame TV (360p) [Not 24/7]
+https://tls-cl.cdnz.cl/retroplustvdos/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Viggo and Supporo
 #ESTADO:abierto
-https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",News J (720p) [Not 24/7]
+https://amg01821-amg01821c25-xiaomi-international-4607.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Pluto TV Classic Movies (England) (720p) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cdn-3.pishow.tv/live/1279/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NewsNet (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d134a74ca91eedee1630faa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=903&terminate=false&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Icon Film Classics (GB) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NHK Kishou Saigai (360p) [Not 24/7]
+https://iconfilmsdistribution-iconfilmchannelclassics-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Icon Film Classics (IE) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
-
+https://iconfilmsdistribution-iconfilmchannelclassics-1-ie.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Stingray Classic Rock #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991119
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Stingray Classic Rock #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-classic-rock/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22865&ads.content_duration=18000&ads.episode_id=35976&ads.show_id=1110&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CClassic%20Rock%2CEnglish&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=Stingray%20Classic%20Rock&ads.episodetitle=Classic%20Rock&ads.keywords=stingray&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Classic KMRY live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/138401
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Classical.mp3 ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/93852
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Classic Hit106.7 KQNK live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/124999
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Classic Hit106.7 KQNK  live - Opción 2 ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/125464
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Retro Music (Rusia) (🇷🇺) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/17057/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Cult Classic Movie Theater (USA) (🇺🇸) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://app.viloud.tv/hls/channel/053140e08adc29e3eac61eb05ff12f51.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",FilmRise Classic (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d3fmqi91qduj7.cloudfront.net/11401/88814514/hls/master.m3u8?ads.xumo_channelId=88814514
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Bridge Classic (Rusia) (🇷🇺) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://31.148.48.15/Bridge_TV_Classic/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",RetroCrush (1080p) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cineverse.g-mana.live/media/ac7cff3c-5bc3-4745-ac4d-56aadb586d00/profile/1/profileManifest.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",Bowery Classics (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/4dhbv9yu?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",NETV Toronto (720p) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://eu1.vectromdigital.com:1936/netvtoronto/netvtoronto/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE CLÁSICO ★",WFMY CBS 2 News Greensboro NC #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s10host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config12/wfmy/24x7/index.m3u8?vendor=LocalNow&ip_addr=193.228.206.147&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ads.cdnhost=s10host1.localnow.api.cms.amdvids.com&ads.playbackid=89A30F04-3A46-4FF6-BF6F-05A7880D3434&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=89A30F04-3A46-4FF6-BF6F-05A7880D3434&ads.n4=content_name&ads.v4=WFMY%20Greensboro%20NC&ads.n21=content_provider&ads.v21=wfmy-greensboro&ads.n22=device_model&ads.v22=&ads.n23=channel_genre&ads.v23=More%20Cities&ads.n24=network_name&ads.v24=wfmy-greensboro&ads.n25=channel_ext_id&ads.v25=&ads.n26=ua&ads.v26=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n27=content_custom_1_param&ads.v27=89A30F04-3A46-4FF6-BF6F-05A7880D3434&ads.n28=device_make&ads.v28=&ads.n29=content_custom_2_param&ads.v29=AMDB013639&ads.n30=url&ads.v30=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n31=pos&ads.v31=midroll&ads.n32=content_custom_3_param&ads.v32=channel&ads.n33=app_bundle&ads.v33=&ads.n34=app_store_url&ads.v34=&ads.n35=gpp&ads.v35=&ads.n36=us_privacy&ads.v36=1YNY&ads.n37=channel_title&ads.v37=WFMY%20Greensboro%20NC&ads.n38=app_version&ads.v38=0.0.0&ads.n39=cust_devicename&ads.v39=desktop_web&ads.n40=channel_id&ads.v40=89A30F04-3A46-4FF6-BF6F-05A7880D3434&ads.n41=app_name&ads.v41=&ads.n42=channel_language&ads.v42=en&ads.n43=channel_rating&ads.v43=TV-PG&ads.n44=dnt&ads.v44=&ads.n45=gpp_sid&ads.v45=&ads.n46=channel_corp&ads.v46=Tegna%20INC&ads.n47=w&ads.v47=1920&ads.n48=ifa_type&ads.v48=&ads.n49=channel_company_id&ads.v49=AMDP500555&ads.n50=channel_name&ads.v50=WFMY%20Greensboro%20NC&ads.n51=device_type&ads.v51=&ads.n52=did&ads.v52=&ads.n53=content_type&ads.v53=channel&ads.n54=content_livestream&ads.v54=1&ads.n55=ip&ads.v55=193.228.206.147&ads.n56=channel_brand_id&ads.v56=AMDB013639&ads.n57=content_producer_name&ads.v57=Tegna%20INC&ads.n58=h&ads.v58=1080
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Cine Família (720p) [Not 24/7]
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f171f032cd22e0007f17f3d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",SONY MOVIES ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b040/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Stories by AMC
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e8254118601b80007b4b7ae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=376bc851-10a1-4952-ada7-86e9d28d5845
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNTV (1080p)
+#ESTADO:abierto
+https://tntv-samsung-fr.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Cine Accion
+#ESTADO:abierto
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcb62e63d4d8f0009f36881/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=unknown&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bfef8b40-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=787d09fb-c219-46d0-b022-07fb4d7f7395&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Cine Estelar
+#ESTADO:abierto
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=unknown&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Cine Suspenso (720p)
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Kuriakos Cine (1080p)
+#ESTADO:abierto
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Maverick Black Cinema (1080p)
+#ESTADO:abierto
+https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Persiana Cinema
+#ESTADO:abierto
+https://cinehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TVCARiB Cinema (720p) [Not 24/7]
+#ESTADO:abierto
+https://cdn.mycloudstream.io/hls/live/broadcast/l3vslw4i/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",WBTV Classic Cinema [Geo-blocked]
+#ESTADO:abierto
+https://livetv-fa.tubi.video/wbd-classic-cinema/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Xtrema Cine Clasico
+#ESTADO:abierto
+https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinevision (Rep. Dominicana) (🇩🇴)
+#ESTADO:abierto
+https://cdn.mycloudstream.io/hls/live/broadcast/etyetihk/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",EBS Cinema (Etiopia) (🇪🇹)
+#ESTADO:abierto
+https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cines Verdi ✅
+#ESTADO:abierto
+https://daiconnect.com/live/hls/tvup/rt-cv/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CINE LATINO - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a01i/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Novelas HD - Opción 2 ✅
+#ESTADO:abierto
+http://181.78.201.70:8000/play/a0pr/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Universal cinema ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca083/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",AMC
+#ESTADO:abierto
+http://cors.tundracast.com:2000/https://streamer1.nexgen.bz/AMC/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",SONY MOVIEHD ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a02b/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Space
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61409f8d6feb30000766b675/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc85c846-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=107edfdc-70b3-44a9-b352-7604fe6120d9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Space TV
+#ESTADO:abierto
+https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Star Trek Deep Space Nine
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69bbfd77d450008c7ffee/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e3a3277-9d15-4813-a57c-5547e9d53d6e
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Star Trek: Deep Space Nine
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67d200c7ff50008cb131a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b210d34-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=35795be0-a9bf-4b10-b542-2134b369c86c
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Paramount Movie Channel
+#ESTADO:abierto
+https://jmp2.uk/stvp-USAJ26000054W
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CINE CANAL ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a00r/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",CINE CANAL - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b036/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",MULTICINEMA - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a01w/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Premium (España) (🇪🇸)
+#ESTADO:abierto
+http://181.78.82.6:46090/play/a050/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Bhojpuri Cinema (India) (🇮🇳)
+#ESTADO:abierto
+https://tinyurl.com/bdjsx3ek?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT SPORTS ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1im/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT SPORTS HD - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a0px/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",TNT Sports Premiun HD ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a16a/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinecanal (Argentina) (🇦🇷)
+#ESTADO:abierto
+http://38.180.133.31:8000/play/a0p4/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinemax (España) (🇪🇸)
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca079/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Space
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61409f8d6feb30000766b675/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b2022d6-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=23eefcec-8774-42a3-8e77-66e6e59575a3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Star Trek: Deep Space Nine
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67d200c7ff50008cb131a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc866483-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9d32b35d-fee3-493b-aaa0-68d37068f729
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Space (España) (🇪🇸)
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca072/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",RUNTIME CINE ESPANTO ✅
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3529
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Zylo Cine Friki (1080p)
+#ESTADO:abierto
+https://zylo-cinefriki-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Estrella (Mexico) (🇲🇽)
+#ESTADO:abierto
+https://tinyurl.com/y7u5685s?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Familiar (España) (🇪🇸)
+#ESTADO:abierto
+http://181.78.82.6:46090/play/a051/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Hispano (España) (🇪🇸)
+#ESTADO:abierto
+http://181.78.82.6:46090/play/a052/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Pluto TV Space
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61409f8d6feb30000766b675/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aeeea6-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=aee0c343-6689-49c1-9090-319522e3c837
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Star Trek: Deep Space Nine
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67d200c7ff50008cb131a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af63d9-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2bc71210-8348-497e-9c67-114c5ae83332
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",SONY - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/c023/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sonyone Sharktank (MX)
+#ESTADO:abierto
+https://spt-sonyonesharktank-1-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sony Comedias (MX)
+#ESTADO:abierto
+https://spt-sonyonecomedias-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Sony Novelas (MX)
+#ESTADO:abierto
+https://spt-sonyonenovelas-1-mx.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",AMC (1080p) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",AMC Absolute Reality #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Filamchi Bhojpuri (1080p) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://epiconvh.akamaized.net/live/filamchi/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",ZB Cinema (720p) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",ESTRELLA TV CINE | ESP ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amg00567-estrellamedia-cineestrella-lgus-urymg.amagi.tv/playlist/amg00567-estrellamedia-cineestrella-lgus/cb553d16726c648d93d43d64d1ef41a3dc243dfc087a8d6933fb4b926bc10f41e2e5af97b20cac7822fb0fdf61146d5a4d009247d8780ad7967cac48240d5734c6cdd52e8be24b4daddd0c2d34b07c0e49857671ad594f32d5e0110dc51ab07a0e1ca1494d5e2082b00cb27753c79e0a957f378bbdbe306f2c180680585ee2be5da5edf50b448b39f7b2184f887a14e5d45fc8d549ef9ddc539d129b77a4159495a2d88118d1d2c7010566884561a7b1eef8fa1bbef11fd0f79f71309f7e5a3e7437c882e333caa1e43d2e72f7eddfb725de1ecb9b2c82614dff685aea3251f8169e1cabf547b4a1bad102453ce4e95a732ea1ebafcade2630b264fea6e69f00143113a31935aa40fd1a515fbd5e020c8dc01adcd149e0e13d446c98c30cf399c3b581fd5fb76376eabe0e61c4bbb7ca3ca2cc2e839768c920de79e7e31639554e4b92b95cd09fe393510840ab8f44dd1f17b894decd8f4e73fd69155ee777ca1b2b588c653c32b576b9ad3562df7251c52d6baf1175a152ecb429c2a2d9ce0f2ffa8b9415b13cb9f542f9de36844170190ebaf9291f62497edbe12f4d1371d14ae9d685b0265b4ebcb99db090130b063f164005c4b7b427d5dd965b687cab642f6e701f0085448739ad6767346e984e9dfc7337ef600622e9a03358201cb5c0a38e8ad38a09f548dac1f93638281b049936162d7adca6873baa6c6c37e6d7cccb3fce6de62f1b4fd9854d/74/1280x720_2657019/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinecanal #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",AMC All Reality (US) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amc-absolutereality-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",AMC Espanol (US) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",AMC Stories (US) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amc-amcpresents-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Clasico (CO) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cineclasicoco-lgco/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Clasico (PE) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cineclasicope-lgpe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Sureno (AR) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesurenoar-lgar/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Sureno (CL) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesurenocl-lgcl/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Sureno (CO) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesurenoco-lgco/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Sureno (PE) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinesurenope-lgpe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Estrella (US) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-cineestrella-lgus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Real (CO) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amg01024-olympusat-amg01024c6-lg-co-1130.playouts.now.amagi.tv/playlist/amg01024-olympusatfast-cinereal-lgco/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cine Real (PE) Geo #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://amg01024-olympusat-amg01024c6-lg-pe-1132.playouts.now.amagi.tv/playlist/amg01024-olympusatfast-cinereal-lgpe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Cinenanar #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://zylo-cinenanar-lg.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CINE Y PELÍCULAS ★",Maverick Black Cinema (CA) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://maverick-maverick-black-cinema-2-ca.lg.wurl.tv/playlist.m3u8

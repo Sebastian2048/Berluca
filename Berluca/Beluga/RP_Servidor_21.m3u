@@ -1,123 +1,211 @@
 #EXTM3U
-
-# ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RT JVA (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Real Crime ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cdn140m.panaccess.com/HLS/RTVJA/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTP Açores (720p) [Not 24/7]
+https://lds-realcrimebeta-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lds-realcrime2-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Real Madrid TV ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Satranç TV (480p) [Not 24/7]
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Real Wild ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://139.162.182.79/live/test/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Señal Perú TV (404p) [Not 24/7]
+https://lds-realwild-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-realwild-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Red Circl| CL ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://livestream.perucast.com/hls/stream.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Shubhsandesh (720p) [Not 24/7]
+https://5e3483cba9114.streamlock.net:443/8016/8016/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Red Vision Television | CL ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Tele Safor (720p) [Not 24/7]
+https://tls-cl.cdnz.cl/livertv/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",RedBull TV ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://video.telesafor.com/hls/video.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TeleM Botosani (540p) [Not 24/7]
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Reuters ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://89.137.197.15:8080/testing/pl5/playlist/ram/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Telenord 10 (720p) [Not 24/7]
+https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Canal Visión Dorada | CO ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://rdn.essastream.com:3676/live/telenord10live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Charlotte County (USA) (🇺🇸)
+https://movil.ejeserver.com/live/visiondorada.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Canal VM Latino | CR ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/charlotte/G0055_009/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cinco (Argentina) (🇦🇷)
+https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Canal4RD | DO ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cloudflare (USA) (🇺🇸)
+https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Candelita TV (480p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cloudflare.tv/hls/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cloudflare TV | US ✅
+https://6110f70ea8d0e.streamlock.net/1689/1689/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Caribbean AdvantagTV (1080p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cloudflare.tv/hls/live.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Coco (Rep. Dominicana) (🇩🇴)
+https://video2.getstreamhosting.com:19360/8216/8216.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Channel 8 ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Cool FM (Paises Bajos) (🇳🇱)
+https://cdn-th-vip.login.in.th:443/ch8/ch8/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",ChilChannel | CL ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Craftsy (USA) (🇺🇸)
+https://v2.tustreaming.cl/chilechannel/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Choluteca TV (1080p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://linear-492.frequency.stream/dist/stirr/492/hls/master/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dao Lane Xang (Laos) (🇱🇦)
+https://s.emisoras.tv:8081/cholutecatv/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",CHTV ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://livefta.malimarcdn.com/ftaedge00/khaomwungmai.sdp/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Darcizzle Offshore (USA) (🇺🇸)
+https://viewhn.com/chtv/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",CIRCLE ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://30a-tv.com/darcizzle.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dark Flix (Brasil) (🇧🇷)
+https://circle-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Clic ✅ #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://video01.soultv.com.br/darkflix/darkflix/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Del Mar (USA) (🇺🇸)
+https://v2.tustreaming.cl/clicktv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",ClickTv | CL ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://d25ykpi2vxhoyc.cloudfront.net/delmar-cdn/dmtv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Didik KPM (Malasia) (🇲🇾)
+https://v2.tustreaming.cl/clicktv/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",CMC ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://mifntechnology.github.io/siaranMy/channels/DidikTvKPM/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Digi 24 (Rumania) (🇷🇴)
+https://cmc-ono.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",CMC TV (1080p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dismar (Paraguay) (🇵🇾)
+https://stream.cmctv.hr:49998/cmc/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",CNC Santander de Quilichao (480p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://rds3.desdeparaguay.net/dismartv/dismartv/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dry Bar Comedy (Canada) (🇨🇦)
+https://movil.ejeserver.com/live/cncsantander.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",COA: RCG .3 ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://drybar-drybarcomedy-1-ca.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Dry Bar Comedy (Nueva Zelanda) (🇳🇿)
+https://video1.getstreamhosting.com:1936/8032/8032/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Run Time TV y Películas ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://drybar-drybarcomedy-1-nz.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Duta (Indonesia) (🇮🇩)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2649
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Litus (Argentina) (🇦🇷) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://dutatv.siar.us/dutatv/live/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ERTV (Turquia) (🇹🇷)
+https://stream.arcast.com.ar/litustv/litustv/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Publica Pampeana (Argentina) (🇦🇷) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ES (Turquia) (🇹🇷)
+https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Venus Media (Paraguay) (🇵🇾) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ETV Manisa (Turquia) (🇹🇷)
+https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Run Time Ana y los 7 ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Ecua Stereo (Ecuador) (🇪🇨)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2722
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",4K Travel (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/yzkc4wxe?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",60 Days In (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/4hskddzz?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Autumn Escape (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/5y5susvu?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Bravo (USA) (🇺🇸) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://41.205.93.154/BRAVO/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",CBS 11 Houston (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/2f7abzrt?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Channel Fight (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/ys4t97wt?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Cox Manchester 15 (USA) (🇺🇸) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://98.186.28.168/live-3/live/live.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Cozi (USA) (🇺🇸) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://173.225.32.123/Cozi-2358/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Crime Flix (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/3cvr4x9w?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Dateline (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/ycyta5vw?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Baraza Deep House (Grecia) (🇬🇷) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Baraza Relaxing (Grecia) (🇬🇷) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://rtmp.streams.ovh:1936/barazarelax/barazarelax/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Ikra (Turquia) (🇹🇷) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Ecua Stereo (Ecuador) (🇪🇨) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
 https://video.misistemareseller.com/ecuastereotv/ecuastereotv/.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Atlanta Channel (USA) (🇺🇸)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",FTV Fuego (Rep. Dominicana) (🇩🇴) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/.m3u8
-
+https://video.misistemareseller.com/Fuegotv/Fuegotv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Hechicera (Peru) (🇵🇪) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://video.misistemareseller.com/corporationhc/corporationhc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",BFM Tech & Co (Francia) (🇫🇷) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",7X Music (India) (🇮🇳) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://stream.e2is.in/hls/7xMusic.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",NDTV 24X7 (480p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Pluto TV Antiques Roadshow UK (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ce44810b421747ae467b7cd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Sky News Arabia (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.skynewsarabia.com/ott/ott.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Sky News Arabia (Portrait) (1280p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.skynewsarabia.com/vertical/vertical.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",M95 Televisión Marbella (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://limited2.todostreaming.es/live/m95-livestream.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Miavision TV [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://rdn.essastream.com:3550/live/miavisiontvlive.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",News 24 (392p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Lahore News (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Malai Murasu TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-3.pishow.tv/live/1606/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Mathrubhumi News (576p) [Not 24/7] #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/110322/mathrubhuminews/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Mereja TV (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://rumble.com/live-hls-dvr/4c14o3/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Mírame TV (360p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",News J (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-3.pishow.tv/live/1279/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",NewsNet (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1311088/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",NHK Kishou Saigai (360p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Nopola News (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",NotiUno TV (854p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://59a564764e2b6.streamlock.net/notiunotv/notiunotv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",NRT TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://media.streambrothers.com:1936/8226/8226/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Palitra News (480p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://live.palitranews.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Payam TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Payvand TV (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://bozztv.com/cus01/ucur1/Payvand/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Prameya News7 (1080p) [Not 24/7] #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/index.m3u8?ads.dpname=distrotv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Real News Kerala (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS/SIN CLASIFICAR ★",Red de Comunicación Regional (RCR) (720p) [Not 24/7] #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8

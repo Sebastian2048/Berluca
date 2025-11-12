@@ -1,4 +1,4 @@
-# actualizar_servidores.py (Auditoría Rápida Multihilo)
+# actualizar_servidores.py 
 import os
 import re
 import logging
@@ -23,160 +23,106 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # --- CONFIGURACIÓN DE AUDITORÍA RÁPIDA ---
 RUTA_RESUMEN_AUDITORIA = os.path.join(CARPETA_SALIDA, "RP_Resumen_Auditoria.m3u")
-RUTA_PRE_AUDITORIA = os.path.join(CARPETA_SALIDA, "RP_Pre_Auditoria.m3u")
-TIMEOUT_RAPIDO = 3 # <<-- Timeout agresivo para la prueba HEAD
-MAX_THREADS = 50   # Máximo de peticiones simultáneas
+TIMEOUT_RAPIDO = 3 
+MAX_THREADS = 50   
 
-def verificar_conectividad_rapida(url: str) -> str:
-    """Verifica la accesibilidad HTTP de la URL con requests.head."""
+def verificar_conectividad_head(url: str) -> str:
+    """Intenta una petición HEAD o GET rápida para determinar el estado (abierto/fallido/dudoso)."""
     try:
-        r = requests.head(url, allow_redirects=True, timeout=TIMEOUT_RAPIDO)
-        if 200 <= r.status_code < 400:
-            return "dudoso" 
-        return "fallido"
-    except requests.exceptions.RequestException:
-        return "fallido"
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.head(url, timeout=TIMEOUT_RAPIDO, headers=headers, allow_redirects=True)
+        response.raise_for_status() # Lanza excepción para 4xx/5xx
 
-
-def generar_pre_auditoria_rapida() -> Dict[str, str]:
-    """
-    Ejecuta la auditoría rápida en paralelo (multihilo) y genera el archivo 
-    RP_Pre_Auditoria.m3u, mostrando una barra de progreso.
-    """
-    print("--- 🚀 Ejecutando Auditoría Rápida Multihilo (requests.head) ---")
-    
-    # 1. Recopilar todos los canales únicos a auditar
-    canales_a_auditar = []
-    
-    for i in range(1, MAX_SERVIDORES_BUSCAR + 100): 
-        ruta_servidor = obtener_servidor_path(i)
-        if os.path.exists(ruta_servidor):
-            inventario = obtener_inventario_servidor(i)
-            for _, canales in inventario.items():
-                for canal in canales:
-                    # Usar la URL como clave única para deduplicar
-                    if not any(c['url'] == canal['url'] for c in canales_a_auditar):
-                        canales_a_auditar.append(canal)
-
-    canales_totales = len(canales_a_auditar)
-    estados_auditados = {}
-    bloques_pre_auditados = []
-
-    if canales_totales == 0:
-        print("❌ No se encontraron canales para auditar.")
-        return {}
-        
-    # 2. Ejecutar la auditoría en paralelo
-    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        resultados_futures = {
-            executor.submit(verificar_conectividad_rapida, canal['url']): canal 
-            for canal in canales_a_auditar
-        }
-
-        with tqdm(total=canales_totales, desc="Filtro Rápido", unit="canales") as pbar:
-            for future in resultados_futures:
-                canal = resultados_futures[future]
-                url = canal['url']
-                
-                try:
-                    estado_rapido = future.result() 
-                except Exception as exc:
-                    logging.debug(f"Error al auditar {url}: {exc}")
-                    estado_rapido = "fallido" 
-
-                # 3. Almacenar el resultado y preparar el bloque
-                estados_auditados[url] = estado_rapido
-                
-                extinf_original = canal['bloque'][0].strip()
-                # Limpiar cualquier estado anterior y añadir el nuevo
-                extinf_nuevo = re.sub(r'#ESTADO_AUDITORIA:\w+', '', extinf_original)
-                extinf_final = f"{extinf_nuevo} #ESTADO_AUDITORIA:{estado_rapido}"
-                
-                # Reconstruir el bloque para el archivo RP_Pre_Auditoria.m3u
-                bloque_nuevo = [extinf_final] + [l for l in canal['bloque'][1:-1] if not l.startswith("#ESTADO:")] + [url]
-                bloques_pre_auditados.append(bloque_nuevo)
-                
-                pbar.update(1)
-
-    # 4. GUARDAR EL ARCHIVO RP_Pre_Auditoria.m3u
-    print(f"\n--- 💾 Guardando archivo de Pre-Auditoría: {RUTA_PRE_AUDITORIA} ---")
-    with open(RUTA_PRE_AUDITORIA, "w", encoding="utf-8", errors="ignore") as f:
-        f.write("#EXTM3U\n")
-        for bloque in bloques_pre_auditados:
-            f.write("\n")
-            f.writelines([linea.strip() + "\n" for linea in bloque])
+        if response.status_code in (200, 301, 302, 303, 307, 308):
+            return 'abierto'
+        else:
+            return 'fallido' 
             
-    return estados_auditados
+    except requests.exceptions.HTTPError:
+        return 'fallido'
+    except requests.exceptions.RequestException:
+        return 'dudoso' 
+    except Exception:
+        return 'dudoso'
 
 
-def cargar_estados_auditados() -> Dict[str, str]:
-    """Carga los estados finales de la auditoría lenta o del resumen rápido."""
-    estados = {}
-    
-    # 1. Intentar cargar resultados de Auditoría Lenta (si existe)
-    if os.path.exists(RUTA_RESUMEN_AUDITORIA):
-        print(f"--- 📊 Cargando resultados de Auditoría Lenta: {RUTA_RESUMEN_AUDITORIA} ---")
-        with open(RUTA_RESUMEN_AUDITORIA, "r", encoding="utf-8", errors="ignore") as f:
-            bloques_auditados = extraer_bloques_m3u(f.readlines())
-        
-        for bloque in bloques_auditados:
-            url = extraer_url(bloque)
-            extinf_line = bloque[0]
-            match = re.search(r'#ESTADO_AUDITORIA:(\w+)', extinf_line)
-            if url and match:
-                estados[url] = match.group(1)
-        
-        if estados:
-            return estados
-        
-    # 2. Si no hay resumen final, generar la Pre-Auditoría Rápida
-    return generar_pre_auditoria_rapida()
-
-
-def actualizar_servidores_con_auditoria():
+def actualizar_servidores_con_auditoria(ruta_inventario_auditado: str):
     """
-    Actualiza el estado interno de los canales en los servidores usando los 
-    resultados de la auditoría (lenta o rápida) y activa el balanceo.
+    Lee el inventario auditado (resumen de clasificador.py), 
+    actualiza el estado de los canales en los servidores existentes y re-balancea.
     """
-    print("--- 🔄 Iniciando Actualización y Reclasificación por Auditoría ---")
     
-    # Cargar los estados (esto llama a generar_pre_auditoria_rapida si es necesario)
-    estados_auditados = cargar_estados_auditados()
-    
-    if not estados_auditados:
-        print("❌ No se pudieron cargar estados. Proceso cancelado.")
+    if not os.path.exists(ruta_inventario_auditado):
+        print(f"⚠️ Archivo de inventario auditado no encontrado: {ruta_inventario_auditado}. Abortando actualización.")
         return
 
+    # 1. Cargar el mapa URL -> Estado auditado
+    estados_auditados = {}
+    try:
+        with open(ruta_inventario_auditado, "r", encoding="utf-8", errors="ignore") as f:
+            lineas = f.readlines()
+            
+        bloques = extraer_bloques_m3u(lineas)
+        for bloque in bloques:
+            url = extraer_url(bloque)
+            if not url:
+                continue
+            
+            # Buscar el estado en el bloque (formato #ESTADO:estado)
+            estado_line = next((l for l in bloque if l.startswith("#ESTADO:")), None)
+            if estado_line:
+                estado = estado_line.split(':')[1].strip().lower()
+                estados_auditados[url] = estado
+            # else: Si no tiene estado, se ignorará y usará el que tiene en el servidor existente.
+
+        print(f"✅ Estados de {len(estados_auditados)} canales cargados del Quick Audit.")
+
+    except Exception as e:
+        logging.error(f"Error al cargar estados auditados: {e}")
+        return
+
+    # 2. Actualizar el estado de los canales en los archivos de servidor existentes (RP_Servidor_XX.m3u)
     servidores_modificados = []
-    
-    # 1. Recorrer todos los servidores para aplicar el estado
-    for i in range(1, MAX_SERVIDORES_BUSCAR + 100):
-        ruta_servidor = obtener_servidor_path(i)
-        
-        if not os.path.exists(ruta_servidor):
+
+    for i in range(1, MAX_SERVIDORES_BUSCAR + 1):
+        path = obtener_servidor_path(i)
+        if not os.path.exists(path):
             continue
-
-        inventario = obtener_inventario_servidor(i)
+        
+        # obtener_inventario_servidor debe devolver una lista de diccionarios 
+        # con 'bloque' (List[str]), 'url', 'estado' y 'categoria'.
+        inventario = obtener_inventario_servidor(i) 
         cambios_servidor = 0
-
+        
         for categoria, canales in inventario.items():
             for canal in canales:
                 url = canal['url']
                 
-                nuevo_estado = estados_auditados.get(url, canal['estado'])
+                # Obtener el nuevo estado auditado o mantener el existente (si fue excluido del quick audit)
+                nuevo_estado = estados_auditados.get(url, canal.get('estado', 'desconocido'))
                 
-                if nuevo_estado != canal['estado']:
+                if nuevo_estado != canal.get('estado', 'desconocido'):
                     
                     # 1. Actualizar el diccionario interno del canal
                     canal['estado'] = nuevo_estado
                     
-                    # 2. Actualizar la línea #ESTADO: dentro del bloque (que ya está reconstruida por obtener_inventario_servidor)
+                    # 2. Actualizar la línea #ESTADO: dentro del bloque M3U
+                    
+                    linea_encontrada = False
+                    
+                    # R1: Buscar y actualizar si ya existe (el más común)
                     for idx, linea in enumerate(canal['bloque']):
                          if linea.startswith("#ESTADO:"):
                              canal['bloque'][idx] = f"#ESTADO:{nuevo_estado}"
+                             linea_encontrada = True
                              break
                     
-                    # 3. Actualizar la prioridad interna 
+                    # R2: Si la línea #ESTADO: no existía, añadirla antes de la URL
+                    if not linea_encontrada:
+                         # La URL siempre es la última línea
+                         canal['bloque'].insert(len(canal['bloque']) - 1, f"#ESTADO:{nuevo_estado}")
+                    
+                    # 3. Actualizar la prioridad interna para el re-balanceo
                     canal['prioridad'] = PRIORIDAD_ESTADO.get(nuevo_estado, 0)
                     
                     cambios_servidor += 1
@@ -186,12 +132,15 @@ def actualizar_servidores_con_auditoria():
             if guardar_inventario_servidor(i, inventario):
                 servidores_modificados.append(i)
 
-
-    # 2. Ejecutar la Auditoría y Balanceo Global (Reclasificación)
-    # Esta función ahora manejará la distribución con límite de 30/cat y la limpieza de archivos vacíos.
+    # 3. Ejecutar la Auditoría y Balanceo Global (Reclasificación)
+    # Esta función leerá los archivos de servidor ACTUALIZADOS, ordenará por 
+    # prioridad (abierto > dudoso > fallido) y distribuirá según los límites (800/30).
+    print("\n--- ⚖️ Iniciando Re-Balanceo Estratégico (Prioridad) ---")
     auditar_y_balancear_servidores(MAX_SERVIDORES_BUSCAR)
     
     print("\n--- ✅ Proceso de Reclasificación por Auditoría Finalizado ---")
 
 if __name__ == "__main__":
-    actualizar_servidores_con_auditoria()
+    # Si se desea probar directamente, usar una ruta de archivo de resumen de prueba.
+    # actualizar_servidores_con_auditoria(RUTA_RESUMEN_AUDITORIA)
+    pass

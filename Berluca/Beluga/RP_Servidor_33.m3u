@@ -1,123 +1,127 @@
 #EXTM3U
-
-# ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Free TV (CO) Geo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 3 (España) (🇪🇸) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-freetvco-lgco/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Free TV Accion (AR) Geo
+http://38.180.133.31:8000/play/a0w5/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 5 (Mexico) (🇲🇽) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://amg01024-olympusat-amg01024c2-lg-ar-1118.playouts.now.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Fuel TV (FR)
+http://38.180.133.31:8000/play/a0w7/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Bein Sports Xtra Ñ (España) (🇪🇸) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeafr-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",HNC Free (DE)
+https://tinyurl.com/yc6az36h?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Setanta Sports (Ucrania) (🇺🇦) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/hncAAAAAA-hncfree-lg-de/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",HNC Free (UK)
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/272/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Horizon Sports (Italia) (🇮🇹) #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/hncAAAAAA-hncfree-lg-uk/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Homicide (FR)
+https://tinyurl.com/4trh5j6f?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",[HD]band sports ✅ #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-homicide-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Humanity Documentaries (FR) Geo
+https://stream1.freetv.fun/f55a849b8592c617e547012d8c1c9a611456461447e45fb8584ba1c2da4589a0.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",World of Freesports #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/alchimieA-humanity-doc-fr-lg/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Love Wine (FR)
+https://s7host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config9/playlist.m3u8?ads.cdnhost=s7host5.localnow.api.cms.amdvids.com&ads.playbackid=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n4=content_name&ads.v4=EPG%20%7C%20World%20of%20Freesports&ads.n21=us_privacy&ads.v21=1YNY&ads.n22=content_producer_name&ads.v22=Mainstream%20Media%20AG&ads.n23=app_store_url&ads.v23=&ads.n24=network_name&ads.v24=world-of-free-sports-international&ads.n25=content_provider&ads.v25=world-of-free-sports-international&ads.n26=app_name&ads.v26=&ads.n27=ip&ads.v27=193.228.206.147&ads.n28=device_model&ads.v28=&ads.n29=content_custom_1_param&ads.v29=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n30=ua&ads.v30=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n31=pos&ads.v31=midroll&ads.n32=cust_devicename&ads.v32=desktop_web&ads.n33=channel_title&ads.v33=EPG%20%20World%20of%20Freesports&ads.n34=channel_rating&ads.v34=TV-PG&ads.n35=device_type&ads.v35=&ads.n36=channel_id&ads.v36=0F08B6CD-FB0A-4FF0-8792-DE81A8AAF14D&ads.n37=channel_company_id&ads.v37=AMDP500497&ads.n38=channel_ext_id&ads.v38=&ads.n39=channel_corp&ads.v39=Mainstream%20Media%20AG&ads.n40=channel_brand_id&ads.v40=AMDB013343&ads.n41=app_bundle&ads.v41=&ads.n42=app_version&ads.v42=0.0.0&ads.n43=content_custom_2_param&ads.v43=AMDB013343&ads.n44=url&ads.v44=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n45=content_custom_3_param&ads.v45=channel&ads.n46=did&ads.v46=&ads.n47=h&ads.v47=1080&ads.n48=channel_genre&ads.v48=Sports&ads.n49=dnt&ads.v49=&ads.n50=channel_name&ads.v50=EPG%20%20World%20of%20Freesports&ads.n51=content_livestream&ads.v51=1&ads.n52=w&ads.v52=1920&ads.n53=ifa_type&ads.v53=&ads.n54=content_type&ads.v54=channel&ads.n55=gpp_sid&ads.v55=&ads.n56=gpp&ads.v56=&ads.n57=channel_language&ads.v57=en&ads.n58=device_make&ads.v58=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CULTURA Y HOGAR ★",HOGAR TV - Opción 2 ✅
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovewinefrance-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Movies 4 Free
+http://181.119.86.68:8000/play/b051/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CULTURA Y HOGAR ★",HOGAR TV ✅
 #ESTADO:abierto
-https://movies4free-lg.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Movies 4 Free Geo
+http://181.119.85.222:8000/play/a01f/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI TV PLUS 1
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/videosolu-movies4free-lg/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Mtrsprt 1 (FR)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10931
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI TV PLUS 2
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Nature Time (FR)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10932
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI TV PLUS 3
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01576-blueskyeenterta-naturetimeemea-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",20 Minutes TV (1080p) ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10933
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI TV PLUS 4
 #ESTADO:abierto
-https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",8 La Marina TV ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10934
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI TV PLUS 5
 #ESTADO:abierto
-https://streaming005.gestec-video.com/hls/canal24.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",8 NTV | MX ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10935
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Z PLAY ANIME
 #ESTADO:abierto
-https://60417ddeaf0d9.streamlock.net:443/ntv/videontv/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Abdulmajeed Abdullah (1080p) ✅
+https://mitv.zplay.cl/Ztv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI 1
 #ESTADO:abierto
-https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",ABN ✅
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=11057
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI 2
 #ESTADO:abierto
-https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8?null=0
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Ace Bodyguard (2021) ✅
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=11058
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI 3
 #ESTADO:abierto
-https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/66a74ed46134930013b921d4.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Activa TV (720p) ✅
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=11059
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI 4
 #ESTADO:abierto
-https://streamtv.mediasector.es/hls/activatv/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",The Boat Show (FR)
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=11060
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",ANIME ONEGAI 5
 #ESTADO:abierto
-https://vitor-theboatshow-1-fr.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Travel XP (FR)
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=11061
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Mr. Bean Anime (1080p)
 #ESTADO:abierto
-https://travelxp-travelxp-4-fr.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Unbeaten (FR)
+https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Wasabi la chaîne anime
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00721-inverleigh-unbeaten-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Watchmojo (FR)
+https://amg01796-amg01796c3-rakuten-uk-2555.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-wasabii-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Mr. Bean Anime Spain (1080p)
 #ESTADO:abierto
-https://watchmojo-1-fr.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Waterbear Network (FR)
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Mr. Bean Anime Italy (1080p)
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amgx0019-amagicontentplu-waterbear-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World Of Free Sport (AT)
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Anime All day
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-worldoffreespor-lgat/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World of Free Sport (CH)
+https://jmp2.uk/stvp-USAJ3504502A
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",BITME ✅
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-worldoffreespor-lgch/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World of Free Sport (DE)
+http://181.119.85.222:8000/play/a03j/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",BITME - Opción 2 ✅
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01866-mainstreammedia-worldoffreespor-lgde/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Yaquelaverite (FR)
+http://181.119.86.68:8000/play/c027/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Adult Swim ✅
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-yaquelaverite-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Bab Al Hara (1080p) ✅
+http://179.51.136.19:8000/play/a1io/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Adult Swim - Opción 2 ✅
 #ESTADO:abierto
-https://shls-live-enc.edgenextcdn.net/out/v1/948c54279b594944adde578c95f1d7d1/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",BabyFirst Spanish ✅
+http://181.78.201.70:8000/play/a0tm/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",AKIBA PASS TV Anime: Sport
 #ESTADO:abierto
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be6f9eac-280e-4748-b866-2eb2463c1844/manifest.m3u8
-
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/659e598ab9adc4000843c574/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5242-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=77cfb04f-c3c0-44b8-b6e2-07ddce76c467
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Pluto TV Anime
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/608181d420fc8500075f612a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc852c04-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7712194d-f819-4c85-b762-cb0449cb4928
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",BITME
+#ESTADO:abierto
+http://user.tvcluboficial.com/live/m/m/946.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",AKIBA PASS TV Anime: Sport
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/659e598ab9adc4000843c574/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc8293f2-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a10e7bc2-27d2-4246-858e-3b550009b794
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Anime All Day
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Crunchyroll
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65652f7fc0fc88000883537a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c282e28-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=95ddabd5-09c0-4680-9412-eea43c47a4da
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",AZTV Anime Zone (España) (🇪🇸) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://animezonetv.net/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Anime Zone TV | AR #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://animezonetv.net/hls/stream.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Canal Anime Onegai 1 Portuguese (BR) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11777
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Canal Anime Onegai 2 Portuguese (BR) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11776
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Canal Anime Onegai 3 Portuguese (BR) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11775
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Canal Anime Onegai 4 Portuguese (BR) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11774
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ ANIME Y OTAKU ★",Canal Anime Onegai 5 Portuguese (BR) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11773

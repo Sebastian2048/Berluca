@@ -1,4 +1,4 @@
-# auditor_conectividad.py (Auditoría Lenta Multihilo)
+# auditor_conectividad.py
 import os
 import re
 import logging
@@ -18,12 +18,11 @@ except ImportError as e:
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # --- CONFIGURACIÓN MULTIHILO Y STREAMLINK ---
-RUTA_PRE_AUDITORIA = os.path.join(CARPETA_SALIDA, "RP_Pre_Auditoria.m3u")
-RUTA_RESUMEN_AUDITORIA = os.path.join(CARPETA_SALIDA, "RP_Resumen_Auditoria.m3u")
+RUTA_RESUMEN_AUDITORIA = os.path.join(CARPETA_SALIDA, "RP_Resumen_Auditoria.m3u") 
 
 COMANDO_PRUEBA_LENTA = ['streamlink', '--json', '--stream-url', '--loglevel', 'none']
 TIMEOUT_LENTO = 25  
-MAX_THREADS_LENTO = 15 # Hilos para pruebas Streamlink (ajusta según tu CPU/Red)
+MAX_THREADS_LENTO = 15 
 
 def realizar_prueba_reproduccion_real(url: str) -> bool:
     """
@@ -45,7 +44,6 @@ def realizar_prueba_reproduccion_real(url: str) -> bool:
     except subprocess.TimeoutExpired:
         return False
     except FileNotFoundError:
-        # Esto debería haberse manejado antes, pero es una buena seguridad.
         logging.error("❌ ERROR CRÍTICO: La herramienta 'streamlink' no se encuentra.")
         return False
     except Exception:
@@ -54,40 +52,46 @@ def realizar_prueba_reproduccion_real(url: str) -> bool:
 
 def auditar_conectividad():
     """
-    Ejecuta la prueba de auditoría LENTA SOLO sobre los canales marcados como 'dudoso' 
-    en el archivo de pre-auditoría, usando multithreading.
+    Función principal que lee el Resumen, ejecuta la prueba LENTA SOLO sobre los 'dudoso' 
+    y reescribe el resumen final.
     """
-    if not os.path.exists(RUTA_PRE_AUDITORIA):
-        print(f"❌ Error: No se encontró el archivo de Pre-Auditoría: {RUTA_PRE_AUDITORIA}")
-        print("Ejecuta 'actualizar_servidores.py' primero para generar la pre-auditoría rápida.")
+    # 1. Verificar y leer el archivo de Resumen generado por la Fase 1
+    if not os.path.exists(RUTA_RESUMEN_AUDITORIA):
+        print(f"❌ Error: No se encontró el archivo de Resumen de Auditoría: {RUTA_RESUMEN_AUDITORIA}")
+        print("Ejecuta la Fase 1 (Clasificación/Quick Audit) primero.")
         return
 
     print("--- 🐢 Iniciando Auditoría LENTA Multihilo (Prueba de Reproducción REAL) ---")
 
-    with open(RUTA_PRE_AUDITORIA, "r", encoding="utf-8", errors="ignore") as f:
-        bloques_pre_auditados = extraer_bloques_m3u(f.readlines())
+    with open(RUTA_RESUMEN_AUDITORIA, "r", encoding="utf-8", errors="ignore") as f:
+        bloques_auditados_fase1 = extraer_bloques_m3u(f.readlines())
         
     canales_a_probar = []
+    inventario_completo = []
     
-    # 1. Identificar y recolectar solo los canales 'dudoso'
-    for bloque in bloques_pre_auditados:
-        extinf_line = bloque[0]
-        match = re.search(r'#ESTADO_AUDITORIA:(\w+)', extinf_line)
-        estado_previo = match.group(1) if match else "desconocido"
+    # 2. Identificar y recolectar solo los canales 'dudoso'
+    for bloque in bloques_auditados_fase1:
+        # El estado viene en la segunda línea del bloque: ['#EXTINF...', '#ESTADO:dudoso', 'URL']
+        estado_previo = "desconocido"
+        if len(bloque) > 1 and bloque[1].startswith("#ESTADO:"):
+            estado_previo = bloque[1].split(':')[1].strip().lower()
+        
+        canal_data = {
+            'bloque': bloque,
+            'url': extraer_url(bloque),
+            'nombre': extraer_nombre_canal(bloque),
+            'estado_previo': estado_previo
+        }
+        inventario_completo.append(canal_data)
         
         if estado_previo == "dudoso":
-            canales_a_probar.append({
-                'bloque': bloque,
-                'url': extraer_url(bloque),
-                'nombre': extraer_nombre_canal(bloque)
-            })
-
+            canales_a_probar.append(canal_data)
+        
     canales_totales = len(canales_a_probar)
-    resumen_final_bloques = []
     
     print(f"✅ Canales dudosos detectados: {canales_totales}. Iniciando pruebas paralelas...")
 
-    # 2. Ejecutar la auditoría en paralelo (solo en los 'dudosos')
+    # 3. Ejecutar la auditoría en paralelo (solo en los 'dudosos')
     resultados_auditoria = {}
     
     if canales_totales > 0:
@@ -108,35 +112,40 @@ def auditar_conectividad():
                         logging.debug(f"Error en hilo de auditoría para {url}: {exc}")
                         pasa_prueba = False 
 
-                    estado_final = "abierto" if pasa_prueba else "dudoso"
+                    estado_final = "abierto" if pasa_prueba else "fallido"
                     resultados_auditoria[url] = estado_final
                     
                     pbar.update(1)
 
-    # 3. Consolidar todos los bloques
-    for bloque in bloques_pre_auditados:
-        url = extraer_url(bloque)
-        nombre = extraer_nombre_canal(bloque)
+    # 4. Consolidar todos los bloques y RE-ESCRIBIR EL RESUMEN
+    resumen_final_bloques = []
+    
+    for canal in inventario_completo:
+        url = canal['url']
+        estado_previo = canal['estado_previo']
+        bloque_original = canal['bloque']
         
-        estado_final = resultados_auditoria.get(url)
+        estado_final_streamlink = resultados_auditoria.get(url)
         
-        if estado_final is None:
-            # Si no se probó (no era dudoso), mantener su estado previo (fallido o desconocido)
-            match = re.search(r'#ESTADO_AUDITORIA:(\w+)', bloque[0])
-            estado_final = match.group(1) if match else "desconocido"
-
-        # Reconstruir el bloque para el resumen final (solo #EXTINF y la URL)
-        extinf_base = f'#EXTINF:-1 tvg-logo="{LOGO_DEFAULT}",{nombre.strip()}'
-        extinf_final = f"{extinf_base} #ESTADO_AUDITORIA:{estado_final}"
-
-        # Filtrar las líneas internas de estado
-        bloque_base = [l for l in bloque if not l.startswith("#ESTADO_AUDITORIA:")]
+        if estado_final_streamlink is None:
+            estado_final = estado_previo
+        else:
+            estado_final = estado_final_streamlink
         
-        bloque_final = [extinf_final] + bloque_base[1:-1] + [url]
-        resumen_final_bloques.append(bloque_final)
+        # Reconstruir el bloque con el estado final (reemplazando la línea #ESTADO)
+        bloque_modificado = []
+        
+        for linea in bloque_original:
+            if linea.startswith("#ESTADO:"):
+                # Reemplazamos el estado por el estado final de Streamlink
+                bloque_modificado.append(f"#ESTADO:{estado_final}")
+            else:
+                bloque_modificado.append(linea)
+            
+        resumen_final_bloques.append(bloque_modificado)
 
 
-    # 4. Escribir el Resumen de Auditoría Final
+    # 5. Escribir el Resumen de Auditoría Final (sobre RP_Resumen_Auditoria.m3u)
     print(f"\n--- 💾 Escribiendo Resumen de Auditoría Final: {RUTA_RESUMEN_AUDITORIA} ---")
     
     with open(RUTA_RESUMEN_AUDITORIA, "w", encoding="utf-8", errors="ignore") as f:
@@ -147,7 +156,6 @@ def auditar_conectividad():
             f.writelines([linea.strip() + "\n" for linea in bloque])
 
     print("--- ✅ Proceso de Auditoría Lenta Finalizado ---")
-    print("   Ejecuta 'actualizar_servidores.py' para aplicar estos estados y balancear.")
 
 
 if __name__ == "__main__":

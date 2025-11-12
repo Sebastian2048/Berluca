@@ -1,123 +1,211 @@
 #EXTM3U
-
-# ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MICH: SMRT ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sky Sports Bundesliga (España) (🇪🇸)
 #ESTADO:abierto
-https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Runtime Comedia Portuguese (BR)
+http://190.92.10.66:4000/play/a006/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Universo Sports ✅
 #ESTADO:abierto
-https://run-rc-br-lgchannels.otteravision.com/run/rc_br/rc_br.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Runtime Ação Portuguese (BR)
+http://181.78.106.127:9000/play/ca088/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Via X Esports - Opción 2 ✅
 #ESTADO:abierto
-https://run-rt-ra-lgchannels.otteravision.com/run/rt_ra/rt_ra.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Sony One Emoções (BR)
+http://181.78.201.70:8000/play/a0ig/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Via X Esports ✅
 #ESTADO:abierto
-https://spt-sonyoneemocoes-1-br.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Sony One Shark Tank (BR)
+http://179.51.136.19:8000/play/a1h1/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Win Sports+ - Opción 2 ✅
 #ESTADO:abierto
-https://spt-sonyonesharktankbrasil-1-br.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Spark Light Love (BR)
+http://179.51.136.19:8000/play/a1bp/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",TyC Sports ✅
 #ESTADO:abierto
-https://candlelightmedia-sparklightlove-3-br.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MX | PARTY TYMKARAOKE ✅
+http://179.51.136.19:8000/play/a1h0/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN (Chile) (🇨🇱)
 #ESTADO:abierto
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=64&live=1&app_bundle=com.plexapp.android&did=62274240-07e7-5d94-8dc8-ef68cf19e175&app_domain=app.plex.tv&app_name=plex&h=&w=&content_title=SYmqRsd_3zFsz7JJX_qb&content_series=5f17a1a283581000409bd875&custom4=plex&gdpr=0&device_make=&device_model=&coppa=0&us_privacy=1---&custom_6=SYmqRsd_3zFsz7JJX_qb&custom_7=5f17a1a283581000409bd875
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NaturTime ✅
+http://38.180.133.31:8000/play/a0tb/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Win Sports Plus ✅
 #ESTADO:abierto
-https://amg00090-amgnaturetimeemea-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-bamus-naturetimeemeaspa/CDN/master.m3u8?ads_amagi_channel=809&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=4330&ads_rtv_content_language=spa&ads_rtvid=271859&ads_streaming_id=0ab5e532-6cad-48c9-ae18-4f13fedd9fff&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",NortInformativo | CR ✅
+http://tv.teleclub.xyz/stream/server_2/deportes/winsportsplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",BEK Sports West (USA) (🇺🇸)
 #ESTADO:abierto
-https://videohd.live:19360/8076/8076.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",PowerTurk TV ✅
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Bein Sports Xtra (USA) (🇺🇸)
 #ESTADO:abierto
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Aneka ✅
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 1 (Emiratos) (🇦🇪)
 #ESTADO:abierto
-https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Go Live ✅
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 2 (Emiratos) (🇦🇪)
 #ESTADO:abierto
-https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Harmoni ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 2 FHD - Opción 2 ✅
 #ESTADO:abierto
-https://d2kziuzkf9oizb.cloudfront.net/rd002/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Nasional ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 2 FHD ✅
 #ESTADO:abierto
-https://d2kziuzkf9oizb.cloudfront.net/rd005/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Pelangi ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 3 (Emiratos) (🇦🇪)
 #ESTADO:abierto
-https://d2kziuzkf9oizb.cloudfront.net/rd001/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Pilihan ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 3 FHD - Opción 2 ✅
 #ESTADO:abierto
-https://d2kziuzkf9oizb.cloudfront.net/rd003/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTB Sukmaindera ✅
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Dubai Sports 3 FHD ✅
 #ESTADO:abierto
-https://d1211whpimeups.cloudfront.net/smil:rtb1/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTP ✅
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",World of Freesports ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTP - Opción 2 ✅
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Abu Dhabi Sports 1 (1080p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://rtp.noxun.net/hls/stream.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTQ Queretaro | MX ✅
+https://vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Altitude Sports Denver #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Telenorte (720p) ✅
+https://tvpass.org/live/altitude-sports-denver/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Chicago Sports Network #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TRT | VE ✅
+https://tvpass.org/live/chicago-sports-network/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://vcp12.myplaytv.com/trt/trt/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Marti | CU ✅
+https://tvpass.org/live/ESPN/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN Deportes #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RikuTv
+https://tvpass.org/live/espn-deportes/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN News #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://riku-tv.fillkatv.pro/Rikutv/myStream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",100% Docs ✅
+https://tvpass.org/live/ESPNews/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN U #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://amg02162-newenconnect-amg02162c2-rakuten-us-1981.playouts.now.amagi.tv/playlist/amg02162-newenconnect-100pour100docs-rakutenus/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",12 Hours (2022) ✅
+https://tvpass.org/live/ESPNU/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN2 #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://helmerluzo.github.io/PlutoTV_HL/vod/m3u8_ES/6/66a75b8a17101c00138d8937.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Adventure Earth (UK) (🇬🇧)
+https://tvpass.org/live/ESPN2/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Indiana #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Culture Pub (FR)
+https://tvpass.org/live/fanduel-sports-indiana/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Detroit #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://amg02232-botravail-amg02232c3-lg-fr-776.playouts.now.amagi.tv/playlist/amg02232-botravail-culturepub-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Enquetesdechoc (FR)
+https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Florida #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01796-fastmediabackbo-enquetesdechoc-lgfr/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Free TV (CL) Geo
+https://tvpass.org/live/fanduel-sports-network-florida/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Great Lakes #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01024-olympusat-freetvcl-lgcl/playlist.m3u8
-
+https://tvpass.org/live/fanduel-sports-network-great-lakes/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network North #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-north/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Ohio Cleveland #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Oklahoma #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-oklahoma/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet 360 #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-360/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet One #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-one/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet Ontario #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-ontario/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet Pacific #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-pacific/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet Pittsburgh #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-pittsburgh/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",CO: ESPN COLOMBIA ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/86765
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 1 ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://181.205.130.194:4000/play/a07j
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 2 ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://181.78.23.26:45000/play/a00m
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 2 Latin ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://181.78.23.26:45000/play/a01h
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 6 - Opción 2 ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://181.205.130.194:4000/play/a07t
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 7 mx ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://181.205.130.194:4000/play/a07s
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN CO ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://181.78.23.26:45000/play/a02p
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Socal #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-socal/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network South Tennessee #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network West #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-west/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Network Wisconsin #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-network-wisconsin/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Southeast Georgia #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-southeast-georgia/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Southeast North Carolina #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-southeast-north-carolina/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Southeast South Carolina #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-southeast-south-carolina/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Southeast Tennessee Nashville #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-southeast-tennessee-nashville/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Sun #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-sun/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fanduel Sports Tennessee East #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/fanduel-sports-tennessee-east/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 1 #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tvpass.org/live/FoxSports1/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 2 #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/FoxSports2/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Marquee Sports Network #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/marquee-sports-network/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Midatlantic Sports Network #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/midatlantic-sports-network/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Monumental Sports Network #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tvpass.org/live/monumental-sports-network/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",NBC Sports Bay Area #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/nbc-sports-bay-area/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",NBC Sports Boston #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/nbc-sports-boston/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",NBC Sports California #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tvpass.org/live/nbc-sports-california/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",NBC Sports Philadelphia #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/nbc-sports-philadelphia/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",SNY Sportsnet New York Comcast #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sny-sportsnet-new-york-comcast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet (East) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-east/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",tyc ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://181.78.23.26:45000/play/a04m
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",WEBY ESPN Pensacola live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/138677
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",WMTD ESPN 102.3 ThTicket live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/138317
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN (Colombia) (🇨🇴) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://38.180.133.31:8000/play/a0wa/index.m3u8

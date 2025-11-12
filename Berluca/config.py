@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 
 # 📁 Carpetas base utilizadas por Beluga
-CARPETA_SALIDA = "Beluga" # Asegúrate de que esta sea la ruta correcta
+CARPETA_SALIDA = "Beluga" 
 CARPETA_ORIGEN = os.path.join(CARPETA_SALIDA, "compilados")
 CARPETA_SEGMENTADOS = os.path.join(CARPETA_SALIDA, "segmentados")
 CARPETA_LOGS = os.path.join(CARPETA_SALIDA, "logs")
@@ -25,12 +25,15 @@ PRIORIDAD_ESTADO = {
 }
 
 # 🔢 Límite de Bloques (Canales) por Categoría y Servidor (REQUERIDO)
-LIMITE_BLOQUES_CATEGORIA = 30 # ¡NUEVO LÍMITE: 30 canales por categoría!
-LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1200 # ¡NUEVO LÍMITE GLOBAL!
+# 🚨 MODIFICADO: Límite muy alto para que no haya exclusión por categoría.
+LIMITE_BLOQUES_CATEGORIA = 70 
+LIMITE_BLOQUES_SERVIDOR_GLOBAL = 1200 
+                                     
+# ... (El resto de config.py se mantiene)
                                      
 # 📄 Estructura de Nombramiento de Servidores
 NOMBRE_BASE_SERVIDOR = "RP_Servidor"
-MAX_SERVIDORES_BUSCAR = 40 # ¡NUEVO LÍMITE DE SERVIDORES!
+MAX_SERVIDORES_BUSCAR = 1400 
 
 # 🌐 URL BASE del Repositorio (Mantenida)
 URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/refs/heads/main"
@@ -38,20 +41,22 @@ URL_BASE_REPOSITORIO = "https://raw.githubusercontent.com/Sebastian2048/Berluca/
 
 # 🧹 Palabras clave para excluir contenido no deseado
 exclusiones = [
-    "religion", "evangelio", "cristo", "biblia", "jesus", "adulta", "xxx", "erotic"
+    "religion", "cristo", "biblia", "jesus"
 ]
 
 # 🌐 Definición de Idiomas
 CLAVES_NO_ESPANOL = ["eng", "usa", "uk", "portugues", "br", "fr", "deu", "ger", "ru", "arabic", "turkish", "sub", "dub", "viet"]
 
 # 🗂️ CLAVES_CATEGORIA (Nivel 1: Clasificación principal y específica)
+# Mejorado con las categorías clave y eliminación de genéricos (variedad_gen eliminada)
 CLAVES_CATEGORIA = {
-    "tv_argentina": ["telefe", "el trece", "canal 13", "canal 9", "america tv", "net tv", "elnueve"],
-    "peliculas": ["hbo", "cinecanal", "tnt", "amc", "paramount", "cinemax", "sony movies", "peliculas", "cine"],
+    "tv_argentina": ["telefe", "el trece", "canal 13", "canal 9", "america tv", "net tv", "elnueve", "argentina", "argen"], # Mejorado
+    "peliculas": ["cinecanal", "tnt", "amc", "paramount", "cinemax", "sony movies", "peliculas", "cine", "space", "sony"], # Mejorado
+    "premium_ppv": ["hbo", "starz", "fox premium", "ppv", "pay per view", "movie city"], # <<-- NUEVA CATEGORÍA PRINCIPAL
     "series": ["warner", "comedy central", "fx", "star channel", "sony channel", "universal tv", "axn", "series"],
     "deportes_envivo": ["espn", "fox sports", "tyc", "tnt sports", "nba", "fútbol", "deportes", "sports"],
-    "infantil_kids": ["discovery kids", "cartoon network", "disney", "nickelodeon", "paka paka", "babytv", "infantil"],
-    "anime": ["crunchyroll", "adult swim", "bitme", "senpai tv", "anime", "manga", "otaku"],
+    "infantil_kids": ["discovery kids", "cartoon network", "disney", "nickelodeon", "paka paka", "babytv", "infantil", "kids"], # Mejorado
+    "anime": ["crunchyroll", "adult swim", "bitme", "senpai tv", "anime", "manga", "otaku", "onegai", "locomotion"], # Mejorado
     "documentales": ["discovery science", "history", "natgeo", "animal planet", "documental"],
     "noticias": ["cnn", "bbc", "al jazeera", "euronews", "tn", "c5n", "a24", "cronica", "noticias"],
     "musica": ["mtv", "telehit", "qube music", "musica", "concert"],
@@ -77,7 +82,7 @@ CLAVES_CATEGORIA_N2 = {
     # Clasificación por Contenido Genérico (si no se detectó en Nivel 1)
     "documentales_gen": ["ciencia", "animales", "misterio", "historia"],
     "musica_gen": ["hit", "pop", "rock", "clasic", "reguetton"],
-    "variedad_gen": ["entretenimiento", "show", "variedad", "canal"],
+    # ELIMINADA: "variedad_gen"
 }
 
 # 🖼️ Logos y Títulos (Necesario para la escritura del M3U)
@@ -86,16 +91,17 @@ LOGO_DEFAULT = "https://raw.githubusercontent.com/Sebastian2048/Berluca/main/bel
 TITULOS_VISUALES = {
     "tv_argentina": "★ TV ARGENTINA ★",
     "peliculas": "★ CINE Y PELÍCULAS ★",
+    "premium_ppv": "💎 CANALES PREMIUM (HBO, STARZ, etc.) 💎", # <<-- NUEVO TÍTULO
     "series": "★ SERIES DE TV ★",
     "deportes_envivo": "★ DEPORTES EN VIVO ★",
     "infantil_kids": "★ INFANTILES Y KIDS ★",
-    "anime": "★ ANIME ★",
+    "anime": "★ ANIME Y OTAKU ★", # Mejorado
     "documentales": "★ DOCUMENTALES ★",
     "noticias": "★ NOTICIAS GLOBAL ★",
     "musica": "★ MÚSICA GENERAL ★",
-    "roll_over": "★ CANALES ABIERTOS ★",
+    "roll_over": "★ CANALES ABIERTOS/SIN CLASIFICAR ★", # Reforzado para ser un cajón de sastre
     
-    # Títulos Nivel 2
+    # Títulos Nivel 2 (Se mantiene el resto, excepto "variedad_gen")
     "tv_mexico": "★ TV MÉXICO ★",
     "tv_colombia": "★ TV COLOMBIA ★",
     "tv_peru": "★ TV PERÚ ★",
@@ -108,7 +114,7 @@ TITULOS_VISUALES = {
     "cultura_hogar": "★ CULTURA Y HOGAR ★",
     "documentales_gen": "★ DOCUMENTALES VARIOS ★",
     "musica_gen": "★ MÚSICA VARIOS ★",
-    "variedad_gen": "★ VARIEDADES GENERALES ★",
+    # ELIMINADA: "variedad_gen"
 }
 
 # 🔍 Función para detectar exclusiones

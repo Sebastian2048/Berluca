@@ -1,123 +1,643 @@
 #EXTM3U
-
-# ====== ★ VARIEDADES GENERALES ★ ======
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MX | WILDEARTH ✅
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",CNN US #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://wildearth-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-wildearth-plex/CDN/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=SYmqRsd_3zFsz7JJX_qb&channelId=60d4edddb2fdec002c141135
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MedioProvincia | AR ✅
+https://tvpass.org/live/CNN/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",BBC Earth (USA) (🇺🇸) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://stream.arcast.net:4443/mp/mp/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Mi TV | PY ✅
+https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",CNN (Brasil) (🇧🇷) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",MyPadel TV ✅
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1, tvg-logo="ozCnnDg.png" group-title="★ NOTICIAS GLOBAL ★", TV Senado | HD #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://daiconnect.com/live/hls/tvup/rk-mypadeltv/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_did=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_opt_out_flag=1&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_rtv_content_id=4399&ads_rtv_content_language=spa&ads_streaming_id=0c819437-7b48-400d-9783-a604517507ff&ads_tcs_channel_id=929&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Oficios Perdidos ✅
+http://janus-tv-ply.senado.cl/playlist/stream.m3u8?s=tvsenado-hd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",BBC News (UK) (🇬🇧) #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://daiconnect.com/live/hls/tvup/rk-oficiosperdidos/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_did=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_opt_out_flag=1&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_rtv_content_id=6179&ads_rtv_content_language=spa&ads_streaming_id=bad9b1b5-ea16-4a0b-b4c6-42c6011d92e0&ads_tcs_channel_id=927&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pluto TV Estrellas de Acción (720p)
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",BBC Antiques Roadshow UK alt #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e972a21ad709d00074195ba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Pocoyó ✅
+https://d2irko5f9gt1c5.cloudfront.net/10008/99991783/hls/playlist.m3u8?ads.xumo_channelId=99991783
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",Euronews English #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://daiconnect.com/live/hls/tvup/rk-pocoyo/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_did=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_opt_out_flag=1&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_rtv_content_id=5541&ads_rtv_content_language=spa&ads_streaming_id=a89faaaa-d65a-421d-88fa-1d0fc3a03464&ads_tcs_channel_id=920&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Qwest TV - Opción 2 ✅
+https://3728a4a2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TG9jYWxOb3dfRXVyb25ld3NFbmdsaXNoX0hMUw/playlist.m3u8?ads.ifa_type=&ads.ip=193.228.206.147&ads.wurl_name=EuronewsEnglish&ads.device_make=&ads.did=&ads.ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.content_provider=euronews&ads.channel_corp=Southern%20Cross%20International&ads.content_title=EPG%20%20Euronews%20English&ads.channel_company_id=AMDP500203&ads.device_type=&ads.channel_brand_id=AMDB013277&ads.app_name=&ads.wurl_channel=670&ads.cust_devicename=&ads.app_store_url=&ads.app_bundle=&ads.dnt=&ads.content_id=8F2F78C5-E1C5-436F-B8AC-771C644B08C7&ads.device_model=&ads.us_privacy=1YNY&ads.channel_ext_id=6314cce180b6d2037207ae19&ads.coppa=0&ads.cust_channeltype=channel&ads.content_genre=News&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&width=1920&app_version=0.0.0&device_devicetype=desktop_web&height=1080
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ NOTICIAS GLOBAL ★",Al Jazeera Mubasher Broadcast 2 (1080p) ✅ #ESTADO_AUDITORIA:dudoso
 #ESTADO:abierto
-https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8?ads_amagi_channel=711&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=2268&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=7a1c9b84-2daa-462b-8e16-37caf0c2f318&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",República TV (720p) ✅
+https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Vevo Pop (Australia) (🇦🇺)
 #ESTADO:abierto
-https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Reuters - Opción 2 ✅
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Stingray Hit List (1080p) ✅
 #ESTADO:abierto
-https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8?ads_amagi_channel=887&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=12&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=5789&ads_rtv_content_language=deu&ads_rtvid=271859&ads_streaming_id=7c31c9f4-1efb-4ed6-9902-db9ae048b0c1&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Mana | AR ✅
+https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Stingray Holiday Hit(1080p) ✅
 #ESTADO:abierto
-https://w2.manasat.com:443/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TV Universidad | AR ✅
+https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Olanchito TV Canal 23 ✅
 #ESTADO:abierto
-https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Television Consciente ✅
+https://dvrfl03.bozztv.com/hondu/hondu-otvcanal23/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",kronehit - Opción 2 ✅
 #ESTADO:abierto
-https://fractaltv-samsungspain.amagi.tv/hls/amagi_hls_data_samsungsp-fractal-televison-concientes-samsunges/CDN/playlist.m3u8?device%5Bdid%5D=%7BPSID%7D&device%5Bdnt%5D=%7BTARGETOPT%7D&app_name=%7BAPP_NAME%7D&coppa=0&tc_string=%7BTC_STRING%7D
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",TracUrban ✅
+https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b628000.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",kronehit ✅
 #ESTADO:abierto
-https://amg01131-tracetv-traceurbanes-samsungspain-c6yeo.amagi.tv/playlist/amg01131-tracetv-traceurbanes-samsungspain/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",UNIRIO | AR ✅
+https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Now Rock (Nueva Zelanda) (🇳🇿)
 #ESTADO:abierto
-https://audiov-srv2.rec.unrc.edu.ar/hls/stream.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Vivir con gatos ✅
+https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",NEW KPOP (EU)
 #ESTADO:abierto
-https://daiconnect.com/live/hls/tvup/rk-vivircongatos/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_did=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_opt_out_flag=1&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_rtv_content_id=5596&ads_rtv_content_language=spa&ads_streaming_id=33e4045d-c616-4b01-a1c2-f4b3857825ef&ads_tcs_channel_id=922&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Vivir con perros ✅
+https://newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Chili Rock TV (IT)
 #ESTADO:abierto
-https://daiconnect.com/live/hls/tvup/rk-vivirconperros/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_did=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_opt_out_flag=1&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_rtv_content_id=5597&ads_rtv_content_language=spa&ads_streaming_id=5af0ec9d-4346-4e3e-ac1d-142cf155c527&ads_tcs_channel_id=921&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Waterbear ✅
+https://chili-rock-tv-1-it.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Business Rockstars
 #ESTADO:abierto
-https://waterbear-waterbear-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-waterbear-waterbear-rakuten/CDN/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Waypoint TV ✅
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2249&live=1&avod=1&site_page=__PAGEURL_ESC__&site_name=Business%20Rockstars&hls_marker=1&cb=__CACHE_BUSTER__&ip=__CLIENT_IP__&ua=__USER_AGENT__&player_height=__HEIGHT__&player_width=__WIDTH__&is_lat=__LIMIT_AD_TRACKING__&ads.deviceidtype=__DEVICE_ID_TYPE__&ads.gdpr=__IS_GDPR__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Watchit Scream!
 #ESTADO:abierto
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00381-waypointcommuni-waypointtv-plex/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=54BJr7WnyDHsQw89xm2F&channelId=5fd115b8b7ef8d002dcf1817
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",World War TV ✅
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2257&live=1&avod=1&site_page=__PAGEURL_ESC__&site_name=Watchit%20Scream%21&hls_marker=1&cb=__CACHE_BUSTER__&ip=__CLIENT_IP__&ua=__USER_AGENT__&player_height=__HEIGHT__&player_width=__WIDTH__&is_lat=__LIMIT_AD_TRACKING__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Watchit Kid!
 #ESTADO:abierto
-https://aenetworks-worldwartv-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-aenetworks-worldwartv-rakuten/CDN/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Беларусь 24 ✅
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2256&live=1&avod=1&site_page=__PAGEURL_ESC__&site_name=Watchit%20Kid%21&hls_marker=1&cb=__CACHE_BUSTER__&ip=__CLIENT_IP__&ua=__USER_AGENT__&player_height=__HEIGHT__&player_width=__WIDTH__&is_lat=__LIMIT_AD_TRACKING__&ads.deviceidtype=__DEVICE_ID_TYPE__&ads.gdpr=__IS_GDPR__
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Pop Flix (GB)
 #ESTADO:abierto
-https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1008231497_b5160000_sleng.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Беларусь 5 ✅
+https://signatureentertainment-popflix-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Pop Flix (IE)
 #ESTADO:abierto
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Franc24 | FR ✅
+https://signatureentertainment-popflix-1-ie.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Arirang K-pop
 #ESTADO:abierto
-http://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",RTV Noordoost Friesland ✅
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5468
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Pelis y Popcorn
 #ESTADO:abierto
-https://593aed234297b.streamlock.net/rtvnof/rtvnof/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Sangre Fría ✅
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb2f47c133270007327375/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f24-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f7b47b7-a2d8-4c61-847a-02818046001b
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Popular TV Murcia (1080p) [Not 24/7]
 #ESTADO:abierto
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=6130
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Master Video (1080p) ✅
+https://cloud.fastchannel.es/mic/manifiest/populartvrm.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",TELE HIT - Opción 2 ✅
 #ESTADO:abierto
-https://5fd5567570c0e.streamlock.net/222/stream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Televideo | AR ✅
+http://181.119.85.222:8000/play/a03k/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Olanchito (Honduras) (🇭🇳)
 #ESTADO:abierto
-https://stmvideo1.livecastv.com/televideo/televideo/playlist.m3u8?PlaylistM3UCL
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",Video Tour Channel - Opción 2 ✅
+http://168.181.121.194:1836/hlscha3/llive.m3u8?key=3D8aUsX2w
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Battery Pop #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://59ef525c24caa.streamlock.net/videotour/videotour/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",CR | NORTINFORMATIVO TV ✅
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991273
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Popstar! TV (1080p) [Not 24/7] #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://videohd.live:19360/8076/8076.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ CANALES ABIERTOS ★",KaraokParty Time ✅
+https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Popstar! TV #ESTADO_AUDITORIA:fallido
 #ESTADO:abierto
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=63&live=1&app_bundle=com.plexapp.android&did=62274240-07e7-5d94-8dc8-ef68cf19e175&app_domain=app.plex.tv&app_name=plex&h=&w=&content_title=yXEjj44H1anLbCyuyjDC&content_series=5eea605674085f0040ddc7ac&custom4=plex&gdpr=0&device_make=&device_model=&coppa=0&us_privacy=1---&custom_6=yXEjj44H1anLbCyuyjDC&custom_7=5eea605674085f0040ddc7ac&is_lat=0
-
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/popstar/playlist.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22783&ads.content_duration=18000&ads.episode_id=19793&ads.show_id=580&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CPop%20Culture%2CEnglish&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=Popstar%21%20TV&ads.episodetitle=Popstar%21%20TV&ads.keywords=popstartv&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Stingray Hit List #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hit-list/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22865&ads.content_duration=18000&ads.episode_id=35972&ads.show_id=1106&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CContemporary%20Hits%2FPop%2FTop%2040%2CEnglish&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=Stingray%20Hit%20List&ads.episodetitle=Hit%20List&ads.keywords=stingray%20music&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Stingray Rock Alternative #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-rock-alternative/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22865&ads.content_duration=18000&ads.episode_id=35974&ads.show_id=1108&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CAlternative%20Rock%2CEnglish&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=Stingray%20Rock%20Alternative&ads.episodetitle=Rock%20Alternative&ads.keywords=stingray%20music&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Plymouth Rock TV #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d38fyt2xhm4m2b.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-PlymouthRockTV/419.m3u8?ads.app_bundle=__APP_BUNDLE__&ads.app_name=__APP_NAME__&ads.app_store=__STORE_URL__&ads.did=__DEVICE_ID__&ads.us_privacy=__IS_CCPA__&ads.schain=1&ads.dnt=__LIMIT_AD_TRACKING__&ads.deviceidtype=__DEVICE_ID_TYPE__&ads.gdpr=__IS_GDPR__&ads.gdprConsent=__GDPR_CONSENT__&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",KTHV CBS 11 News Little Rock AR #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s10host2.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config12/kthv/24x7/index.m3u8?vendor=LocalNow&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ip_addr=193.228.206.147&ads.cdnhost=s10host2.localnow.api.cms.amdvids.com&ads.playbackid=292B138D-2DFA-49C6-B94A-FDE763712F5A&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=292B138D-2DFA-49C6-B94A-FDE763712F5A&ads.n4=content_name&ads.v4=KTHV%20Little%20Rock%20AR&ads.n21=channel_rating&ads.v21=TV-PG&ads.n22=dnt&ads.v22=&ads.n23=url&ads.v23=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n24=device_model&ads.v24=&ads.n25=content_livestream&ads.v25=1&ads.n26=channel_company_id&ads.v26=AMDP500555&ads.n27=pos&ads.v27=midroll&ads.n28=h&ads.v28=1080&ads.n29=cust_devicename&ads.v29=desktop_web&ads.n30=channel_ext_id&ads.v30=&ads.n31=app_store_url&ads.v31=&ads.n32=app_version&ads.v32=0.0.0&ads.n33=did&ads.v33=&ads.n34=app_bundle&ads.v34=&ads.n35=channel_name&ads.v35=KTHV%20Little%20Rock%20AR&ads.n36=content_provider&ads.v36=kthv-little-rock&ads.n37=gpp_sid&ads.v37=&ads.n38=content_custom_1_param&ads.v38=292B138D-2DFA-49C6-B94A-FDE763712F5A&ads.n39=network_name&ads.v39=kthv-little-rock&ads.n40=channel_id&ads.v40=292B138D-2DFA-49C6-B94A-FDE763712F5A&ads.n41=us_privacy&ads.v41=1YNY&ads.n42=gpp&ads.v42=&ads.n43=channel_genre&ads.v43=More%20Cities&ads.n44=content_custom_2_param&ads.v44=AMDB013623&ads.n45=ua&ads.v45=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n46=device_make&ads.v46=&ads.n47=channel_corp&ads.v47=Tegna%20INC&ads.n48=channel_brand_id&ads.v48=AMDB013623&ads.n49=channel_language&ads.v49=en&ads.n50=content_producer_name&ads.v50=Tegna%20INC&ads.n51=content_type&ads.v51=channel&ads.n52=content_custom_3_param&ads.v52=channel&ads.n53=app_name&ads.v53=&ads.n54=channel_title&ads.v54=KTHV%20Little%20Rock%20AR&ads.n55=ifa_type&ads.v55=&ads.n56=ip&ads.v56=193.228.206.147&ads.n57=device_type&ads.v57=&ads.n58=w&ads.v58=1920
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Popular Science #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s8host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config10/acTVe-powder-ono/playlist.m3u8?ads.cdnhost=s8host3.localnow.api.cms.amdvids.com&ads.playbackid=11F7EC73-20B1-4BF8-BDB1-FAA2B48AC5DF&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=11F7EC73-20B1-4BF8-BDB1-FAA2B48AC5DF&ads.n4=content_name&ads.v4=Popular%20Science&ads.n21=content_custom_3_param&ads.v21=channel&ads.n22=device_type&ads.v22=&ads.n23=w&ads.v23=1920&ads.n24=ip&ads.v24=193.228.206.147&ads.n25=channel_company_id&ads.v25=AMDP500526&ads.n26=content_type&ads.v26=channel&ads.n27=content_custom_2_param&ads.v27=AMDB013424&ads.n28=did&ads.v28=&ads.n29=app_version&ads.v29=0.0.0&ads.n30=channel_title&ads.v30=Popular%20Science&ads.n31=ua&ads.v31=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n32=network_name&ads.v32=powder&ads.n33=h&ads.v33=1080&ads.n34=channel_ext_id&ads.v34=&ads.n35=content_producer_name&ads.v35=acTVe%20Action%20Sports%2C%20LLC&ads.n36=us_privacy&ads.v36=1YNY&ads.n37=url&ads.v37=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n38=channel_rating&ads.v38=TV-PG&ads.n39=gpp&ads.v39=&ads.n40=app_store_url&ads.v40=&ads.n41=channel_genre&ads.v41=Documentary%2CScience&ads.n42=content_livestream&ads.v42=1&ads.n43=app_name&ads.v43=&ads.n44=channel_name&ads.v44=Popular%20Science&ads.n45=channel_corp&ads.v45=acTVe%20Action%20Sports%2C%20LLC&ads.n46=gpp_sid&ads.v46=&ads.n47=pos&ads.v47=midroll&ads.n48=device_model&ads.v48=&ads.n49=ifa_type&ads.v49=&ads.n50=channel_language&ads.v50=en&ads.n51=cust_devicename&ads.v51=desktop_web&ads.n52=content_custom_1_param&ads.v52=11F7EC73-20B1-4BF8-BDB1-FAA2B48AC5DF&ads.n53=device_make&ads.v53=&ads.n54=channel_brand_id&ads.v54=AMDB013424&ads.n55=content_provider&ads.v55=powder&ads.n56=channel_id&ads.v56=11F7EC73-20B1-4BF8-BDB1-FAA2B48AC5DF&ads.n57=app_bundle&ads.v57=&ads.n58=dnt&ads.v58=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Architectural Digest #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991229
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Now Rock #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s7host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config9/playlist.m3u8?ads.cdnhost=s7host5.localnow.api.cms.amdvids.com&ads.playbackid=693E205D-9369-43DE-8DCC-BF90CC0951C5&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=693E205D-9369-43DE-8DCC-BF90CC0951C5&ads.n4=content_name&ads.v4=EPG%20%7C%20%20%20Now%20Rock&ads.n21=content_type&ads.v21=channel&ads.n22=pos&ads.v22=midroll&ads.n23=device_make&ads.v23=&ads.n24=app_version&ads.v24=0.0.0&ads.n25=device_model&ads.v25=&ads.n26=device_type&ads.v26=&ads.n27=ua&ads.v27=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n28=content_livestream&ads.v28=1&ads.n29=channel_brand_id&ads.v29=AMDB013349&ads.n30=channel_language&ads.v30=en&ads.n31=channel_rating&ads.v31=TV-PG&ads.n32=ifa_type&ads.v32=&ads.n33=content_producer_name&ads.v33=Lightning%20International%20Limited&ads.n34=app_bundle&ads.v34=&ads.n35=app_name&ads.v35=&ads.n36=channel_id&ads.v36=693E205D-9369-43DE-8DCC-BF90CC0951C5&ads.n37=ip&ads.v37=193.228.206.147&ads.n38=us_privacy&ads.v38=1YNY&ads.n39=gpp_sid&ads.v39=&ads.n40=w&ads.v40=1920&ads.n41=cust_devicename&ads.v41=desktop_web&ads.n42=content_provider&ads.v42=now-90s&ads.n43=channel_ext_id&ads.v43=&ads.n44=content_custom_1_param&ads.v44=693E205D-9369-43DE-8DCC-BF90CC0951C5&ads.n45=network_name&ads.v45=now-90s&ads.n46=url&ads.v46=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n47=channel_genre&ads.v47=Music%20Video&ads.n48=did&ads.v48=&ads.n49=channel_corp&ads.v49=Lightning%20International%20Limited&ads.n50=content_custom_2_param&ads.v50=AMDB013349&ads.n51=channel_name&ads.v51=EPG%20%20%20%20Now%20Rock&ads.n52=channel_title&ads.v52=EPG%20%20%20%20Now%20Rock&ads.n53=h&ads.v53=1080&ads.n54=content_custom_3_param&ads.v54=channel&ads.n55=app_store_url&ads.v55=&ads.n56=dnt&ads.v56=&ads.n57=gpp&ads.v57=&ads.n58=channel_company_id&ads.v58=AMDP500507
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",WREX Rockford IL #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s4host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config4/v1/sem/84c07322-892b-4007-bccb-1a63239eac13.m3u8?adMethod=3&sessionId=wrexlocalnow&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ip_addr=193.228.206.147&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.cdnhost=s4host1.localnow.api.cms.amdvids.com&ads.playbackid=2E54475B-A619-4DC7-87B3-C63B9C60928B&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=2E54475B-A619-4DC7-87B3-C63B9C60928B&ads.n4=content_name&ads.v4=EPG%20%7C%20WREX%20Rockford%2C%20IL&ads.n21=cust_devicename&ads.v21=desktop_web&ads.n22=channel_brand_id&ads.v22=AMDB012926&ads.n23=channel_corp&ads.v23=Allen%20Media%20Broadcasting&ads.n24=app_version&ads.v24=0.0.0&ads.n25=ip&ads.v25=193.228.206.147&ads.n26=dnt&ads.v26=&ads.n27=channel_rating&ads.v27=TV-PG&ads.n28=content_livestream&ads.v28=1&ads.n29=content_custom_1_param&ads.v29=2E54475B-A619-4DC7-87B3-C63B9C60928B&ads.n30=content_custom_2_param&ads.v30=AMDB012926&ads.n31=us_privacy&ads.v31=1YNY&ads.n32=content_producer_name&ads.v32=Allen%20Media%20Broadcasting&ads.n33=pos&ads.v33=midroll&ads.n34=channel_title&ads.v34=EPG%20%20WREX%20Rockford%2C%20IL&ads.n35=ifa_type&ads.v35=&ads.n36=app_name&ads.v36=&ads.n37=url&ads.v37=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n38=channel_language&ads.v38=en&ads.n39=content_custom_3_param&ads.v39=channel&ads.n40=app_bundle&ads.v40=&ads.n41=device_type&ads.v41=&ads.n42=content_type&ads.v42=channel&ads.n43=ua&ads.v43=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n44=channel_id&ads.v44=2E54475B-A619-4DC7-87B3-C63B9C60928B&ads.n45=gpp&ads.v45=&ads.n46=h&ads.v46=1080&ads.n47=device_model&ads.v47=&ads.n48=w&ads.v48=1920&ads.n49=channel_ext_id&ads.v49=6334c47002760b27a60850f2&ads.n50=channel_company_id&ads.v50=AMDP500228&ads.n51=channel_name&ads.v51=EPG%20%20WREX%20Rockford%2C%20IL&ads.n52=did&ads.v52=&ads.n53=device_make&ads.v53=&ads.n54=channel_genre&ads.v54=News&ads.n55=content_provider&ads.v55=wrextv-rockford-il&ads.n56=network_name&ads.v56=wrextv-rockford-il&ads.n57=gpp_sid&ads.v57=&ads.n58=app_store_url&ads.v58=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",CHD Rock (Rusia) (🇷🇺) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://194.26.229.213/chdtv_rock/index.m3u8
+#EXTINF:-1 group-title="★ MÚSICA VARIOS ★",Hit Mix (Белгород) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://listen.radiogora.ru:8000/hitmix128
+#EXTINF:-1 group-title="★ MÚSICA VARIOS ★",Kronehit FM #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://onair.krone.at/kronehit-hd.mp3
+#EXTINF:-1 group-title="★ MÚSICA VARIOS ★",Laut.FM - Rockin_c #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://stream.laut.fm:80/rockin_c
+#EXTINF:-1 group-title="★ MÚSICA VARIOS ★",Radio Rocks #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://icecast.radiorocks.cdnvideo.ru/roks.stream
+#EXTINF:-1 group-title="★ MÚSICA VARIOS ★",Rock FM #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://rock.streamr.ru/rock-128.mp3
+#EXTINF:-1 group-title="★ MÚSICA VARIOS ★",Камчатка Live Rock #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://radio.kamchatkalive.ru:8100/rock
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",1 HIT50live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/17872
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - 90'Alternativlive ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/123583
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - Alternativlive ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/123840
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - Hip Hop live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/122668
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - Metal live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/123578
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - New Country live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/122741
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - ThMix live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/124241
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - Top 40 live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/122615
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",100hitz - Urban live ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/125211
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",70Great Hitlive ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/122834
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",BigR - New R&B Hitlive ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://fortv.cc:8080/90820916/64752029/123357
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Deluxe Deutschpop (Alemania) (🇩🇪) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/3furpajn?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Stingray Pop Adult #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-pop-adult/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22865&ads.content_duration=18000&ads.episode_id=35975&ads.show_id=1109&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CContemporary%20Hits%2FPop%2FTop%2040%2CEnglish&ads.showRating=TV-G&ads.episodeRating=TV-G&ads.language=en&ads.showtitle=Stingray%20Pop%20Adult&ads.episodetitle=Pop%20Adult&ads.keywords=stingray%20music&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Hito Cero TV | CL ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://5e3483cba9114.streamlock.net:443/kbwqdhjxtz/kbwqdhjxtz/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",DanceHits 80 (Rusia) (🇷🇺) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://dancehits80.denvs.ru:8080/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Hits FreeTV (España) (🇪🇸) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-flash-ono/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",XITE Hits (UK) (🇬🇧) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Alfred Hitchcock (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://tinyurl.com/23aa63fz?.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Bridge Hits (Rusia) (🇷🇺) #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://31.148.48.15/Bridge_TV_Dance/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Bridge Russian Hit (Rusia) (🇷🇺) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://95c5fbc8.ottclub.xyz/iptv/EBUCGK992DRF6L/120/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",Run Time Clasicos ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3053
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA VARIOS ★",FreeTV Hits #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/freetv-hits/playlist.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23008&ads.content_duration=18000&ads.episode_id=70731&ads.show_id=2773&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment%2CMusic%20Video%2CMusic%2CSpanish&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=es&ads.showtitle=FreeTV%20Hits&ads.episodetitle=FreeTV%20Hits&ads.keywords=Flash%2CMusic%2CSpanish%2Cespanol%2Chits&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV Teen Mom
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cffcf5686dfe15595fb3f56/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1eea55-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7d2ddc91-5fb2-44c2-aeed-f44a38cfe217
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV The Shores
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5caf32c2a5068259a32320fc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1f1160-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fedd9a53-46f2-4eed-8ea9-ef20093e1a28
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Pluto TV MTV Catfish (Spain) (720p) [Not 24/7]
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1ab3c7778230000735cf41/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1ab3c7778230000735cf41&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=305&terminate=false&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a18p/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV 00s - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a14k/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV 80s - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a0un/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Stingray Concerts HD ✅
+#ESTADO:abierto
+http://181.78.201.70:8000/play/a0rf/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",UMTV ✅
+#ESTADO:abierto
+https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Pluto TV MTV Music Made in Spain (720p) [Not 24/7]
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60a26a056d55b30007918d5a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&serverSideAds=false&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV Catfish TV Show
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5db6a697d5f34a000934cd13/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e9c32-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0e455fb2-5933-41b1-9dd6-9e67c05a465a
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV Catfish TV Show
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5db6a697d5f34a000934cd13/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84addd34-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d88db7fd-9049-4209-8a4a-b6fb695742ed
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV Dating
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64f8a0c230ab3300084369b8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b17f9-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=70f03476-c602-474c-9bec-e1c4bbf13a02
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV Teen Mom
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cffcf5686dfe15595fb3f56/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae044a-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1702995c-e680-43a7-aab2-8ad161900add
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV The Shores
+#ESTADO:abierto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5caf32c2a5068259a32320fc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b52-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ea57af13-cdf9-4796-a6ce-aa2f1ce34fcf
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV Pluto TV
+#ESTADO:abierto
+https://jmp2.uk/stvp-USBA3000093U
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",MTV 2 East
+#ESTADO:abierto
+https://tvpass.org/live/mtv-2-east/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Concert Channel ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a18q/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",KMTV 3 News Now Omaha #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s2host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config2/playlist.m3u8?ads.cdnhost=s2host3.localnow.api.cms.amdvids.com&ads.playbackid=FB66B3F7-0DD0-4A4D-80E9-17E4D4D75121&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=FB66B3F7-0DD0-4A4D-80E9-17E4D4D75121&ads.n4=content_name&ads.v4=EPG%20%7C%20KMTV%20Omaha%20NE&ads.n21=app_name&ads.v21=&ads.n22=h&ads.v22=1080&ads.n23=w&ads.v23=1920&ads.n24=content_type&ads.v24=channel&ads.n25=network_name&ads.v25=kmtv&ads.n26=channel_rating&ads.v26=TV-PG&ads.n27=ua&ads.v27=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n28=us_privacy&ads.v28=1YNY&ads.n29=content_custom_3_param&ads.v29=channel&ads.n30=device_make&ads.v30=&ads.n31=app_store_url&ads.v31=&ads.n32=app_bundle&ads.v32=&ads.n33=gpp&ads.v33=&ads.n34=did&ads.v34=&ads.n35=ifa_type&ads.v35=&ads.n36=gpp_sid&ads.v36=&ads.n37=device_type&ads.v37=&ads.n38=channel_brand_id&ads.v38=AMDB012736&ads.n39=channel_corp&ads.v39=Scripps%20Media%20INC&ads.n40=channel_genre&ads.v40=News&ads.n41=channel_language&ads.v41=en&ads.n42=content_livestream&ads.v42=1&ads.n43=channel_company_id&ads.v43=AMDP500135&ads.n44=app_version&ads.v44=0.0.0&ads.n45=channel_ext_id&ads.v45=62683f72a270ce5ee40ec593&ads.n46=pos&ads.v46=midroll&ads.n47=channel_name&ads.v47=EPG%20%20KMTV%20Omaha%20NE&ads.n48=url&ads.v48=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n49=ip&ads.v49=193.228.206.147&ads.n50=cust_devicename&ads.v50=desktop_web&ads.n51=content_custom_1_param&ads.v51=FB66B3F7-0DD0-4A4D-80E9-17E4D4D75121&ads.n52=channel_title&ads.v52=EPG%20%20KMTV%20Omaha%20NE&ads.n53=device_model&ads.v53=&ads.n54=channel_id&ads.v54=FB66B3F7-0DD0-4A4D-80E9-17E4D4D75121&ads.n55=content_producer_name&ads.v55=Scripps%20Media%20INC&ads.n56=content_custom_2_param&ads.v56=AMDB012736&ads.n57=dnt&ads.v57=&ads.n58=content_provider&ads.v58=kmtv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Qello Concerts #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/qello-qello001-montreal/distrotv/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.deviceCategory=__DEVICE_CATEGORY__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=22865&ads.content_duration=18000&ads.episode_id=35967&ads.show_id=1101&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Music%2CMusic%20Video%2CEnglish&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=Qello%20Concerts&ads.episodetitle=Qello&ads.keywords=stingray%2Cqello&ads.contenturl=__PAGEURL_ESC__&ads.gdprConsent=__GDPR_CONSENT__&ads.paln=__PALN__&ads.tagname=dtv&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ MÚSICA GENERAL ★",Telehit ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_1/musica/telehit/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Pluto TV El Reino Infantil (720p) [Not 24/7]
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3d06fb60d8000781fce8/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Disney Eastern Feed
+#ESTADO:abierto
+https://tvpass.org/live/DisneyChannelEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",CARTOON NETWORK ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a006/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Cartoon Network - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1fg/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",DISCOVERY KIDS ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b020/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Disney - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a18h/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",DISNEY CHANEL ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/c003/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",DISNEY CHANNEL - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a00b/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",DISNEY JR - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b021/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",DISNEY JUNIOR - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a00a/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Nickelodeon ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a0xd/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Disney Channel (Mexico) (🇲🇽)
+#ESTADO:abierto
+http://179.49.163.34:45000/play/a00b/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Disney Jr (Mexico) (🇲🇽)
+#ESTADO:abierto
+http://179.49.163.34:45000/play/a00a/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Kids TV (US)
+#ESTADO:abierto
+https://jansonmedia-kidstv-1-us.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",ABC Kids ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://c.mjh.nz/abc-kids.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",KidsFlix (1080p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",Logos TV Kids (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ INFANTILES Y KIDS ★",TVCARiB Kids & Teens (720p) [Not 24/7] #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES VARIOS ★",Pluto TV Misterios Medicos (720p)
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f230e416b68ff00075b0139/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES VARIOS ★",Pluto TV Misterios sin Resolver (480p)
+#ESTADO:abierto
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f610042272f68000867685b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Hunters ✅
+#ESTADO:abierto
+https://amg00841-amg00841c7-rakuten-uk-2820.playouts.now.amagi.tv/playlist/amg00841-aeemeafast-historyhuntersrakuten-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",NATGEO - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b004/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",HISTORY 2 - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a022/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Channel - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1be/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",HISTORY2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/c019/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Animal Planet US East
+#ESTADO:abierto
+https://tvpass.org/live/AnimalPlanetEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",ANIMAL PLANET ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a01e/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",DISCOVERY SCIENCE ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a01c/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",DISCOVERY SCIENCE - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b049/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",HISTORY ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/c020/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",HISTORY - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a01z/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (AU)
+#ESTADO:abierto
+https://autentic-autentichistory-1-au.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (DK)
+#ESTADO:abierto
+https://autentic-autentichistory-1-dk.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (FI)
+#ESTADO:abierto
+https://autentic-autentichistory-1-fi.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (GB)
+#ESTADO:abierto
+https://autentic-autentichistory-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (IE)
+#ESTADO:abierto
+https://autentic-autentichistory-1-ie.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (NL)
+#ESTADO:abierto
+https://autentic-autentichistory-1-nl.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (NO)
+#ESTADO:abierto
+https://autentic-autentichistory-1-no.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Autentic History (SE)
+#ESTADO:abierto
+https://autentic-autentichistory-1-se.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Hit (FI)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-historyhit-lgfi/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Time (CA)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-historytime-lgca/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Time (DK)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-historytime-lgdk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Time (US)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-historytime-lgus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Love Crime and History
+#ESTADO:abierto
+https://amg01821-amg01821c16-xiaomi-international-4605.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Love Crime and History Spain
+#ESTADO:abierto
+https://amg01821-amg01821c23-xiaomi-international-4612.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovecrimeandhistoryspain-xiaomiinternational/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Channel ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://181.78.23.26:45000/play/a005
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",History Channel US Eastern Feed #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://tvpass.org/live/HistoryEast/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Animal Planet - Opción 2 ✅ #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+http://181.78.23.26:45000/play/a01d
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",Nature & History",InWonder #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+https://jmp2.uk/stvp-USBA300023G8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DOCUMENTALES ★",True History #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://s5host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config7/dist/localnow/188/hls/master/playlist.m3u8?ads.cdnhost=s5host4.localnow.api.cms.amdvids.com&ads.playbackid=D2B46CB5-9C27-49E2-A022-30B482C208AC&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=D2B46CB5-9C27-49E2-A022-30B482C208AC&ads.n4=content_name&ads.v4=EPG%20%7C%20True%20History&ads.n21=channel_brand_id&ads.v21=AMDB012238&ads.n22=channel_id&ads.v22=D2B46CB5-9C27-49E2-A022-30B482C208AC&ads.n23=channel_company_id&ads.v23=AMDP500205&ads.n24=channel_ext_id&ads.v24=610ae14972b5a14c2e63efe9&ads.n25=channel_language&ads.v25=en&ads.n26=channel_title&ads.v26=EPG%20%20True%20History&ads.n27=network_name&ads.v27=true-history-channel&ads.n28=device_model&ads.v28=&ads.n29=content_type&ads.v29=channel&ads.n30=device_make&ads.v30=&ads.n31=content_custom_2_param&ads.v31=AMDB012238&ads.n32=dnt&ads.v32=&ads.n33=channel_name&ads.v33=EPG%20%20True%20History&ads.n34=app_version&ads.v34=0.0.0&ads.n35=ifa_type&ads.v35=&ads.n36=channel_corp&ads.v36=The%20Teaching%20Company&ads.n37=content_custom_3_param&ads.v37=channel&ads.n38=url&ads.v38=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n39=h&ads.v39=1080&ads.n40=app_bundle&ads.v40=&ads.n41=content_provider&ads.v41=true-history-channel&ads.n42=did&ads.v42=&ads.n43=app_name&ads.v43=&ads.n44=cust_devicename&ads.v44=desktop_web&ads.n45=w&ads.v45=1920&ads.n46=content_livestream&ads.v46=1&ads.n47=pos&ads.v47=midroll&ads.n48=app_store_url&ads.v48=&ads.n49=gpp_sid&ads.v49=&ads.n50=gpp&ads.v50=&ads.n51=ip&ads.v51=193.228.206.147&ads.n52=content_custom_1_param&ads.v52=D2B46CB5-9C27-49E2-A022-30B482C208AC&ads.n53=content_producer_name&ads.v53=The%20Teaching%20Company&ads.n54=ua&ads.v54=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n55=channel_rating&ads.v55=TV-PG&ads.n56=channel_genre&ads.v56=Documentary&ads.n57=device_type&ads.v57=&ads.n58=us_privacy&ads.v58=1YNY
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES MOTOR ★",Motorvision ✅
+#ESTADO:abierto
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES MOTOR ★",MS Motor (Italia) (🇮🇹)
+#ESTADO:abierto
+https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES MOTOR ★",MOTO ADVENTURE - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a02h/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES MOTOR ★",Motorvision - Opción 2 ✅
+#ESTADO:abierto
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES MOTOR ★",Motor Racing (USA) (🇺🇸) #ESTADO_AUDITORIA:fallido
+#ESTADO:abierto
+https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES MOTOR ★",ANTENA MOTOR ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a03h/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES LUCHA ★",126_Filmbox ✅ #ESTADO_AUDITORIA:dudoso
+#ESTADO:abierto
+http://87.120.179.187:8000/play/a021
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsgrid (AU)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00315-sportsgrid-sportsgrid-lgau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsgrid (US) alt
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/sportsgri-sportsgrid-lgus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Wedo Sports (AT)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedosports-lgat/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Wedo Sports (DE)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedosports-lgde/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",CampusLore Sports
+#ESTADO:abierto
+https://ssai.gumgum.com/gs/stream/master/navio/hls.m3u8?gg.ads.publisher_app_bundle=__APP_BUNDLE__&gg.ads.publisher_app_name=__APP_NAME__&gg.ads.publisher_app_url=__STORE_URL__&gg.ads.content_channel=CampusLore%20Sports&gg.ads.content_id=2487&gg.ads.content_title=CampusLore%20Sports&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.deviceId=__DEVICE_ID__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.gdpr=__IS_GDPR__&stream_url=https%3A%2F%2Flinear-235.frequency.stream%2Fdist%2Fdistrotv%2F235%2Fhls%2Fmaster%2Fplaylist.m3u8&ads.islive=1&ads.streamtype=live&ads.vf=20241020
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsgrid (Asia)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sportsgridin-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Trace Sports Stars (Asia)
+#ESTADO:abierto
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-tracesportsstar-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Trace Sports Stars
+#ESTADO:abierto
+https://lightning-tracesportstars-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Trace Sports Stars alt
+#ESTADO:abierto
+https://tracetv-tracesportstars-xiaomi.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ES: MAVTV Motorsports Network DASH ✅
+#ESTADO:abierto
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",MAVTV Motorsports Network ✅
+#ESTADO:abierto
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8?ads_amagi_channel=872&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=7&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=es&ads_os_language=&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_rtv_content_id=5458&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=c99552df-081b-4a61-8ccd-d7b86fb60c2a&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",MX | SPORTSGRID ✅
+#ESTADO:abierto
+https://sportsgrid-plex.amagi.tv/hls/amagi_hls_data_plexAAAAA-sportsgrid-plex/CDN/playlist.m3u8?us_privacy=1---&did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&X-Plex-Token=SYmqRsd_3zFsz7JJX_qb&channelId=5ef11485d33ab9004048a1ca
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Oman Sports (Oman) (🇴🇲)
+#ESTADO:abierto
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",AYM Sports (Mexico) (🇲🇽)
+#ESTADO:abierto
+https://aym-as.otteravision.com/aym/as/as.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Bahrain Sports 1 (Barein) (🇧🇭)
+#ESTADO:abierto
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Bahrain Sports 2 (Barein) (🇧🇭)
+#ESTADO:abierto
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ETB Deportes (España) (🇪🇸)
+#ESTADO:abierto
+https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",More Than Sports (Alemania) (🇩🇪)
+#ESTADO:abierto
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sports (Turquia) (🇹🇷)
+#ESTADO:abierto
+https://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Oman Sports TV (1080p) [Not 24/7]
+#ESTADO:abierto
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Bein Sports Xtra (Geo)
+#ESTADO:abierto
+https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 7 - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a00k/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",SportsGrid
+#ESTADO:abierto
+https://jmp2.uk/stvp-USBA300031OT
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Sportsnet West
+#ESTADO:abierto
+https://tvpass.org/live/sportsnet-west/sd
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 5HD ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1a6/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Tigo sports ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca038/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b031/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Bein Sports Extra Ñ ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/beinsportsextran/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Claro Sports 1 SD ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a18m/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Claro Sports 2 SD ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a16q/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Directv Sports ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/directvsports/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Directv Sports + - Opción 2 ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/directvsportsplus/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Directv Sports 2 ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/directvsports2/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",DSPORTS ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/DSPORTS1/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",DSPORTS 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a112/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN HD ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a01q/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 1 - Opción 2 ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/espn1/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 3 - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b033/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 4 ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca036/index.m3u8 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 4 - Opción 2 ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a00j/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 5 HD ✅
+#ESTADO:abierto
+http://181.119.85.222:8000/play/a02a/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 6 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b030/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 6HD - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1ai/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 7 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b029/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN Premium ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/espnpremium/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN Premium HD - Opción 2 ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1ar/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN3 ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca035/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca031/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 1 ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 1 MX ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports1mx/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 2 ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca032/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 2 - Opción 2 ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 2 MX ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports2mx/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 2 MX - Opción 2 ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_3/deportes/foxsports2mx/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports 3 MX ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsports3mx/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Fox Sports Premium MX ✅
+#ESTADO:abierto
+http://tv.teleclub.xyz/stream/server_2/deportes/foxsportspremiummx/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN2 ✅
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca034/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN4 ✅
+#ESTADO:abierto
+http://181.119.86.68:8000/play/b005/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Esports Max (Venezuela) (🇻🇪)
+#ESTADO:abierto
+http://vcpar.myplaytv.com/esportsmax/live/.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Star Sports 1 (India) (🇮🇳)
+#ESTADO:abierto
+http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN (Argentina) (🇦🇷)
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca033/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 2 (Argentina) (🇦🇷)
+#ESTADO:abierto
+http://38.180.133.31:8000/play/a0w4/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 2 (España) (🇪🇸)
+#ESTADO:abierto
+http://181.78.82.6:46090/play/a00i/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 3 (Mexico) (🇲🇽)
+#ESTADO:abierto
+http://181.78.82.6:46090/play/a00v/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 4 (Colombia) (🇨🇴)
+#ESTADO:abierto
+http://38.180.133.31:8000/play/a0wd/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 4 (Mexico) (🇲🇽)
+#ESTADO:abierto
+http://181.78.106.127:9000/play/ca036/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 6 (Chile) (🇨🇱)
+#ESTADO:abierto
+http://181.78.82.6:46090/play/a00w/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",ESPN 6 (Mexico) (🇲🇽)
+#ESTADO:abierto
+http://38.180.133.31:8000/play/a0qo/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",FOX Sports (Mexico) (🇲🇽)
+#ESTADO:abierto
+http://200.115.120.1:8000/play/ca041/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sebastian2048/Beluga/main/beluga.png" group-title="★ DEPORTES EN VIVO ★",Win Sports+ ✅
+#ESTADO:abierto
+http://179.51.136.19:8000/play/a1it/index.m3u8

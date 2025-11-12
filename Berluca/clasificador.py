@@ -10,154 +10,166 @@ from tqdm import tqdm
 try:
     from config import (
         CLAVES_CATEGORIA, contiene_exclusion, CLAVES_NO_ESPANOL, 
-        TITULOS_VISUALES, CLAVES_CATEGORIA_N2
+        TITULOS_VISUALES, CLAVES_CATEGORIA_N2, PRIORIDAD_ESTADO, CARPETA_SALIDA
     )
-    from auxiliar import (
-        extraer_bloques_m3u, extraer_nombre_canal, extraer_url
-    )
+    import auxiliar
+    # Intentamos importar file_manager, si existe
+    try:
+        from file_manager import asegurar_archivo_categoria
+    except ImportError:
+        pass # No es crítico para este archivo
 except ImportError as e:
     logging.error(f"Error al importar configuración/auxiliares: {e}")
+    # Definiciones de fallback si falla la importación
+    PRIORIDAD_ESTADO = {"abierto": 3, "dudoso": 2, "fallido": 1, "desconocido": 0}
+    CARPETA_SALIDA = "Beluga"
+    class auxiliar: 
+        @staticmethod
+        def extraer_nombre_canal(bloque): return "sin_nombre"
+        @staticmethod
+        def extraer_url(bloque): return ""
+        @staticmethod
+        def extraer_bloques_m3u(lineas): return []
+
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-# --- CONFIGURACIÓN DEL CHECK REAL SELECTIVO ---
-TIMEOUT_CHECK = 10 
-VERIFICACION_SELECTIVA_RATIO = 500 
+# --- CONFIGURACIÓN DEL CHECK REAL ---
+TIMEOUT_CHECK = 15 
 contador_verificacion = 0
 
 # =========================================================================================
-# 🧠 LÓGICA DE ASIGNACIÓN
+# 🧠 LÓGICA DE ASIGNACIÓN (CRÍTICO: FUNCIÓN CLASIFICAR_BLOQUE)
 # =========================================================================================
 
+def clasificar_bloque(bloque: List[str]) -> str:
+    """Asigna una categoría a un bloque de canal."""
+    nombre = auxiliar.extraer_nombre_canal(bloque).lower() 
+    
+    # 1. Búsqueda por CLAVES_CATEGORIA (Nivel 1)
+    for categoria_clave, palabras in CLAVES_CATEGORIA.items():
+        if categoria_clave in ["roll_over"]:
+            continue
+            
+        if any(palabra in nombre for palabra in palabras):
+            return categoria_clave
+
+    # 2. Búsqueda por CLAVES_CATEGORIA_N2 (Nivel 2)
+    for categoria_clave, palabras in CLAVES_CATEGORIA_N2.items():
+        if any(palabra in nombre for palabra in palabras):
+            return categoria_clave
+            
+    # 3. Categoría por defecto si no hay coincidencia
+    return "roll_over"
+
+
 def verificar_estado_canal(url: str, nombre: str, index: int) -> str:
-    """
-    Verificación selectiva de URL por HTTP para obtener el estado real.
-    Maneja TimeoutError y ConnectionError para evitar bloqueos.
-    """
+    """Verificación de URL por HTTP para obtener el estado real (Quick Audit)."""
     global contador_verificacion
     contador_verificacion += 1
 
-    # 1. Chequeo Selectivo
-    if contador_verificacion % VERIFICACION_SELECTIVA_RATIO == 0:
+    if 'localhost' in url or '127.0.0.1' in url:
+        return 'fallido' 
+
+    # Prueba rápida HEAD
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.head(url, timeout=TIMEOUT_CHECK, headers=headers, allow_redirects=True)
         
-        try:
-            response = requests.head(url, timeout=TIMEOUT_CHECK, allow_redirects=True)
-            status_code = response.status_code
-
-            if 200 <= status_code < 400:
-                return "abierto"
-            elif status_code in [401, 403, 408, 503]:
-                return "dudoso"
-            else:
-                return "fallido"
-                
-        except requests.exceptions.Timeout:
-            return "dudoso" 
-        except requests.exceptions.ConnectionError:
-            return "fallido"
-        except requests.exceptions.RequestException:
-            return "fallido"
+        # Evaluación de estado HTTP
+        if response.status_code in (200, 301, 302, 303, 307, 308):
+            return 'abierto'
+        else:
+            return 'fallido'
             
-    # 2. Asignación por Defecto/Palabras Clave
-    nombre_lower = nombre.lower()
-    if "test" in nombre_lower or "demo" in nombre_lower or "prueba" in nombre_lower:
-        return "dudoso"
-
-    return "dudoso" 
-
-
-def clasificar_bloque(bloque: List[str]) -> str:
-    """Devuelve la mejor categoría (snake_case) para un bloque, usando Nivel 1 y Nivel 2."""
-    nombre = extraer_nombre_canal(bloque)
-    nombre_lower = nombre.lower().replace("ñ", "n").replace(".", "")
-    
-    # 1. Filtro de Idioma Estricto
-    is_not_spanish_language = any(clave in nombre_lower for clave in CLAVES_NO_ESPANOL)
-    if is_not_spanish_language:
-        return "roll_over" 
-
-    # 2. Bucle Nivel 1 (Clasificación principal, más específica)
-    for categoria, claves in CLAVES_CATEGORIA.items():
-        if categoria == "roll_over": continue
-        
-        if any(clave in nombre_lower for clave in claves):
-            return categoria
-            
-    # 3. Bucle Nivel 2 (Re-clasificación de "roll_over")
-    for categoria, claves in CLAVES_CATEGORIA_N2.items():
-        if any(clave in nombre_lower for clave in claves):
-            return categoria
-            
-    return "roll_over" 
-
+    except requests.exceptions.RequestException:
+        return 'dudoso'
 
 # =========================================================================================
-# 📦 FUNCIÓN PRINCIPAL DE CLASIFICACIÓN
+# 📝 FUNCIONES DE ESCRITURA Y CLASIFICACIÓN FINAL
 # =========================================================================================
 
-def clasificar_enlaces(ruta_temp: str) -> List[Dict]:
+def clasificar_enlaces(rutas_lista_nueva: List[str], inventario_existente: Dict[str, List[str]]):
     """
-    Lee la lista temporal, asigna categoría, estado y retorna bloques enriquecidos.
+    Combina el inventario existente, lo fusiona con TODAS las listas nuevas de las rutas 
+    y ejecuta la Auditoría Rápida solo en los canales nuevos o fallidos.
     """
-    global contador_verificacion
-    contador_verificacion = 0 
     
-    if not os.path.exists(ruta_temp):
-        logging.error(f"Error: No se encontró el archivo temporal en {ruta_temp}.")
-        return []
+    # 1. Leer los bloques de TODAS las listas M3U nuevas y consolidar
+    bloques_nuevos = []
+    for ruta in rutas_lista_nueva:
+        with open(ruta, "r", encoding="utf-8", errors="ignore") as f:
+            lineas_nueva = f.readlines()
+        bloques_nuevos.extend(auxiliar.extraer_bloques_m3u(lineas_nueva)) 
+    
+    # 2. Compilar inventario total (Existente + Nuevo)
+    inventario_total = inventario_existente.copy() 
+    total_canales_nuevos = 0
+    
+    for bloque in bloques_nuevos:
+        url = auxiliar.extraer_url(bloque) 
+        if url and url not in inventario_total:
+            
+            extinf_line = [l for l in bloque if l.startswith("#EXTINF")][0]
+            bloque_simple = [extinf_line, url] 
+            inventario_total[url] = bloque_simple 
+            total_canales_nuevos += 1
+            
+    bloques_para_auditar = list(inventario_total.values())
 
-    print("🧠 Iniciando clasificación, asignación de estado y enriquecimiento de bloques...")
-
-    with open(ruta_temp, "r", encoding="utf-8", errors="ignore") as f:
-        lineas = f.readlines()
-
-    bloques_nuevos = extraer_bloques_m3u(lineas)
+    print(f"Total de canales combinados (deduplicados) para auditar: {len(bloques_para_auditar)}")
+    print(f"Canales nuevos añadidos de la(s) URL(s): {total_canales_nuevos}") 
+    
+    # 3. EJECUTAR LA LÓGICA DE CLASIFICACIÓN Y AUDITORÍA
     bloques_enriquecidos = []
     
-    urls_procesadas = set()
-    excluidos_por_contenido = 0
-    
-    for i, bloque in enumerate(tqdm(bloques_nuevos, desc="Analizando Canales", unit="Canal")):
+    for i, bloque_completo in tqdm(enumerate(bloques_para_auditar), 
+                                desc="Clasificando y Auditando Rápido", 
+                                total=len(bloques_para_auditar)):
         
-        nombre = extraer_nombre_canal(bloque)
-        url = extraer_url(bloque)
+        url = auxiliar.extraer_url(bloque_completo) 
+        nombre = auxiliar.extraer_nombre_canal(bloque_completo) 
         
-        if not url or url in urls_procesadas:
-            continue
-            
-        urls_procesadas.add(url)
-            
-        if contiene_exclusion(nombre):
-            excluidos_por_contenido += 1
-            continue
+        estado_base = "desconocido"
+        if len(bloque_completo) > 1 and bloque_completo[1].startswith("#ESTADO:"):
+            estado_base = bloque_completo[1].split(':')[1].strip().lower()
 
-        # 1. Asignar Categoría (Nivel 1 y Nivel 2)
-        categoria = clasificar_bloque(bloque)
+        categoria = clasificar_bloque(bloque_completo)
 
-        # 2. Asignar Estado (VERIFICACIÓN REAL SELECTIVA)
-        estado = verificar_estado_canal(url, nombre, i)
+        # Prioridad de Auditoría: No re-auditar canales 'abierto' existentes.
+        if estado_base == "abierto":
+            estado_final = "abierto"
+        else:
+            estado_final = verificar_estado_canal(url, nombre, i)
         
-        # 3. Enriquecer el bloque
+        # 4. Enriquecer el bloque para el resumen final
+        extinf_line = [l for l in bloque_completo if l.startswith("#EXTINF")][0]
         
-        extinf_line = [l for l in bloque if l.startswith("#EXTINF")][0]
-        
-        # Añadimos la categoría como group-title 
         titulo_visual = TITULOS_VISUALES.get(categoria, f"★ {categoria.replace('_', ' ').upper()} ★")
-        extinf_line_mod = re.sub(r'group-title="[^"]*"', f'group-title="{titulo_visual}"', extinf_line)
+        extinf_line_mod = re.sub(r'group-title=\"[^\"]*\"', f'group-title=\"{titulo_visual}\"', extinf_line)
         if 'group-title' not in extinf_line_mod:
             extinf_line_mod = extinf_line_mod.replace(f",{nombre}", f' group-title="{titulo_visual}",{nombre}')
 
-        # El bloque final para el inventario:
+        # El bloque final para el inventario (Resumen_Auditoria.m3u):
         bloques_enriquecidos.append({
-            "bloque": [extinf_line_mod, f"#ESTADO:{estado}", url], 
+            "bloque": [extinf_line_mod, f"#ESTADO:{estado_final}", url], 
             "url": url,
             "nombre_limpio": nombre.strip().lower().replace(" ", "").replace("ñ", "n"),
             "categoria": categoria,
-            "estado": estado
+            "estado": estado_final
         })
-
-    print(f"\n✅ Clasificación y Enriquecimiento finalizados. Bloques listos para distribuir: {len(bloques_enriquecidos)}")
-    print(f"   -> Verificaciones de estado realizadas: {contador_verificacion // VERIFICACION_SELECTIVA_RATIO}")
-    print(f"   -> Excluidos por contenido (religioso, etc.): {excluidos_por_contenido}")
+        
+    # 5. Escribir el resumen de auditoría
+    RUTA_RESUMEN_AUDITORIA = os.path.join(CARPETA_SALIDA, "RP_Resumen_Auditoria.m3u")
     
-    return bloques_enriquecidos
+    print(f"\n--- 💾 Escribiendo Resumen de Auditoría Rápida: {RUTA_RESUMEN_AUDITORIA} ---")
+    
+    with open(RUTA_RESUMEN_AUDITORIA, "w", encoding="utf-8", errors="ignore") as f:
+        f.write("#EXTM3U\n")
+        canales_totales_resumen = 0
+        for canal in bloques_enriquecidos:
+            f.write("\n".join(canal["bloque"]) + "\n")
+            canales_totales_resumen += 1
+
+    print(f"✅ Archivo de Resumen de Auditoría (Quick Audit) generado con {canales_totales_resumen} canales.")
+    print("✅ Consolidación y Quick Audit finalizada. Archivo de resumen listo para auditoría lenta.")
